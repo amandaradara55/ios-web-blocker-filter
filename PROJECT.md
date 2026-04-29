@@ -14,7 +14,7 @@
 - フィルターの変換・更新処理をモバイルアプリ上で行うのは重すぎる
 - 変換済み JSON をアプリ本体リポジトリに含めると履歴が肥大化する
 
-変換はこのリポジトリの CI（GitHub Actions）が担い、生成物は `gh-pages` ブランチから配信し、アプリは公開 URL から JSON を取得するだけにする。
+変換はこのリポジトリの CI（GitHub Actions）が担い、生成物は **`gh-pages` ブランチ** から配信し、アプリは公開 URL から JSON を取得するだけにする。
 
 ---
 
@@ -88,6 +88,13 @@ scripts/
 dist/               ローカル生成確認用の作業ディレクトリ（main ではプレースホルダのみ管理）
 ```
 
+GitHub Actions / Pages 上では次の 2 段で動く。
+
+- `Update Filters` workflow (`main`)
+  - フィルター取得・変換を行い、生成物を `gh-pages` に publish する
+- `pages build and deployment` (`gh-pages`)
+  - `gh-pages` へ push された内容を GitHub Pages として公開する
+
 ---
 
 ## 変換ポリシー
@@ -151,6 +158,11 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 
 2026-04-29 時点で、現状取り込み対象としている AdGuard Japanese Filter / EasyList / EasyPrivacy / uBlock Origin について、個別の取得・変換パイプラインは実装済み。
 
+配信 branch:
+
+- `main`: scripts / docs / workflow を管理
+- `gh-pages`: 生成済み JSON を公開
+
 - ローカル中間出力先: `sources/adguard-japanese/*`
 - ローカル取得メタデータ: `sources/adguard-japanese/manifest.json`
 - ローカル変換結果: `dist/adguard-japanese-*.json`
@@ -184,12 +196,6 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 - 取り込み対象として想定しているフィルターはここまでで一通り揃った
 - アプリが使う JSON と、補助出力として除外すべき JSON の整理も完了した
 - `main` と `gh-pages` の役割分離で、生成物更新が `main` の履歴を汚さない構成に移行した
-
-未完了の主な項目:
-
-- 既存の個別スクリプトをまとめて順番に実行する一括更新エントリーポイントの作成
-- `gh-pages` 配信 URL の最終確定
-- 必要なら GitHub Pages 設定の有効化と公開確認
 
 ---
 
