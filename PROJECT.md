@@ -63,10 +63,14 @@
 ## リポジトリ構成
 
 ```
-sources/            取り込み元フィルターの URL リスト（1行1URL）
+docs/               調査メモ・設計メモ
+  adguard-japanese-filter-research.md
+sources/            取り込み元フィルターの URL リスト・取得済みソース
+  adguard-japanese/ AdGuard JapaneseFilter の取得結果
 scripts/
-  convert_abp_to_preset.py   ABP → JSON 変換スクリプト
-  fetch_sources.py           sources/ の URL からフィルターを取得するスクリプト
+  adguard_japanese_filter_common.py
+  fetch_adguard_japanese_filter.py   AdGuard JapaneseFilter の sections を取得
+  parse_adguard_japanese_filter.py   取得済み sections を JSON へ変換
 .github/
   workflows/
     update-filters.yml       週次で変換・dist/ を更新する CI
@@ -74,6 +78,7 @@ dist/               変換済み JSON（GitHub Pages で公開）
   easylist-block-rules.json
   easylist-cosmetic-rules.json
   adguard-jp-block-rules.json
+  adguard-jp-block-rules-disabled.json
   adguard-jp-cosmetic-rules.json
   ...
 ```
@@ -114,6 +119,18 @@ UUID v5 を使い、`フィルターソース名 + パターン内容` からシ
 - **EasyPrivacy** — https://easylist.to/easylist/easyprivacy.txt
 - **URLhaus malware filter** — https://gitlab.com/malware-filter/urlhaus-filter
 - **AdGuard Japanese filter** — https://github.com/AdguardTeam/AdguardFilters/blob/master/JapaneseFilter/
+
+AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry` のどちらを一次入力にするべきかの判断は `docs/adguard-japanese-filter-research.md` に記録する。
+
+---
+
+## 調査メモ
+
+- AdGuard Japanese Filter の調査結果: `docs/adguard-japanese-filter-research.md`
+- 実装方針を更新する際は、まずこのメモを参照して「採用するセクション」「保留するセクション」「行単位での変換判定方針」を確認する
+- 専用スクリプト: `scripts/fetch_adguard_japanese_filter.py` / `scripts/parse_adguard_japanese_filter.py`
+- `scripts/parse_adguard_japanese_filter.py` は既定で `allowlist.txt` / `antiadblock.txt` / `general_extensions.txt` を出力対象から除外する
+- `.com/Zen?` / `.jp/Zen?` は通常 block 出力に入れず、disabled block JSON に quarantine する
 
 ---
 
