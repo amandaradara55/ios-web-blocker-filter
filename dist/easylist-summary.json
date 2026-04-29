@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-29T14:52:27+00:00",
+  "generatedAt": "2026-04-29T16:08:39+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 88696,
-      "acceptedBlockRules": 58063,
+      "inputRules": 88702,
+      "acceptedBlockRules": 58069,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 22671,
       "duplicateRules": 2,
@@ -32,7 +32,7 @@
     }
   },
   "totals": {
-    "acceptedBlockRules": 111307,
+    "acceptedBlockRules": 111313,
     "quarantinedBlockRules": 0,
     "acceptedCosmeticRules": 22673,
     "duplicateRules": 4,

@@ -35756,6 +35756,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "4f58a322-0849-56ae-be63-ed52a28bbfa2",
+    "name": "albiningroup.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "albiningroup.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "57777d36-e5ed-5109-b6d7-2a27689d3543",
     "name": "albonsa.com",
     "scope": "fqdn",
@@ -47749,6 +47761,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "atampharosom.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "eb3e4208-859a-572f-ab55-86aa1b28e3da",
+    "name": "atavismbesoul.cyou",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "atavismbesoul.cyou",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -84325,6 +84349,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "castfilly.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "942e63d5-b121-569b-a485-21df33b8c08e",
+    "name": "castledregraftayah.cyou",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "castledregraftayah.cyou",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -290460,6 +290496,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "mixahrccmldjb.store",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "ffffd8e9-be82-5494-aee0-3b6f96dcb24f",
+    "name": "mixdgcqhfil.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "mixdgcqhfil.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -604099,6 +604147,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "b0cb3c78-cb11-54dd-b1d7-fa2b572e98c0",
+    "name": "xuc3ggt2oxre762b6nfp2vone91ct4rezef.rest",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "xuc3ggt2oxre762b6nfp2vone91ct4rezef.rest",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "94f67e6f-43d9-5f58-8c9c-eb7c7cc77f00",
     "name": "xucylxthpajss.site",
     "scope": "fqdn",
@@ -618576,6 +618636,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "ytdut.online",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "0e55a249-7dfe-55f8-bc7c-c4e49bed25c7",
+    "name": "yte287lwbwp18priio.cfd",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "yte287lwbwp18priio.cfd",
     "isEnabled": true,
     "rank": 0,
     "action": "block",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T14:52:34+00:00",
+  "generatedAt": "2026-04-29T16:08:40+00:00",
   "inputDir": "sources/ublock-origin/flat",
   "profiles": {
     "ads": {
@@ -9,12 +9,12 @@
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9029,
+        "advanced_rule": 9030,
         "allowlist": 2055,
         "negated_domain": 14,
         "unsupported_cosmetic_selector": 1634,
         "unsupported_domain_scope": 1028,
-        "unsupported_modifier": 3321,
+        "unsupported_modifier": 3320,
         "unsupported_regex_disjunction": 2,
         "unsupported_url_pattern": 137
       }
@@ -26,12 +26,12 @@
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9050,
+        "advanced_rule": 9051,
         "allowlist": 2063,
         "negated_domain": 14,
         "unsupported_cosmetic_selector": 1657,
         "unsupported_domain_scope": 1045,
-        "unsupported_modifier": 3328,
+        "unsupported_modifier": 3327,
         "unsupported_regex_disjunction": 2,
         "unsupported_url_pattern": 137
       }
