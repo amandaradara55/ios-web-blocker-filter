@@ -65,12 +65,17 @@
 ```
 docs/               調査メモ・設計メモ
   adguard-japanese-filter-research.md
+  easylist-distribution-research.md
   ublock-origin-distribution-research.md
-sources/            取り込み元フィルターの URL リスト・取得済みソース
-  adguard-japanese/ AdGuard JapaneseFilter の取得結果
-  ublock-origin/    uBlock Origin 配布物の raw/flat 取得結果
+sources/            スクリプト実行時に使う中間出力のローカルキャッシュ置き場（Git ではプレースホルダのみ管理）
+  adguard-japanese/ AdGuard JapaneseFilter の一時取得先
+  easylist/         EasyList / EasyPrivacy の一時取得先
+  ublock-origin/    uBlock Origin 配布物の raw/flat 一時出力先
 scripts/
   adguard_japanese_filter_common.py
+  easylist_common.py
+  fetch_easylist_filters.py         EasyList / EasyPrivacy の完成済み配布物を取得
+  parse_easylist_filters.py         取得済み EasyList / EasyPrivacy を JSON へ変換
   fetch_adguard_japanese_filter.py   AdGuard JapaneseFilter の sections を取得
   parse_adguard_japanese_filter.py   取得済み sections を JSON へ変換
   ublock_origin_common.py
@@ -119,13 +124,15 @@ UUID v5 を使い、`フィルターソース名 + パターン内容` からシ
 
 ## 参照フィルターリスト
 
-詳細は `sources/` ディレクトリを参照。主な候補：
+取得元 URL の詳細は調査メモと各スクリプトを参照。`sources/` はローカル中間出力用ディレクトリとして扱う。主な候補：
 
 - **uBlock Origin filters** — https://github.com/uBlockOrigin/uAssets/tree/master/filters
   - 配布調査メモ: `docs/ublock-origin-distribution-research.md`
   - 実装は専用の `fetch -> flatten -> parse` パイプラインで扱う
 - **EasyList** — https://easylist.to/easylist/easylist.txt
 - **EasyPrivacy** — https://easylist.to/easylist/easyprivacy.txt
+  - 配布調査メモ: `docs/easylist-distribution-research.md`
+  - 実装は専用の `fetch -> parse` パイプラインで扱う
 - **URLhaus malware filter** — https://gitlab.com/malware-filter/urlhaus-filter
 - **AdGuard Japanese filter** — https://github.com/AdguardTeam/AdguardFilters/blob/master/JapaneseFilter/
 
@@ -136,6 +143,7 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 ## 調査メモ
 
 - AdGuard Japanese Filter の調査結果: `docs/adguard-japanese-filter-research.md`
+- EasyList / EasyPrivacy の調査結果: `docs/easylist-distribution-research.md`
 - uBlock Origin 配布フィルターの調査結果: `docs/ublock-origin-distribution-research.md`
 - 実装方針を更新する際は、まずこのメモを参照して「採用するセクション」「保留するセクション」「行単位での変換判定方針」を確認する
 - 専用スクリプト: `scripts/fetch_adguard_japanese_filter.py` / `scripts/parse_adguard_japanese_filter.py`
@@ -148,34 +156,46 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 
 ## 現在の状況
 
-2026-04-29 時点で、AdGuard Japanese Filter 専用の取得・変換パイプラインと、uBlock Origin 配布物向けの専用 `fetch -> flatten -> parse` スクリプトは実装済み。
+2026-04-29 時点で、現状取り込み対象としている AdGuard Japanese Filter / EasyList / EasyPrivacy / uBlock Origin について、個別の取得・変換パイプラインは実装済み。
 
-- 取得済みソース: `sources/adguard-japanese/*`
-- 取得メタデータ: `sources/adguard-japanese/manifest.json`
+- ローカル中間出力先: `sources/adguard-japanese/*`
+- ローカル取得メタデータ: `sources/adguard-japanese/manifest.json`
 - 変換結果: `dist/adguard-japanese-*.json`
 - 変換集計: `dist/adguard-japanese-summary.json`
+- EasyList 用スクリプト: `scripts/fetch_easylist_filters.py` / `scripts/parse_easylist_filters.py`
+- EasyList ローカル中間出力先: `sources/easylist/easylist.txt` / `sources/easylist/easyprivacy.txt`
+- EasyList ローカル取得メタデータ: `sources/easylist/manifest.json`
+- EasyList 変換結果: `dist/easylist-*.json` / `dist/easyprivacy-*.json`
+- EasyList 変換集計: `dist/easylist-summary.json`
 - uBO 用スクリプト: `scripts/fetch_ublock_origin_filters.py` / `scripts/flatten_ublock_origin_filters.py` / `scripts/parse_ublock_origin_filters.py`
+- uBO ローカル取得メタデータ: `sources/ublock-origin/manifest.json` / `sources/ublock-origin/flat/manifest.json`
+- uBO 変換結果: `dist/ublock-ads-*.json` / `dist/ublock-mobile-*.json`
+- uBO 変換集計: `dist/ublock-origin-summary.json`
+- アプリ向け配布物一覧: `docs/app-consumable-distribution-map.md`
 
 最新の変換結果:
 
-- block rules: 1156
-- disabled block rules: 2
-- cosmetic rules: 7135
+- AdGuard Japanese block rules: 1156
+- AdGuard Japanese disabled block rules: 2
+- AdGuard Japanese cosmetic rules: 7135
+- EasyList block rules: 58031
+- EasyList cosmetic rules: 22687
+- EasyPrivacy block rules: 53244
+- EasyPrivacy cosmetic rules: 2
 
 現在の到達点:
 
-- AdGuard Japanese Filter の `sections/*.txt` を直接取得できる
-- `allowlist.txt` / `antiadblock.txt` / `general_extensions.txt` を既定で除外した parse ができる
-- `.com/Zen?` / `.jp/Zen?` を quarantine 用の disabled block JSON に分離できる
-- 実データを取得して `dist/` に出力済み
-- uBO 配布物について、実配布 URL 前提の fetch / flatten / parse スクリプトを用意済み
+- AdGuard Japanese Filter は `sections/*.txt` を直接取得し、既定除外 section を外した parse までできる
+- EasyList / EasyPrivacy は完成済み配布物を直接取得し、`fetch -> parse` で `dist/` へ出力できる
+- uBO 配布物は実配布 URL 前提で `fetch -> flatten -> parse` できる
+- 取り込み対象として想定しているフィルターはここまでで一通り揃った
+- アプリが使う JSON と、補助出力として除外すべき JSON の整理も完了した
 
 未完了の主な項目:
 
-- EasyList など他ソース向けの専用または汎用 fetch/parse
-- 汎用 `convert_abp_to_preset.py` / `fetch_sources.py`
-- GitHub Actions による定期更新
-- GitHub Pages の公開設定
+- 既存の個別スクリプトをまとめて順番に実行する一括更新エントリーポイントの作成
+- `dist/` の GitHub 反映フロー整理
+- 必要なら GitHub Actions による定期更新の追加
 
 ---
 
@@ -189,9 +209,9 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 
 ## 実装順
 
-1. `[一部完了]` AdGuard Japanese Filter 専用の fetch/parse は実装済み。汎用 `scripts/convert_abp_to_preset.py` は未実装
-2. `[一部完了]` AdGuard Japanese Filter の取得元はコード化済み。汎用 `sources/` URL リスト整備は未完了
-3. `[一部完了]` `scripts/fetch_adguard_japanese_filter.py` は実装済み。汎用 `scripts/fetch_sources.py` は未実装
-4. `[進行中]` AdGuard Japanese Filter については `dist/` への出力とローカル確認まで完了。他ソースは未着手
-5. `[未着手]` GitHub Actions ワークフロー（週次自動更新）の作成
-6. `[未着手]` GitHub Pages での公開設定
+1. `[完了]` AdGuard Japanese Filter / EasyList / EasyPrivacy / uBlock Origin の取得元調査と URL 固定
+2. `[完了]` 各ソース向けの個別 fetch / parse（uBO は fetch / flatten / parse）スクリプト実装
+3. `[完了]` 実データ取得、`dist/` 出力、ローカル確認
+4. `[完了]` アプリが使う JSON と除外対象 JSON の整理
+5. `[未着手]` 既存スクリプト群の一括実行エントリーポイント作成
+6. `[未着手]` GitHub への一括更新フロー整備

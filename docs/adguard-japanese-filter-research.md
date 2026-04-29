@@ -228,6 +228,78 @@
 
 ---
 
+## 実装状況
+
+2026-04-29 時点で、このメモに基づく専用スクリプト実装を作成済み。
+
+### 実装済みスクリプト
+
+- `scripts/fetch_adguard_japanese_filter.py`
+  - `AdguardFilters/JapaneseFilter/sections/*.txt` を直接取得する
+  - 取得結果は `sources/adguard-japanese/` に保存する
+  - `sources/adguard-japanese/manifest.json` に取得元 URL・行数・ハッシュを記録する
+- `scripts/parse_adguard_japanese_filter.py`
+  - 取得済み `sections/*.txt` を行単位で解析する
+  - `dist/adguard-japanese-block-rules.json`
+  - `dist/adguard-japanese-block-rules-disabled.json`
+  - `dist/adguard-japanese-cosmetic-rules.json`
+  - `dist/adguard-japanese-summary.json`
+  を出力する
+
+### 現在の parse 方針
+
+- 通常出力に含める対象
+  - `adservers.txt`
+  - `adservers_firstparty.txt`
+  - `general_elemhide.txt`
+  - `general_url.txt`
+  - `specific.txt` のうち変換可能な行
+- 既定で出力対象から除外するセクション
+  - `allowlist.txt`
+  - `antiadblock.txt`
+  - `general_extensions.txt`
+- 広すぎる generic substring ルールのうち、`.com/Zen?` と `.jp/Zen?` は通常 block に含めず、disabled block JSON に quarantine する
+
+### 実装済みの変換ルール
+
+- `||domain^` / `||domain^$third-party` を FQDN exact block として出力する
+- `||domain/path` を host 境界付き regex block として出力する
+- 単純な `/regex/` を URL regex block として出力する
+- 単純な `##selector` / `domain##selector` を cosmetic rule として出力する
+- `:style(` や `:matches-media(` を含む AdGuard 独自拡張 selector は出力しない
+
+### 2026-04-29 時点の出力結果
+
+`dist/adguard-japanese-summary.json` の結果:
+
+| 項目 | 件数 |
+|---|---:|
+| block rules | 1156 |
+| disabled block rules | 2 |
+| cosmetic rules | 7135 |
+
+セクション別の要点:
+
+| セクション | block | disabled block | cosmetic | 補足 |
+|---|---:|---:|---:|---|
+| `adservers.txt` | 335 | 0 | 0 | `unsupported_modifier` が 45 |
+| `adservers_firstparty.txt` | 20 | 0 | 0 | 全件採用 |
+| `general_elemhide.txt` | 0 | 0 | 147 | `unsupported_domain_scope` が 4 |
+| `general_url.txt` | 45 | 2 | 0 | `.com/Zen?` / `.jp/Zen?` を quarantine |
+| `specific.txt` | 756 | 0 | 6988 | advanced / unsupported selector / modifier を多く含む |
+| `allowlist.txt` | 0 | 0 | 0 | `excluded_section` |
+| `antiadblock.txt` | 0 | 0 | 0 | `excluded_section` |
+| `general_extensions.txt` | 0 | 0 | 0 | `excluded_section` |
+
+### 現時点で残っている課題
+
+- `general_url.txt` の generic substring ルールは、`.com/Zen?` / `.jp/Zen?` 以外にも広く当たりうるものがある
+- `specific.txt` に含まれる AdGuard 拡張 selector の判定は、さらに厳密化の余地がある
+- allowlist / antiadblock / advanced rules を将来どう表現するかは未決定
+- まだ AdGuard JapaneseFilter 専用実装であり、EasyList や uBlock 向けの汎用 fetch/parse には広げていない
+
+---
+
 ## 変換ルールの具体的な考え方
 
 ### ブロックルールとして採用しやすいもの
@@ -296,6 +368,7 @@
 3. 初版では block と cosmetic へ落とせるルールだけを処理する
 4. allowlist / antiadblock / advanced rules は後続フェーズに分離する
 5. パーサはセクション依存ではなく、最終的に行ベースの判定へ寄せる
+6. 広すぎる generic substring ルールは通常出力に入れず、必要なら quarantine 出力で保留する
 
 ---
 

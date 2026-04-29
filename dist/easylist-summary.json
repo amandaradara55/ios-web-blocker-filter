@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-29T09:27:29+00:00",
+  "lists": {
+    "easylist": {
+      "inputRules": 88662,
+      "acceptedBlockRules": 58031,
+      "quarantinedBlockRules": 0,
+      "acceptedCosmeticRules": 22687,
+      "skipped": {
+        "advanced_rule": 257,
+        "allowlist": 1070,
+        "unsupported_cosmetic_selector": 454,
+        "unsupported_domain_scope": 267,
+        "unsupported_modifier": 5694,
+        "unsupported_url_pattern": 202
+      }
+    },
+    "easyprivacy": {
+      "inputRules": 55393,
+      "acceptedBlockRules": 53244,
+      "quarantinedBlockRules": 0,
+      "acceptedCosmeticRules": 2,
+      "skipped": {
+        "advanced_rule": 25,
+        "allowlist": 815,
+        "unsupported_cosmetic_selector": 5,
+        "unsupported_modifier": 922,
+        "unsupported_url_pattern": 380
+      }
+    }
+  },
+  "totals": {
+    "acceptedBlockRules": 111275,
+    "quarantinedBlockRules": 0,
+    "acceptedCosmeticRules": 22689,
+    "skipped": {
+      "advanced_rule": 282,
+      "allowlist": 1885,
+      "unsupported_cosmetic_selector": 459,
+      "unsupported_domain_scope": 267,
+      "unsupported_modifier": 6616,
+      "unsupported_url_pattern": 582
+    }
+  }
+}
