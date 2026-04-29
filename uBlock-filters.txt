@@ -3,10 +3,10 @@
 # uBlock-filters
 # https://github.com/uBlockOrigin/uAssets/tree/master/filters
 #
-https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt
-https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt
-https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-general.txt
-https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-mobile.txt
+https://ublockorigin.github.io/uAssets/filters/filters.txt
+https://ublockorigin.github.io/uAssets/filters/privacy.txt
+https://ublockorigin.github.io/uAssets/filters/filters-general.txt
+https://ublockorigin.github.io/uAssets/filters/filters-mobile.txt
 
 #
 # Easylist Filters

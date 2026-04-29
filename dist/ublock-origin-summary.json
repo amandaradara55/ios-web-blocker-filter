@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-29T08:55:25+00:00",
+  "inputDir": "/Users/be/aiwork/ios-web-blocker-filter/sources/ublock-origin/flat",
+  "profiles": {
+    "ads": {
+      "inputRules": 22252,
+      "acceptedBlockRules": 804,
+      "acceptedCosmeticRules": 4234,
+      "quarantinedBlockRules": 0,
+      "duplicateRules": 1,
+      "skipped": {
+        "advanced_rule": 9027,
+        "allowlist": 2054,
+        "negated_domain": 14,
+        "unsupported_cosmetic_selector": 1634,
+        "unsupported_domain_scope": 1028,
+        "unsupported_modifier": 3317,
+        "unsupported_regex_disjunction": 2,
+        "unsupported_url_pattern": 137
+      }
+    },
+    "mobileEffective": {
+      "inputRules": 22392,
+      "acceptedBlockRules": 803,
+      "acceptedCosmeticRules": 4299,
+      "quarantinedBlockRules": 0,
+      "duplicateRules": 1,
+      "skipped": {
+        "advanced_rule": 9048,
+        "allowlist": 2062,
+        "negated_domain": 14,
+        "unsupported_cosmetic_selector": 1657,
+        "unsupported_domain_scope": 1045,
+        "unsupported_modifier": 3324,
+        "unsupported_regex_disjunction": 2,
+        "unsupported_url_pattern": 137
+      }
+    },
+    "mobileDelta": {
+      "blockRules": 0,
+      "disabledBlockRules": 0,
+      "cosmeticRules": 68
+    }
+  }
+}
