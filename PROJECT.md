@@ -204,14 +204,3 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 このリポジトリの出力 URL をアプリ（iOS-web-blocker）の「リモートソース」として登録することで、最新フィルターを手動取り込みできる。
 
 アプリ側の実装計画は [iOS-web-blocker/PROJECT.md](https://github.com/amandaradara55/iOS-web-blocker/blob/main/PROJECT.md) の「リモートフィルターリスト対応方針 Phase 2・3」を参照。
-
----
-
-## 実装順
-
-1. `[完了]` AdGuard Japanese Filter / EasyList / EasyPrivacy / uBlock Origin の取得元調査と URL 固定
-2. `[完了]` 各ソース向けの個別 fetch / parse（uBO は fetch / flatten / parse）スクリプト実装
-3. `[完了]` 実データ取得、`dist/` 出力、ローカル確認
-4. `[完了]` アプリが使う JSON と除外対象 JSON の整理
-5. `[未着手]` 既存スクリプト群の一括実行エントリーポイント作成
-6. `[未着手]` GitHub への一括更新フロー整備
