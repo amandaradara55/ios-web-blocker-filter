@@ -109292,6 +109292,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "c404a972-3acc-506f-9205-353ac2430c18",
+    "name": "cudgelhotspur.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "cudgelhotspur.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "40f72092-b5c9-54fc-a8b1-8b6530a81ca7",
     "name": "cudqtypwkimkg.site",
     "scope": "fqdn",
@@ -186840,6 +186852,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "glisteninginstruction.pro",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "7dd1f1e1-1009-5d46-a924-44973195288e",
+    "name": "glisteningtrouble.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "glisteningtrouble.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -271231,6 +271255,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "48d1eed5-2da7-5206-8902-5a9f38f2b7db",
+    "name": "lochiawitchet.shop",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "lochiawitchet.shop",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "05c5bcf2-9cbc-532d-ada4-2e06de111493",
     "name": "lockdownoncomingdistinctly.com",
     "scope": "fqdn",
@@ -277327,6 +277363,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "1ed50bdc-83d5-5ce2-9def-7716eb4e0f83",
+    "name": "lxtgkqanclxyf.space",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "lxtgkqanclxyf.space",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "f538f35a-c997-5d75-9cbc-48613bd62364",
     "name": "lxtitfmmhbhtehc.com",
     "scope": "fqdn",
@@ -277704,6 +277752,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "lyrismdhabbdicolic.cyou",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "fdd583d9-146d-500b-ae28-688274a5e782",
+    "name": "lyrjntbhjhksh.site",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "lyrjntbhjhksh.site",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -319968,6 +320028,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "ocheredetudes.cyou",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "2bd37c4d-5f62-5a78-9613-b90f5e7b68f7",
+    "name": "ochrodivoto.shop",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "ochrodivoto.shop",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -543055,6 +543127,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "57ac3b20-55e1-5a42-9995-62c3c8fbc5b2",
+    "name": "uwcbmixttuex.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "uwcbmixttuex.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "ab567c2e-6345-5675-b97f-101b45e55b6e",
     "name": "uwdqokjwmnfxu.site",
     "scope": "fqdn",
@@ -574320,6 +574404,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "westcoa.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "7ae3868d-9e0c-5129-a69b-3df1c8b16880",
+    "name": "westerawnesschirmed.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "westerawnesschirmed.qpon",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -611400,6 +611496,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "ygtzipndentuz.online",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "25a666c2-c9bf-592a-8d17-4b3297f6b560",
+    "name": "ygumseqbggl.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "ygumseqbggl.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
