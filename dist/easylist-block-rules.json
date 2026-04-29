@@ -157856,6 +157856,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "c8a871df-705d-5037-a64f-c39f04df976b",
+    "name": "faajmsrnw.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "faajmsrnw.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "b4b35c49-d1f0-5000-8439-a499da75deef",
     "name": "faaof.com",
     "scope": "fqdn",
@@ -184740,6 +184752,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "gibbalsleonite.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "2308dbae-30d6-5a49-adfb-4af89d7029a6",
+    "name": "gibbolheterosdiking.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "gibbolheterosdiking.qpon",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -653591,105 +653615,6 @@
     "action": "block",
     "note": "",
     "literalOperator": "exact"
-  },
-  {
-    "id": "96556212-dd7e-59f2-8a80-5d4df992daf7",
-    "name": "(https?:\\/\\/)104\\.154\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)104\\.154\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "7e989b8f-3174-593a-878d-c46135804d9e",
-    "name": "(https?:\\/\\/)104\\.197\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)104\\.197\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "c85a7f29-75f5-5825-9d8f-51d51b88297b",
-    "name": "(https?:\\/\\/)104\\.198\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)104\\.198\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "d5e2bfba-a87f-5e50-8fa1-d62f3f87ef9a",
-    "name": "(https?:\\/\\/)130\\.211\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)130\\.211\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "2586c5cc-83bb-57d9-9865-150b1398a0a5",
-    "name": "(https?:\\/\\/)142\\.91\\.159\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)142\\.91\\.159\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "d1849101-2bae-5cbb-8da4-5de74e026143",
-    "name": "(https?:\\/\\/)213\\.32\\.115\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)213\\.32\\.115\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "9b2c0c3b-0317-5fa7-af99-09bf0b441e04",
-    "name": "(https?:\\/\\/)216\\.21\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)216\\.21\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "dd8669df-cf58-5321-be6b-131d8e520c4f",
-    "name": "(https?:\\/\\/)217\\.182\\.11\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)217\\.182\\.11\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "f391e638-0420-58eb-b38c-da4765f23eb3",
-    "name": "(https?:\\/\\/)51\\.195\\.31\\..{100,}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "(https?:\\/\\/)51\\.195\\.31\\..{100,}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
   },
   {
     "id": "8df810ca-ae02-5fa6-aba2-06404df5c000",

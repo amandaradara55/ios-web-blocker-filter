@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-29T16:08:39+00:00",
+  "generatedAt": "2026-04-29T16:27:11+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 88702,
-      "acceptedBlockRules": 58069,
+      "inputRules": 88704,
+      "acceptedBlockRules": 58062,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 22671,
       "duplicateRules": 2,
@@ -13,7 +13,8 @@
         "unsupported_cosmetic_selector": 470,
         "unsupported_domain_scope": 267,
         "unsupported_modifier": 5694,
-        "unsupported_url_pattern": 202
+        "unsupported_url_pattern": 202,
+        "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
@@ -32,7 +33,7 @@
     }
   },
   "totals": {
-    "acceptedBlockRules": 111313,
+    "acceptedBlockRules": 111306,
     "quarantinedBlockRules": 0,
     "acceptedCosmeticRules": 22673,
     "duplicateRules": 4,
@@ -42,7 +43,8 @@
       "unsupported_cosmetic_selector": 475,
       "unsupported_domain_scope": 267,
       "unsupported_modifier": 6616,
-      "unsupported_url_pattern": 582
+      "unsupported_url_pattern": 582,
+      "unsupported_webkit_regex_brace_quantifier": 9
     }
   }
 }

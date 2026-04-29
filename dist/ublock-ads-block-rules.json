@@ -1385,17 +1385,6 @@
     "literalOperator": "exact"
   },
   {
-    "id": "8592b8d6-f01d-5206-b888-fade0a6634a8",
-    "name": "^https:\\/\\/[-a-z]{8,}\\.com\\/[f-j][-0-9A-Z_a-z]{2,}\\/[0-9A-Za-z][-\\/0-9A-Z_a-z]{115,132}$/$script,xhr,3p,match-case,to=com,method=get,header=X-Request-ID:/^[0-9a-f]{32}$",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https:\\/\\/[-a-z]{8,}\\.com\\/[f-j][-0-9A-Z_a-z]{2,}\\/[0-9A-Za-z][-\\/0-9A-Z_a-z]{115,132}$/$script,xhr,3p,match-case,to=com,method=get,header=X-Request-ID:/^[0-9a-f]{32}$",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
     "id": "28a223ff-eed1-5b70-84d9-9efc50551f8c",
     "name": "breedsmuteexams.com",
     "scope": "fqdn",
@@ -1573,17 +1562,6 @@
     "literalOperator": "exact"
   },
   {
-    "id": "048b8910-9a94-591c-9a57-963b7507369f",
-    "name": "^https?:\\/\\/.*\\/easylist\\/[0-9]{5}",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https?:\\/\\/.*\\/easylist\\/[0-9]{5}",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
     "id": "8e3ab44d-cec5-5b67-b2f8-d28d1b453bbc",
     "name": "see.xxx/nr.js",
     "scope": "url",
@@ -1600,17 +1578,6 @@
     "scope": "url",
     "matchKind": "regex",
     "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pornhits\\.com(?::[0-9]+)?/magic/",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "145ee1ff-9114-58a5-9022-07d4e63d91ef",
-    "name": "^https:\\/\\/www\\.[a-z]{8,16}\\.com\\/(?:[A-Za-z]+\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$/$script,xhr,3p,match-case,to=com,header=link:/adsco\\.re\\/>;rel=preconnect",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https:\\/\\/www\\.[a-z]{8,16}\\.com\\/(?:[A-Za-z]+\\/)*(?:[_0-9A-Za-z]{1,20}[-.])*[_0-9A-Za-z]{1,20}\\.js$/$script,xhr,3p,match-case,to=com,header=link:/adsco\\.re\\/>;rel=preconnect",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -1932,39 +1899,6 @@
     "action": "block",
     "note": "",
     "literalOperator": "contains"
-  },
-  {
-    "id": "b2b4f37e-c880-5d6e-a409-9e79f41a6c4f",
-    "name": "^https?:\\/\\/[a-z]{8,15}\\.com\\/$/$xhr,3p,to=com,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https?:\\/\\/[a-z]{8,15}\\.com\\/$/$xhr,3p,to=com,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "1f5c0d86-80cc-50ce-ac3e-987b5a7b905a",
-    "name": "^https?:\\/\\/[a-z]{8,15}\\.net\\/$/$xhr,3p,to=net,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https?:\\/\\/[a-z]{8,15}\\.net\\/$/$xhr,3p,to=net,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "305a06b0-19a1-5caf-beb6-3376d4ef1418",
-    "name": "^https?:\\/\\/[a-z]{8,15}\\.xyz\\/$/$xhr,3p,to=xyz,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https?:\\/\\/[a-z]{8,15}\\.xyz\\/$/$xhr,3p,to=xyz,method=head,header=access-control-expose-headers:/X-DirectionPartner-Id",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
   },
   {
     "id": "a1c06040-f28d-5802-af94-367469811994",
@@ -7367,39 +7301,6 @@
     "scope": "url",
     "matchKind": "regex",
     "pattern": "/wp\\-content/cache/min/.*/pubadx\\-ad\\.js",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "e434d4c0-c582-59c0-89e7-2202d6cbea5b",
-    "name": "^https?:\\/\\/[^\\/]+\\/_fd$/$xhr,1p,strict1p,header=X-Request-Id:/^[a-f0-9]{8}(-[a-f0-9]{4}){3}-[a-f0-9]{12}$",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "^https?:\\/\\/[^\\/]+\\/_fd$/$xhr,1p,strict1p,header=X-Request-Id:/^[a-f0-9]{8}(-[a-f0-9]{4}){3}-[a-f0-9]{12}$",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "af49eddf-b0fc-5db9-a660-1ec5954bb645",
-    "name": "_static/delivery.js?nonce=$script,1p,header=server:/^openresty\\/",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "_static/delivery.js?nonce=$script,1p,header=server:/^openresty\\/",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": ""
-  },
-  {
-    "id": "71b7083b-8927-5207-860e-331d2235cfb6",
-    "name": "\\/_static\\/[a-z0-9]{12}\\.js\\?nonce=\\d+$/$script,1p,match-case,header=server:/openresty\\/",
-    "scope": "url",
-    "matchKind": "regex",
-    "pattern": "\\/_static\\/[a-z0-9]{12}\\.js\\?nonce=\\d+$/$script,1p,match-case,header=server:/openresty\\/",
     "isEnabled": true,
     "rank": 0,
     "action": "block",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T16:08:36+00:00",
+  "generatedAt": "2026-04-29T16:27:08+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
@@ -7,6 +7,7 @@
       "acceptedBlockRules": 335,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {
         "unsupported_modifier": 45
       }
@@ -16,6 +17,7 @@
       "acceptedBlockRules": 20,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {}
     },
     "allowlist.txt": {
@@ -23,6 +25,7 @@
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {
         "excluded_section": 325
       }
@@ -32,6 +35,7 @@
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {
         "excluded_section": 415
       }
@@ -41,6 +45,7 @@
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 147,
+      "duplicateRules": 0,
       "skipped": {
         "unsupported_domain_scope": 4
       }
@@ -50,6 +55,7 @@
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {
         "excluded_section": 267
       }
@@ -59,6 +65,7 @@
       "acceptedBlockRules": 45,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
+      "duplicateRules": 0,
       "skipped": {
         "unsupported_modifier": 327
       }
@@ -68,6 +75,7 @@
       "acceptedBlockRules": 756,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 6988,
+      "duplicateRules": 0,
       "skipped": {
         "advanced_rule": 1006,
         "allowlist": 4,
@@ -82,6 +90,7 @@
     "blockRules": 1156,
     "disabledBlockRules": 2,
     "cosmeticRules": 7135,
+    "duplicateRules": 0,
     "skipped": {
       "advanced_rule": 1006,
       "allowlist": 4,
