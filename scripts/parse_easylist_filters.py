@@ -23,6 +23,12 @@ from easylist_common import (
     utc_now_iso,
     validate_list_names,
 )
+from parser_common import (
+    block_signature,
+    cosmetic_signature,
+    parse_raw_regex_components,
+    regex_parse_error,
+)
 
 
 DOMAIN_RE = re.compile(r"^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
@@ -32,7 +38,6 @@ PURE_DOMAIN_RULE_RE = re.compile(
 DOMAIN_WITH_PATH_RE = re.compile(
     r"^\|\|(?P<domain>[A-Za-z0-9.-]+\.[A-Za-z]{2,})(?P<suffix>/.+)$"
 )
-RAW_REGEX_RULE_RE = re.compile(r"^/(.*)/(?:\$(?P<options>.+))?$")
 
 ALLOWLIST_MARKERS = ("@@", "#@#", "#@?#", "#@$#", "#@%#")
 ADVANCED_MARKERS = ("#?#", "#$#", "#%#", "$$")
@@ -263,20 +268,16 @@ def parse_raw_regex_rule(
     list_name: str,
     rule: str,
 ) -> tuple[dict | None, str | None]:
-    match = RAW_REGEX_RULE_RE.fullmatch(rule)
-    if not match:
+    parsed = parse_raw_regex_components(rule)
+    if parsed is None:
         return None, None
 
-    pattern = match.group(1)
-    options_text = match.group("options")
+    pattern, options_text = parsed
     if options_text:
         return None, "unsupported_modifier"
-    if "|" in pattern:
-        return None, "unsupported_regex_disjunction"
-    try:
-        re.compile(pattern)
-    except re.error:
-        return None, "invalid_regex"
+    regex_error = regex_parse_error(pattern)
+    if regex_error is not None:
+        return None, regex_error
 
     return (
         make_block_rule(
@@ -289,7 +290,6 @@ def parse_raw_regex_rule(
         ),
         None,
     )
-
 
 def translate_pattern_to_regex(pattern: str) -> str | None:
     if "^" in pattern:
@@ -419,25 +419,6 @@ def load_rules(list_path: Path) -> list[str]:
             continue
         lines.append(stripped)
     return lines
-
-
-def block_signature(rule: dict) -> tuple:
-    return (
-        rule["scope"],
-        rule["matchKind"],
-        rule["pattern"],
-        rule.get("literalOperator"),
-        rule["action"],
-        rule["isEnabled"],
-    )
-
-
-def cosmetic_signature(rule: dict) -> tuple:
-    return (
-        rule["selector"],
-        tuple(rule["domains"]),
-        rule["isEnabled"],
-    )
 
 
 def build_summary_section(rule_count: int) -> dict:

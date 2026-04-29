@@ -116,6 +116,40 @@ Safari Content Blocker で表現できるパターンのみ変換し、対応外
 - `url-filter` は正規表現。`|`（disjunction）を含む表現は不許可
 - `if-domain` はドメインリストのみ（パス情報は持てない）
 
+### regex 制約の検証方針
+
+`url-filter` の unsupported syntax は、公開ドキュメントだけでは網羅表を確認しづらい。したがって、パーサの静的 ban だけに依存せず、WebKit 自身の `WKContentRuleListStore.compileContentRuleList(...)` で compile 可否を検証する。
+
+- `scripts/check_webkit_content_blocker_rules.swift` は block rule JSON から `matchKind == "regex"` の rule を取り出し、`WKContentRuleList` の最小 JSON に変換して compile する補助スクリプト
+- 失敗時は batch を二分探索して、どの regex が reject されたかを特定する
+- 使い方の例: `swift scripts/check_webkit_content_blocker_rules.swift --input dist/easylist-block-rules.json --output /tmp/easylist-webkit-report.json --batch-size 512`
+- 単発検証の例: `swift scripts/check_webkit_content_blocker_rules.swift --batch-size 1 --regex '\\babc' --regex '(?=abc)' --regex '(?i)abc'`
+
+2026-04-30 に実施した compile 検証結果:
+
+- `dist/adguard-japanese-block-rules.json`: regex 758 件中 758 件通過
+- `dist/easylist-block-rules.json`: regex 1483 件中 1474 件通過、9 件失敗
+- `dist/easyprivacy-block-rules.json`: regex 4170 件中 4170 件通過
+- `dist/ublock-ads-block-rules.json`: regex 487 件中 486 件通過、1 件失敗
+
+この時点で確認できた重要事項:
+
+- reject を確認: `\b` / `\B`
+- reject を確認: lookahead / lookbehind
+- reject を確認: inline flags `(?i)` `(?m)` `(?s)` `(?x)` `(?u)` `(?-i)`
+- reject を確認: named backreference `\k<...>`
+- compile 通過を確認: `\p{...}` / `\P{...}`
+- compile 通過を確認: capture group `(abc)` / non-capturing group `(?:abc)`
+- compile 通過を確認: 数値 backreference の検体 `([a-z]+)\1`
+- 今回の既存ルール検証で新たに reject を確認: `{n}` および `{m,n}` 量指定
+
+既存ルールで実際に reject された regex は次の系統だった:
+
+- EasyList: `(https?:\/\/)104\.154\..{100,}` など `.{100,}` を含む 9 件
+- uBlock Ads: `^https?:\/\/.*\/easylist\/[0-9]{5}` の 1 件
+
+したがって、現時点では `\b` / `\B`・lookaround・inline flags は hard ban 維持が妥当であり、`\p{}` / `\P{}` と backreference 全体を一律 hard ban とみなす根拠は弱い。一方で、`{n}` / `{m,n}` は compile reject が確認されたため、静的チェック対象として再評価が必要。
+
 ### ID の生成
 
 UUID v5 を使い、`フィルターソース名 + パターン内容` からシードを生成する。同じ入力からは常に同じ ID が生成されるため、再実行しても差分が安定する。
@@ -152,6 +186,7 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 - `scripts/check_webkit_cosmetic_selectors.swift` は WebKit の `document.querySelectorAll()` で cosmetic selector を総当たり検証する補助スクリプト。Safari / WebKit で「invalid selector」が出た時の切り分けに使う
 - 使い方の例: `swift scripts/check_webkit_cosmetic_selectors.swift --input dist/easylist-cosmetic-rules.json --output /tmp/easylist-invalid-selectors.json --batch-size 512`
 - このチェッカーは CSS selector 構文の妥当性確認用であり、`WKContentRuleList` 全体の compile 可否を完全再現するものではない
+- `scripts/check_webkit_content_blocker_rules.swift` は `WKContentRuleListStore` で block rule の regex を compile 検証する補助スクリプト。regex の静的 ban を見直す時は、まずこのチェッカーの結果を確認する
 - `scripts/parse_adguard_japanese_filter.py` は既定で `allowlist.txt` / `antiadblock.txt` / `general_extensions.txt` を出力対象から除外する
 - `.com/Zen?` / `.jp/Zen?` は通常 block 出力に入れず、disabled block JSON に quarantine する
 

@@ -24,6 +24,12 @@ from adguard_japanese_filter_common import (
     utc_now_iso,
     validate_sections,
 )
+from parser_common import (
+    block_signature,
+    cosmetic_signature,
+    parse_raw_regex_components,
+    regex_parse_error,
+)
 
 
 DOMAIN_RE = re.compile(r"^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
@@ -33,7 +39,6 @@ PURE_DOMAIN_RULE_RE = re.compile(
 DOMAIN_WITH_PATH_RE = re.compile(
     r"^\|\|(?P<domain>[A-Za-z0-9.-]+\.[A-Za-z]{2,})(?P<suffix>/.+)$"
 )
-RAW_REGEX_RULE_RE = re.compile(r"^/(.*)/(?:\$(?P<options>.+))?$")
 
 ALLOWLIST_MARKERS = ("@@", "#@#", "#@?#", "#@$#", "#@%#")
 ADVANCED_MARKERS = ("#?#", "#$#", "#%#", "$$")
@@ -267,20 +272,16 @@ def parse_raw_regex_rule(
     section_name: str,
     rule: str,
 ) -> tuple[dict | None, str | None]:
-    match = RAW_REGEX_RULE_RE.fullmatch(rule)
-    if not match:
+    parsed = parse_raw_regex_components(rule)
+    if parsed is None:
         return None, None
 
-    pattern = match.group(1)
-    options_text = match.group("options")
+    pattern, options_text = parsed
     if options_text:
         return None, "unsupported_modifier"
-    if "|" in pattern:
-        return None, "unsupported_regex_disjunction"
-    try:
-        re.compile(pattern)
-    except re.error:
-        return None, "invalid_regex"
+    regex_error = regex_parse_error(pattern)
+    if regex_error is not None:
+        return None, regex_error
 
     return (
         make_block_rule(
@@ -293,7 +294,6 @@ def parse_raw_regex_rule(
         ),
         None,
     )
-
 
 def translate_pattern_to_regex(pattern: str) -> str | None:
     if "^" in pattern:
@@ -429,6 +429,7 @@ def build_summary_section(rule_count: int) -> dict:
         "acceptedBlockRules": 0,
         "quarantinedBlockRules": 0,
         "acceptedCosmeticRules": 0,
+        "duplicateRules": 0,
         "skipped": {},
     }
 
@@ -474,6 +475,9 @@ def main() -> int:
     summary_sections: dict[str, dict] = {}
     skip_counters: dict[str, Counter[str]] = defaultdict(Counter)
     excluded_sections = set(DEFAULT_EXCLUDED_PARSE_SECTIONS)
+    seen_block: set[tuple] = set()
+    seen_disabled_block: set[tuple] = set()
+    seen_cosmetic: set[tuple] = set()
 
     for section_name in sections:
         rules = load_rules(input_dir / section_name)
@@ -486,6 +490,11 @@ def main() -> int:
 
             quarantined_rule = maybe_quarantine_block_rule(section_name, rule)
             if quarantined_rule is not None:
+                signature = block_signature(quarantined_rule)
+                if signature in seen_disabled_block:
+                    summary_sections[section_name]["duplicateRules"] += 1
+                    continue
+                seen_disabled_block.add(signature)
                 disabled_block_rules.append(quarantined_rule)
                 summary_sections[section_name]["quarantinedBlockRules"] += 1
                 continue
@@ -500,6 +509,11 @@ def main() -> int:
 
             cosmetic_rule, cosmetic_error = parse_cosmetic_rule(section_name, rule)
             if cosmetic_rule is not None:
+                signature = cosmetic_signature(cosmetic_rule)
+                if signature in seen_cosmetic:
+                    summary_sections[section_name]["duplicateRules"] += 1
+                    continue
+                seen_cosmetic.add(signature)
                 cosmetic_rules.append(cosmetic_rule)
                 summary_sections[section_name]["acceptedCosmeticRules"] += 1
                 continue
@@ -509,6 +523,11 @@ def main() -> int:
 
             block_rule, block_error = parse_block_rule(section_name, rule)
             if block_rule is not None:
+                signature = block_signature(block_rule)
+                if signature in seen_block:
+                    summary_sections[section_name]["duplicateRules"] += 1
+                    continue
+                seen_block.add(signature)
                 block_rules.append(block_rule)
                 summary_sections[section_name]["acceptedBlockRules"] += 1
                 continue
@@ -532,6 +551,9 @@ def main() -> int:
                 "blockRules": len(block_rules),
                 "disabledBlockRules": len(disabled_block_rules),
                 "cosmeticRules": len(cosmetic_rules),
+                "duplicateRules": sum(
+                    section["duplicateRules"] for section in summary_sections.values()
+                ),
                 "skipped": dict(sorted(total_skips.items())),
             },
         },
