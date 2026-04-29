@@ -38,6 +38,7 @@ ALLOWLIST_MARKERS = ("@@", "#@#", "#@?#", "#@$#", "#@%#")
 ADVANCED_MARKERS = ("#?#", "#$#", "#%#", "$$")
 UNSUPPORTED_SELECTOR_TOKENS = (
     ":has(",
+    ":-abp-properties(",
     ":contains(",
     ":matches-css",
     ":matches-attr(",
@@ -57,6 +58,7 @@ UNSUPPORTED_SELECTOR_TOKENS = (
     ":has-text(",
     "[-ext-",
 )
+UNSUPPORTED_SELECTOR_CHARS = ("{", "}")
 
 
 def parse_args() -> argparse.Namespace:
@@ -96,7 +98,9 @@ def split_pattern_and_options(rule: str) -> tuple[str, list[str]]:
 
 
 def has_unsupported_selector_features(selector: str) -> bool:
-    return any(token in selector for token in UNSUPPORTED_SELECTOR_TOKENS)
+    return any(token in selector for token in UNSUPPORTED_SELECTOR_TOKENS) or any(
+        char in selector for char in UNSUPPORTED_SELECTOR_CHARS
+    )
 
 
 def is_allowlist_rule(rule: str) -> bool:
@@ -417,12 +421,32 @@ def load_rules(list_path: Path) -> list[str]:
     return lines
 
 
+def block_signature(rule: dict) -> tuple:
+    return (
+        rule["scope"],
+        rule["matchKind"],
+        rule["pattern"],
+        rule.get("literalOperator"),
+        rule["action"],
+        rule["isEnabled"],
+    )
+
+
+def cosmetic_signature(rule: dict) -> tuple:
+    return (
+        rule["selector"],
+        tuple(rule["domains"]),
+        rule["isEnabled"],
+    )
+
+
 def build_summary_section(rule_count: int) -> dict:
     return {
         "inputRules": rule_count,
         "acceptedBlockRules": 0,
         "quarantinedBlockRules": 0,
         "acceptedCosmeticRules": 0,
+        "duplicateRules": 0,
         "skipped": {},
     }
 
@@ -465,6 +489,9 @@ def main() -> int:
         disabled_block_rules: list[dict] = []
         cosmetic_rules: list[dict] = []
         skip_counter: Counter[str] = Counter()
+        seen_block: set[tuple] = set()
+        seen_disabled_block: set[tuple] = set()
+        seen_cosmetic: set[tuple] = set()
 
         rules = load_rules(input_dir / LIST_FILES[list_name])
         summary_lists[list_name] = build_summary_section(len(rules))
@@ -472,6 +499,11 @@ def main() -> int:
         for rule in rules:
             quarantined_rule = maybe_quarantine_block_rule(list_name, rule)
             if quarantined_rule is not None:
+                signature = block_signature(quarantined_rule)
+                if signature in seen_disabled_block:
+                    summary_lists[list_name]["duplicateRules"] += 1
+                    continue
+                seen_disabled_block.add(signature)
                 disabled_block_rules.append(quarantined_rule)
                 summary_lists[list_name]["quarantinedBlockRules"] += 1
                 continue
@@ -486,6 +518,11 @@ def main() -> int:
 
             cosmetic_rule, cosmetic_error = parse_cosmetic_rule(list_name, rule)
             if cosmetic_rule is not None:
+                signature = cosmetic_signature(cosmetic_rule)
+                if signature in seen_cosmetic:
+                    summary_lists[list_name]["duplicateRules"] += 1
+                    continue
+                seen_cosmetic.add(signature)
                 cosmetic_rules.append(cosmetic_rule)
                 summary_lists[list_name]["acceptedCosmeticRules"] += 1
                 continue
@@ -495,6 +532,11 @@ def main() -> int:
 
             block_rule, block_error = parse_block_rule(list_name, rule)
             if block_rule is not None:
+                signature = block_signature(block_rule)
+                if signature in seen_block:
+                    summary_lists[list_name]["duplicateRules"] += 1
+                    continue
+                seen_block.add(signature)
                 block_rules.append(block_rule)
                 summary_lists[list_name]["acceptedBlockRules"] += 1
                 continue
@@ -535,6 +577,9 @@ def main() -> int:
                 ),
                 "acceptedCosmeticRules": sum(
                     section["acceptedCosmeticRules"] for section in summary_lists.values()
+                ),
+                "duplicateRules": sum(
+                    section["duplicateRules"] for section in summary_lists.values()
                 ),
                 "skipped": dict(sorted(total_skips.items())),
             },

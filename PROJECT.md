@@ -149,6 +149,9 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 - 専用スクリプト: `scripts/fetch_adguard_japanese_filter.py` / `scripts/parse_adguard_japanese_filter.py`
 - uBO は `scripts/fetch_ublock_origin_filters.py` / `scripts/flatten_ublock_origin_filters.py` / `scripts/parse_ublock_origin_filters.py` の 3 段で扱う
 - uBO の procedural cosmetic（`remove-attr` / `remove-class` / `upward` / `xpath` / `style` など）は現状サポート外とし、`unsupported_cosmetic_selector` として弾く
+- `scripts/check_webkit_cosmetic_selectors.swift` は WebKit の `document.querySelectorAll()` で cosmetic selector を総当たり検証する補助スクリプト。Safari / WebKit で「invalid selector」が出た時の切り分けに使う
+- 使い方の例: `swift scripts/check_webkit_cosmetic_selectors.swift --input dist/easylist-cosmetic-rules.json --output /tmp/easylist-invalid-selectors.json --batch-size 512`
+- このチェッカーは CSS selector 構文の妥当性確認用であり、`WKContentRuleList` 全体の compile 可否を完全再現するものではない
 - `scripts/parse_adguard_japanese_filter.py` は既定で `allowlist.txt` / `antiadblock.txt` / `general_extensions.txt` を出力対象から除外する
 - `.com/Zen?` / `.jp/Zen?` は通常 block 出力に入れず、disabled block JSON に quarantine する
 
@@ -168,6 +171,7 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 - ローカル変換結果: `dist/adguard-japanese-*.json`
 - ローカル変換集計: `dist/adguard-japanese-summary.json`
 - EasyList 用スクリプト: `scripts/fetch_easylist_filters.py` / `scripts/parse_easylist_filters.py`
+- WebKit cosmetic selector 検証スクリプト: `scripts/check_webkit_cosmetic_selectors.swift`
 - EasyList ローカル中間出力先: `sources/easylist/easylist.txt` / `sources/easylist/easyprivacy.txt`
 - EasyList ローカル取得メタデータ: `sources/easylist/manifest.json`
 - EasyList ローカル変換結果: `dist/easylist-*.json` / `dist/easyprivacy-*.json`
