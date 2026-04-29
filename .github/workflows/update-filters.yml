@@ -38,4 +38,4 @@ jobs:
 
       - name: Update dist and push if changed
         run: |
-          ./scripts/update_dist_and_push.sh "Update dist outputs via GitHub Actions"
+          ./scripts/update_dist_and_push.sh "Publish dist outputs via GitHub Actions"

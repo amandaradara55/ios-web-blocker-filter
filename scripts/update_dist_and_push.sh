@@ -17,44 +17,51 @@ if ! git diff --cached --quiet --exit-code; then
   exit 1
 fi
 
-TMP_ROOT="$(mktemp -d "${TMPDIR:-/tmp}/ios-web-blocker-filter.XXXXXX")"
-trap 'rm -rf "${TMP_ROOT}"' EXIT
+PUBLISH_BRANCH="${PUBLISH_BRANCH:-gh-pages}"
+COMMIT_MESSAGE="${1:-Publish dist outputs}"
+TMP_ROOT="$(mktemp -d "${TMPDIR:-/tmp}/ios-web-blocker-filter-publish.XXXXXX")"
+WORKTREE_DIR="${TMP_ROOT}/publish-worktree"
 
-ADGUARD_DIR="${TMP_ROOT}/adguard-japanese"
-EASYLIST_DIR="${TMP_ROOT}/easylist"
-UBO_DIR="${TMP_ROOT}/ublock-origin"
-UBO_FLAT_DIR="${TMP_ROOT}/ublock-origin-flat"
+cleanup() {
+  if [[ -d "${WORKTREE_DIR}" ]]; then
+    git worktree remove --force "${WORKTREE_DIR}" >/dev/null 2>&1 || true
+  fi
+  rm -rf "${TMP_ROOT}"
+}
+trap cleanup EXIT
 
-echo "Updating AdGuard Japanese dist outputs..."
-python3 scripts/fetch_adguard_japanese_filter.py --output-dir "${ADGUARD_DIR}"
-python3 scripts/parse_adguard_japanese_filter.py --input-dir "${ADGUARD_DIR}"
+./scripts/update_dist.sh
 
-echo "Updating EasyList / EasyPrivacy dist outputs..."
-python3 scripts/fetch_easylist_filters.py --output-dir "${EASYLIST_DIR}"
-python3 scripts/parse_easylist_filters.py --input-dir "${EASYLIST_DIR}"
-
-echo "Updating uBlock Origin dist outputs..."
-python3 scripts/fetch_ublock_origin_filters.py --output-dir "${UBO_DIR}"
-python3 scripts/flatten_ublock_origin_filters.py \
-  --input-dir "${UBO_DIR}" \
-  --output-dir "${UBO_FLAT_DIR}"
-python3 scripts/parse_ublock_origin_filters.py --input-dir "${UBO_FLAT_DIR}"
-
-if [[ -z "$(git status --porcelain -- dist)" ]]; then
-  echo "No changes detected under dist/; nothing to commit."
-  exit 0
+if git show-ref --verify --quiet "refs/heads/${PUBLISH_BRANCH}"; then
+  git worktree add "${WORKTREE_DIR}" "${PUBLISH_BRANCH}" >/dev/null
+elif git ls-remote --exit-code --heads origin "${PUBLISH_BRANCH}" >/dev/null 2>&1; then
+  git fetch origin "${PUBLISH_BRANCH}:refs/heads/${PUBLISH_BRANCH}" >/dev/null
+  git worktree add "${WORKTREE_DIR}" "${PUBLISH_BRANCH}" >/dev/null
+else
+  git worktree add -b "${PUBLISH_BRANCH}" "${WORKTREE_DIR}" HEAD >/dev/null
 fi
 
-git add dist
+find "${WORKTREE_DIR}" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+mkdir -p "${WORKTREE_DIR}/dist"
+cp -R "${REPO_ROOT}/dist/." "${WORKTREE_DIR}/dist/"
+cat > "${WORKTREE_DIR}/README.md" <<'EOF'
+# gh-pages
 
-if git diff --cached --quiet --exit-code; then
-  echo "No staged changes under dist/ after git add; nothing to commit."
-  exit 0
-fi
+This branch is generated automatically.
 
-COMMIT_MESSAGE="${1:-Update dist outputs}"
+Published filter JSON files are under `dist/`.
+EOF
+touch "${WORKTREE_DIR}/.nojekyll"
 
-git commit -m "${COMMIT_MESSAGE}"
-git push
+(
+  cd "${WORKTREE_DIR}"
+  git add -A
+  if git diff --cached --quiet --exit-code; then
+    echo "No changes detected for ${PUBLISH_BRANCH}; nothing to commit."
+    exit 0
+  fi
+  git commit -m "${COMMIT_MESSAGE}"
+  git push -u origin "${PUBLISH_BRANCH}"
+)
 
-echo "Done: updated, committed, and pushed dist/ only."
+echo "Done: published dist/ to ${PUBLISH_BRANCH}."

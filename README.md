@@ -2,12 +2,13 @@
 
 Prebuilt Safari Content Blocker rule presets for the `iOS-web-blocker` app.
 
-This repository fetches public filter lists, converts the supported subset of their rules into the app's JSON formats, and publishes the generated artifacts under `dist/`.
+This repository fetches public filter lists, converts the supported subset of their rules into the app's JSON formats, and publishes the generated artifacts from the `gh-pages` branch.
 
 ## What This Repository Contains
 
 - Conversion scripts for each supported upstream filter source
-- Generated `dist/*.json` files intended for app consumption
+- Conversion and publish scripts for the generated JSON artifacts
+- Generated `dist/*.json` files as a local build target on `main`
 - Research notes documenting why each upstream distribution URL was selected
 
 The app-consumable outputs are documented in `docs/app-consumable-distribution-map.md`.
@@ -72,7 +73,9 @@ Their work makes this project possible.
 
 ## Notes for Repository Maintenance
 
-- `dist/` contains generated outputs intended for app delivery.
+- `main` stores scripts, docs, and repository metadata.
+- `gh-pages` stores the published JSON artifacts for app delivery.
+- `dist/` on `main` is only a local build target placeholder.
 - `sources/` is kept in git only as a placeholder directory skeleton.
 - Upstream raw files are treated as fetch-time intermediates, not as long-term tracked repository payload.
 - If intermediate fetch outputs are regenerated locally, they should stay untracked and disposable.

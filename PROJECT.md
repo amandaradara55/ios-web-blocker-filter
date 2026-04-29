@@ -14,7 +14,7 @@
 - フィルターの変換・更新処理をモバイルアプリ上で行うのは重すぎる
 - 変換済み JSON をアプリ本体リポジトリに含めると履歴が肥大化する
 
-変換はこのリポジトリの CI（GitHub Actions）が担い、アプリは公開 URL から JSON を取得するだけにする。
+変換はこのリポジトリの CI（GitHub Actions）が担い、生成物は `gh-pages` ブランチから配信し、アプリは公開 URL から JSON を取得するだけにする。
 
 ---
 
@@ -84,15 +84,8 @@ scripts/
   parse_ublock_origin_filters.py     flatten 済み uBO ルールを JSON へ変換
 .github/
   workflows/
-    update-filters.yml       週次で変換・dist/ を更新する CI
-dist/               変換済み JSON（GitHub Pages で公開）
-  easylist-block-rules.json
-  easylist-cosmetic-rules.json
-  adguard-japanese-block-rules.json
-  adguard-japanese-block-rules-disabled.json
-  adguard-japanese-cosmetic-rules.json
-  adguard-japanese-summary.json
-  ...
+    update-filters.yml       週次で生成物を `gh-pages` ブランチへ publish する CI
+dist/               ローカル生成確認用の作業ディレクトリ（main ではプレースホルダのみ管理）
 ```
 
 ---
@@ -160,17 +153,17 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 
 - ローカル中間出力先: `sources/adguard-japanese/*`
 - ローカル取得メタデータ: `sources/adguard-japanese/manifest.json`
-- 変換結果: `dist/adguard-japanese-*.json`
-- 変換集計: `dist/adguard-japanese-summary.json`
+- ローカル変換結果: `dist/adguard-japanese-*.json`
+- ローカル変換集計: `dist/adguard-japanese-summary.json`
 - EasyList 用スクリプト: `scripts/fetch_easylist_filters.py` / `scripts/parse_easylist_filters.py`
 - EasyList ローカル中間出力先: `sources/easylist/easylist.txt` / `sources/easylist/easyprivacy.txt`
 - EasyList ローカル取得メタデータ: `sources/easylist/manifest.json`
-- EasyList 変換結果: `dist/easylist-*.json` / `dist/easyprivacy-*.json`
-- EasyList 変換集計: `dist/easylist-summary.json`
+- EasyList ローカル変換結果: `dist/easylist-*.json` / `dist/easyprivacy-*.json`
+- EasyList ローカル変換集計: `dist/easylist-summary.json`
 - uBO 用スクリプト: `scripts/fetch_ublock_origin_filters.py` / `scripts/flatten_ublock_origin_filters.py` / `scripts/parse_ublock_origin_filters.py`
 - uBO ローカル取得メタデータ: `sources/ublock-origin/manifest.json` / `sources/ublock-origin/flat/manifest.json`
-- uBO 変換結果: `dist/ublock-ads-*.json` / `dist/ublock-mobile-*.json`
-- uBO 変換集計: `dist/ublock-origin-summary.json`
+- uBO ローカル変換結果: `dist/ublock-ads-*.json` / `dist/ublock-mobile-*.json`
+- uBO ローカル変換集計: `dist/ublock-origin-summary.json`
 - アプリ向け配布物一覧: `docs/app-consumable-distribution-map.md`
 
 最新の変換結果:
@@ -190,12 +183,13 @@ AdGuard Japanese Filter の構造調査と、`AdguardFilters` / `FiltersRegistry
 - uBO 配布物は実配布 URL 前提で `fetch -> flatten -> parse` できる
 - 取り込み対象として想定しているフィルターはここまでで一通り揃った
 - アプリが使う JSON と、補助出力として除外すべき JSON の整理も完了した
+- `main` と `gh-pages` の役割分離で、生成物更新が `main` の履歴を汚さない構成に移行した
 
 未完了の主な項目:
 
 - 既存の個別スクリプトをまとめて順番に実行する一括更新エントリーポイントの作成
-- `dist/` の GitHub 反映フロー整理
-- 必要なら GitHub Actions による定期更新の追加
+- `gh-pages` 配信 URL の最終確定
+- 必要なら GitHub Pages 設定の有効化と公開確認
 
 ---
 
