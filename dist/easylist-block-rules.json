@@ -305779,6 +305779,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "630c1f9c-fe72-5416-82fa-692663eda317",
+    "name": "nervousinevitable.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "nervousinevitable.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "35743dc3-d5ad-59af-87ef-7f86e4960a05",
     "name": "nervousnormgaze.com",
     "scope": "fqdn",
