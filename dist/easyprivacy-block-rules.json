@@ -75040,6 +75040,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "4d6913a1-c4ec-51ac-bfe3-c70425a1cc65",
+    "name": "backtension.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "backtension.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "35db058d-43b5-50cd-95a0-ff904acb632a",
     "name": "backupcat.com",
     "scope": "fqdn",
@@ -85041,6 +85053,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "intricateberry.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "6f5fcc61-7956-5954-8e73-edb9971bacfb",
+    "name": "introjava.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "introjava.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -164643,18 +164667,6 @@
     "rank": 0,
     "action": "block",
     "note": ""
-  },
-  {
-    "id": "e7c14efe-e982-5c85-8773-0f5fd98b3cd6",
-    "name": "data.debugbear.com",
-    "scope": "fqdn",
-    "matchKind": "literal",
-    "pattern": "data.debugbear.com",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": "",
-    "literalOperator": "exact"
   },
   {
     "id": "74344a22-1e8a-5ccc-b6cf-83c0387d0ab3",
@@ -627915,18 +627927,6 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "stats.stylight.it",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": "",
-    "literalOperator": "exact"
-  },
-  {
-    "id": "8ac23da2-b0a6-5a05-ad3d-8911e7c712bc",
-    "name": "t.mediaset.it",
-    "scope": "fqdn",
-    "matchKind": "literal",
-    "pattern": "t.mediaset.it",
     "isEnabled": true,
     "rank": 0,
     "action": "block",

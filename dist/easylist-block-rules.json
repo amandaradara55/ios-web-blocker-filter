@@ -43952,6 +43952,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "75f21806-e8b5-532c-bb17-4308543a1fa7",
+    "name": "arbaalette.cfd",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "arbaalette.cfd",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "bab954c5-2b93-5f39-9bc3-5ab035099b1f",
     "name": "arbacindawpate.cyou",
     "scope": "fqdn",
@@ -63200,6 +63212,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "5069310b-89b1-5360-b383-4a73b0bf51ae",
+    "name": "bhotialine.shop",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "bhotialine.shop",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "a20c5c27-0388-5c85-87ac-a5615c1ec0fc",
     "name": "bhpwqtiudzqnz.vip",
     "scope": "fqdn",
@@ -68053,6 +68077,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "bmdeit4.site",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "d9faa466-1b8e-52d3-ba8b-e0864a5c0110",
+    "name": "bmgbqaikw.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "bmgbqaikw.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -76544,6 +76580,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "3136ba49-afbb-5e23-afa0-fcf71b50fe39",
+    "name": "buccanacetate.shop",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "buccanacetate.shop",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "fbb21f34-d70a-50b4-b478-d89bf72cf765",
     "name": "buccanthruv.cyou",
     "scope": "fqdn",
@@ -82825,6 +82873,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "capettepompey.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "40a5c5a5-f087-55fe-b2b8-f29a1a01683f",
+    "name": "caphitetaroc.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "caphitetaroc.qpon",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -114272,6 +114332,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "bbf308bd-1f36-545a-8074-bdd0316cbbd5",
+    "name": "dandlealibied.cfd",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "dandlealibied.cfd",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "17bcdedd-d654-53d9-a979-0138c9610578",
     "name": "dandvolary.cyou",
     "scope": "fqdn",
@@ -122372,6 +122444,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "375cfe36-cfd1-573e-bb67-cf41354bd2db",
+    "name": "dhaohbwfigc.in",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "dhaohbwfigc.in",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "8ac7e117-d514-539d-8c9a-f7bd204dca09",
     "name": "dharmicafray.cfd",
     "scope": "fqdn",
@@ -123745,6 +123829,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "dimkfzxyvzhej.website",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "b2a6701d-c3ee-5bce-8f12-d2b922fe2a39",
+    "name": "dimmedloesslocn.cfd",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "dimmedloesslocn.cfd",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -140149,6 +140245,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "edwmpt.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "4f1741cc-d9c7-5388-a6b5-c56eb6687a60",
+    "name": "edwnbrougecufx.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "edwnbrougecufx.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -198175,6 +198283,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "e0fa8a46-0bfe-5a62-a115-7c9ac9d49fad",
+    "name": "habetcrammer.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "habetcrammer.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "f7aee2d4-0cb4-597d-854a-ba59969eba72",
     "name": "habirimodioli.com",
     "scope": "fqdn",
@@ -219331,6 +219451,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "0f4fbbb1-45a6-54c4-a13e-ecca0c2979e2",
+    "name": "ifyi64u621z2koqbpnvi6.cfd",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "ifyi64u621z2koqbpnvi6.cfd",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "a0e7f6e9-e666-5403-b2be-f06e577b4715",
     "name": "igagrrkyfmty.com",
     "scope": "fqdn",
@@ -220812,6 +220944,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "ikahnruntx.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "64e5cf6a-d261-5d6e-92cb-61c699359f07",
+    "name": "ikbtrpnc.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "ikbtrpnc.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -222840,6 +222984,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "impaintimamiccondos.cyou",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "8166ce7c-b158-5db7-8141-eeca83acf16b",
+    "name": "imparksoptingmacuta.cyou",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "imparksoptingmacuta.cyou",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -259255,6 +259411,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "a453fe8a-e639-5071-9874-721157b83ccd",
+    "name": "l1h6k1g8tfq4gu.rest",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "l1h6k1g8tfq4gu.rest",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "7a1b1e93-3dca-5f33-9732-ea3bd0ed11fe",
     "name": "l1le6x3v87bjn3b.cfd",
     "scope": "fqdn",
@@ -275772,6 +275940,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "lumberingtomorrow.pro",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "e62e3a7d-2cb2-508f-9169-6b76a2aef282",
+    "name": "luminedtusks.cyou",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "luminedtusks.cyou",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -337399,6 +337579,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "9e1f2690-c124-5922-8df7-8aa22a0f9fcb",
+    "name": "paccubokdjry.in",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "paccubokdjry.in",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "5cf0851f-ed57-5b39-b29a-6de59c67ec73",
     "name": "paceaskhari.com",
     "scope": "fqdn",
@@ -379195,6 +379387,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "95372907-be98-59c6-944c-5a0f48b3cd31",
+    "name": "pushupimposts.qpon",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "pushupimposts.qpon",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "16446bd7-4fd5-59bf-8f5b-e7f7934dc223",
     "name": "pushupperidia.cyou",
     "scope": "fqdn",
@@ -389179,6 +389383,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "cdab40c9-e478-54bc-9f77-e4ce3b330f19",
+    "name": "qnahgxwt.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "qnahgxwt.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "0ce96a39-ceb7-5616-b942-1f82ba31234c",
     "name": "qnankopyneryv.space",
     "scope": "fqdn",
@@ -393996,6 +394212,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "quickieboilingplayground.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "04823215-7a51-5a58-818f-6fb1bbe13ba3",
+    "name": "quickloadbinpack.click",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "quickloadbinpack.click",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -448687,6 +448915,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "52efbbf4-c90c-513c-842b-f25a6ccd70d5",
+    "name": "shelvespiso.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "shelvespiso.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "6f18e75c-583c-5d54-a3ca-f1d828dd858a",
     "name": "shemalesofhentai.com",
     "scope": "fqdn",
@@ -492840,6 +493080,18 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "techneparlous.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
+    "id": "c67e2858-df3a-5158-a839-501cbdaf2819",
+    "name": "technepriertechnic.cyou",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "technepriertechnic.cyou",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
@@ -639475,18 +639727,6 @@
     "literalOperator": "exact"
   },
   {
-    "id": "ab8b19d7-5481-5ff2-b009-f1a6337338ae",
-    "name": "amxrtb.com",
-    "scope": "fqdn",
-    "matchKind": "literal",
-    "pattern": "amxrtb.com",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": "",
-    "literalOperator": "exact"
-  },
-  {
     "id": "4a815423-8ea5-5948-9bb9-c2213202809d",
     "name": "andbeyond.media",
     "scope": "fqdn",
@@ -647672,18 +647912,6 @@
     "scope": "fqdn",
     "matchKind": "literal",
     "pattern": "sharemedia.rs",
-    "isEnabled": true,
-    "rank": 0,
-    "action": "block",
-    "note": "",
-    "literalOperator": "exact"
-  },
-  {
-    "id": "9ddddddd-a141-53ef-b2d0-09c572e67789",
-    "name": "sharethrough.com",
-    "scope": "fqdn",
-    "matchKind": "literal",
-    "pattern": "sharethrough.com",
     "isEnabled": true,
     "rank": 0,
     "action": "block",
