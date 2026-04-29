@@ -87,3 +87,10 @@ def validate_sections(sections: list[str] | None) -> list[str]:
         seen.add(name)
         valid.append(name)
     return valid
+
+
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(repo_root()))
+    except ValueError:
+        return str(path)

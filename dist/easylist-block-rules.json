@@ -570235,6 +570235,18 @@
     "literalOperator": "exact"
   },
   {
+    "id": "482f045b-8a47-54f5-99ee-a0ff47b34fca",
+    "name": "waxwithdot.com",
+    "scope": "fqdn",
+    "matchKind": "literal",
+    "pattern": "waxwithdot.com",
+    "isEnabled": true,
+    "rank": 0,
+    "action": "block",
+    "note": "",
+    "literalOperator": "exact"
+  },
+  {
     "id": "7a76104f-843a-59bf-800d-a6150dc47b2e",
     "name": "waxworksoperate.com",
     "scope": "fqdn",

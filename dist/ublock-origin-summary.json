@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-29T10:44:01+00:00",
-  "inputDir": "/tmp/ios-web-blocker-filter.9jL2aC/ublock-origin-flat",
+  "generatedAt": "2026-04-29T10:58:48+00:00",
+  "inputDir": "sources/ublock-origin/flat",
   "profiles": {
     "ads": {
       "inputRules": 22258,

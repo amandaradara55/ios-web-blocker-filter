@@ -20,6 +20,7 @@ from ublock_origin_common import (
     DEFAULT_MOBILE_DISABLED_BLOCK_OUTPUT,
     DEFAULT_SUMMARY_OUTPUT,
     RULE_NAMESPACE,
+    display_path,
     resolve_repo_path,
     utc_now_iso,
 )
@@ -558,6 +559,12 @@ def write_json(path: Path, payload: object) -> None:
     )
 
 
+def summary_input_dir_label(input_dir: Path, input_dir_arg: str) -> str:
+    if Path(input_dir_arg).is_absolute():
+        return DEFAULT_FLAT_DIR
+    return display_path(input_dir)
+
+
 def main() -> int:
     args = parse_args()
 
@@ -616,7 +623,7 @@ def main() -> int:
         summary_output,
         {
             "generatedAt": utc_now_iso(),
-            "inputDir": str(input_dir),
+            "inputDir": summary_input_dir_label(input_dir, args.input_dir),
             "profiles": {
                 "ads": ads_result["summary"],
                 "mobileEffective": mobile_effective_result["summary"],
