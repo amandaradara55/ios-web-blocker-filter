@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2912eb4e-9c0d-512b-ae9c-2346b654f638",
+    "name": ".com/Zen?",
+    "scope": "url",
+    "matchKind": "literal",
+    "pattern": ".com/Zen?",
+    "isEnabled": false,
+    "rank": 0,
+    "action": "block",
+    "note": "quarantined broad generic substring rule",
+    "literalOperator": "contains"
+  },
+  {
+    "id": "b6b29881-e74c-5373-a8f8-ba3f50ffbab8",
+    "name": ".jp/Zen?",
+    "scope": "url",
+    "matchKind": "literal",
+    "pattern": ".jp/Zen?",
+    "isEnabled": false,
+    "rank": 0,
+    "action": "block",
+    "note": "quarantined broad generic substring rule",
+    "literalOperator": "contains"
+  }
+]
