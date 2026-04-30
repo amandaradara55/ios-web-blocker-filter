@@ -39,20 +39,15 @@
 
 ---
 
-## 取得元 URL と公開 JSON の対応
+## 公開 JSON ごとの入力対応
 
-| 取得元 URL | ソース名 | 公開 JSON パス | 備考 |
+| ソース名 | 公開 JSON パス | 入力元 | 備考 |
 |---|---|---|---|
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | ドメイン・URL 系 block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | first-party 系 block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_url.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | 一般 URL block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_elemhide.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | 一般 cosmetic ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/specific.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | block / cosmetic の両方を含む |
-| `https://easylist.to/easylist/easylist.txt` | EasyList | `/dist/easylist.json` | 完成済み配布物を直接 parse |
-| `https://easylist.to/easylist/easyprivacy.txt` | EasyPrivacy | `/dist/easyprivacy.json` | 完成済み配布物を直接 parse |
-| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Ads | `/dist/ublock-ads.json` | `ads` プロファイルの入力 |
-| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile.json` | `env_mobile=true` 展開の親入力 |
-| `https://ublockorigin.github.io/uAssets/filters/filters-mobile.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile.json` | mobile 差分生成に使う補助入力 |
+| AdGuard Japanese Filter | `/dist/adguard-japanese.json` | `JapaneseFilter/sections/adservers.txt`, `adservers_firstparty.txt`, `general_url.txt`, `general_elemhide.txt`, `specific.txt` | block と cosmetic を 1 ファイルへ統合 |
+| EasyList | `/dist/easylist.json` | `https://easylist.to/easylist/easylist.txt` | 完成済み配布物を直接 parse |
+| EasyPrivacy | `/dist/easyprivacy.json` | `https://easylist.to/easylist/easyprivacy.txt` | 完成済み配布物を直接 parse |
+| uBlock Origin Ads | `/dist/ublock-ads.json` | `https://ublockorigin.github.io/uAssets/filters/filters.txt` | `ads` プロファイルの入力 |
+| uBlock Origin Mobile effective | `/dist/ublock-mobile.json` | `https://ublockorigin.github.io/uAssets/filters/filters.txt`, `https://ublockorigin.github.io/uAssets/filters/filters-mobile.txt` | `env_mobile=true` 展開結果と mobile 差分を 1 ファイルへ統合 |
 
 ---
 
