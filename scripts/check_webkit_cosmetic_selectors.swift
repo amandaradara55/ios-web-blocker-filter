@@ -9,6 +9,16 @@ struct CosmeticRule: Decodable {
     let domains: [String]
 }
 
+struct MergedFilterFile: Decodable {
+    let webBlockFilterVersion: String
+    let cosmeticRules: [CosmeticRule]
+
+    enum CodingKeys: String, CodingKey {
+        case webBlockFilterVersion = "web-block-filter-version"
+        case cosmeticRules = "cosmetic-rules"
+    }
+}
+
 struct SelectorOccurrence: Encodable {
     let id: String
     let domains: [String]
@@ -55,7 +65,7 @@ final class SelectorValidator {
 }
 
 func parseArgs() -> ProgramOptions {
-    var inputPath = "dist/easylist-cosmetic-rules.json"
+    var inputPath = "dist/easylist.json"
     var outputPath: String?
     var batchSize = 512
 
@@ -180,7 +190,7 @@ let inputURL = URL(fileURLWithPath: options.inputPath)
 
 let data = try Data(contentsOf: inputURL)
 let decoder = JSONDecoder()
-let rules = try decoder.decode([CosmeticRule].self, from: data)
+let rules = try decoder.decode(MergedFilterFile.self, from: data).cosmeticRules
 
 var selectorOccurrences: [String: [SelectorOccurrence]] = [:]
 for rule in rules {

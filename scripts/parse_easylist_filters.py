@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import sys
 import uuid
@@ -11,11 +10,12 @@ from collections import Counter
 from pathlib import Path
 
 from easylist_common import (
-    DEFAULT_BLOCK_OUTPUTS,
-    DEFAULT_COSMETIC_OUTPUTS,
     DEFAULT_DISABLED_BLOCK_OUTPUTS,
     DEFAULT_FETCH_DIR,
+    DEFAULT_MERGED_OUTPUTS,
     DEFAULT_SUMMARY_OUTPUT,
+    LEGACY_BLOCK_OUTPUTS,
+    LEGACY_COSMETIC_OUTPUTS,
     LIST_FILES,
     QUARANTINED_SOURCE_RULES,
     RULE_NAMESPACE,
@@ -26,8 +26,11 @@ from easylist_common import (
 from parser_common import (
     block_signature,
     cosmetic_signature,
+    merged_filter_payload,
     parse_raw_regex_components,
     regex_parse_error,
+    remove_file_if_exists,
+    write_json,
 )
 
 
@@ -432,14 +435,6 @@ def build_summary_section(rule_count: int) -> dict:
     }
 
 
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-
 def main() -> int:
     args = parse_args()
 
@@ -526,21 +521,21 @@ def main() -> int:
         summary_lists[list_name]["skipped"] = dict(sorted(skip_counter.items()))
         total_skips.update(skip_counter)
 
-        write_json(resolve_repo_path(DEFAULT_BLOCK_OUTPUTS[list_name]), block_rules)
         write_json(
             resolve_repo_path(DEFAULT_DISABLED_BLOCK_OUTPUTS[list_name]),
             disabled_block_rules,
         )
         write_json(
-            resolve_repo_path(DEFAULT_COSMETIC_OUTPUTS[list_name]),
-            cosmetic_rules,
+            resolve_repo_path(DEFAULT_MERGED_OUTPUTS[list_name]),
+            merged_filter_payload(block_rules, cosmetic_rules),
         )
+        remove_file_if_exists(resolve_repo_path(LEGACY_BLOCK_OUTPUTS[list_name]))
+        remove_file_if_exists(resolve_repo_path(LEGACY_COSMETIC_OUTPUTS[list_name]))
 
         print(
             "wrote "
-            f"{DEFAULT_BLOCK_OUTPUTS[list_name]}, "
             f"{DEFAULT_DISABLED_BLOCK_OUTPUTS[list_name]}, "
-            f"{DEFAULT_COSMETIC_OUTPUTS[list_name]}"
+            f"{DEFAULT_MERGED_OUTPUTS[list_name]}"
         )
 
     write_json(

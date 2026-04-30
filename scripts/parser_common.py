@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import re
+import json
+from pathlib import Path
 
 
 WEBKIT_UNSUPPORTED_REGEX_TOKENS = (
@@ -22,6 +24,7 @@ WEBKIT_UNSUPPORTED_REGEX_TOKENS = (
 
 WEBKIT_UNSUPPORTED_QUANTIFIER_RE = re.compile(r"(?<!\\)(?:\\\\)*\{(?:\d+(?:,\d*)?)\}")
 UNICODE_PROPERTY_ESCAPE_RE = re.compile(r"\\[pP]\{[^}]+\}")
+WEB_BLOCK_FILTER_VERSION = "1.0"
 
 
 def parse_raw_regex_components(rule: str) -> tuple[str, str | None] | None:
@@ -87,3 +90,24 @@ def cosmetic_signature(rule: dict) -> tuple:
         tuple(rule["domains"]),
         rule["isEnabled"],
     )
+
+
+def merged_filter_payload(block_rules: list[dict], cosmetic_rules: list[dict]) -> dict:
+    return {
+        "web-block-filter-version": WEB_BLOCK_FILTER_VERSION,
+        "block-rules": block_rules,
+        "cosmetic-rules": cosmetic_rules,
+    }
+
+
+def write_json(path: Path, payload: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def remove_file_if_exists(path: Path) -> None:
+    if path.exists():
+        path.unlink()

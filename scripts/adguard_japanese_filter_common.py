@@ -29,9 +29,10 @@ DEFAULT_BASE_URL = (
 )
 
 DEFAULT_FETCH_DIR = "sources/adguard-japanese"
-DEFAULT_BLOCK_OUTPUT = "dist/adguard-japanese-block-rules.json"
 DEFAULT_DISABLED_BLOCK_OUTPUT = "dist/adguard-japanese-block-rules-disabled.json"
-DEFAULT_COSMETIC_OUTPUT = "dist/adguard-japanese-cosmetic-rules.json"
+DEFAULT_MERGED_OUTPUT = "dist/adguard-japanese.json"
+LEGACY_BLOCK_OUTPUT = "dist/adguard-japanese-block-rules.json"
+LEGACY_COSMETIC_OUTPUT = "dist/adguard-japanese-cosmetic-rules.json"
 DEFAULT_SUMMARY_OUTPUT = "dist/adguard-japanese-summary.json"
 
 QUARANTINED_SOURCE_RULES = (

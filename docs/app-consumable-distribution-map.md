@@ -1,6 +1,6 @@
 # アプリ取り込み用配布物対応表
 
-更新日: 2026-04-29
+更新日: 2026-05-01
 
 ## 目的
 
@@ -27,12 +27,15 @@
 
 ## アプリが使う JSON
 
-アプリが直接取り込む対象は、現状では次の 2 系統のみである。
+アプリが直接取り込む対象は、現状では次の統合 JSON である。
 
-- `*-block-rules.json`
-- `*-cosmetic-rules.json`
+- `adguard-japanese.json`
+- `easylist.json`
+- `easyprivacy.json`
+- `ublock-ads.json`
+- `ublock-mobile.json`
 
-これらは `PROJECT.md` に記載している `BundledRulePreset.json` / `BundledCosmeticPreset.json` と同じ形式を前提にしている。
+これらは `PROJECT.md` に記載している統合スキーマを前提にしている。トップレベルは `web-block-filter-version` / `block-rules` / `cosmetic-rules` を持つ。
 
 ---
 
@@ -40,16 +43,16 @@
 
 | 取得元 URL | ソース名 | 公開 JSON パス | 備考 |
 |---|---|---|---|
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese-block-rules.json` | ドメイン・URL 系 block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese-block-rules.json` | first-party 系 block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_url.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese-block-rules.json` | 一般 URL block ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_elemhide.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese-cosmetic-rules.json` | 一般 cosmetic ルール入力 |
-| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/specific.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese-block-rules.json`, `/dist/adguard-japanese-cosmetic-rules.json` | block / cosmetic の両方を含む |
-| `https://easylist.to/easylist/easylist.txt` | EasyList | `/dist/easylist-block-rules.json`, `/dist/easylist-cosmetic-rules.json` | 完成済み配布物を直接 parse |
-| `https://easylist.to/easylist/easyprivacy.txt` | EasyPrivacy | `/dist/easyprivacy-block-rules.json`, `/dist/easyprivacy-cosmetic-rules.json` | 完成済み配布物を直接 parse |
-| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Ads | `/dist/ublock-ads-block-rules.json`, `/dist/ublock-ads-cosmetic-rules.json` | `ads` プロファイルの入力 |
-| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile-block-rules.json`, `/dist/ublock-mobile-cosmetic-rules.json` | `env_mobile=true` 展開の親入力 |
-| `https://ublockorigin.github.io/uAssets/filters/filters-mobile.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile-block-rules.json`, `/dist/ublock-mobile-cosmetic-rules.json` | mobile 差分生成に使う補助入力 |
+| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | ドメイン・URL 系 block ルール入力 |
+| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | first-party 系 block ルール入力 |
+| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_url.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | 一般 URL block ルール入力 |
+| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/general_elemhide.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | 一般 cosmetic ルール入力 |
+| `https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/specific.txt` | AdGuard Japanese Filter | `/dist/adguard-japanese.json` | block / cosmetic の両方を含む |
+| `https://easylist.to/easylist/easylist.txt` | EasyList | `/dist/easylist.json` | 完成済み配布物を直接 parse |
+| `https://easylist.to/easylist/easyprivacy.txt` | EasyPrivacy | `/dist/easyprivacy.json` | 完成済み配布物を直接 parse |
+| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Ads | `/dist/ublock-ads.json` | `ads` プロファイルの入力 |
+| `https://ublockorigin.github.io/uAssets/filters/filters.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile.json` | `env_mobile=true` 展開の親入力 |
+| `https://ublockorigin.github.io/uAssets/filters/filters-mobile.txt` | uBlock Origin Mobile effective | `/dist/ublock-mobile.json` | mobile 差分生成に使う補助入力 |
 
 ---
 
@@ -98,7 +101,7 @@ AdGuard Japanese Filter では取得しているが、既定 parse では次の 
 
 ## 運用メモ
 
-アプリ側の配布候補一覧を作る場合は、この文書にある `公開 JSON パス` のうち、block / cosmetic 本体だけを候補に含める。
+アプリ側の配布候補一覧を作る場合は、この文書にある統合 JSON だけを候補に含める。
 
 少なくとも現時点では、次は候補から除外すること。
 

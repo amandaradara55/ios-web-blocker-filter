@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import sys
 import uuid
@@ -11,13 +10,15 @@ from collections import Counter
 from pathlib import Path
 
 from ublock_origin_common import (
-    DEFAULT_ADS_BLOCK_OUTPUT,
-    DEFAULT_ADS_COSMETIC_OUTPUT,
     DEFAULT_ADS_DISABLED_BLOCK_OUTPUT,
+    DEFAULT_ADS_MERGED_OUTPUT,
     DEFAULT_FLAT_DIR,
-    DEFAULT_MOBILE_BLOCK_OUTPUT,
-    DEFAULT_MOBILE_COSMETIC_OUTPUT,
     DEFAULT_MOBILE_DISABLED_BLOCK_OUTPUT,
+    DEFAULT_MOBILE_MERGED_OUTPUT,
+    LEGACY_ADS_BLOCK_OUTPUT,
+    LEGACY_ADS_COSMETIC_OUTPUT,
+    LEGACY_MOBILE_BLOCK_OUTPUT,
+    LEGACY_MOBILE_COSMETIC_OUTPUT,
     DEFAULT_SUMMARY_OUTPUT,
     RULE_NAMESPACE,
     display_path,
@@ -27,8 +28,11 @@ from ublock_origin_common import (
 from parser_common import (
     block_signature,
     cosmetic_signature,
+    merged_filter_payload,
     parse_raw_regex_components,
     regex_parse_error,
+    remove_file_if_exists,
+    write_json,
 )
 
 
@@ -89,24 +93,14 @@ def parse_args() -> argparse.Namespace:
         help="Flattened mobile-effective input filename.",
     )
     parser.add_argument(
-        "--ads-block-output",
-        default=DEFAULT_ADS_BLOCK_OUTPUT,
-        help="Output JSON path for ads block rules.",
-    )
-    parser.add_argument(
         "--ads-disabled-block-output",
         default=DEFAULT_ADS_DISABLED_BLOCK_OUTPUT,
         help="Output JSON path for ads disabled block rules.",
     )
     parser.add_argument(
-        "--ads-cosmetic-output",
-        default=DEFAULT_ADS_COSMETIC_OUTPUT,
-        help="Output JSON path for ads cosmetic rules.",
-    )
-    parser.add_argument(
-        "--mobile-block-output",
-        default=DEFAULT_MOBILE_BLOCK_OUTPUT,
-        help="Output JSON path for mobile-only block rules.",
+        "--ads-merged-output",
+        default=DEFAULT_ADS_MERGED_OUTPUT,
+        help="Output JSON path for merged ads app-consumable rules.",
     )
     parser.add_argument(
         "--mobile-disabled-block-output",
@@ -114,9 +108,9 @@ def parse_args() -> argparse.Namespace:
         help="Output JSON path for mobile-only disabled block rules.",
     )
     parser.add_argument(
-        "--mobile-cosmetic-output",
-        default=DEFAULT_MOBILE_COSMETIC_OUTPUT,
-        help="Output JSON path for mobile-only cosmetic rules.",
+        "--mobile-merged-output",
+        default=DEFAULT_MOBILE_MERGED_OUTPUT,
+        help="Output JSON path for merged mobile app-consumable rules.",
     )
     parser.add_argument(
         "--summary-output",
@@ -532,14 +526,6 @@ def filter_mobile_delta(mobile_rules: list[dict], ads_signatures: set[tuple], si
     return delta
 
 
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-
 def summary_input_dir_label(input_dir: Path, input_dir_arg: str) -> str:
     if Path(input_dir_arg).is_absolute():
         return DEFAULT_FLAT_DIR
@@ -586,20 +572,30 @@ def main() -> int:
         cosmetic_signature,
     )
 
-    ads_block_output = resolve_repo_path(args.ads_block_output)
     ads_disabled_block_output = resolve_repo_path(args.ads_disabled_block_output)
-    ads_cosmetic_output = resolve_repo_path(args.ads_cosmetic_output)
-    mobile_block_output = resolve_repo_path(args.mobile_block_output)
+    ads_merged_output = resolve_repo_path(args.ads_merged_output)
     mobile_disabled_block_output = resolve_repo_path(args.mobile_disabled_block_output)
-    mobile_cosmetic_output = resolve_repo_path(args.mobile_cosmetic_output)
+    mobile_merged_output = resolve_repo_path(args.mobile_merged_output)
     summary_output = resolve_repo_path(args.summary_output)
+    legacy_ads_block_output = resolve_repo_path(LEGACY_ADS_BLOCK_OUTPUT)
+    legacy_ads_cosmetic_output = resolve_repo_path(LEGACY_ADS_COSMETIC_OUTPUT)
+    legacy_mobile_block_output = resolve_repo_path(LEGACY_MOBILE_BLOCK_OUTPUT)
+    legacy_mobile_cosmetic_output = resolve_repo_path(LEGACY_MOBILE_COSMETIC_OUTPUT)
 
-    write_json(ads_block_output, ads_result["blockRules"])
     write_json(ads_disabled_block_output, ads_result["disabledBlockRules"])
-    write_json(ads_cosmetic_output, ads_result["cosmeticRules"])
-    write_json(mobile_block_output, mobile_block_rules)
+    write_json(
+        ads_merged_output,
+        merged_filter_payload(ads_result["blockRules"], ads_result["cosmeticRules"]),
+    )
     write_json(mobile_disabled_block_output, mobile_disabled_rules)
-    write_json(mobile_cosmetic_output, mobile_cosmetic_rules)
+    write_json(
+        mobile_merged_output,
+        merged_filter_payload(mobile_block_rules, mobile_cosmetic_rules),
+    )
+    remove_file_if_exists(legacy_ads_block_output)
+    remove_file_if_exists(legacy_ads_cosmetic_output)
+    remove_file_if_exists(legacy_mobile_block_output)
+    remove_file_if_exists(legacy_mobile_cosmetic_output)
     write_json(
         summary_output,
         {
@@ -617,18 +613,20 @@ def main() -> int:
         },
     )
 
-    print(f"ads block rules: {len(ads_result['blockRules'])} -> {ads_block_output}")
     print(
         f"ads disabled block rules: {len(ads_result['disabledBlockRules'])} -> {ads_disabled_block_output}"
     )
-    print(f"ads cosmetic rules: {len(ads_result['cosmeticRules'])} -> {ads_cosmetic_output}")
-    print(f"mobile block rules: {len(mobile_block_rules)} -> {mobile_block_output}")
+    print(
+        "ads merged rules: "
+        f"block={len(ads_result['blockRules'])} cosmetic={len(ads_result['cosmeticRules'])} -> {ads_merged_output}"
+    )
     print(
         "mobile disabled block rules: "
         f"{len(mobile_disabled_rules)} -> {mobile_disabled_block_output}"
     )
     print(
-        f"mobile cosmetic rules: {len(mobile_cosmetic_rules)} -> {mobile_cosmetic_output}"
+        "mobile merged rules: "
+        f"block={len(mobile_block_rules)} cosmetic={len(mobile_cosmetic_rules)} -> {mobile_merged_output}"
     )
     print(f"summary: {summary_output}")
     return 0

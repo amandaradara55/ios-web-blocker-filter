@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import sys
 import uuid
@@ -11,12 +10,13 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from adguard_japanese_filter_common import (
-    DEFAULT_BLOCK_OUTPUT,
-    DEFAULT_COSMETIC_OUTPUT,
     DEFAULT_DISABLED_BLOCK_OUTPUT,
     DEFAULT_EXCLUDED_PARSE_SECTIONS,
     DEFAULT_FETCH_DIR,
+    DEFAULT_MERGED_OUTPUT,
     DEFAULT_SUMMARY_OUTPUT,
+    LEGACY_BLOCK_OUTPUT,
+    LEGACY_COSMETIC_OUTPUT,
     QUARANTINED_SOURCE_RULES,
     RULE_NAMESPACE,
     display_path,
@@ -27,8 +27,11 @@ from adguard_japanese_filter_common import (
 from parser_common import (
     block_signature,
     cosmetic_signature,
+    merged_filter_payload,
     parse_raw_regex_components,
     regex_parse_error,
+    remove_file_if_exists,
+    write_json,
 )
 
 
@@ -71,19 +74,14 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing fetched section files.",
     )
     parser.add_argument(
-        "--block-output",
-        default=DEFAULT_BLOCK_OUTPUT,
-        help="Output JSON path for block rules.",
-    )
-    parser.add_argument(
-        "--cosmetic-output",
-        default=DEFAULT_COSMETIC_OUTPUT,
-        help="Output JSON path for cosmetic rules.",
-    )
-    parser.add_argument(
         "--disabled-block-output",
         default=DEFAULT_DISABLED_BLOCK_OUTPUT,
         help="Output JSON path for quarantined disabled block rules.",
+    )
+    parser.add_argument(
+        "--merged-output",
+        default=DEFAULT_MERGED_OUTPUT,
+        help="Output JSON path for merged app-consumable rules.",
     )
     parser.add_argument(
         "--summary-output",
@@ -434,14 +432,6 @@ def build_summary_section(rule_count: int) -> dict:
     }
 
 
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-
 def summary_input_dir_label(input_dir: Path, input_dir_arg: str) -> str:
     if Path(input_dir_arg).is_absolute():
         return DEFAULT_FETCH_DIR
@@ -458,10 +448,11 @@ def main() -> int:
         return 2
 
     input_dir = resolve_repo_path(args.input_dir)
-    block_output = resolve_repo_path(args.block_output)
-    cosmetic_output = resolve_repo_path(args.cosmetic_output)
     disabled_block_output = resolve_repo_path(args.disabled_block_output)
+    merged_output = resolve_repo_path(args.merged_output)
     summary_output = resolve_repo_path(args.summary_output)
+    legacy_block_output = resolve_repo_path(LEGACY_BLOCK_OUTPUT)
+    legacy_cosmetic_output = resolve_repo_path(LEGACY_COSMETIC_OUTPUT)
 
     missing = [name for name in sections if not (input_dir / name).exists()]
     if missing:
@@ -538,9 +529,10 @@ def main() -> int:
         summary_sections[section_name]["skipped"] = dict(sorted(counter.items()))
         total_skips.update(counter)
 
-    write_json(block_output, block_rules)
     write_json(disabled_block_output, disabled_block_rules)
-    write_json(cosmetic_output, cosmetic_rules)
+    write_json(merged_output, merged_filter_payload(block_rules, cosmetic_rules))
+    remove_file_if_exists(legacy_block_output)
+    remove_file_if_exists(legacy_cosmetic_output)
     write_json(
         summary_output,
         {
@@ -559,9 +551,8 @@ def main() -> int:
         },
     )
 
-    print(f"block rules: {len(block_rules)} -> {block_output}")
     print(f"disabled block rules: {len(disabled_block_rules)} -> {disabled_block_output}")
-    print(f"cosmetic rules: {len(cosmetic_rules)} -> {cosmetic_output}")
+    print(f"merged rules: block={len(block_rules)} cosmetic={len(cosmetic_rules)} -> {merged_output}")
     print(f"summary: {summary_output}")
     return 0
 

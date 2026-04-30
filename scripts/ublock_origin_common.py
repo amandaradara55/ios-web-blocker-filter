@@ -52,12 +52,14 @@ DEFAULT_FETCH_DIR = "sources/ublock-origin"
 DEFAULT_RAW_DIR = f"{DEFAULT_FETCH_DIR}/raw"
 DEFAULT_FLAT_DIR = f"{DEFAULT_FETCH_DIR}/flat"
 
-DEFAULT_ADS_BLOCK_OUTPUT = "dist/ublock-ads-block-rules.json"
 DEFAULT_ADS_DISABLED_BLOCK_OUTPUT = "dist/ublock-ads-block-rules-disabled.json"
-DEFAULT_ADS_COSMETIC_OUTPUT = "dist/ublock-ads-cosmetic-rules.json"
-DEFAULT_MOBILE_BLOCK_OUTPUT = "dist/ublock-mobile-block-rules.json"
+DEFAULT_ADS_MERGED_OUTPUT = "dist/ublock-ads.json"
 DEFAULT_MOBILE_DISABLED_BLOCK_OUTPUT = "dist/ublock-mobile-block-rules-disabled.json"
-DEFAULT_MOBILE_COSMETIC_OUTPUT = "dist/ublock-mobile-cosmetic-rules.json"
+DEFAULT_MOBILE_MERGED_OUTPUT = "dist/ublock-mobile.json"
+LEGACY_ADS_BLOCK_OUTPUT = "dist/ublock-ads-block-rules.json"
+LEGACY_ADS_COSMETIC_OUTPUT = "dist/ublock-ads-cosmetic-rules.json"
+LEGACY_MOBILE_BLOCK_OUTPUT = "dist/ublock-mobile-block-rules.json"
+LEGACY_MOBILE_COSMETIC_OUTPUT = "dist/ublock-mobile-cosmetic-rules.json"
 DEFAULT_SUMMARY_OUTPUT = "dist/ublock-origin-summary.json"
 
 RULE_NAMESPACE = uuid.uuid5(

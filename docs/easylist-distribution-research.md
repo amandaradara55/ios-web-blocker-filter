@@ -109,12 +109,10 @@ GitHub リポジトリを直接つぎはぎして最終ファイルを再構築�
 
 出力先はリストごとに分ける。
 
-- `dist/easylist-block-rules.json`
 - `dist/easylist-block-rules-disabled.json`
-- `dist/easylist-cosmetic-rules.json`
-- `dist/easyprivacy-block-rules.json`
+- `dist/easylist.json`
 - `dist/easyprivacy-block-rules-disabled.json`
-- `dist/easyprivacy-cosmetic-rules.json`
+- `dist/easyprivacy.json`
 - `dist/easylist-summary.json`
 
 ### JSON 変換ルール

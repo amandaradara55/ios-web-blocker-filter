@@ -240,9 +240,8 @@
   - `sources/adguard-japanese/manifest.json` に取得元 URL・行数・ハッシュを記録する
 - `scripts/parse_adguard_japanese_filter.py`
   - 取得済み `sections/*.txt` を行単位で解析する
-  - `dist/adguard-japanese-block-rules.json`
   - `dist/adguard-japanese-block-rules-disabled.json`
-  - `dist/adguard-japanese-cosmetic-rules.json`
+  - `dist/adguard-japanese.json`
   - `dist/adguard-japanese-summary.json`
   を出力する
 

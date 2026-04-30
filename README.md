@@ -4,6 +4,8 @@ Prebuilt Safari Content Blocker rule presets for the `iOS-web-blocker` app.
 
 This repository fetches public filter lists, converts the supported subset of their rules into the app's JSON formats, and publishes the generated artifacts from the `gh-pages` branch.
 
+The primary app-consumable outputs are merged files such as `dist/easylist.json` and `dist/ublock-ads.json`, each containing both `block-rules` and `cosmetic-rules`.
+
 ## What This Repository Contains
 
 - Conversion scripts for each supported upstream filter source

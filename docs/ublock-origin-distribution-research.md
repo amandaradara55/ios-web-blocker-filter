@@ -164,12 +164,10 @@ flatten 済みテキストを Safari Content Blocker 向け JSON に変換する
 
 最終出力:
 
-- `dist/ublock-ads-block-rules.json`
 - `dist/ublock-ads-block-rules-disabled.json`
-- `dist/ublock-ads-cosmetic-rules.json`
-- `dist/ublock-mobile-block-rules.json`
+- `dist/ublock-ads.json`
 - `dist/ublock-mobile-block-rules-disabled.json`
-- `dist/ublock-mobile-cosmetic-rules.json`
+- `dist/ublock-mobile.json`
 - `dist/ublock-origin-summary.json`
 
 ### mobile の扱い

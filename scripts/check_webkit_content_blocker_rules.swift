@@ -13,12 +13,21 @@ struct BlockRule: Decodable {
     let literalOperator: String?
 }
 
+struct MergedFilterFile: Decodable {
+    let webBlockFilterVersion: String
+    let blockRules: [BlockRule]
+
+    enum CodingKeys: String, CodingKey {
+        case webBlockFilterVersion = "web-block-filter-version"
+        case blockRules = "block-rules"
+    }
+}
+
 struct ProgramOptions {
     var inputPaths: [String] = []
     var outputPath: String?
     var batchSize = 512
     var regexes: [String] = []
-    var includeDisabled = false
     var includeNonRegexRules = false
 }
 
@@ -83,8 +92,6 @@ func parseArgs() -> ProgramOptions {
         case "--regex":
             index += 1
             options.regexes.append(arguments[index])
-        case "--include-disabled":
-            options.includeDisabled = true
         case "--include-non-regex-rules":
             options.includeNonRegexRules = true
         default:
@@ -151,16 +158,15 @@ func makeSyntheticRegexCandidates(_ regexes: [String]) -> [ValidationCandidate] 
 
 func loadCandidates(
     from inputPath: String,
-    includeDisabled: Bool,
     includeNonRegexRules: Bool
 ) throws -> [ValidationCandidate] {
     let inputURL = URL(fileURLWithPath: inputPath)
     let data = try Data(contentsOf: inputURL)
     let decoder = JSONDecoder()
-    let rules = try decoder.decode([BlockRule].self, from: data)
+    let merged = try decoder.decode(MergedFilterFile.self, from: data)
 
-    return rules.compactMap { rule in
-        if !includeDisabled && !rule.isEnabled {
+    return merged.blockRules.compactMap { rule in
+        if !rule.isEnabled {
             return nil
         }
         if !includeNonRegexRules && rule.matchKind != "regex" {
@@ -322,7 +328,6 @@ for inputPath in options.inputPaths {
     candidates.append(
         contentsOf: try loadCandidates(
             from: inputPath,
-            includeDisabled: options.includeDisabled,
             includeNonRegexRules: options.includeNonRegexRules
         )
     )

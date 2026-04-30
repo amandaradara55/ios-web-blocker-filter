@@ -14,19 +14,24 @@ LIST_FILES = {
 DEFAULT_BASE_URL = "https://easylist.to/easylist/"
 DEFAULT_FETCH_DIR = "sources/easylist"
 
-DEFAULT_BLOCK_OUTPUTS = {
-    "easylist": "dist/easylist-block-rules.json",
-    "easyprivacy": "dist/easyprivacy-block-rules.json",
-}
-
 DEFAULT_DISABLED_BLOCK_OUTPUTS = {
     "easylist": "dist/easylist-block-rules-disabled.json",
     "easyprivacy": "dist/easyprivacy-block-rules-disabled.json",
 }
 
-DEFAULT_COSMETIC_OUTPUTS = {
+LEGACY_BLOCK_OUTPUTS = {
+    "easylist": "dist/easylist-block-rules.json",
+    "easyprivacy": "dist/easyprivacy-block-rules.json",
+}
+
+LEGACY_COSMETIC_OUTPUTS = {
     "easylist": "dist/easylist-cosmetic-rules.json",
     "easyprivacy": "dist/easyprivacy-cosmetic-rules.json",
+}
+
+DEFAULT_MERGED_OUTPUTS = {
+    "easylist": "dist/easylist.json",
+    "easyprivacy": "dist/easyprivacy.json",
 }
 
 DEFAULT_SUMMARY_OUTPUT = "dist/easylist-summary.json"
