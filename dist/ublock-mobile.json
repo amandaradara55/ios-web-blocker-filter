@@ -1,0 +1,792 @@
+{
+  "web-block-filter-version": "1.0",
+  "block-rules": [],
+  "cosmetic-rules": [
+    {
+      "id": "7e310785-06b4-5d25-8c45-649a6ade43d5",
+      "name": ".top_slot",
+      "selector": ".top_slot",
+      "domains": [
+        "quora.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "60eda454-0027-591e-877a-2f6128182af3",
+      "name": "#metamodal-dfp-preroll",
+      "selector": "#metamodal-dfp-preroll",
+      "domains": [
+        "viz.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e6d73cb7-c4a2-53cc-bbc1-da0a344da8ad",
+      "name": "#overlay",
+      "selector": "#overlay",
+      "domains": [
+        "viz.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2056fb02-07e4-568a-8500-5989d40657ba",
+      "name": ".cards__item--adv.cards__item--big.cards__item.item",
+      "selector": ".cards__item--adv.cards__item--big.cards__item.item",
+      "domains": [
+        "hdtube.porn"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "67fbb1d0-ed8b-501f-8899-310fba877649",
+      "name": ".page__main > .container",
+      "selector": ".page__main > .container",
+      "domains": [
+        "hdtube.porn"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f4aa8e42-b56a-5589-bd65-80a0e93aa384",
+      "name": "div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx",
+      "selector": "div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx",
+      "domains": [
+        "washingtonpost.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4bbe5b70-68bc-593b-b418-0e5dbc0b0deb",
+      "name": "#mobile-footer-ad-wrapper",
+      "selector": "#mobile-footer-ad-wrapper",
+      "domains": [
+        "washingtonpost.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dd8a5a72-60e7-5c88-8409-e1e9b753d28a",
+      "name": ".ad-container",
+      "selector": ".ad-container",
+      "domains": [
+        "news18.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e03c7b5c-c80c-51f0-9828-3428ebc7f4b6",
+      "name": "[class^=\"adv_placeholder_\"]",
+      "selector": "[class^=\"adv_placeholder_\"]",
+      "domains": [
+        "news18.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1e2bc377-e38f-5c46-a24c-8b7543d14b01",
+      "name": ".ad-slot-wrapper",
+      "selector": ".ad-slot-wrapper",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "46b4f4b9-da8b-5c05-8b21-1eb68c13e8ec",
+      "name": ".XPromoBlockingModal",
+      "selector": ".XPromoBlockingModal",
+      "domains": [
+        "reddit.com",
+        "reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c7b74e4e-bae1-56cd-bae8-1ef0c0bbad6c",
+      "name": "xpromo-new-nsfw-blocking-modal",
+      "selector": "xpromo-new-nsfw-blocking-modal",
+      "domains": [
+        "reddit.com",
+        "reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "07c4c559-17ce-51c0-82f5-e8687bcbf167",
+      "name": "msft-article-card:not(.contentCard)",
+      "selector": "msft-article-card:not(.contentCard)",
+      "domains": [
+        "msn.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "27e4992b-da6c-541a-b99f-bcb883f97d44",
+      "name": ".htvad[style^=\"width: 300px; display: block\"]",
+      "selector": ".htvad[style^=\"width: 300px; display: block\"]",
+      "domains": [
+        "hanime.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "54e3d911-248a-51d7-be9c-a9044b98d6fa",
+      "name": ".htvnad1",
+      "selector": ".htvnad1",
+      "domains": [
+        "hanime.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e050d556-5403-56ff-8bcd-0e79e190c964",
+      "name": ".htvnad",
+      "selector": ".htvnad",
+      "domains": [
+        "hanime.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8d6af73c-c649-515d-ab3d-6957e6e79f63",
+      "name": "#ad-header-mobile",
+      "selector": "#ad-header-mobile",
+      "domains": [
+        "xnxx.com",
+        "xvideos.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ac7419fd-c39f-550e-a14e-35de703c1769",
+      "name": ".ad-overlay",
+      "selector": ".ad-overlay",
+      "domains": [
+        "jprime.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "adaab3ee-f30f-56f6-8698-7d4b89369d35",
+      "name": ".adplaceholder-top",
+      "selector": ".adplaceholder-top",
+      "domains": [
+        "apkdone.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "db49ccf6-47ac-578b-8737-2019849ea834",
+      "name": "#ad-overlay",
+      "selector": "#ad-overlay",
+      "domains": [
+        "cyclehack.jp",
+        "gogo-miyagi.com",
+        "izuhack.akao-hotel.co.jp",
+        "nap-camp.com",
+        "runhack.jp",
+        "tsurihack.com",
+        "yamahack.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "85909f16-5af0-58f3-bd9f-1bbffe7a236d",
+      "name": ".mrf-adv__wrapper",
+      "selector": ".mrf-adv__wrapper",
+      "domains": [
+        "m.washingtontimes.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ae2463e7-3140-56fe-b1d0-84073af2a1a4",
+      "name": ".amp-ad-wrapper",
+      "selector": ".amp-ad-wrapper",
+      "domains": [
+        "fortune.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8de7339a-790d-5fd0-b2db-b0fd6613d9d6",
+      "name": ".amp-ad-wrapper-dianomi",
+      "selector": ".amp-ad-wrapper-dianomi",
+      "domains": [
+        "fortune.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "26918c12-92d8-5cbc-a080-fea8778e3367",
+      "name": ".lst_ads",
+      "selector": ".lst_ads",
+      "domains": [
+        "wallpaperbetter.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "436aa1ae-3b7d-5370-a527-514c48763ce3",
+      "name": ".admz",
+      "selector": ".admz",
+      "domains": [
+        "variety.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5960301f-b4dc-5c89-9e88-e741e71fbbcf",
+      "name": ".adSection",
+      "selector": ".adSection",
+      "domains": [
+        "bakusai.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b6e85bc6-4590-51d9-9ff2-f49691ad5253",
+      "name": "#ad_topScroller",
+      "selector": "#ad_topScroller",
+      "domains": [
+        "gamereactor.asia",
+        "gamereactor.cn",
+        "gamereactor.cz",
+        "gamereactor.de",
+        "gamereactor.dk",
+        "gamereactor.es",
+        "gamereactor.eu",
+        "gamereactor.fi",
+        "gamereactor.fr",
+        "gamereactor.it",
+        "gamereactor.jp",
+        "gamereactor.kr",
+        "gamereactor.nl",
+        "gamereactor.no",
+        "gamereactor.pl",
+        "gamereactor.pt",
+        "gamereactor.se"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "21fb5516-2306-5b1d-a757-dba0723ac897",
+      "name": ".adBlock",
+      "selector": ".adBlock",
+      "domains": [
+        "xxxporns.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "57454921-d661-5af7-b2a0-9729caeb5e83",
+      "name": "div[class^=\"native-ad-\"]",
+      "selector": "div[class^=\"native-ad-\"]",
+      "domains": [
+        "lookmovie2.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1ae1b482-bcda-56c5-9823-b769002e79bb",
+      "name": "[href*=\"app.goo.gl\"]",
+      "selector": "[href*=\"app.goo.gl\"]",
+      "domains": [
+        "m.timesofindia.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3e2ce3ef-89d0-5a15-ad6e-9829390e4a10",
+      "name": ".ad-current",
+      "selector": ".ad-current",
+      "domains": [
+        "xda-developers.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "efd3962c-25a7-54a6-9688-d4a41befd3b0",
+      "name": "#xdadevelopers_leaderboard_atf",
+      "selector": "#xdadevelopers_leaderboard_atf",
+      "domains": [
+        "forum.xda-developers.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d8a3f85c-cfe2-551f-bf5d-5bc1f591be8d",
+      "name": ".advertSlot",
+      "selector": ".advertSlot",
+      "domains": [
+        "xe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "cbc28869-e91e-515c-b153-9494e01b0786",
+      "name": "[class^=\"ad_ad-sticky_\"]",
+      "selector": "[class^=\"ad_ad-sticky_\"]",
+      "domains": [
+        "investing.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b906e06d-d64f-58c0-9147-a581ff0e4d38",
+      "name": ".c-adDisplay_container",
+      "selector": ".c-adDisplay_container",
+      "domains": [
+        "zdnet.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6fcaa62c-acab-5fc9-8494-aa967eb8c91a",
+      "name": ".c-adSkyBox",
+      "selector": ".c-adSkyBox",
+      "domains": [
+        "zdnet.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "abf927e4-ed00-5f86-9094-52cd489b2d51",
+      "name": "#acm-wrapper",
+      "selector": "#acm-wrapper",
+      "domains": [
+        "nytimes.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "21c6456c-d99b-57f8-ae51-423cd9580e40",
+      "name": ".mobile-sticky-ad",
+      "selector": ".mobile-sticky-ad",
+      "domains": [
+        "liquipedia.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4d19b65a-2311-5f38-91ff-dc90930edcea",
+      "name": ".SovrnAd",
+      "selector": ".SovrnAd",
+      "domains": [
+        "apnews.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5e66d1b8-2dc0-5f2a-844b-b34e19029774",
+      "name": ".ad-footer",
+      "selector": ".ad-footer",
+      "domains": [
+        "zaim.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bb579770-f563-516e-ad66-453b3a22bf01",
+      "name": "#splashy-ad-container-top",
+      "selector": "#splashy-ad-container-top",
+      "domains": [
+        "avclub.com",
+        "clickhole.com",
+        "deadspin.com",
+        "gizmodo.com",
+        "jalopnik.com",
+        "jezebel.com",
+        "kotaku.com",
+        "lifehacker.com",
+        "qz.com",
+        "splinternews.com",
+        "theinventory.com",
+        "theonion.com",
+        "theroot.com",
+        "thetakeout.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5bae3d54-aca6-5719-b9aa-8e541b0d4f9f",
+      "name": ".advertisement-holder",
+      "selector": ".advertisement-holder",
+      "domains": [
+        "huffpost.com",
+        "huffingtonpost.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "14626733-526f-510d-a58f-782f64cdc00f",
+      "name": "#pause-ads",
+      "selector": "#pause-ads",
+      "domains": [
+        "4wank.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c8e1922a-7911-5ba8-bf1d-5e2b4a9643c1",
+      "name": "[href^=\"https://rapidgator.net/article/premium/ref/\"]",
+      "selector": "[href^=\"https://rapidgator.net/article/premium/ref/\"]",
+      "domains": [
+        "javpop.link"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f784e7d0-dac3-54d8-888f-36149da3b451",
+      "name": ".video-page__adv",
+      "selector": ".video-page__adv",
+      "domains": [
+        "senzuri.tube"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "006abc6f-0817-58ec-8862-9dc52ada8dca",
+      "name": ".ad-adsense.js-ad-slot",
+      "selector": ".ad-adsense.js-ad-slot",
+      "domains": [
+        "m.apkpure.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d5d68038-b526-5ee8-a972-c196a446e317",
+      "name": ".fxs_stickyAd-mobile",
+      "selector": ".fxs_stickyAd-mobile",
+      "domains": [
+        "fxstreet.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d2083965-77dd-58e4-b48a-eb6d152cc3bb",
+      "name": ".ad-box-auto",
+      "selector": ".ad-box-auto",
+      "domains": [
+        "apkpure.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c05dacc5-9c83-53cb-ad2f-c0d686967603",
+      "name": ".publi",
+      "selector": ".publi",
+      "domains": [
+        "correiobraziliense.com.br"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3c5c7c9d-789d-5a41-8708-60c5574facb8",
+      "name": ".box-advertising",
+      "selector": ".box-advertising",
+      "domains": [
+        "poder360.com.br"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "502717e0-f804-590c-a34a-8476e71ee5f9",
+      "name": ".wrap > #btmBox",
+      "selector": ".wrap > #btmBox",
+      "domains": [
+        "4hu.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "93c37002-ddd9-5f69-ba02-924d2c8b7a72",
+      "name": ".ad-wrap",
+      "selector": ".ad-wrap",
+      "domains": [
+        "wunderground.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7e690b28-b3d8-524b-b85b-59fc3f95692d",
+      "name": "#pop.div_pop",
+      "selector": "#pop.div_pop",
+      "domains": [
+        "mmtv01.xyz",
+        "spankbang.mov"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6699140c-e801-5f74-83e4-3ad3dc9fd4e9",
+      "name": ".lzd-call-app-download-popup",
+      "selector": ".lzd-call-app-download-popup",
+      "domains": [
+        "pages.lazada.co.id"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d01e5aeb-ff08-585a-bd12-f28f2f4e304f",
+      "name": "#modal-overlay",
+      "selector": "#modal-overlay",
+      "domains": [
+        "speedtest.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "705f038d-9d89-5e71-9925-f78667c30f68",
+      "name": "div[data-view-name=\"mobile\"] div.mobile-pretest",
+      "selector": "div[data-view-name=\"mobile\"] div.mobile-pretest",
+      "domains": [
+        "speedtest.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2635e9b8-afdb-59aa-bc98-45f475b4ea49",
+      "name": "#mobile-adhesion",
+      "selector": "#mobile-adhesion",
+      "domains": [
+        "mercurynews.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "17f92582-f4b8-56fa-95fa-2a6b8c3d2e32",
+      "name": ".native-ad-item",
+      "selector": ".native-ad-item",
+      "domains": [
+        "yahoo.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b0762045-702e-53d2-b552-ece0d7d648bf",
+      "name": "#ad-wrap",
+      "selector": "#ad-wrap",
+      "domains": [
+        "timeanddate.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2461b231-2620-5ddc-adce-17b743744bb3",
+      "name": "[class*=\"adSlot\"]",
+      "selector": "[class*=\"adSlot\"]",
+      "domains": [
+        "wetter.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8306a0e0-dac1-5266-8b84-a475e73a6d0b",
+      "name": "[style=\"display: block !important; bottom: 0px; top: unset !important;\"]",
+      "selector": "[style=\"display: block !important; bottom: 0px; top: unset !important;\"]",
+      "domains": [
+        "wetter.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7c27663f-e448-5f00-9f5f-557d71b980ec",
+      "name": ".vm-placement",
+      "selector": ".vm-placement",
+      "domains": [
+        "wh40k.lexicanum.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1d73483f-ece6-561c-a21a-e1f4d805c082",
+      "name": "#closeable_widget",
+      "selector": "#closeable_widget",
+      "domains": [
+        "redd.tube"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1997f5e1-52d4-5b44-9ae2-de0c5903857a",
+      "name": ".mobileMasthead",
+      "selector": ".mobileMasthead",
+      "domains": [
+        "hurriyet.com.tr"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "365ee47d-3ea0-58d1-b1df-846b9afc131c",
+      "name": ".intensive-add",
+      "selector": ".intensive-add",
+      "domains": [
+        "superporn.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "44296415-446b-5817-a8ad-ae5cba4407fa",
+      "name": ".termresults-ad-tr",
+      "selector": ".termresults-ad-tr",
+      "domains": [
+        "tureng.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "35a4ccd7-caec-5cb1-b837-ea9cc967e930",
+      "name": "html[lang=\"tr\"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-mobile-wrapper",
+      "selector": "html[lang=\"tr\"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-mobile-wrapper",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "aea058dc-bf28-5211-9d23-03b15cb40071",
+      "name": "main.mb-general > div[style=\"width:100%;height:50px;\"]",
+      "selector": "main.mb-general > div[style=\"width:100%;height:50px;\"]",
+      "domains": [
+        "temp-mail.io"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    }
+  ]
+}

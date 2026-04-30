@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-04-29T16:27:12+00:00",
+  "generatedAt": "2026-04-30T16:00:39+00:00",
   "inputDir": "sources/ublock-origin/flat",
   "profiles": {
     "ads": {
-      "inputRules": 22259,
-      "acceptedBlockRules": 795,
-      "acceptedCosmeticRules": 4234,
+      "inputRules": 22271,
+      "acceptedBlockRules": 796,
+      "acceptedCosmeticRules": 4235,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9030,
+        "advanced_rule": 9038,
         "allowlist": 2055,
         "negated_domain": 14,
         "unsupported_cosmetic_selector": 1634,
         "unsupported_domain_scope": 1028,
-        "unsupported_modifier": 3330,
+        "unsupported_modifier": 3332,
         "unsupported_url_pattern": 137,
         "unsupported_webkit_regex_brace_quantifier": 1
       }
     },
     "mobileEffective": {
-      "inputRules": 22399,
-      "acceptedBlockRules": 794,
-      "acceptedCosmeticRules": 4299,
+      "inputRules": 22411,
+      "acceptedBlockRules": 795,
+      "acceptedCosmeticRules": 4300,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9051,
+        "advanced_rule": 9059,
         "allowlist": 2063,
         "negated_domain": 14,
         "unsupported_cosmetic_selector": 1657,
         "unsupported_domain_scope": 1045,
-        "unsupported_modifier": 3337,
+        "unsupported_modifier": 3339,
         "unsupported_url_pattern": 137,
         "unsupported_webkit_regex_brace_quantifier": 1
       }

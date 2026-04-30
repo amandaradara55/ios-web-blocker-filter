@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-29T16:27:11+00:00",
+  "generatedAt": "2026-04-30T16:00:33+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 88704,
-      "acceptedBlockRules": 58062,
+      "inputRules": 88865,
+      "acceptedBlockRules": 58214,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 22671,
+      "acceptedCosmeticRules": 22677,
       "duplicateRules": 2,
       "skipped": {
         "advanced_rule": 257,
-        "allowlist": 1070,
-        "unsupported_cosmetic_selector": 470,
-        "unsupported_domain_scope": 267,
+        "allowlist": 1071,
+        "unsupported_cosmetic_selector": 471,
+        "unsupported_domain_scope": 268,
         "unsupported_modifier": 5694,
         "unsupported_url_pattern": 202,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 55396,
-      "acceptedBlockRules": 53244,
+      "inputRules": 55398,
+      "acceptedBlockRules": 53248,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 2,
@@ -27,22 +27,22 @@
         "advanced_rule": 26,
         "allowlist": 815,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 922,
+        "unsupported_modifier": 920,
         "unsupported_url_pattern": 380
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 111306,
+    "acceptedBlockRules": 111462,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 22673,
+    "acceptedCosmeticRules": 22679,
     "duplicateRules": 4,
     "skipped": {
       "advanced_rule": 283,
-      "allowlist": 1885,
-      "unsupported_cosmetic_selector": 475,
-      "unsupported_domain_scope": 267,
-      "unsupported_modifier": 6616,
+      "allowlist": 1886,
+      "unsupported_cosmetic_selector": 476,
+      "unsupported_domain_scope": 268,
+      "unsupported_modifier": 6614,
       "unsupported_url_pattern": 582,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
