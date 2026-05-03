@@ -14865,10 +14865,11 @@
       "note": ""
     },
     {
-      "id": "ddb7a0fe-8e6b-596a-9f21-216f8ca0a003",
+      "id": "ebf4758f-7625-50f4-bb5a-b5fc9a025f4e",
       "name": ".banner",
       "selector": ".banner",
       "domains": [
+        "nicola.jp",
         "city.saku.nagano.jp",
         "pachinkovillage.com",
         "movie.golfdigest.co.jp",
@@ -15426,22 +15427,11 @@
       "note": ""
     },
     {
-      "id": "1b42d309-b95b-568c-b99f-889c6940333e",
-      "name": "#buyee",
-      "selector": "#buyee",
+      "id": "a6109903-513b-58d1-9da5-3a7778040e58",
+      "name": "section[id^=\"banner-\"]",
+      "selector": "section[id^=\"banner-\"]",
       "domains": [
-        "auctions.yahoo.co.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7e9e8a22-31d8-5123-9a19-f1d96ad9c43b",
-      "name": "#lineAccountBanner",
-      "selector": "#lineAccountBanner",
-      "domains": [
-        "auctions.yahoo.co.jp"
+        "nicola.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -61219,6 +61209,28 @@
       "selector": "div[class^=\"responsive\"][class$=\"inc\"]",
       "domains": [
         "lyrical-nonsense.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "475563ed-58b5-5af5-95d1-d551cddd6eb5",
+      "name": ".p-adNetwork",
+      "selector": ".p-adNetwork",
+      "domains": [
+        "kakaku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "befdc113-8e04-5936-9462-13052b6ec866",
+      "name": ".p-adMurauchi",
+      "selector": ".p-adMurauchi",
+      "domains": [
+        "kakaku.com"
       ],
       "isEnabled": true,
       "rank": 0,

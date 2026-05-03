@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T16:00:29+00:00",
+  "generatedAt": "2026-05-03T20:05:33+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
@@ -61,20 +61,20 @@
       }
     },
     "general_url.txt": {
-      "inputRules": 374,
+      "inputRules": 376,
       "acceptedBlockRules": 45,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "unsupported_modifier": 327
+        "unsupported_modifier": 329
       }
     },
     "specific.txt": {
-      "inputRules": 10149,
+      "inputRules": 10150,
       "acceptedBlockRules": 756,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 6988,
+      "acceptedCosmeticRules": 6989,
       "duplicateRules": 0,
       "skipped": {
         "advanced_rule": 1006,
@@ -89,7 +89,7 @@
   "totals": {
     "blockRules": 1156,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7135,
+    "cosmeticRules": 7136,
     "duplicateRules": 0,
     "skipped": {
       "advanced_rule": 1006,
@@ -97,7 +97,7 @@
       "excluded_section": 1007,
       "unsupported_cosmetic_selector": 876,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 753,
+      "unsupported_modifier": 755,
       "unsupported_url_pattern": 93
     }
   }

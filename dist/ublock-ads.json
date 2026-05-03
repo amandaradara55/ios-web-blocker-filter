@@ -1399,6 +1399,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "888e6dc0-1325-5f19-a2ac-499079accae3",
+      "name": "comradegoodsfloor.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "comradegoodsfloor.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8e0cda85-3775-512a-8cb3-482004ec83dc",
       "name": "degreeeruptionpredator.com",
       "scope": "fqdn",
@@ -2792,6 +2804,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "53dfc8e8-a8f3-53c1-a3f3-743a68b6fbe1",
+      "name": "kuyhaa.me/pmbut.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kuyhaa\\.me(?::[0-9]+)?/pmbut\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "b168c702-7f2d-5c90-8ffc-d4b737e263a4",
@@ -9049,18 +9072,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "systemsecurenow.icu",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "888e6dc0-1325-5f19-a2ac-499079accae3",
-      "name": "comradegoodsfloor.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "comradegoodsfloor.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -26500,6 +26511,17 @@
       "note": ""
     },
     {
+      "id": "fdc434f7-9175-5033-9f6d-e0a6db59e4be",
+      "name": "#protected-content",
+      "selector": "#protected-content",
+      "domains": [
+        "kuyhaa.me"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "59d9f048-4663-53b6-adf9-c865b6c44ebb",
       "name": ".adsbygoogle",
       "selector": ".adsbygoogle",
@@ -40831,17 +40853,6 @@
       "note": ""
     },
     {
-      "id": "21d036b4-eb52-5b43-abc9-657fbcdf87fe",
-      "name": ".adsmanager-ad-container",
-      "selector": ".adsmanager-ad-container",
-      "domains": [
-        "maxroll.gg"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "c1aca281-addb-5936-9ce1-c71224210cf9",
       "name": ".ads",
       "selector": ".ads",
@@ -48455,6 +48466,17 @@
       "note": ""
     },
     {
+      "id": "a71f2404-19e1-5f46-b266-9a160261771a",
+      "name": ".font-semibold~*, p, h2, h3, li, ul, .sub-title",
+      "selector": ".font-semibold~*, p, h2, h3, li, ul, .sub-title",
+      "domains": [
+        "unblockedgames.world"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "28d0f8cb-7420-528c-9aab-692e1170ae08",
       "name": "#rock-widget-host",
       "selector": "#rock-widget-host",
@@ -52370,6 +52392,17 @@
       "note": ""
     },
     {
+      "id": "5d2c012b-ed3d-52fb-a116-801d6d60615e",
+      "name": "[src*=\".gif\"]",
+      "selector": "[src*=\".gif\"]",
+      "domains": [
+        "idlixku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "ad623a90-1a15-5603-9e97-4891a2c9e97e",
       "name": ".c-adv",
       "selector": ".c-adv",
@@ -53504,6 +53537,17 @@
       "note": ""
     },
     {
+      "id": "b1be9e81-9782-55cf-bc11-460f12f92057",
+      "name": "#action-btn",
+      "selector": "#action-btn",
+      "domains": [
+        "premium-unlock.rajababucox.workers.dev"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9deae251-15bc-5794-b2aa-69f677cac5b0",
       "name": "div#prerollad",
       "selector": "div#prerollad",
@@ -53954,6 +53998,17 @@
       "note": ""
     },
     {
+      "id": "6979b1fb-6c26-537d-b03d-5d3215c4750e",
+      "name": "#popup-overlay",
+      "selector": "#popup-overlay",
+      "domains": [
+        "myapiplay.top"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "6386aac5-8252-5c2e-b934-46335b6bb28e",
       "name": ".adblock_title",
       "selector": ".adblock_title",
@@ -53970,6 +54025,17 @@
       "selector": "body > .adblock_subtitle > p",
       "domains": [
         "fitnesstipz.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "21d036b4-eb52-5b43-abc9-657fbcdf87fe",
+      "name": ".adsmanager-ad-container",
+      "selector": ".adsmanager-ad-container",
+      "domains": [
+        "maxroll.gg"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54363,6 +54429,17 @@
       "selector": ".block.cursor-pointer",
       "domains": [
         "animelok.xyz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0f46aaf5-99b5-513c-a266-eb5914234cbd",
+      "name": ".a-prerollvideo-container",
+      "selector": ".a-prerollvideo-container",
+      "domains": [
+        "abcya.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54910,17 +54987,6 @@
       "selector": ".banner",
       "domains": [
         "encurtandourl.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "dadaca4e-bbf1-5923-835f-37483108deae",
-      "name": "#divactioncheck > .mb-3",
-      "selector": "#divactioncheck > .mb-3",
-      "domains": [
-        "reidoplacar.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56089,6 +56155,17 @@
       "note": ""
     },
     {
+      "id": "3a2e8feb-1b93-5c0a-a57e-0d460bb62d3b",
+      "name": ".text-left",
+      "selector": ".text-left",
+      "domains": [
+        "go.zovo.ink"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "03f17ab6-6d41-5e30-9248-301a78d0b00b",
       "name": "[href*=\"javascript:void\"] > button",
       "selector": "[href*=\"javascript:void\"] > button",
@@ -56496,6 +56573,17 @@
       "selector": "a[href*=\"?key=\"][target=\"_blank\"]",
       "domains": [
         "paste4free.site"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "46f4a3e1-7f12-54bf-83fa-12bbba989748",
+      "name": ".flex-center > [href*=\"rapidshare\"]",
+      "selector": ".flex-center > [href*=\"rapidshare\"]",
+      "domains": [
+        "playpaste.net"
       ],
       "isEnabled": true,
       "rank": 0,

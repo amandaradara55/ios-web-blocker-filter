@@ -75558,6 +75558,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "fb8cf8cf-aa28-59f5-818e-bb4eb871917e",
+      "name": "bikeexerciser.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "bikeexerciser.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "2cd45d7a-c1db-5083-b90b-d7f4df4b5865",
       "name": "bikepaws.com",
       "scope": "fqdn",
@@ -75671,6 +75683,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "binspiredtees.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c16cb193-277c-54d6-8a41-fb96b108cc8a",
+      "name": "biologylog.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "biologylog.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76410,6 +76434,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "61373597-31db-5908-8608-9e60ab5d10f7",
+      "name": "browserguides.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "browserguides.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "1e30a5b9-3386-5db3-baf2-8d9a893922fa",
       "name": "bruisebaseball.com",
       "scope": "fqdn",
@@ -76811,6 +76847,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "camelsfestival.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d4096b51-6769-5144-bc1b-5fa57c5ffe34",
+      "name": "camelspark.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "camelspark.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -152621,6 +152669,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ea08683e-05be-5912-80e5-c2e41bb81b26",
+      "name": "un.kumparan.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "un.kumparan.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d3e45bf0-14d4-5348-a9a7-e6d3a01c3e50",
       "name": "alice.it/cnt/",
       "scope": "url",
@@ -166565,6 +166625,17 @@
       "note": ""
     },
     {
+      "id": "e8ae79d8-db5d-5487-b298-6b5c1d36b745",
+      "name": "ezoicanalytics.com/analytics.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ezoicanalytics\\.com(?::[0-9]+)?/analytics\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "20c505d7-71f4-5cbd-a905-ac05ed296991",
       "name": "f.pie.org",
       "scope": "fqdn",
@@ -172575,6 +172646,18 @@
       "note": ""
     },
     {
+      "id": "c4b15253-5acf-575c-b3c0-03502a9526e1",
+      "name": "nvrmd.novaramedia.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "nvrmd.novaramedia.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "bfd85a3a-fe1c-50a9-b2f2-a4985e39c133",
       "name": "nytimes.com/v1/purr-cache",
       "scope": "url",
@@ -176591,6 +176674,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "f58f099a-2077-58cb-8232-3b549033ea82",
+      "name": "sst.fdiintelligence.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sst.fdiintelligence.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "2109bcda-dfa7-5e87-a1fe-4f8eac501d52",
@@ -627293,6 +627388,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "ce4e9f58-7a71-59dd-a471-cef0b39ad51b",
+      "name": "tracker-beam.tempo.co",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tracker-beam.tempo.co",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "5c4c75ed-515d-5d50-9ae3-f9fd61cb8e97",
