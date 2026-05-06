@@ -66,11 +66,5 @@ Their work makes this project possible.
 
 ## Notes for Repository Maintenance
 
-- `main` stores scripts, docs, and repository metadata.
 - `gh-pages` stores the published JSON artifacts for app delivery.
-- `dist/` on `main` is only a local build target placeholder.
-- `sources/` is kept in git only as a placeholder directory skeleton.
-- Upstream raw files are treated as fetch-time intermediates, not as long-term tracked repository payload.
-- If intermediate fetch outputs are regenerated locally, they should stay untracked and disposable.
-
 Published filter JSON files are under `dist/`.
