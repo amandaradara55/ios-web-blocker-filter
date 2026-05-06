@@ -1,4 +1,4 @@
-# ios-web-blocker-filter
+# ADBlcockAndHide support and ios-web-blocker-filter repo
 
 Prebuilt Safari Content Blocker rule presets for the `iOS-web-blocker` app.
 
