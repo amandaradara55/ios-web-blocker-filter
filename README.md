@@ -1,6 +1,6 @@
-# ADBlcockAndHide support and ios-web-blocker-filter repo
+# ADBlcockAndHide support and filter repo
 
-Prebuilt Safari Content Blocker rule presets for the `iOS-web-blocker` app.
+Prebuilt Safari Content Blocker rule presets for the `ADBlcockAndHide` app.
 
 This repository fetches public filter lists, converts the supported subset of their rules into the app's JSON formats, and publishes the generated artifacts from the `gh-pages` branch.
 
