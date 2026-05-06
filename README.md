@@ -6,15 +6,6 @@ This repository fetches public filter lists, converts the supported subset of th
 
 The primary app-consumable outputs are merged files such as `dist/easylist.json` and `dist/ublock-ads.json`, each containing both `block-rules` and `cosmetic-rules`.
 
-## What This Repository Contains
-
-- Conversion scripts for each supported upstream filter source
-- Conversion and publish scripts for the generated JSON artifacts
-- Generated `dist/*.json` files as a local build target on `main`
-- Research notes documenting why each upstream distribution URL was selected
-
-The app-consumable outputs are documented in `docs/app-consumable-distribution-map.md`.
-
 ## Upstream Sources
 
 This project currently consumes data from the following official upstream distributions:
