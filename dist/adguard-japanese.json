@@ -4405,6 +4405,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "9e6e6756-f2e0-54ce-a7df-86a249a142be",
+      "name": "/archives/text-scroll-gate.min.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/archives/text-scroll-gate.min.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "0d0f827f-0224-5e84-b3dd-8f55708a4548",
       "name": "/azlink/tinywidget.min.js",
       "scope": "url",
@@ -12818,11 +12830,11 @@
       "note": ""
     },
     {
-      "id": "611e1d24-d369-56aa-9d44-19de2f6851f1",
-      "name": "livedoor.blogimg.jp/advantagehigai/imgs/3/9/39ffd321-s.jpg",
+      "id": "dfb64262-7277-5b84-bef5-85bf5899a8ac",
+      "name": "blogimg.jp/advantagehigai/imgs/3/9/39ffd321-s.jpg",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?livedoor\\.blogimg\\.jp(?::[0-9]+)?/advantagehigai/imgs/3/9/39ffd321\\-s\\.jpg",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?blogimg\\.jp(?::[0-9]+)?/advantagehigai/imgs/3/9/39ffd321\\-s\\.jpg",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -15421,6 +15433,50 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b23bd056-4128-5e34-b59e-549598f70171",
+      "name": ".StickyHeroAdWrapper-kurarC",
+      "selector": ".StickyHeroAdWrapper-kurarC",
+      "domains": [
+        "gqjapan.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "851a6ded-9a2d-516e-ae01-8b5ccf98a463",
+      "name": "a[data-event^=\"cospa_article_low_bnr_\"]",
+      "selector": "a[data-event^=\"cospa_article_low_bnr_\"]",
+      "domains": [
+        "limo.media"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "48445299-1bf8-5ce8-8e43-d11979d73812",
+      "name": ".cn_infeed",
+      "selector": ".cn_infeed",
+      "domains": [
+        "tokyo-np.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ee888bc5-7d74-5499-b116-c115c1704bdc",
+      "name": ".k_banner--feature",
+      "selector": ".k_banner--feature",
+      "domains": [
+        "purelovers.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -36698,11 +36754,11 @@
       "note": ""
     },
     {
-      "id": "9c22b832-5a59-5472-b068-f1c920329e93",
+      "id": "c539e24b-4bf0-55ee-a489-1de655a91f51",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.host"
+        "jmanga.trade"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -87807,9 +87863,9 @@
       "note": ""
     },
     {
-      "id": "3f0b8c44-37ca-56a1-95e3-ed21d4820285",
-      "name": "#recommend-you",
-      "selector": "#recommend-you",
+      "id": "d9bed8dd-2c8b-55ee-b4a1-c72e12300b5e",
+      "name": "div[id^=\"gpt-dol-\"]",
+      "selector": "div[id^=\"gpt-dol-\"]",
       "domains": [
         "diamond.jp"
       ],
@@ -87818,9 +87874,9 @@
       "note": ""
     },
     {
-      "id": "74b16670-c5e9-53a2-8534-4235bd4b5da6",
-      "name": "#gpt-dol-infeed-ranking-text",
-      "selector": "#gpt-dol-infeed-ranking-text",
+      "id": "3f0b8c44-37ca-56a1-95e3-ed21d4820285",
+      "name": "#recommend-you",
+      "selector": "#recommend-you",
       "domains": [
         "diamond.jp"
       ],

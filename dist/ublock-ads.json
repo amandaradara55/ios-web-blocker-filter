@@ -1447,6 +1447,30 @@
       "literalOperator": "exact"
     },
     {
+      "id": "5c86dcc1-565d-5c3f-8995-8aa1cd57b5f9",
+      "name": "variationconfused.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "variationconfused.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "1e66e7e1-1063-5602-aa72-005175d2e5eb",
+      "name": "weakerscripts.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "weakerscripts.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "dd89ad03-272e-5153-b886-300109ec6914",
       "name": "/banner.go?spaceid=",
       "scope": "url",
@@ -2392,6 +2416,18 @@
       "note": ""
     },
     {
+      "id": "3ca0d973-a6bb-5c29-9fb6-356d14e52b3c",
+      "name": "consent.wegotthiscovered.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "consent.wegotthiscovered.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "9b946adb-86ab-578b-96db-340407a28bb0",
       "name": "storage.googleapis.com/pravda-ad-script/",
       "scope": "url",
@@ -2435,6 +2471,30 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "0f7343a1-c785-5b10-971c-a6092aee7c0e",
+      "name": "azerion.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "azerion.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "67b26890-cbb2-5c36-b468-c1fe72228e06",
+      "name": "restomp-excity.online",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "restomp-excity.online",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "96be4086-e9a4-5df4-8113-1b91fdde6bed",
@@ -2856,6 +2916,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mp\\.lura\\.live(?::[0-9]+)?/vod/vast\\.info/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c48d11a3-cb1c-5589-a9bd-9fbaff4423df",
+      "name": "webcinevs.com/api/app/vast-ads",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?webcinevs\\.com(?::[0-9]+)?/api/app/vast\\-ads",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3856,6 +3927,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?com/cams\\-widget\\-ext/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "93748c6a-b5d0-5550-9897-fe4934f766fe",
+      "name": "/vast.php?*&idzone=",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/vast\\.php\\?.*\\&idzone=",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8652,6 +8734,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?guessthe\\.game(?::[0-9]+)?/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c2d3abf6-34dd-5645-9f5e-cd2895708c99",
+      "name": "exposestrat.com/js/adcashexpo.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?exposestrat\\.com(?::[0-9]+)?/js/adcashexpo\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "efd35460-f0ae-54ec-b7fa-33f48d5be9c6",
+      "name": "embedhd.org/ads.html",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?embedhd\\.org(?::[0-9]+)?/ads\\.html",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -18793,9 +18897,9 @@
       "note": ""
     },
     {
-      "id": "ca493f46-eed2-5bd4-97af-2cd62f682154",
-      "name": "[href^=\"https://s.zlink0.com/\"]",
-      "selector": "[href^=\"https://s.zlink0.com/\"]",
+      "id": "daf86c64-7169-5fbb-b6d7-43679b26f687",
+      "name": "[href^=\"https://s.zlink0.com/\"], [href^=\"https://s.zline0.com/\"]",
+      "selector": "[href^=\"https://s.zlink0.com/\"], [href^=\"https://s.zline0.com/\"]",
       "domains": [
         "allporncomic.com"
       ],
@@ -25834,6 +25938,17 @@
       "name": "#vidcloud-player > #overlay-container",
       "selector": "#vidcloud-player > #overlay-container",
       "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6dd9f170-b402-529d-9a84-269dd5b896eb",
+      "name": "#overlay",
+      "selector": "#overlay",
+      "domains": [
+        "doooood.co"
+      ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -47532,6 +47647,17 @@
       "note": ""
     },
     {
+      "id": "0d199908-5670-57f6-9893-e916c7bbde1f",
+      "name": "body.video-embed-mode > div[class][style]:not(#root)",
+      "selector": "body.video-embed-mode > div[class][style]:not(#root)",
+      "domains": [
+        "g9r6.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "4b173b71-3933-550b-9555-37dee2c2049b",
       "name": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
       "selector": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
@@ -47803,17 +47929,6 @@
       "selector": ".rewarded-ad-card",
       "domains": [
         "faqwiki.us"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6dd9f170-b402-529d-9a84-269dd5b896eb",
-      "name": "#overlay",
-      "selector": "#overlay",
-      "domains": [
-        "doooood.co"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -50196,6 +50311,17 @@
       "id": "4de79682-025c-5189-a9e0-9e6b48b52277",
       "name": ".vd-ad",
       "selector": ".vd-ad",
+      "domains": [
+        "msn.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "70e265ad-70a0-518c-b7da-211dbb2270e6",
+      "name": ".gem-display-ad",
+      "selector": ".gem-display-ad",
       "domains": [
         "msn.com"
       ],
@@ -53449,17 +53575,6 @@
       "note": ""
     },
     {
-      "id": "0d199908-5670-57f6-9893-e916c7bbde1f",
-      "name": "body.video-embed-mode > div[class][style]:not(#root)",
-      "selector": "body.video-embed-mode > div[class][style]:not(#root)",
-      "domains": [
-        "g9r6.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "e8d6ff2f-95c6-5020-8aab-01a5d15432d1",
       "name": "#dlModal",
       "selector": "#dlModal",
@@ -54424,6 +54539,15 @@
       "note": ""
     },
     {
+      "id": "69fc7d6d-8d0a-5e6c-b592-bec47537bacb",
+      "name": "#app-root ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "selector": "#app-root ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "aee36177-4d34-5ffc-8299-ddd0aec019fd",
       "name": ".block.cursor-pointer",
       "selector": ".block.cursor-pointer",
@@ -54440,6 +54564,28 @@
       "selector": ".a-prerollvideo-container",
       "domains": [
         "abcya.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6ab717c6-a310-5d4a-85df-5f44ed5adb72",
+      "name": "a[href][target=\"_blank\"]",
+      "selector": "a[href][target=\"_blank\"]",
+      "domains": [
+        "twing.live"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "02772a69-f302-5359-b360-b7ad03dcc6fd",
+      "name": "a[class*=\"download\"]",
+      "selector": "a[class*=\"download\"]",
+      "domains": [
+        "scloud.ws"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -55632,10 +55778,11 @@
       "note": ""
     },
     {
-      "id": "be28feff-9e0a-518c-8a7a-b1e5d488662d",
-      "name": "p, .wp-block-heading, .wp-block-list, .lg\\:leading-tight.mt-1.lg\\:tracking-tight.font-bold.lg\\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href=\"https://t.me/shrtfly\"], h2, .wp-block-embed__wrapper",
-      "selector": "p, .wp-block-heading, .wp-block-list, .lg\\:leading-tight.mt-1.lg\\:tracking-tight.font-bold.lg\\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href=\"https://t.me/shrtfly\"], h2, .wp-block-embed__wrapper",
+      "id": "72c232d2-25a5-5240-97cf-b2b5be6a5978",
+      "name": "p, .wp-block-heading, .wp-block-list, .lg\\:leading-tight.mt-1.lg\\:tracking-tight.font-bold.lg\\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href=\"https://t.me/shrtfly\"], h2, .wp-block-embed__wrapper, [href*=\"uploadex.net/\"]",
+      "selector": "p, .wp-block-heading, .wp-block-list, .lg\\:leading-tight.mt-1.lg\\:tracking-tight.font-bold.lg\\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href=\"https://t.me/shrtfly\"], h2, .wp-block-embed__wrapper, [href*=\"uploadex.net/\"]",
       "domains": [
+        "jobnoid.net",
         "stfly.me",
         "dailyjobposting.xyz",
         "biovetro.net",
@@ -56414,10 +56561,11 @@
       "note": ""
     },
     {
-      "id": "7547a185-2977-594b-8a2d-0c3301563691",
+      "id": "1f048b79-c9fb-52c4-8323-f5dd8897f310",
       "name": ".fluidprimary, #go_d, .adb_detected > h2",
       "selector": ".fluidprimary, #go_d, .adb_detected > h2",
       "domains": [
+        "avnsgames.com",
         "healthmyst.com"
       ],
       "isEnabled": true,
@@ -56425,10 +56573,11 @@
       "note": ""
     },
     {
-      "id": "57095311-a9d0-5023-8659-6f2207b56140",
+      "id": "9bb6b92e-a00d-5f67-a0e2-3708fdba62c3",
       "name": ".steps",
       "selector": ".steps",
       "domains": [
+        "avnsgames.com",
         "healthmyst.com"
       ],
       "isEnabled": true,
@@ -56436,10 +56585,11 @@
       "note": ""
     },
     {
-      "id": "667f1b92-0fc1-5ff6-afee-ddb96ce4ccdd",
+      "id": "71ed513c-d185-565d-9c16-3e5407ffbd4d",
       "name": ".instructions",
       "selector": ".instructions",
       "domains": [
+        "avnsgames.com",
         "healthmyst.com"
       ],
       "isEnabled": true,
@@ -56447,10 +56597,11 @@
       "note": ""
     },
     {
-      "id": "232ff8c9-664a-5d64-bfc2-2af45a39c776",
+      "id": "6a559641-b502-5e47-b3b7-18269101243f",
       "name": ".reopen-info",
       "selector": ".reopen-info",
       "domains": [
+        "avnsgames.com",
         "healthmyst.com"
       ],
       "isEnabled": true,
@@ -56458,10 +56609,11 @@
       "note": ""
     },
     {
-      "id": "e1529d08-8218-5699-b245-781798c385c1",
+      "id": "b317d5af-b88f-5600-8280-831f5c0cf7a4",
       "name": "h4",
       "selector": "h4",
       "domains": [
+        "avnsgames.com",
         "healthmyst.com"
       ],
       "isEnabled": true,
@@ -56584,6 +56736,28 @@
       "selector": ".flex-center > [href*=\"rapidshare\"]",
       "domains": [
         "playpaste.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f65ef69c-91c2-5de6-a5cf-ec08275c132d",
+      "name": "#overlay",
+      "selector": "#overlay",
+      "domains": [
+        "hindisink.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2698cb93-36f2-53f7-ac83-b9b21ade4aa0",
+      "name": ".bg_cover.footer-area",
+      "selector": ".bg_cover.footer-area",
+      "domains": [
+        "linkshortx.in"
       ],
       "isEnabled": true,
       "rank": 0,

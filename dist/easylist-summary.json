@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-05-03T20:05:36+00:00",
+  "generatedAt": "2026-05-10T20:11:14+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 89627,
-      "acceptedBlockRules": 58941,
+      "inputRules": 88175,
+      "acceptedBlockRules": 57461,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 22702,
+      "acceptedCosmeticRules": 22729,
       "duplicateRules": 2,
       "skipped": {
-        "advanced_rule": 258,
+        "advanced_rule": 260,
         "allowlist": 1071,
-        "unsupported_cosmetic_selector": 476,
+        "unsupported_cosmetic_selector": 481,
         "unsupported_domain_scope": 268,
-        "unsupported_modifier": 5697,
+        "unsupported_modifier": 5691,
         "unsupported_url_pattern": 203,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 55407,
-      "acceptedBlockRules": 53257,
+      "inputRules": 55428,
+      "acceptedBlockRules": 53272,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 2,
       "skipped": {
         "advanced_rule": 26,
-        "allowlist": 816,
+        "allowlist": 819,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 919,
+        "unsupported_modifier": 922,
         "unsupported_url_pattern": 380
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 112198,
+    "acceptedBlockRules": 110733,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 22704,
+    "acceptedCosmeticRules": 22731,
     "duplicateRules": 4,
     "skipped": {
-      "advanced_rule": 284,
-      "allowlist": 1887,
-      "unsupported_cosmetic_selector": 481,
+      "advanced_rule": 286,
+      "allowlist": 1890,
+      "unsupported_cosmetic_selector": 486,
       "unsupported_domain_scope": 268,
-      "unsupported_modifier": 6616,
+      "unsupported_modifier": 6613,
       "unsupported_url_pattern": 583,
       "unsupported_webkit_regex_brace_quantifier": 9
     }

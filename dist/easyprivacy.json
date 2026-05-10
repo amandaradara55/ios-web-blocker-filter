@@ -58219,18 +58219,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "33199e95-ab24-572e-8b84-ccd62d31462b",
-      "name": "mirakl.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mirakl.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5ee639b3-2d01-5194-abe5-a5e3a08fef43",
       "name": "mixi.mn",
       "scope": "fqdn",
@@ -67315,6 +67303,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ece78865-3428-5cd0-bc97-35dc34d8ee65",
+      "name": "target2sell.mirakl.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "target2sell.mirakl.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "7c3fed02-2b4b-5c98-beed-50f729484f7a",
       "name": "targetfuel.com",
       "scope": "fqdn",
@@ -76374,6 +76374,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "56180dca-4800-55bc-b1b5-01af9941b6e9",
+      "name": "briskedge.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "briskedge.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "440518aa-097d-56d1-b79b-03fafbae5d9e",
       "name": "briskstorm.com",
       "scope": "fqdn",
@@ -77406,6 +77418,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3e693b5c-e58c-54ff-b8b5-f85b0b0c61e7",
+      "name": "chalkdream.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "chalkdream.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "e67433d0-d3b1-5086-90a9-14e37f3f4de7",
       "name": "chalkoil.com",
       "scope": "fqdn",
@@ -77603,6 +77627,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "chingovernment.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "352f2326-eb1c-50ec-bb4a-4bccbfb079eb",
+      "name": "chipcardice.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "chipcardice.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78918,6 +78954,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "4f706953-0737-58c0-83fe-f1a375ecdd18",
+      "name": "crypticgenius.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "crypticgenius.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8720e5b5-f37b-50a8-af12-870801feeb5c",
       "name": "cryptvalue.com",
       "scope": "fqdn",
@@ -79938,6 +79986,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "288e9d39-3151-5c67-9a88-bc1374a94e2a",
+      "name": "distilltable.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "distilltable.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "ab2c3e08-c20c-5335-889d-2f9f386ba606",
       "name": "distributionpocket.com",
       "scope": "fqdn",
@@ -80087,6 +80147,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "doomhedge.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "606b2f05-5c00-5a52-a8b5-e658bf9f37dc",
+      "name": "dotshellmain.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dotshellmain.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81906,18 +81978,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "81971879-edf5-56be-834a-ac634ee3af04",
-      "name": "fishingtoolsbox.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fishingtoolsbox.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "936e1221-ff99-59a9-96d4-d6d3d6b21b85",
       "name": "fitmessage.com",
       "scope": "fqdn",
@@ -81959,18 +82019,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fixedfold.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "6ecbb40b-900d-5392-911b-4526f0059fb4",
-      "name": "fjordsand.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fjordsand.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -93150,6 +93198,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a6156b07-dab1-538e-ad4e-195ece047cc4",
+      "name": "securityannex.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "securityannex.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "bb430ef3-d1f1-555d-b2e0-062a338a4e53",
       "name": "seedscissors.com",
       "scope": "fqdn",
@@ -95543,6 +95603,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "starkscale.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f04d9b19-d0d5-5551-8abe-5ec8c5ac354c",
+      "name": "starrynets.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "starrynets.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -123018,6 +123090,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "1016e341-880a-5c87-b03a-7d63fab54b7b",
+      "name": "e.usesneakpeek.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "e.usesneakpeek.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b54795df-3e98-5736-89db-dd9e6299af9b",
       "name": "e045f561.b-cdn.net",
       "scope": "fqdn",
@@ -128094,6 +128178,17 @@
       "note": ""
     },
     {
+      "id": "ad72c60a-7dee-58ec-a661-6889bd06d42e",
+      "name": "l.euronews.com/sdk.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?l\\.euronews\\.com(?::[0-9]+)?/sdk\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "14ba6ccc-b08e-59b4-a03b-a2051df45e39",
       "name": "l.fairblocker.com",
       "scope": "fqdn",
@@ -131414,6 +131509,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?onet\\.pl(?::[0-9]+)?/eclk/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0d7ace6e-5703-5c67-a216-b2ea8f310747",
+      "name": "onrender.com/health",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?onrender\\.com(?::[0-9]+)?/health",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -136767,6 +136873,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "f5fe9e8d-fc09-5a8e-9271-1958d7205199",
+      "name": "static.shopmy.us/Affiliates/sms_aff_clicktrack.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?static\\.shopmy\\.us(?::[0-9]+)?/Affiliates/sms_aff_clicktrack\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "e2e5b6d1-2a2f-53fd-9b8a-c2b7fce6d974",
@@ -162477,6 +162594,17 @@
       "note": ""
     },
     {
+      "id": "1bc8bcb1-c3e1-546c-a5e1-2b8499c8b69a",
+      "name": "bikemag.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bikemag\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8529efd5-dc09-548f-93c6-9ef0611f38f7",
       "name": "bing.com/fd/ls/GLinkPing.aspx?",
       "scope": "url",
@@ -163209,6 +163337,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "c55c806a-7fe1-507d-86e4-ee1458f9f7a1",
+      "name": "cdp.howtotrade.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdp.howtotrade.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "525c7b45-5630-5002-b107-40211ad54c30",
@@ -171203,6 +171343,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "8177f0d8-b450-5a1a-9083-3c2c0f060f92",
+      "name": "mensjournal.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mensjournal\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "59085765-f3fb-545a-8ea0-82c2de5eeb20",
       "name": "mensjournal.com/.bootscripts/analytics.min.js",
       "scope": "url",
@@ -171511,6 +171662,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?metro\\.co\\.uk(?::[0-9]+)?/cvx/client/sync/fpc\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d72db640-ee07-5929-b712-793a3dc32f74",
+      "name": "metro.co.uk/wp-content/client-mu-plugins/dist/metro-analytics/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?metro\\.co\\.uk(?::[0-9]+)?/wp\\-content/client\\-mu\\-plugins/dist/metro\\-analytics/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -173151,6 +173313,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "4dfdb9a6-c65c-5d55-9a50-d91ee17d5476",
+      "name": "paradehomeandgarden.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?paradehomeandgarden\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "3de8d5f3-1070-5f56-974b-a224652e9045",
       "name": "pardot.com/pd.js",
       "scope": "url",
@@ -173964,6 +174137,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pm.geniusmonkey.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "65e21985-1b9f-556c-85b4-083f3d7276a8",
+      "name": "pmnbh.dedcool.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pmnbh.dedcool.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -536770,18 +536955,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ad.autorace.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "907b975e-0103-54a9-a8ef-319312af3e09",
-      "name": "ad.kddi-fs.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ad.kddi-fs.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",

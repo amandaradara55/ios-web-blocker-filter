@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T20:05:33+00:00",
+  "generatedAt": "2026-05-10T20:11:11+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
@@ -31,13 +31,13 @@
       }
     },
     "antiadblock.txt": {
-      "inputRules": 415,
+      "inputRules": 417,
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "excluded_section": 415
+        "excluded_section": 417
       }
     },
     "general_elemhide.txt": {
@@ -61,8 +61,8 @@
       }
     },
     "general_url.txt": {
-      "inputRules": 376,
-      "acceptedBlockRules": 45,
+      "inputRules": 377,
+      "acceptedBlockRules": 46,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
@@ -71,34 +71,34 @@
       }
     },
     "specific.txt": {
-      "inputRules": 10150,
+      "inputRules": 10158,
       "acceptedBlockRules": 756,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 6989,
+      "acceptedCosmeticRules": 6993,
       "duplicateRules": 0,
       "skipped": {
         "advanced_rule": 1006,
         "allowlist": 4,
-        "unsupported_cosmetic_selector": 876,
+        "unsupported_cosmetic_selector": 878,
         "unsupported_domain_scope": 45,
-        "unsupported_modifier": 381,
-        "unsupported_url_pattern": 93
+        "unsupported_modifier": 382,
+        "unsupported_url_pattern": 94
       }
     }
   },
   "totals": {
-    "blockRules": 1156,
+    "blockRules": 1157,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7136,
+    "cosmeticRules": 7140,
     "duplicateRules": 0,
     "skipped": {
       "advanced_rule": 1006,
       "allowlist": 4,
-      "excluded_section": 1007,
-      "unsupported_cosmetic_selector": 876,
+      "excluded_section": 1009,
+      "unsupported_cosmetic_selector": 878,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 755,
-      "unsupported_url_pattern": 93
+      "unsupported_modifier": 756,
+      "unsupported_url_pattern": 94
     }
   }
 }
