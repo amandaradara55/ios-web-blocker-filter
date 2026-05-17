@@ -1387,6 +1387,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d35dda4e-daba-5b7d-b9b9-11fe8e0d75a0",
+      "name": "accusationretrieval.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "accusationretrieval.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "28a223ff-eed1-5b70-84d9-9efc50551f8c",
       "name": "breedsmuteexams.com",
       "scope": "fqdn",
@@ -1416,6 +1428,42 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "degreeeruptionpredator.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "034cdba1-8a75-58a1-a693-6b7821f559d1",
+      "name": "officialplenty.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "officialplenty.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "020986a5-67a4-53e3-8de5-b899848a6cf8",
+      "name": "poplarcoinsyeah.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "poplarcoinsyeah.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ee2c472f-b0f9-5301-a188-ee71a6dd8659",
+      "name": "pricklyassociation.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pricklyassociation.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1471,6 +1519,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "c00f50dc-2e95-5c23-aa56-20b55f692cb5",
+      "name": "wingsmob.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wingsmob.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "dd89ad03-272e-5153-b886-300109ec6914",
       "name": "/banner.go?spaceid=",
       "scope": "url",
@@ -1483,11 +1543,11 @@
       "literalOperator": "contains"
     },
     {
-      "id": "851cbb21-3ad1-58c4-9e10-1f399f74f143",
-      "name": "||cineby.*/scripts/gk.js",
+      "id": "0c100a0a-0bf3-52b6-acf4-3c9fa2e8d5dd",
+      "name": "||cineby.*/scripts/os.js",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cineby\\..*/scripts/gk\\.js",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cineby\\..*/scripts/os\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1759,6 +1819,30 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7238c8d1-a301-511b-b2e5-6885a7b1b022",
+      "name": "/videojsxvast.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/videojsxvast.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "6bb04e07-46bd-5959-9aee-741e9d6ad447",
+      "name": "a.hentaiocean.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "a.hentaiocean.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "e394e8d3-5d7b-5189-bb80-17bb93e057e7",
       "name": "nudismteens.com/tensnuddy.js",
       "scope": "url",
@@ -1836,6 +1920,17 @@
       "note": ""
     },
     {
+      "id": "655f9302-79df-50e5-8a14-d183e3880b96",
+      "name": "amateursubs.com/wp-content/special/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?amateursubs\\.com(?::[0-9]+)?/wp\\-content/special/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "52e1de4a-9652-501c-94c7-75bf5c0022af",
       "name": "girlscanner.cc/check.php",
       "scope": "url",
@@ -1869,6 +1964,29 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "e9dad879-113b-5857-961f-deeb13353942",
+      "name": "applzr.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "applzr.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "9179a4cc-7ce4-5827-a74b-9d14dfac3054",
+      "name": ".go?pid=*&spaceid=*&ctrlid=",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "\\.go\\?pid=.*\\&spaceid=.*\\&ctrlid=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "8bf3326c-4140-51b3-abee-97597d8e47a5",
@@ -2081,6 +2199,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d29f564e-6f45-50d4-8bdc-1b0595c4e6a4",
+      "name": "egotisticexcavateplywood.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "egotisticexcavateplywood.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "5a6ea0ae-ebe9-5af1-a3e5-3a939508e650",
       "name": "embedstreams.top/js/script.js",
       "scope": "url",
@@ -2149,6 +2279,28 @@
       "note": ""
     },
     {
+      "id": "b1640b7e-fa92-5415-b937-fbcbed681419",
+      "name": "olympusbiblioteca.com/third-parties-ad-script.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?olympusbiblioteca\\.com(?::[0-9]+)?/third\\-parties\\-ad\\-script\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ce36d640-9e28-5a20-8ebf-00676987e563",
+      "name": "streamex.sh/pop.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?streamex\\.sh(?::[0-9]+)?/pop\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "76dcfa00-f976-5c93-ae08-3e85d8650a96",
       "name": "64gkf7zhlwqn6y4eutgq1hjjo9y.rest",
       "scope": "fqdn",
@@ -2171,17 +2323,6 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
-    },
-    {
-      "id": "b1640b7e-fa92-5415-b937-fbcbed681419",
-      "name": "olympusbiblioteca.com/third-parties-ad-script.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?olympusbiblioteca\\.com(?::[0-9]+)?/third\\-parties\\-ad\\-script\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
     },
     {
       "id": "f2e64290-d398-57e2-b40b-e87d3a2e6abc",
@@ -2467,6 +2608,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?helpers\\.publisherdesk\\.com(?::[0-9]+)?/main\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "269e529a-49c1-543c-8cb2-c0117205c65a",
+      "name": "ash.automobile-catalog.com/core.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ash\\.automobile\\-catalog\\.com(?::[0-9]+)?/core\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2966,11 +3118,11 @@
       "note": ""
     },
     {
-      "id": "a877ee53-4372-58a9-baf1-30694db71b39",
-      "name": "api.qmh.sex/api/banner/",
+      "id": "150b228c-95d2-55e6-bc31-de864e641d2f",
+      "name": "api.viphubss.shop/api/banner",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.qmh\\.sex(?::[0-9]+)?/api/banner/",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.viphubss\\.shop(?::[0-9]+)?/api/banner",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8657,17 +8809,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?antenna\\.gr(?::[0-9]+)?/js/adman",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "25486360-e6e4-573f-a6ab-eae589979c40",
-      "name": "guessthemovie.name/ads/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?guessthemovie\\.name(?::[0-9]+)?/ads/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -24978,6 +25119,28 @@
       "note": ""
     },
     {
+      "id": "b9531868-4b6f-5732-85db-287dedad9f53",
+      "name": ".boxzilla-overlay",
+      "selector": ".boxzilla-overlay",
+      "domains": [
+        "thesaltysoldier.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d8952cbb-dcd2-5518-b805-ab380a292479",
+      "name": ".boxzilla-the-salty-soldier-uncensored",
+      "selector": ".boxzilla-the-salty-soldier-uncensored",
+      "domains": [
+        "thesaltysoldier.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "99a57a3d-5e18-56dd-a40f-c2ebe94c1e4e",
       "name": "body > h4[class=\"adblock_title\"]",
       "selector": "body > h4[class=\"adblock_title\"]",
@@ -26138,10 +26301,11 @@
       "note": ""
     },
     {
-      "id": "e5568c2d-c2ad-5b7e-ae49-a53376259c51",
+      "id": "325d2c00-5e6d-5c71-9b6f-75cb2054428a",
       "name": "#fakeplayer",
       "selector": "#fakeplayer",
       "domains": [
+        "hdmozi.hu",
         "yabaisub.cloud"
       ],
       "isEnabled": true,
@@ -26275,6 +26439,17 @@
       "selector": ".nonlinear_ad",
       "domains": [
         "ofiii.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6b6a92bd-9ccc-552c-98a8-684a88eb33b8",
+      "name": ".adsbygoogle",
+      "selector": ".adsbygoogle",
+      "domains": [
+        "mnya.tw"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -26770,6 +26945,15 @@
       "note": ""
     },
     {
+      "id": "ea3cf67a-4fc8-5938-99d8-34853b3906c1",
+      "name": ".pppx",
+      "selector": ".pppx",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "8bf7c9c3-589c-5698-9db7-a83570652027",
       "name": "[href*=\"adset\"]",
       "selector": "[href*=\"adset\"]",
@@ -27016,17 +27200,6 @@
       "selector": "[href^=\"https://go.aff.\"]",
       "domains": [
         "pandaspor.live"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e31d67c0-f2b4-5d6d-9af6-4c019e779833",
-      "name": ".vip1-play-overlay",
-      "selector": ".vip1-play-overlay",
-      "domains": [
-        "qmh.sex"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -41078,6 +41251,17 @@
       "note": ""
     },
     {
+      "id": "281be6cf-7f93-5e9c-beff-946abec05442",
+      "name": ".entry-content div[onclick][data-matrix]",
+      "selector": ".entry-content div[onclick][data-matrix]",
+      "domains": [
+        "karanpc.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "8fcf15e5-e583-5414-b92a-6a8974f55439",
       "name": ".custom-modal",
       "selector": ".custom-modal",
@@ -47647,17 +47831,6 @@
       "note": ""
     },
     {
-      "id": "0d199908-5670-57f6-9893-e916c7bbde1f",
-      "name": "body.video-embed-mode > div[class][style]:not(#root)",
-      "selector": "body.video-embed-mode > div[class][style]:not(#root)",
-      "domains": [
-        "g9r6.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "4b173b71-3933-550b-9555-37dee2c2049b",
       "name": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
       "selector": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
@@ -51440,6 +51613,39 @@
       "note": ""
     },
     {
+      "id": "a30332ee-8f0c-5c50-b00a-834998067413",
+      "name": ".ha52x01.ha52x00.ha52x07",
+      "selector": ".ha52x01.ha52x00.ha52x07",
+      "domains": [
+        "servustv.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "32f684d9-6daa-5e48-8464-8b8d5039fc9e",
+      "name": ".ha52x04.ha52x05.ha52x00.ha52x06",
+      "selector": ".ha52x04.ha52x05.ha52x00.ha52x06",
+      "domains": [
+        "servustv.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2399440c-dd64-58b8-b585-047cb38d2974",
+      "name": "._1tu2i3m0",
+      "selector": "._1tu2i3m0",
+      "domains": [
+        "servustv.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "458b8315-dd11-5c80-a7e8-7b0674ffd46f",
       "name": ".kln > a[href^=\"https://www.polybuzz.ai/\"]",
       "selector": ".kln > a[href^=\"https://www.polybuzz.ai/\"]",
@@ -53674,6 +53880,28 @@
       "note": ""
     },
     {
+      "id": "8018ac57-8971-5294-bbec-453a95c6026d",
+      "name": ".adsbygoogle",
+      "selector": ".adsbygoogle",
+      "domains": [
+        "adhs-zentrum.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "23902339-a8f3-566b-ab3d-748df590ae3d",
+      "name": "#babasbmsgx",
+      "selector": "#babasbmsgx",
+      "domains": [
+        "adhs-zentrum.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "553e3fa7-148c-5ea5-a617-70726aa02060",
       "name": "#block-adstop-otherpage-728x90",
       "selector": "#block-adstop-otherpage-728x90",
@@ -54452,11 +54680,12 @@
       "note": ""
     },
     {
-      "id": "9aabf487-ea04-53a7-a403-67f8865581a5",
+      "id": "0fcb8ab6-de4b-540f-bfae-1c7c838791b9",
       "name": ".fallback-side-ad",
       "selector": ".fallback-side-ad",
       "domains": [
-        "guessthemovie.name"
+        "guessthemovie.name",
+        "guessthephrase.xyz"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54548,6 +54777,18 @@
       "note": ""
     },
     {
+      "id": "aeccd95c-a79e-5690-a64d-d4d22e810aa2",
+      "name": "a[target=\"_blank\"][href=\"#\"]",
+      "selector": "a[target=\"_blank\"][href=\"#\"]",
+      "domains": [
+        "comix.to",
+        "ymix.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "aee36177-4d34-5ffc-8299-ddd0aec019fd",
       "name": ".block.cursor-pointer",
       "selector": ".block.cursor-pointer",
@@ -54581,9 +54822,9 @@
       "note": ""
     },
     {
-      "id": "02772a69-f302-5359-b360-b7ad03dcc6fd",
-      "name": "a[class*=\"download\"]",
-      "selector": "a[class*=\"download\"]",
+      "id": "64e55ccb-dfc2-5ba7-81d7-64f0bc914051",
+      "name": "article > div[class][style^=\"text-align:\"] > a[href]:not([href*=\"/\"])",
+      "selector": "article > div[class][style^=\"text-align:\"] > a[href]:not([href*=\"/\"])",
       "domains": [
         "scloud.ws"
       ],

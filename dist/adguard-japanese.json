@@ -4022,6 +4022,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f2c45125-5119-5f72-a17b-57f691512557",
+      "name": "textad.fc2.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "textad.fc2.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "6565c09d-f5d4-55ce-9513-822711b3e667",
       "name": "jobbox-front.mamastar.jp",
       "scope": "fqdn",
@@ -14851,10 +14863,11 @@
       "note": ""
     },
     {
-      "id": "895368c0-faae-5f1a-97e9-6a69d29e8ba2",
+      "id": "d426ccce-5bcb-50cd-bff7-69b9599c6e02",
       "name": ".adsense",
       "selector": ".adsense",
       "domains": [
+        "hospita.jp",
         "chirashi-guide.com",
         "banner-hiroba.com",
         "starblog.jp",
@@ -14922,10 +14935,11 @@
       "note": ""
     },
     {
-      "id": "7919dbd6-acc0-5671-8a69-15b288f4859e",
+      "id": "fc260e27-e8ee-5a76-aa39-406815e45315",
       "name": ".ads",
       "selector": ".ads",
       "domains": [
+        "rkd3.dev",
         "my-favorite-giants.net",
         "weddingcard.jp",
         "kanjitisiki.com",
@@ -15433,6 +15447,117 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "05c76eb6-e6b6-5890-9336-663bb219e386",
+      "name": ".review-slide",
+      "selector": ".review-slide",
+      "domains": [
+        "syougeki-utikiri.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a679724d-137b-50c5-9f2b-8a0fed3fd7f1",
+      "name": "#block-16",
+      "selector": "#block-16",
+      "domains": [
+        "syougeki-utikiri.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "41d31e15-cb1b-54f7-a353-7a27819fe1c5",
+      "name": "#block-21",
+      "selector": "#block-21",
+      "domains": [
+        "syougeki-utikiri.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8fb1a72a-4982-51ed-8e91-5fb4b1e8921a",
+      "name": "#block-22",
+      "selector": "#block-22",
+      "domains": [
+        "syougeki-utikiri.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ad624427-a3c0-5f05-82f6-c2298542a16f",
+      "name": ".productWrap",
+      "selector": ".productWrap",
+      "domains": [
+        "office-hack.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8f653763-5cf9-50f0-9085-8435e2af38b9",
+      "name": "#fc2_ad_box",
+      "selector": "#fc2_ad_box",
+      "domains": [
+        "fc2.adult",
+        "fc2.page"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f4db633e-e9e2-5e85-9be0-0739e7aef47c",
+      "name": "#random-banner",
+      "selector": "#random-banner",
+      "domains": [
+        "m-s-y.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "31fc0e7f-5ae7-547d-843a-f3b247031289",
+      "name": ".adsense-in-article",
+      "selector": ".adsense-in-article",
+      "domains": [
+        "m-s-y.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3d5cd0f7-0a6b-5d4a-b08d-7dafd06f237e",
+      "name": "div[class^=\"ad-group\"]",
+      "selector": "div[class^=\"ad-group\"]",
+      "domains": [
+        "hokkaido-np.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "17749120-7739-58ff-8060-355654bb917e",
+      "name": "a[href^=\"https://hb.afl.rakuten.co.jp/\"]",
+      "selector": "a[href^=\"https://hb.afl.rakuten.co.jp/\"]",
+      "domains": [
+        "si-coding.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18545,6 +18670,17 @@
       "note": ""
     },
     {
+      "id": "0ad11d20-0ac6-5fd6-97c0-30a8c6367487",
+      "name": "body > div.bg-blue-50.sm\\:text-sm.text-blue-800.mb-0.md\\:mb-4",
+      "selector": "body > div.bg-blue-50.sm\\:text-sm.text-blue-800.mb-0.md\\:mb-4",
+      "domains": [
+        "avdb-app.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "a84ab105-81be-5414-9135-5ff11d9de375",
       "name": ".h-\\[300px\\]",
       "selector": ".h-\\[300px\\]",
@@ -20390,22 +20526,6 @@
       "note": ""
     },
     {
-      "id": "77b865ee-c5c5-55a6-9fec-87b0e7202486",
-      "name": "#vignette-overlay",
-      "selector": "#vignette-overlay",
-      "domains": [
-        "mindhack2ch.com",
-        "seesaawiki.jp",
-        "playing.wiki",
-        "chronicle.wiki",
-        "sokuhou.wiki",
-        "game-info.wiki"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "53323eeb-ae61-5c34-8a3a-0b4d8177903d",
       "name": "tr[bgcolor=\"#ffffff\"][valign=\"top\"] > td[width=\"170\"]",
       "selector": "tr[bgcolor=\"#ffffff\"][valign=\"top\"] > td[width=\"170\"]",
@@ -22040,6 +22160,17 @@
       "selector": ".entry-textad",
       "domains": [
         "saiganak.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c184f86b-4f78-562a-a06a-1e60c9953c9a",
+      "name": ".ai-title-eyecatch-ad",
+      "selector": ".ai-title-eyecatch-ad",
+      "domains": [
+        "gazlog.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -34976,10 +35107,11 @@
       "note": ""
     },
     {
-      "id": "7f0d93a2-525e-50d6-aacd-8563cd9fa73a",
+      "id": "8c7a3686-a363-55ed-a5af-e8218699657a",
       "name": ".widget-below-single-content-title",
       "selector": ".widget-below-single-content-title",
       "domains": [
+        "hiroiro.com",
         "mihomiho0109.com",
         "moez-m.com",
         "sumahoinfo.net"
@@ -39926,10 +40058,11 @@
       "note": ""
     },
     {
-      "id": "eeb1fd10-e6a3-5c13-95ba-9fea83411d1b",
+      "id": "2b46739f-d201-5de5-9935-d1aa24f63812",
       "name": ".widget-above-single-sns-buttons",
       "selector": ".widget-above-single-sns-buttons",
       "domains": [
+        "hiroiro.com",
         "hyougaki.xyz",
         "2ch-uwaki.com",
         "holosoku.com",
@@ -45960,10 +46093,11 @@
       "note": ""
     },
     {
-      "id": "ac9d53cd-d2b6-5cc1-a620-d40c5b72d188",
+      "id": "dca1032f-8a3b-5f00-a4f2-8ad678c7e6a4",
       "name": ".dmm",
       "selector": ".dmm",
       "domains": [
+        "danger.anmo.info",
         "doucolle-kako.livedoor.biz",
         "chikakb.ldblog.jp"
       ],
@@ -62148,10 +62282,11 @@
       "note": ""
     },
     {
-      "id": "aeafe4f9-549a-5a39-88c5-8fba37216047",
+      "id": "8aac3414-08f2-58a3-bc15-918c5993f48a",
       "name": "#text-3",
       "selector": "#text-3",
       "domains": [
+        "solomon-review.net",
         "panchira-tube.com",
         "baby-calendar.jp",
         "faceandface.com",
@@ -65333,10 +65468,11 @@
       "note": ""
     },
     {
-      "id": "4b7c6530-eb1e-5976-9d00-6e54ad91520a",
+      "id": "2d1828c4-4368-5a49-b98a-fac6b5b02374",
       "name": "#custom_html-6",
       "selector": "#custom_html-6",
       "domains": [
+        "nagoob.com",
         "office-enjin.jp",
         "arakawa-story.com",
         "aieroi.com",
@@ -67996,10 +68132,11 @@
       "note": ""
     },
     {
-      "id": "1c520abb-fc0d-57d8-95a0-12824b4eda89",
+      "id": "baf175bb-489a-532b-8552-3911d2ffa932",
       "name": "a[href^=\"https://amzn.to\"]",
       "selector": "a[href^=\"https://amzn.to\"]",
       "domains": [
+        "daidaidiary.com",
         "grasoku.com",
         "cherio199.blog.fc2.com",
         "hobbylog.jp",
@@ -68031,10 +68168,11 @@
       "note": ""
     },
     {
-      "id": "6eb0c376-10dd-563d-a32f-c041fc510716",
+      "id": "2a4c5d15-22fe-5b50-b7f9-200d5e3710c2",
       "name": ".pochipp-box",
       "selector": ".pochipp-box",
       "domains": [
+        "gadget.hyakkaidan.com",
         "anime-rating.com",
         "cybersocean.net",
         "e-penguiner.com",
@@ -69283,10 +69421,11 @@
       "note": ""
     },
     {
-      "id": "c4d5e72f-498a-5820-9aa6-0d4500dfc002",
+      "id": "fc970236-3819-5f77-b4cf-59fdc84abdb2",
       "name": ".product-item-box",
       "selector": ".product-item-box",
       "domains": [
+        "solomon-review.net",
         "zack-it.com",
         "geartune.games",
         "nihongoka.com"
@@ -70580,10 +70719,12 @@
       "note": ""
     },
     {
-      "id": "c3838873-f446-5c6e-b20f-e14c4bd59b9e",
+      "id": "7f30772f-fc76-5998-b6eb-96676808b190",
       "name": ".yyi-rinker-contents",
       "selector": ".yyi-rinker-contents",
       "domains": [
+        "momen.tofu.fit",
+        "re1wa018.com",
         "hapirouinfo.jp",
         "itpassportgokaku.com",
         "jumpmatome2ch.biz",
@@ -70696,10 +70837,11 @@
       "note": ""
     },
     {
-      "id": "413390c9-2603-516f-8156-e955eeb94249",
+      "id": "30db5ce6-3e4a-5ddd-81a1-597de7cce11b",
       "name": ".hatena-module-html:first-child",
       "selector": ".hatena-module-html:first-child",
       "domains": [
+        "error-daizenn.hatenablog.com",
         "psych0h3ad.tech",
         "nekopictures.net",
         "color-hiyoko.com",
@@ -72390,6 +72532,17 @@
       "selector": ".sp-header-ad",
       "domains": [
         "traicy.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "da223bcf-680c-5f98-b345-0b769375f159",
+      "name": ".job-list-wrap",
+      "selector": ".job-list-wrap",
+      "domains": [
+        "hochi.news"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -76453,10 +76606,11 @@
       "note": ""
     },
     {
-      "id": "ddc528a5-b67b-5f1d-a0a3-1a0868b26e96",
+      "id": "e6c45986-b0cc-5bbc-984d-23bf12120d08",
       "name": ".bfb_textTextBtn",
       "selector": ".bfb_textTextBtn",
       "domains": [
+        "dohack.jp",
         "voiceplus-php.jp",
         "hinakira.com",
         "e-nenpi.com",
@@ -84882,10 +85036,11 @@
       "note": ""
     },
     {
-      "id": "090faa63-de3e-5508-b1d6-fb9325545bdc",
+      "id": "b30b80a8-9a91-5af3-b95c-05fa4d8774c1",
       "name": "div[id^=\"msmaflink-\"]",
       "selector": "div[id^=\"msmaflink-\"]",
       "domains": [
+        "nagoob.com",
         "tsurinews.jp",
         "cutepink.work",
         "ryonkoroblog.com",
@@ -91644,6 +91799,17 @@
       "note": ""
     },
     {
+      "id": "88d63d7a-3742-5566-a31e-354c4b691dd5",
+      "name": ".ad.o-imgview",
+      "selector": ".ad.o-imgview",
+      "domains": [
+        "watch.impress.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "34fdeb26-1352-5960-84c6-ece0a8369f2b",
       "name": ".ad.item",
       "selector": ".ad.item",
@@ -91925,10 +92091,44 @@
       "note": ""
     },
     {
-      "id": "2385fad4-8ee4-5c1b-844b-03d6d0a5b3ef",
+      "id": "bee1c247-66b9-5982-9d0b-bf4b34744ff9",
+      "name": ".SaleInfo",
+      "selector": ".SaleInfo",
+      "domains": [
+        "2ch.logpo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8f425301-85c6-58bf-a2fc-c105502661bc",
+      "name": ".DetectRed",
+      "selector": ".DetectRed",
+      "domains": [
+        "2ch.logpo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d245de24-8f50-55b8-bd81-8665f01842b2",
+      "name": ".KindleBooks",
+      "selector": ".KindleBooks",
+      "domains": [
+        "2ch.logpo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "13214e68-392b-58b4-84b9-ea7f69d840d2",
       "name": "a[href^=\"https://www.amazon.co.jp/\"]",
       "selector": "a[href^=\"https://www.amazon.co.jp/\"]",
       "domains": [
+        "poweruse.seesaa.net",
         "2ch.logpo.jp",
         "mt-soft.sakura.ne.jp",
         "hiroburo.com",
