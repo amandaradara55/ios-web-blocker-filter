@@ -1931,6 +1931,28 @@
       "note": ""
     },
     {
+      "id": "1e506753-3d98-5e30-9f51-ae718c9d8168",
+      "name": "gayxnow.com/static/js/promo-",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gayxnow\\.com(?::[0-9]+)?/static/js/promo\\-",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "415e525f-e4ad-5211-a1a7-e0b5537e5f92",
+      "name": "gayxnow.com/bn/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gayxnow\\.com(?::[0-9]+)?/bn/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "52e1de4a-9652-501c-94c7-75bf5c0022af",
       "name": "girlscanner.cc/check.php",
       "scope": "url",
@@ -2242,6 +2264,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "b8385562-81e3-5ce0-b5d5-44a8c58c1b32",
+      "name": "myapiplay.top",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "myapiplay.top",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "52c25d8e-98d7-5f60-8862-755d7935eb99",
@@ -2768,6 +2802,66 @@
       "literalOperator": "exact"
     },
     {
+      "id": "269f8a7e-ac6b-5302-8e82-563f2efbd4c8",
+      "name": "boaststockingsaucer.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "boaststockingsaucer.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "01bcb1e8-8e3b-5d3d-9672-eaeef4a1531f",
+      "name": "blinksbobblepadding.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "blinksbobblepadding.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "249a7cd8-b811-545b-9934-404644e0f837",
+      "name": "magazineschnappstrusting.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "magazineschnappstrusting.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "114b7456-f87d-5111-98f7-ef41d9b25534",
+      "name": "nibaz.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "nibaz.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "b72e80df-d9b9-5272-a804-486bc932a3c7",
+      "name": "tookfree.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tookfree.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "eec09e94-86b4-5ed0-8e3d-6d07b742b54f",
       "name": "flixbaba.net/utilsminhill.js",
       "scope": "url",
@@ -3074,11 +3168,11 @@
       "note": ""
     },
     {
-      "id": "c48d11a3-cb1c-5589-a9bd-9fbaff4423df",
-      "name": "webcinevs.com/api/app/vast-ads",
+      "id": "66329e37-e52e-595e-9952-fe6b0aeba2ff",
+      "name": "||webcinevs*.com/api/app/vast-ads",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?webcinevs\\.com(?::[0-9]+)?/api/app/vast\\-ads",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?webcinevs.*\\.com/api/app/vast\\-ads",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3112,6 +3206,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vipifsa\\.com(?::[0-9]+)?/api/popup",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "88c2769d-cc8c-5ed0-9651-3029877c9f2c",
+      "name": "||qmh.*/assets/js/simpleblocker.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?qmh\\..*/assets/js/simpleblocker\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d829110d-ef8b-584b-b14f-74d1c650dcdb",
+      "name": "api.viphubss.shop/api/link-rotation/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.viphubss\\.shop(?::[0-9]+)?/api/link\\-rotation/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -7429,66 +7545,6 @@
       "note": ""
     },
     {
-      "id": "269f8a7e-ac6b-5302-8e82-563f2efbd4c8",
-      "name": "boaststockingsaucer.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "boaststockingsaucer.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "01bcb1e8-8e3b-5d3d-9672-eaeef4a1531f",
-      "name": "blinksbobblepadding.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "blinksbobblepadding.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "249a7cd8-b811-545b-9934-404644e0f837",
-      "name": "magazineschnappstrusting.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "magazineschnappstrusting.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "114b7456-f87d-5111-98f7-ef41d9b25534",
-      "name": "nibaz.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "nibaz.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b72e80df-d9b9-5272-a804-486bc932a3c7",
-      "name": "tookfree.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tookfree.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "0de77f7f-7b01-571a-889a-26a3dfd0cbd1",
       "name": "fuckflix.click/assets/js/trafficstars_ads.js",
       "scope": "url",
@@ -7810,6 +7866,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "2996e385-0e3c-5137-8225-04dcb1a707bf",
+      "name": "/vast-player-oxserver.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/vast-player-oxserver.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "365a4eec-802d-5236-ac46-c419a28c85cd",
       "name": "non.arabshentai.com",
       "scope": "fqdn",
@@ -7820,6 +7888,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "943f1bab-fed3-5a32-9272-dac7cd9e1c50",
+      "name": "minochinos.com/assets/jquery/static.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?minochinos\\.com(?::[0-9]+)?/assets/jquery/static\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "56653641-ef17-5559-835c-beaad1fd7fcd",
@@ -8897,6 +8976,41 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?embedhd\\.org(?::[0-9]+)?/ads\\.html",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b3868f28-337d-5bf3-a925-c7b102404025",
+      "name": "dump.mewcdn.online",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dump.mewcdn.online",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "003a3b88-f9e6-5f78-8697-3d5524a0ee44",
+      "name": "weforads.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "weforads.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2be6c69a-e9af-577f-8151-3a0df0ab91f4",
+      "name": "deeplol.gg/images/ad/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?deeplol\\.gg(?::[0-9]+)?/images/ad/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -24945,6 +25059,24 @@
       "note": ""
     },
     {
+      "id": "5c03f155-c28e-5023-938e-1ccc0a01a6be",
+      "name": "#kt_player #ads_iframe",
+      "selector": "#kt_player #ads_iframe",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "75f42446-9eb3-5199-9f81-1a66b9ebfacf",
+      "name": "#kt_player .fp-brand",
+      "selector": "#kt_player .fp-brand",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "dc74ebe9-b9c8-5970-9b19-967b379d1ead",
       "name": ".widget_custom_html",
       "selector": ".widget_custom_html",
@@ -26307,6 +26439,29 @@
       "domains": [
         "hdmozi.hu",
         "yabaisub.cloud"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b075dd8a-22de-5daa-97b6-804ce37ab2be",
+      "name": "#video-overlay",
+      "selector": "#video-overlay",
+      "domains": [
+        "pandamovies.org",
+        "watchporn4k.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dc63ccf4-dc4a-5e7a-8665-d33018a02a77",
+      "name": ".happy-player-beside",
+      "selector": ".happy-player-beside",
+      "domains": [
+        "watchporn4k.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -51513,29 +51668,6 @@
       "note": ""
     },
     {
-      "id": "b075dd8a-22de-5daa-97b6-804ce37ab2be",
-      "name": "#video-overlay",
-      "selector": "#video-overlay",
-      "domains": [
-        "pandamovies.org",
-        "watchporn4k.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "dc63ccf4-dc4a-5e7a-8665-d33018a02a77",
-      "name": ".happy-player-beside",
-      "selector": ".happy-player-beside",
-      "domains": [
-        "watchporn4k.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "31ef3010-ead4-5154-ac99-2a247498a01d",
       "name": ".headline-sidebar",
       "selector": ".headline-sidebar",
@@ -54827,6 +54959,94 @@
       "selector": "article > div[class][style^=\"text-align:\"] > a[href]:not([href*=\"/\"])",
       "domains": [
         "scloud.ws"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "07a60805-4f57-5ed5-aba8-79f0ad688039",
+      "name": ".postbody ins.adsbygoogle[data-ad-slot]",
+      "selector": ".postbody ins.adsbygoogle[data-ad-slot]",
+      "domains": [
+        "jlaforums.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d270dea7-05e3-5a6f-babb-f5fb46ed4404",
+      "name": ".adblock_subtitle",
+      "selector": ".adblock_subtitle",
+      "domains": [
+        "free-3dtextureshd.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5be4d76b-57d4-575d-8a74-e6e6c7f26674",
+      "name": ".adblock_title",
+      "selector": ".adblock_title",
+      "domains": [
+        "free-3dtextureshd.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7bf7b17c-d1b4-59a7-964d-0e87c1fe8781",
+      "name": ".ad_02",
+      "selector": ".ad_02",
+      "domains": [
+        "enternity.gr"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "69eaf5d9-574e-5174-85bf-5d35ac62afb3",
+      "name": ".aent-mis",
+      "selector": ".aent-mis",
+      "domains": [
+        "enternity.gr"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5e2a1906-0fbf-570e-b528-9e8e1942ffad",
+      "name": "a[id^=\"add_to_Banner\"]",
+      "selector": "a[id^=\"add_to_Banner\"]",
+      "domains": [
+        "www.deeplol.gg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2c6b802a-6b2c-50dd-bdaa-326555d8d60a",
+      "name": "#billboard",
+      "selector": "#billboard",
+      "domains": [
+        "www.deeplol.gg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "cb5d6a88-1d91-5f6a-99bb-b6395b4eccb0",
+      "name": "#desktop-takeover",
+      "selector": "#desktop-takeover",
+      "domains": [
+        "www.deeplol.gg"
       ],
       "isEnabled": true,
       "rank": 0,

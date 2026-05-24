@@ -59755,6 +59755,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "42f2e5ee-7373-5626-affc-ecd589d9a95c",
+      "name": "nresystems.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "nresystems.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8c713af7-ca86-5358-b185-64a6879d8cce",
       "name": "nrich.ai",
       "scope": "fqdn",
@@ -80334,6 +80346,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "450b472f-4d76-57c2-80db-99bec25b9c68",
+      "name": "digitalblend.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "digitalblend.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d5e8c4b9-82ff-5603-b83c-fa05d99fcea4",
       "name": "digithalo.com",
       "scope": "fqdn",
@@ -82674,18 +82698,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "6ecbb40b-900d-5392-911b-4526f0059fb4",
-      "name": "fjordsand.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fjordsand.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "89163cf5-173b-5271-9ce4-04ba786954f9",
       "name": "flakyfeast.com",
       "scope": "fqdn",
@@ -84071,18 +84083,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "gluedpixel.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "80718476-337e-54f2-8d76-a7ddebd828ef",
-      "name": "goddesslamps.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "goddesslamps.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89111,6 +89111,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "nappyneck.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f2857e46-39b9-589f-a78c-d99a33d914e9",
+      "name": "naturebeans.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "naturebeans.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96738,6 +96750,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "17191025-fe99-5fba-8364-9edc689d222d",
+      "name": "stadiumzoo.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "stadiumzoo.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "159aa87a-2cd7-5b77-8a5e-9fd82a19eda0",
       "name": "stakedances.com",
       "scope": "fqdn",
@@ -101142,6 +101166,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "8cc4c1e9-5a5b-57d2-962f-0ab0bfa29971",
+      "name": "wildpetalfarm.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wildpetalfarm.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "10fd0f01-1eda-5cdb-b478-fcbfd4059097",
       "name": "wildwoodavenue.com",
       "scope": "fqdn",
@@ -101334,6 +101370,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ea111a97-d29a-5f45-a1a1-e18eed88b3c2",
+      "name": "woofweather.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "woofweather.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "fa715fa1-52ec-5003-8a01-2f0f5509b4ff",
       "name": "woolstapler.com",
       "scope": "fqdn",
@@ -101375,6 +101423,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "workoperation.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d3bd9991-226c-5721-bdd2-522dcb0aa828",
+      "name": "workplacelight.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "workplacelight.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101543,6 +101603,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "xovq5nemr.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6909a467-fd9e-59cf-8c4e-6f8e933b78d8",
+      "name": "yachtloft.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "yachtloft.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101740,6 +101812,61 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "190f35a5-9bee-5ce2-9542-55d07815e433",
+      "name": "autoblog.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?autoblog\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1bc8bcb1-c3e1-546c-a5e1-2b8499c8b69a",
+      "name": "bikemag.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bikemag\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8177f0d8-b450-5a1a-9083-3c2c0f060f92",
+      "name": "mensjournal.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mensjournal\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4dfdb9a6-c65c-5d55-9a50-d91ee17d5476",
+      "name": "paradehomeandgarden.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?paradehomeandgarden\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c7e12bc8-a1b5-5cfd-be67-c124d10d55aa",
+      "name": "surfer.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?surfer\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "9b10506e-d3ca-5724-8795-1e40264ec7b8",
@@ -117910,6 +118037,17 @@
       "note": ""
     },
     {
+      "id": "894bd936-456b-5a1a-8032-117cfac32bd9",
+      "name": "api.begenuin.com/goservices/data/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.begenuin\\.com(?::[0-9]+)?/goservices/data/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "ff255f26-f85b-51f3-bc40-07ccd220e757",
       "name": "api.blink.net/a/",
       "scope": "url",
@@ -125289,6 +125427,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "cfe1c272-b971-5396-b490-e6920b3060f5",
+      "name": "event-tracker.inditex.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "event-tracker.inditex.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3590658a-729e-552c-9a4c-9c409d6b677f",
       "name": "event.api.drift.com",
       "scope": "fqdn",
@@ -129410,6 +129560,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?js\\.cdn\\.applicationinsights\\.io(?::[0-9]+)?/scripts/b/ai\\.3\\.gbl\\.min\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2aa7e84c-108a-5d28-af6d-d71b89ac6c6a",
+      "name": "js.dashfi.net/dashfinet-analytics.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?js\\.dashfi\\.net(?::[0-9]+)?/dashfinet\\-analytics\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -134292,6 +134453,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "503d8b28-d6e5-5715-aae4-0322593a18a0",
+      "name": "pixel.dashfi.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pixel.dashfi.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "6c346ffb-7a1c-5688-a9ea-41d6683ce154",
       "name": "pixel.driveniq.com",
       "scope": "fqdn",
@@ -137359,6 +137532,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "e9545d71-fed6-5456-823e-b66bedf3ca36",
+      "name": "segmentapis.com/v1/t",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?segmentapis\\.com(?::[0-9]+)?/v1/t",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "27f92d57-ae17-57b8-9695-8b8df1f96dda",
@@ -163467,6 +163651,17 @@
       "note": ""
     },
     {
+      "id": "45c5e23a-8d78-53b6-aede-47e0eda06b42",
+      "name": "api.x.com/live_pipeline/events?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.x\\.com(?::[0-9]+)?/live_pipeline/events\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "657f7cc6-aa4e-5d7d-a0d4-5ecf8e900cc9",
       "name": "apigw.scmp.com/metrics/monitoring",
       "scope": "url",
@@ -163589,6 +163784,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "fb4bdd97-0cad-548d-bdf6-34431b566ef6",
+      "name": "arena.ai/rpc/e/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?arena\\.ai(?::[0-9]+)?/rpc/e/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b90f958c-e10c-5a9d-b669-8bc26b94a544",
+      "name": "arena.ai/rpc/i/v0/e/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?arena\\.ai(?::[0-9]+)?/rpc/i/v0/e/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "b0d5c406-5601-5fd4-a2e6-f8fb4237af41",
@@ -163764,17 +163981,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?auth\\.services\\.adobe\\.com(?::[0-9]+)?/signin/v1/audit",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "190f35a5-9bee-5ce2-9542-55d07815e433",
-      "name": "autoblog.com/.api/admiral",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?autoblog\\.com(?::[0-9]+)?/\\.api/admiral",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -164208,17 +164414,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bigw\\.com\\.au(?::[0-9]+)?/events/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "1bc8bcb1-c3e1-546c-a5e1-2b8499c8b69a",
-      "name": "bikemag.com/.api/admiral",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bikemag\\.com(?::[0-9]+)?/\\.api/admiral",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -165332,6 +165527,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "6090d3c4-b88d-5ec3-8cd9-fb8212214e2c",
+      "name": "cloudconvert.com/build/assets/plausible-CoqwX5KR.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cloudconvert\\.com(?::[0-9]+)?/build/assets/plausible\\-CoqwX5KR\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "2322f0bb-2512-5e97-9157-d4cd1f99c083",
@@ -168514,6 +168720,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?facebook\\.com(?::[0-9]+)?/sw/log/init/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "733902f7-e54e-506c-89fd-f72920b476b7",
+      "name": "fairprice.com.sg/VZl2n4/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?fairprice\\.com\\.sg(?::[0-9]+)?/VZl2n4/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -173008,17 +173225,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8177f0d8-b450-5a1a-9083-3c2c0f060f92",
-      "name": "mensjournal.com/.api/admiral",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mensjournal\\.com(?::[0-9]+)?/\\.api/admiral",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "59085765-f3fb-545a-8ea0-82c2de5eeb20",
       "name": "mensjournal.com/.bootscripts/analytics.min.js",
       "scope": "url",
@@ -174976,17 +175182,6 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
-    },
-    {
-      "id": "4dfdb9a6-c65c-5d55-9a50-d91ee17d5476",
-      "name": "paradehomeandgarden.com/.api/admiral",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?paradehomeandgarden\\.com(?::[0-9]+)?/\\.api/admiral",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
     },
     {
       "id": "3de8d5f3-1070-5f56-974b-a224652e9045",
@@ -180988,11 +181183,22 @@
       "note": ""
     },
     {
-      "id": "76b05786-7162-5fa8-9011-2e703685ba20",
-      "name": "thehackernews.com/zscripts/",
+      "id": "e029a7bd-45b2-556c-a71e-b529d1e637fc",
+      "name": "thehackernews.com/ga/c",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thehackernews\\.com(?::[0-9]+)?/zscripts/",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thehackernews\\.com(?::[0-9]+)?/ga/c",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8a6f0327-f4ca-5149-8eaf-af6b08347d65",
+      "name": "thehackernews.com/ga4/c",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thehackernews\\.com(?::[0-9]+)?/ga4/c",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -183756,6 +183962,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?webmd\\.com(?::[0-9]+)?/static/v/c\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "06cbbfa1-f0eb-5dc7-bc6f-be722098a367",
+      "name": "website-api.omni.fairprice.com.sg/api/tracking/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?website\\-api\\.omni\\.fairprice\\.com\\.sg(?::[0-9]+)?/api/tracking/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -578758,18 +578975,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cdanjoyner4374.myre.io",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "87032796-104a-51f8-9204-e31fb3ca82db",
-      "name": "cdl.booksy.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdl.booksy.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
