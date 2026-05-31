@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-05-24T20:39:46+00:00",
+  "generatedAt": "2026-05-31T21:37:29+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 87800,
-      "acceptedBlockRules": 56975,
+      "inputRules": 89647,
+      "acceptedBlockRules": 58810,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 22773,
+      "acceptedCosmeticRules": 22787,
       "duplicateRules": 3,
       "skipped": {
         "advanced_rule": 266,
-        "allowlist": 1072,
-        "unsupported_cosmetic_selector": 505,
-        "unsupported_domain_scope": 268,
-        "unsupported_modifier": 5729,
+        "allowlist": 1071,
+        "unsupported_cosmetic_selector": 506,
+        "unsupported_domain_scope": 269,
+        "unsupported_modifier": 5726,
         "unsupported_url_pattern": 200,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 55591,
-      "acceptedBlockRules": 53433,
+      "inputRules": 55374,
+      "acceptedBlockRules": 53210,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 2,
       "skipped": {
         "advanced_rule": 26,
-        "allowlist": 820,
+        "allowlist": 821,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 923,
+        "unsupported_modifier": 928,
         "unsupported_url_pattern": 380
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 110408,
+    "acceptedBlockRules": 112020,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 22775,
+    "acceptedCosmeticRules": 22789,
     "duplicateRules": 5,
     "skipped": {
       "advanced_rule": 292,
       "allowlist": 1892,
-      "unsupported_cosmetic_selector": 510,
-      "unsupported_domain_scope": 268,
-      "unsupported_modifier": 6652,
+      "unsupported_cosmetic_selector": 511,
+      "unsupported_domain_scope": 269,
+      "unsupported_modifier": 6654,
       "unsupported_url_pattern": 580,
       "unsupported_webkit_regex_brace_quantifier": 9
     }

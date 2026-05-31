@@ -33906,30 +33906,6 @@
       "literalOperator": "contains"
     },
     {
-      "id": "d92caa73-17ee-5a25-a7ad-a434108cde0b",
-      "name": "/DNSCheck.js",
-      "scope": "url",
-      "matchKind": "literal",
-      "pattern": "/DNSCheck.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "contains"
-    },
-    {
-      "id": "61bf4793-6ad6-5e88-a688-6e47da410e7d",
-      "name": "/DNSChecker.js",
-      "scope": "url",
-      "matchKind": "literal",
-      "pattern": "/DNSChecker.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "contains"
-    },
-    {
       "id": "7407fc17-38d2-547c-b270-187358dc6c04",
       "name": "/hawk.js",
       "scope": "url",
@@ -43549,6 +43525,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "affistats.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "e2384d5b-4a02-5557-ba87-e155ff076dec",
+      "name": "affonso.io",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "affonso.io",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -73734,30 +73722,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "2ccd2261-f46e-58ec-942e-bee4570f86d9",
-      "name": "5mcwl.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "5mcwl.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "92b828a1-4287-508e-9125-77119de823fd",
-      "name": "6ldu6qa.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "6ldu6qa.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "74e544c5-cebf-5f89-ab97-edd8407ea600",
       "name": "82o9v830.com",
       "scope": "fqdn",
@@ -74010,18 +73974,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ef20f024-1eb9-53a2-9536-9cf3e5d08b0f",
-      "name": "achieverknee.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "achieverknee.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b95616b3-d29f-5dec-b215-c1e25a02bd06",
       "name": "acidicstraw.com",
       "scope": "fqdn",
@@ -74039,18 +73991,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "acidpigs.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "70dae8ef-66af-59e6-b77d-db4f538c8f9c",
-      "name": "acquireuser.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "acquireuser.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -74147,18 +74087,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "admiralproxied.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d91629ca-fdeb-5b1c-b9ac-eb9720416612",
-      "name": "admissionaudit.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "admissionaudit.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -74406,6 +74334,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7b7b3165-1a02-56c2-b3c2-8c1f468cf8f2",
+      "name": "alloytitans.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "alloytitans.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "a57fe609-cd59-508b-acd4-acde9ecbc53e",
       "name": "allsunflowers.com",
       "scope": "fqdn",
@@ -74459,18 +74399,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "almondbuns.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "4371eaad-acde-5754-88e3-c98be7db8bb4",
-      "name": "almostsugar.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "almostsugar.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -74622,6 +74550,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "12943f16-5de3-564d-a5ef-7c57d93c0ab6",
+      "name": "ampscamp.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ampscamp.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3a9ac985-ed49-5056-91f7-e6c5974f9967",
       "name": "amuckafternoon.com",
       "scope": "fqdn",
@@ -74639,18 +74579,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "amusedbucket.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a128c684-3e5c-5308-a3ca-3ee39ad0bfc4",
-      "name": "amusementmorning.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "amusementmorning.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -74790,18 +74718,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "be3dd60c-a2f8-512d-9322-2080b2415626",
-      "name": "ar1nvz5.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ar1nvz5.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a18f57e3-f633-5e6a-9646-70468a1eb0a5",
       "name": "archswimming.com",
       "scope": "fqdn",
@@ -74934,18 +74850,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "64fa66ce-5cf0-543e-ba9d-8825ad026585",
-      "name": "astrallullaby.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "astrallullaby.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "eb64ee28-76dc-5d45-8db9-0244d6944b69",
       "name": "attendchase.com",
       "scope": "fqdn",
@@ -75054,18 +74958,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "473b59fd-62a2-5fd8-b0ff-31f6f08e121f",
-      "name": "awakebird.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "awakebird.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "acddbe3f-53b6-5075-84ce-4ce5930c341f",
       "name": "awarealley.com",
       "scope": "fqdn",
@@ -75083,18 +74975,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "awzbijw.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "69a2f0b4-6a90-5b10-bab5-822212cf683b",
-      "name": "axiomaticalley.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "axiomaticalley.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -75131,18 +75011,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "azurestealth.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "675f2777-1213-5f0c-ae87-f9793a93f813",
-      "name": "babyblissgifts.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "babyblissgifts.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -75294,18 +75162,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "a79e0d92-45a5-53b3-b8b3-5e326c677011",
-      "name": "bamboohugs.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "bamboohugs.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "ee902e67-0a45-5f12-b222-43552e2f4d8d",
       "name": "bananabarrel.com",
       "scope": "fqdn",
@@ -75426,6 +75282,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "77060d9d-1000-5ddd-a9f9-19891b1859fc",
+      "name": "battleburst.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "battleburst.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "ac3c5165-94f1-59e4-a460-aa2b81efe296",
       "name": "battlekite.com",
       "scope": "fqdn",
@@ -75443,18 +75311,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "bawdybalance.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e2744c7d-6119-56bf-8d81-d63ae46dcac1",
-      "name": "bawdybeast.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "bawdybeast.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -75539,18 +75395,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "berserkhydrant.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "737a8ddb-47c5-533b-8648-cb5678493490",
-      "name": "bespokesandals.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "bespokesandals.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -75839,18 +75683,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "blackbelted.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9a9a794f-b41d-511c-b3b1-b4a7c6dfd1bf",
-      "name": "blackbrake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "blackbrake.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76194,18 +76026,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8d758c0e-3f9d-5005-b784-cea2b692d11b",
-      "name": "bookprobe.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "bookprobe.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "93bf0359-503a-5682-855b-c48f3acd1b49",
       "name": "boomboomcloud.com",
       "scope": "fqdn",
@@ -76326,35 +76146,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "72666cb0-3087-5780-a2ce-b87d9e3c1aed",
-      "name": "boxatech.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "boxatech.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a8c0496d-ad15-540a-b08b-ffdba9439331",
       "name": "brainybasin.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "brainybasin.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "0398b9bb-9963-5aca-b777-5b8f8e794ef0",
-      "name": "brainynut.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "brainynut.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76494,18 +76290,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ed8c4eea-a0bf-5304-9a75-4d7f647323b7",
-      "name": "briefstem.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "briefstem.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "fb48f341-3487-5be6-81a7-3ad73010cb17",
       "name": "brighttoe.com",
       "scope": "fqdn",
@@ -76547,18 +76331,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "broadborder.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1ab29958-4c6a-5664-a08a-f889d125c74c",
-      "name": "broadboundary.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "broadboundary.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76734,18 +76506,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f06cbc2b-cf9e-53bf-9bb6-cabeb00c14b0",
-      "name": "bumpydevelopment.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "bumpydevelopment.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3730e689-1613-5550-83a1-497563e7ea8f",
       "name": "bungeesleeves.com",
       "scope": "fqdn",
@@ -76763,18 +76523,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "burgersalt.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "52646d65-9bb2-5efd-b2dd-0ea76450fa51",
-      "name": "burlywhistle.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "burlywhistle.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76962,18 +76710,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8e031357-8b1a-5baa-870c-c468a4594d30",
-      "name": "calculatingtoothbrush.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "calculatingtoothbrush.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "bd1269c4-4f59-54c7-bf08-5b84e265c76b",
       "name": "calculatorstatement.com",
       "scope": "fqdn",
@@ -77106,18 +76842,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "24ddfee9-3889-5222-b039-f4973a7232bf",
-      "name": "capablecup.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "capablecup.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "4968a771-abba-5498-ac60-d7624f890a2b",
       "name": "capriciouscorn.com",
       "scope": "fqdn",
@@ -77238,35 +76962,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "0927da38-9d07-505f-a519-2b0a1ca902bd",
-      "name": "caringzinc.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "caringzinc.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "bdd9b298-812b-530e-abd7-8af045733e2c",
       "name": "carloforward.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "carloforward.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "916086b2-fe96-5ff7-b49c-52cbb39206f9",
-      "name": "carpentercomparison.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "carpentercomparison.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -77286,18 +76986,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "755d6b8c-1e13-511f-b980-dc3832b93328",
-      "name": "carryenjoy.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "carryenjoy.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a798433d-5a1c-59d6-bdb6-192660e57091",
       "name": "carsarace.com",
       "scope": "fqdn",
@@ -77310,35 +76998,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d3412849-ea48-56c4-bfce-e99d85f4321f",
-      "name": "carscannon.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "carscannon.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "ca02e6c9-1e92-5f59-94dc-f825ffdb07f7",
       "name": "cartelsalsa.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cartelsalsa.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "0fec7b0c-a942-5613-83c7-7b5d02529122",
-      "name": "cartkitten.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cartkitten.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -77447,18 +77111,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "causecherry.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7fed200d-7116-527c-a0f0-298dd44171d8",
-      "name": "cautiouscamera.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cautiouscamera.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -77766,18 +77418,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "06bf7f24-55ec-532c-a101-f5f990c22402",
-      "name": "chickensstation.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "chickensstation.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "dc28f06d-53e6-54e6-a1e0-25f50ef9f1ae",
       "name": "childlikecrowd.com",
       "scope": "fqdn",
@@ -77831,18 +77471,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "chingovernment.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "0e25ccb5-d5b5-5f79-95d5-930f3ae22972",
-      "name": "chinsnakes.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "chinsnakes.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78030,18 +77658,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "b2df9619-6800-5f4f-9cdd-76ccc123a36a",
-      "name": "closedcows.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "closedcows.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b4010ea3-2572-54d2-9e4a-b7b518a35664",
       "name": "cloudchickens.com",
       "scope": "fqdn",
@@ -78138,18 +77754,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "84fb74b0-f9e4-54af-8c88-4490b980437b",
-      "name": "coinsyouneed.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "coinsyouneed.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a6bd6615-85d7-5216-b746-c949ea81a2c8",
       "name": "coldbalance.com",
       "scope": "fqdn",
@@ -78186,35 +77790,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f5dffbe8-3cf6-536b-abc8-ae7cb7d6c836",
-      "name": "colorfulafterthought.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "colorfulafterthought.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a5bc6236-8cea-516d-bd7a-01d9e584463c",
       "name": "colorfulpet.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "colorfulpet.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ef978bc1-3b7f-58d4-817a-a27d077b81f5",
-      "name": "coloringisland.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "coloringisland.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78275,18 +77855,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "colossalcry.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b7c6805f-158d-52e2-b47a-5c9199e24df4",
-      "name": "combativecar.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "combativecar.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78390,59 +77958,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "9db740e5-c177-5368-b7cd-d3ddf236eaad",
-      "name": "compiledoctor.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "compiledoctor.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "0b9ca28a-61ab-5b61-b65d-9849a132950f",
       "name": "compilework.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "compilework.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a0d7d0a1-0d72-5c90-8c79-daf839aa6bd2",
-      "name": "complexpixel.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "complexpixel.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8e3e4790-e8c2-5878-bf5a-b0908b39ebd7",
-      "name": "concernedchickens.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "concernedchickens.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "db2ae6a6-5b18-5198-b1b1-fbd23f430fde",
-      "name": "concretetom.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "concretetom.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78558,18 +78078,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "adfd96c5-7b22-5af7-b1ec-eba62ac024b3",
-      "name": "connectashelf.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "connectashelf.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "23371e3f-558d-5c23-bbe9-2b61662d0a50",
       "name": "consciouschairs.com",
       "scope": "fqdn",
@@ -78618,47 +78126,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "9307caa0-801f-52e3-a355-75f86881e934",
-      "name": "contentcamera.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "contentcamera.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b679f017-c74c-51b5-80ae-c906fbb013d3",
-      "name": "controlcola.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "controlcola.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b253a7f0-0b59-559c-b981-06945fd69be3",
       "name": "controlhall.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "controlhall.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "3fdccf53-4036-53ff-a426-fb0cd529db61",
-      "name": "controlswim.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "controlswim.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78731,18 +78203,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "coolkidsdistrict.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e43fb801-9c44-566f-bfa6-e131fc05e676",
-      "name": "coordinatedbedroom.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "coordinatedbedroom.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78863,18 +78323,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "corgibeachday.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b5daacc1-ae30-50e6-8aee-ef17f05bc0be",
-      "name": "cornershirts.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cornershirts.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -79278,18 +78726,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8720e5b5-f37b-50a8-af12-870801feeb5c",
-      "name": "cryptvalue.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cryptvalue.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "cfa8af40-f3d3-58d9-b891-cf5c206ce879",
       "name": "crystalboulevard.com",
       "scope": "fqdn",
@@ -79398,47 +78834,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d653fe73-c879-5db2-90fc-27dee55ba8df",
-      "name": "cumbersomecake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cumbersomecake.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a2c9ce69-4ff9-59d6-9a07-c7e41cc587dc",
-      "name": "cumbersomecar.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cumbersomecar.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "2190d6e1-d070-544e-b514-49a8944876c3",
       "name": "cumbersomecarpenter.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cumbersomecarpenter.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7af902db-1c70-57e6-8236-a33d809d9f73",
-      "name": "cupcakegem.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cupcakegem.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -79578,18 +78978,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "0efe49ef-f878-5ff6-9a8a-d8ac805b8f28",
-      "name": "curvycord.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "curvycord.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "ffb65b71-6237-5f57-8b25-3bb6dc21142a",
       "name": "curvycry.com",
       "scope": "fqdn",
@@ -79607,18 +78995,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cushiondrum.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ce0eddd4-4dda-5982-a4af-8d5e69321d10",
-      "name": "cushionpig.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cushionpig.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -79746,18 +79122,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "58eb9618-34b6-5065-a474-dc00d8a3b8fc",
-      "name": "dancemistake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dancemistake.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "56712100-a81f-5003-8a24-32c4b197abba",
       "name": "dandydune.com",
       "scope": "fqdn",
@@ -79799,18 +79163,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dashingdrop.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7d72b54e-45f1-5df0-805d-a2e9f1bf79d2",
-      "name": "datacirrus.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "datacirrus.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -79871,18 +79223,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dazzlingbook.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b932915c-59d6-5822-807d-4d9d2cd7ab02",
-      "name": "deafeningdock.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "deafeningdock.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -79962,35 +79302,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "dd9ef43f-42a7-5582-b32c-37b9d73f3e8c",
-      "name": "decisiveducks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "decisiveducks.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "f6df5ff2-c956-5345-8525-0c87ec83bc77",
       "name": "decklibrary.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "decklibrary.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "27237b0d-7447-594d-981e-2e0d86e8ca0e",
-      "name": "decoycreation.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "decoycreation.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80051,18 +79367,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "degreechariot.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b7511a9a-ee43-57dc-b7f8-974009f41e1a",
-      "name": "delegatediscussion.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "delegatediscussion.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80310,18 +79614,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "2cc918d7-1458-5a35-b920-b3acfdbcae0a",
-      "name": "dicemoments.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dicemoments.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "2e01231d-6269-509c-8893-db86fcd7fccb",
       "name": "difficultfog.com",
       "scope": "fqdn",
@@ -80375,18 +79667,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dinnerquartz.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "f77cad59-6c5d-518c-8062-936aac3ce074",
-      "name": "diplomahawaii.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "diplomahawaii.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80502,47 +79782,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "337357ba-4263-5c22-94ae-422cc9251ea1",
-      "name": "divehope.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "divehope.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "bc5ee55b-395d-5488-9621-6cff640fb98b",
-      "name": "dk4ywix.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dk4ywix.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "63d271ea-400b-515d-9b8e-5dd2d53a02de",
       "name": "dockdigestion.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dockdigestion.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "026da892-a7aa-5c66-9293-1228487a536d",
-      "name": "docketnews.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "docketnews.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80579,18 +79823,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dogcollarfavourbluff.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "88b02be2-ae59-5262-9dd8-64f41d109661",
-      "name": "doggieshome.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "doggieshome.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80742,18 +79974,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5f8d1591-48f7-5ee5-a0ea-713838b954ec",
-      "name": "dreamycanyon.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dreamycanyon.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "41a7adb6-f82d-5e83-b96c-8b2c626b59f8",
       "name": "driftingchef.com",
       "scope": "fqdn",
@@ -80843,18 +80063,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dyecloud.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "030a3e8e-6e6f-5214-abdf-813c0f1e80f6",
-      "name": "eagereden.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "eagereden.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81078,35 +80286,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "6f3ece52-bc5f-58e8-9566-42691b9a6b31",
-      "name": "ejyymghi.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ejyymghi.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "c47e7060-b140-5b87-8657-e2b111f84d88",
       "name": "elasticchange.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "elasticchange.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "63c36cde-d11d-5935-b9bb-9ee3b9571ff6",
-      "name": "elderlybean.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "elderlybean.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81131,18 +80315,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "elegantboulevard.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "bf143acb-5cd7-5f03-a95a-583de7f10dba",
-      "name": "elephantqueue.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "elephantqueue.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81270,18 +80442,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "17d600d7-7e53-520c-b296-d7fbd99f5b99",
-      "name": "enchantingenchantment.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "enchantingenchantment.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5d856129-ad3a-50f3-ba14-a4e7fcdafe6d",
       "name": "enchantingtundra.com",
       "scope": "fqdn",
@@ -81299,18 +80459,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "enchantingvalley.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "80eaa851-9bc0-50b1-99fc-c54e28a1af58",
-      "name": "encourageshock.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "encourageshock.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81383,18 +80531,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "energyfools.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b5be6ba2-ba56-5b85-a776-48a15cb70692",
-      "name": "engineergrape.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "engineergrape.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81630,18 +80766,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "e76f427b-9174-5c25-8cbf-37b6347fb426",
-      "name": "etherealquasar.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "etherealquasar.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "136a7699-9dd7-5488-8558-92347c2051f4",
       "name": "etherealripple.com",
       "scope": "fqdn",
@@ -81750,18 +80874,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "94c66ec3-921a-5f8d-8af8-7f939f2ca337",
-      "name": "exclusivebrass.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "exclusivebrass.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a42f503d-29d2-5e7a-b3f7-8e01c0e68993",
       "name": "executeknowledge.com",
       "scope": "fqdn",
@@ -81815,18 +80927,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "exportdialog.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e2dc13d6-cfb8-5fd8-889c-9b2f7e60c3a2",
-      "name": "exquisiteartisanship.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "exquisiteartisanship.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81930,35 +81030,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "a84b0202-3892-5e9f-9ac2-6baf6425211f",
-      "name": "fadechildren.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fadechildren.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "8533fcec-b0af-50d5-96da-b6df5bb92e64",
       "name": "fadedsnow.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fadedsnow.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "f2c9626c-abe9-5fa8-83d1-30eb51fd10d6",
-      "name": "failedforks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "failedforks.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -82139,18 +81215,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fangfeeling.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "873aa9c1-3146-508f-8f8b-093522da820f",
-      "name": "fannybacker.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fannybacker.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -82554,18 +81618,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "453701b9-9caf-5027-a896-3ccfe1a9231a",
-      "name": "finemines.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "finemines.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "465b882a-7cbd-5c32-bf5f-0abdf3f5264e",
       "name": "firecatfilms.com",
       "scope": "fqdn",
@@ -82602,35 +81654,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "970f2b31-ebd4-5ad5-87b2-3ff9e4945c6c",
-      "name": "firstfrogs.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "firstfrogs.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "07d7ed6c-3976-53f5-85c1-2ba15cc70cb1",
       "name": "firstscreenshot.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "firstscreenshot.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8b5ccc89-20c1-5a33-b4f8-73d9c27931f7",
-      "name": "firsttexture.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "firsttexture.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -82727,18 +81755,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "flashtexting.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "5ec88eec-88c7-596c-af19-a00965d34b94",
-      "name": "fleetbegin.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fleetbegin.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83190,18 +82206,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ec55dab0-6120-5aaf-9650-b133829dc283",
-      "name": "foxtrotdata.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "foxtrotdata.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "8382d1d6-aa48-548f-ac79-21223b55d15a",
       "name": "frailfruit.com",
       "scope": "fqdn",
@@ -83267,18 +82271,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "freedomgrail.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "5b7af0fe-2935-5f56-abef-3bb2d35eb9ea",
-      "name": "freezeassets.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "freezeassets.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83358,18 +82350,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5cb2476c-781a-5a80-b0b7-9b8f05329f3e",
-      "name": "frightenedpotato.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "frightenedpotato.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "25a2acad-0dce-5b12-a0a8-d9465c56df92",
       "name": "frogator.com",
       "scope": "fqdn",
@@ -83382,35 +82362,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f5f6b42b-0060-5ba6-83ad-5a1d9229f98f",
-      "name": "frogsfinds.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "frogsfinds.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "c0b7ec43-1a04-5577-a0cc-bb95d73ab6eb",
       "name": "fronttoad.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fronttoad.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e7bceff5-226a-5db9-bebe-7520b8a4e395",
-      "name": "frostpocket.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "frostpocket.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83550,47 +82506,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "06b823d8-0955-58a4-8931-63732d05535d",
-      "name": "furryhorses.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "furryhorses.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a8c68a39-57be-5799-84e6-319708610a07",
       "name": "fusedcontent.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fusedcontent.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1fb124bf-ea59-5a87-9331-1c309e0da97f",
-      "name": "futuristicapparatus.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "futuristicapparatus.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9dadafd4-682b-5a41-9101-1ec302541dce",
-      "name": "futuristicfairies.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "futuristicfairies.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83658,18 +82578,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "c309dff8-666d-5dea-ab42-50bdb7272149",
-      "name": "fvl1f.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fvl1f.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "82d09e18-6d8f-507c-9f22-399ea7cf9203",
       "name": "gammamaximum.com",
       "scope": "fqdn",
@@ -83687,18 +82595,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "gardenovens.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a0209503-d52c-57a5-ad4b-19381049edcf",
-      "name": "gatejunction.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "gatejunction.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83771,18 +82667,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "generalprose.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "f3b1bad7-5131-5750-9721-13f5843fa176",
-      "name": "generateoffice.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "generateoffice.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -83922,18 +82806,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "80f8e211-3a49-54ea-9fdf-38282b272fb3",
-      "name": "gladglen.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "gladglen.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b2423e76-87bd-55f7-9015-556ff8e609c5",
       "name": "gladysway.com",
       "scope": "fqdn",
@@ -83951,18 +82823,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "glamhawk.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "51c92f98-d3ce-57b8-8b4d-06a3789d1742",
-      "name": "glasscoyote.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "glasscoyote.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -84282,18 +83142,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "20feb099-ac42-588e-be32-2fcddc1cb349",
-      "name": "grassfedsalmon.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "grassfedsalmon.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "24ddb131-2869-56a0-a2bf-34b372acd467",
       "name": "gravitygive.com",
       "scope": "fqdn",
@@ -84366,35 +83214,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "2a63946a-8fa5-5e76-9188-829f4c636840",
-      "name": "greasegarden.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "greasegarden.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "410351ec-6916-55bf-8e06-318a5b3d2707",
       "name": "greasysquare.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "greasysquare.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ced908f6-f4f8-5a10-a29a-5f5f3b26f416",
-      "name": "greyinstrument.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "greyinstrument.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -84546,18 +83370,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8f849abb-f57f-543d-aa5a-86b5dff5a687",
-      "name": "guardfruit.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "guardfruit.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "14d50860-2454-5682-9ca8-5916c00fc9b9",
       "name": "guessdetail.com",
       "scope": "fqdn",
@@ -84635,30 +83447,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "gustygrandmother.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "4e3af825-38be-5df2-b342-e0c26df1f06e",
-      "name": "h78xb.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "h78xb.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "09be1d7e-eb2f-5e4d-8723-e23358f3697f",
-      "name": "habitualhumor.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "habitualhumor.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -84882,18 +83670,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5907efda-1eeb-5850-8e15-ea174daa1d35",
-      "name": "happysponge.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "happysponge.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "e645033b-24ae-50d4-bc97-4285a472c9ba",
       "name": "harborcaption.com",
       "scope": "fqdn",
@@ -84942,18 +83718,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "452794b1-bac8-5452-a895-6d050a2c1bc7",
-      "name": "hatefulrequest.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "hatefulrequest.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "06db5a73-9749-5b2a-9401-2573d39fb75f",
       "name": "hayweb.net",
       "scope": "fqdn",
@@ -84990,35 +83754,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "2513d6d0-7428-5682-85c1-9e12a5cbf15d",
-      "name": "headyhook.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "headyhook.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a7329d10-8c7a-595f-b5f8-bd06abcbcf0d",
       "name": "healflowers.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "healflowers.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ff4baf1b-9458-5af2-b0da-ee3985e551a5",
-      "name": "hearinglizards.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "hearinglizards.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -85175,18 +83915,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "highnoongear.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "08da260c-f284-5439-83bd-e0e7d720d586",
-      "name": "hikingbars.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "hikingbars.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -85374,18 +84102,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "eafd4912-d4b8-5278-92e4-ab8fd15129c0",
-      "name": "horsesoda.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "horsesoda.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "f088c7df-7f7d-50af-b5f9-9e06853c9fd0",
       "name": "hospitablehall.com",
       "scope": "fqdn",
@@ -85566,18 +84282,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "6fbd9ea6-59a7-5625-8810-4849dd38726b",
-      "name": "i9w8p.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "i9w8p.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "027aad91-c228-55c6-be1e-786aa89b5272",
       "name": "icywinter.com",
       "scope": "fqdn",
@@ -85674,18 +84378,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "e9ae5bef-db85-52cf-8b57-c5529d3bf8d2",
-      "name": "importedincrease.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "importedincrease.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "f890a0dc-a3d2-53db-b672-5812a22216a1",
       "name": "importedinsect.com",
       "scope": "fqdn",
@@ -85698,35 +84390,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "7d7f6bd2-0590-5cee-9934-bf5ea1b9d9ec",
-      "name": "importlocate.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "importlocate.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "281972c1-d398-551b-b36f-8404ef3c2ded",
       "name": "impossibleexpansion.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "impossibleexpansion.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8000673d-2f2b-5907-9e4d-f895763df614",
-      "name": "impossiblemove.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "impossiblemove.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -85830,35 +84498,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "eb48e147-f7f5-5752-be6f-a72920546ad9",
-      "name": "innocentwax.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "innocentwax.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "31942002-913b-59c2-a855-92ef86ecfbd0",
       "name": "inputicicle.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "inputicicle.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "694a3202-b968-5c01-a0c2-f306042eec2d",
-      "name": "inquisitiveice.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "inquisitiveice.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86130,30 +84774,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "531ded98-007f-5b7f-9245-3d0092715543",
-      "name": "jadeitite.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "jadeitite.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "df857aa4-4eff-559d-a213-b5bbe4bb8aa8",
-      "name": "jaderooster.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "jaderooster.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "80d6796e-3f69-5d44-a3a6-ad177e78ef23",
       "name": "jailbulb.com",
       "scope": "fqdn",
@@ -86171,30 +84791,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "jamexport.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "30a1f974-66c8-5112-9b75-29e53e222bf7",
-      "name": "jazzstadium.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "jazzstadium.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1028aa46-7867-5703-9820-7c8b138efcbb",
-      "name": "jazzwholesale.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "jazzwholesale.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86538,18 +85134,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ef720d15-b070-5a48-8720-1c1f39e7c055",
-      "name": "k54nw.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "k54nw.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b93546e6-14c0-5a0f-8eb9-1078f4425c08",
       "name": "keenquill.com",
       "scope": "fqdn",
@@ -86586,35 +85170,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "23966d86-de63-51ad-9efa-ab1cbcdef6d8",
-      "name": "kindasingle.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "kindasingle.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "9e59d219-7d64-5f5f-b1f0-a9f2d0ceee8f",
       "name": "kindlereunion.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "kindlereunion.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "2e74c960-2c7d-5379-bf1d-09133730b443",
-      "name": "kitesquirrel.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "kitesquirrel.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86687,18 +85247,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "knitstamp.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "6ed21cdc-c71c-56e1-944d-c7e131856c9a",
-      "name": "knottysticks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "knottysticks.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86862,18 +85410,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "13ff25b4-490f-53e3-ba48-f8ae99b52215",
-      "name": "laughdrum.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "laughdrum.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a1166303-e2e7-5cb4-97f9-6465133f2d4a",
       "name": "launchjack.com",
       "scope": "fqdn",
@@ -86915,18 +85451,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "leafpilot.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "eb745f29-c582-539e-94fd-317f2e657dee",
-      "name": "leaguepoll.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "leaguepoll.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86999,18 +85523,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "libraryfacts.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "47c16e7f-43d8-5c4d-8d9e-3eed2b106479",
-      "name": "libraryscout.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "libraryscout.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -87114,18 +85626,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "a23c9ae3-ef42-5e5c-88d7-482b3a0b4194",
-      "name": "linkedleg.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "linkedleg.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "d06eda7f-f127-570a-93d1-914ff179aa67",
       "name": "linksoutside.com",
       "scope": "fqdn",
@@ -87179,18 +85679,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "livelylaugh.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1c475313-cc63-5c28-8014-80e2a958d149",
-      "name": "livelyreward.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "livelyreward.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -87282,18 +85770,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "84437bb0-21b5-54e5-adf9-a458e63b6963",
-      "name": "lockuplookup.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "lockuplookup.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "657689be-4da7-5ec0-9410-3a5973eca8d6",
       "name": "locolava.com",
       "scope": "fqdn",
@@ -87311,18 +85787,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "logicalminds.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "6bf2d7ee-34b8-55d7-bb42-66aa4ad24e6d",
-      "name": "logoshutter.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "logoshutter.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -87479,18 +85943,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "lowkeypalmtree.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "5bd84f9d-6971-58ef-a79b-ff10e77a1669",
-      "name": "lp3tdqle.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "lp3tdqle.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -87762,42 +86214,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d7f0ed97-ec20-5491-b36d-73290d759a69",
-      "name": "magiczenith.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "magiczenith.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "60007e8e-3129-5412-ae43-719d33b146ff",
-      "name": "magnetairport.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "magnetairport.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d6e3367a-7335-5428-97b9-ec533da85c21",
-      "name": "majesticmountainrange.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "majesticmountainrange.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "24d66d41-0b98-5eea-85b4-6d5598d53361",
       "name": "majesticwaterscape.com",
       "scope": "fqdn",
@@ -87863,18 +86279,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "manamoment.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "052c6f67-a0cc-5b3a-8696-27323cafbdbc",
-      "name": "mantrafox.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mantrafox.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -88470,18 +86874,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "04735160-a8f9-565a-97b0-22a27380ddc7",
-      "name": "metalbold.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "metalbold.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "9b9d54f8-e06c-5d7c-9635-a3e7fa724e35",
       "name": "metawelcome.com",
       "scope": "fqdn",
@@ -88547,18 +86939,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "mindfulgem.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ee9be4fb-54bf-52f0-b3b2-9ac101bbb388",
-      "name": "mindlessmark.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mindlessmark.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -88667,18 +87047,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "mittencattle.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c7ff2943-b539-592d-88de-988697e9d0a7",
-      "name": "mixedreading.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mixedreading.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -88974,18 +87342,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "77c5bef3-5fcd-5966-81b9-4d1c694b1a27",
-      "name": "mundanepollution.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mundanepollution.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "27860aec-f4e2-5f1f-8705-89d7e35a2dd3",
       "name": "mushroomgods.com",
       "scope": "fqdn",
@@ -89039,18 +87395,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "mutemailbox.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8b28fd50-c67d-5f19-b0b9-0a11edb56dff",
-      "name": "mutualhappy.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "mutualhappy.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89195,18 +87539,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "nebulajubilee.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "adc0ddbd-a3e7-5aec-9fce-c18c04bc48a4",
-      "name": "nebulousamusement.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "nebulousamusement.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89574,18 +87906,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "7ee1613d-183e-5a71-8589-92e9e7105f7f",
-      "name": "notconscious.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "notconscious.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "0d4ae194-cb53-5eed-a3b7-32b9e6296772",
       "name": "notifyglass.com",
       "scope": "fqdn",
@@ -89694,18 +88014,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8bc9774c-1c64-5692-842f-e2da736eac5f",
-      "name": "nutritiousbean.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "nutritiousbean.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "de049071-0cd7-582c-90b1-419591199937",
       "name": "oafishchance.com",
       "scope": "fqdn",
@@ -89735,18 +88043,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "objecthero.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ed72166c-5327-55cc-9063-65045a629124",
-      "name": "objectsnetwork.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "objectsnetwork.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89790,35 +88086,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "9adea779-e716-59fc-ab12-d4b7d95ae0c5",
-      "name": "observantice.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "observantice.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "afc6eb2f-49d1-5945-9c43-5c1cb31e00c5",
       "name": "obsidiangems.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "obsidiangems.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "6d681f96-9925-5caa-89f0-119b109dfd85",
-      "name": "octaneblood.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "octaneblood.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89910,18 +88182,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "e7b83030-4619-5549-bcc5-875e445d5f23",
-      "name": "oldandindie.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "oldandindie.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "2bfd807d-6c85-5cd0-b800-9c10530d4df2",
       "name": "oldfashionedoffer.com",
       "scope": "fqdn",
@@ -89951,18 +88211,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "omgthink.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "5a64b898-104a-53cb-b013-b062d08c99a2",
-      "name": "omniscientfeeling.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "omniscientfeeling.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90059,18 +88307,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "operationnail.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c3c9e678-4462-5b21-9486-f3a9c3e0f9e9",
-      "name": "oppositeoperation.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "oppositeoperation.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90414,18 +88650,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "948a76ab-2560-591c-9977-9bbf627ccf27",
-      "name": "palmytree.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "palmytree.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "666c4947-fe08-5aeb-bda5-3ca3bdf7f86f",
       "name": "pamelarandom.com",
       "scope": "fqdn",
@@ -90443,18 +88667,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "panickypancake.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ee5e6690-8f39-5a9a-bd4a-0bf2704a64fa",
-      "name": "panoramicbutter.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "panoramicbutter.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90503,18 +88715,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "parchedsofa.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "3914d5fa-11ac-5e7b-a7ce-5dc739f80c29",
-      "name": "pardonpopular.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pardonpopular.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90678,18 +88878,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "86ad2ec6-3423-5665-bab4-cf5c4b3b351c",
-      "name": "perceivequarter.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "perceivequarter.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "1968d97d-3828-5198-af0a-1ae37670cda3",
       "name": "perfectfetch.com",
       "scope": "fqdn",
@@ -90714,18 +88902,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f7c964b4-4c4e-5485-8c80-7d268c19c6b0",
-      "name": "petiteumbrella.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "petiteumbrella.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "90eefee4-e268-5a3c-b731-83aa0cc4ec72",
       "name": "phonecup.com",
       "scope": "fqdn",
@@ -90743,18 +88919,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "phoneresult.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "59151bc6-14ff-5833-93f8-a76e51ee96b5",
-      "name": "photographpan.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "photographpan.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90791,18 +88955,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pickmicro.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "fa821bf4-85ed-5184-a8e8-c6fb38ab7a99",
-      "name": "pietexture.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pietexture.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -91110,18 +89262,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "e12d65ec-0647-5481-81b3-ac93b86a7005",
-      "name": "podiumpresto.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "podiumpresto.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5dabe577-31fc-5803-a641-5182b126dc5d",
       "name": "podname.com",
       "scope": "fqdn",
@@ -91187,18 +89327,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pointlessprofit.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a3b0a0ce-6ee6-5796-b261-04b5c0fc9470",
-      "name": "pointlessrifle.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pointlessrifle.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -91758,18 +89886,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d00ca87d-d033-520d-ac5f-be9d6c1736c2",
-      "name": "psychedelicchess.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "psychedelicchess.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "bde6e00c-685f-57bc-975c-843a8fab63bc",
       "name": "pubfs.com",
       "scope": "fqdn",
@@ -91974,47 +90090,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "7adbaee0-f0d0-57fb-b348-b62bcf82ba48",
-      "name": "pyramidpaw.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pyramidpaw.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b103f3eb-1025-55a8-b1c9-9cf08fe17618",
       "name": "q20jqurls0y7gk8.info",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "q20jqurls0y7gk8.info",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "32c9df25-42ef-5d8a-a3c6-51de7af6f284",
-      "name": "quaintcan.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "quaintcan.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "0cedc2bd-ae86-5212-9bc8-aecd2362da59",
-      "name": "qualifiedblog.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "qualifiedblog.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -92135,18 +90215,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "quillkick.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "03ca7081-b1df-5e1d-8088-1d6ec7b4c8e0",
-      "name": "quiltquick.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "quiltquick.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -92339,18 +90407,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "railwaygiraffe.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d5f8f824-b0ac-573d-8195-17fb6bfbe9cd",
-      "name": "railwayrainstorm.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "railwayrainstorm.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -92634,18 +90690,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "b75f9a81-ce5d-58cf-bd25-d4d7aa8e27b6",
-      "name": "receptiveink.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "receptiveink.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "329b78c1-3d39-581d-872d-c6bc775c8b80",
       "name": "receptivereaction.com",
       "scope": "fqdn",
@@ -92747,18 +90791,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "redbricksoap.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "f68d9b1a-cc56-5297-bbe9-9c287ed48235",
-      "name": "reduceplan.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "reduceplan.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -92994,18 +91026,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "cbd5da62-b796-5c94-b110-53e378c2f54a",
-      "name": "resplendentecho.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "resplendentecho.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "44c5b94f-5981-5acb-adcf-66c7652e10cd",
       "name": "restfultools.com",
       "scope": "fqdn",
@@ -93234,18 +91254,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f35d28fd-61a9-5f5f-a7a8-3c9a4e9d5b0c",
-      "name": "ritzykey.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ritzykey.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "c576c140-7b11-5d20-a2ac-19cc97744afb",
       "name": "ritzyrepresentative.com",
       "scope": "fqdn",
@@ -93275,18 +91283,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "roaddynamics.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e66163ac-b993-5ead-894c-e706b874457d",
-      "name": "roadwalks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "roadwalks.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -93467,18 +91463,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ruthlessdegree.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "3b718e19-ccf3-55ac-bd64-fce5dc848e64",
-      "name": "ruthlessmilk.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ruthlessmilk.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -93774,18 +91758,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "15682bb4-e293-53cf-889d-9392fa93aa60",
-      "name": "scarcecard.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "scarcecard.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "d753a555-4520-5ac9-b22d-164ba16741d8",
       "name": "scarceshock.com",
       "scope": "fqdn",
@@ -93911,18 +91883,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "scaredstomach.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c1104194-1a1b-55c6-b4f0-0254d190c6e2",
-      "name": "scaredswing.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "scaredswing.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -94326,18 +92286,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "44de0c4a-9679-5df0-be23-1d839ba02064",
-      "name": "seekmyshop.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "seekmyshop.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "67ff6435-d729-5471-9185-74b5e2aa6aa7",
       "name": "seekremote.com",
       "scope": "fqdn",
@@ -94427,18 +92375,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "seniordynamic.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "2a028178-1500-5724-92d5-356fca750b0e",
-      "name": "sensorsmile.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sensorsmile.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -94578,54 +92514,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "aa44a89d-a792-5b84-8bcf-cdc2f13466fe",
-      "name": "serenitygem.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "serenitygem.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "5f4163c5-3758-507b-a1b1-ebb0e5a9432c",
-      "name": "serioussuit.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "serioussuit.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "a86c9832-8637-5ded-907c-9b81190aa37c",
-      "name": "serpentshampoo.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "serpentshampoo.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7f867a7f-df87-5976-aa75-22ede7e556a0",
-      "name": "servicesscoop.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "servicesscoop.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "655ee4b7-07b0-5bc2-9226-3db35007ec66",
       "name": "settleshoes.com",
       "scope": "fqdn",
@@ -94710,35 +92598,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "1f32bb91-08b4-5670-a8a4-fbe24ff84da6",
-      "name": "shakyseat.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "shakyseat.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "f8055121-5f31-5486-9046-1893c9fb8525",
       "name": "shakysurprise.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "shakysurprise.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9feaa88a-f23e-5dda-8b7b-9a30ee5ff770",
-      "name": "shakytaste.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "shakytaste.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -95106,18 +92970,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "81a2edb1-6bf6-576f-bb1e-2fbbf5b549dc",
-      "name": "silentwrench.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "silentwrench.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3ff772d5-9262-52ac-8d44-9a1bfd193ca0",
       "name": "siliconslow.com",
       "scope": "fqdn",
@@ -95370,18 +93222,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "05feb7c1-f821-5537-a3b6-a9788116786e",
-      "name": "skillsresults.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "skillsresults.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "29b7a4de-6a69-5f5a-96b0-4381b0d0ae91",
       "name": "skisofa.com",
       "scope": "fqdn",
@@ -95478,18 +93318,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "14721276-12f1-543a-b579-eb66d9cc4e6f",
-      "name": "slimyscarf.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "slimyscarf.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "df47a3f8-76f2-5c13-82bf-e711dc6e2f70",
       "name": "slinksuggestion.com",
       "scope": "fqdn",
@@ -95562,18 +93390,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "f5ecb75c-57a1-5cd7-b3cb-61c7a8bbe0f7",
-      "name": "smilewound.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "smilewound.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "9cc24867-3d3d-5820-9bc1-02c8a1c2bcf8",
       "name": "smilingcattle.com",
       "scope": "fqdn",
@@ -95610,18 +93426,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "82076a66-49dc-52a2-aa33-beb6945a0b7d",
-      "name": "smilingwaves.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "smilingwaves.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "6f1ca8c2-1283-5ba8-9a62-757385280468",
       "name": "smoggysnakes.com",
       "scope": "fqdn",
@@ -95651,18 +93455,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "smoggystation.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d3531f0b-999b-5280-b2d4-5aaa28464682",
-      "name": "smokedolives.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "smokedolives.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -95819,18 +93611,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "soggysponge.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "f9abb0e8-fe6a-5d3f-bcce-9b1a7b439963",
-      "name": "soggyzoo.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "soggyzoo.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96042,59 +93822,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "fab4e922-e9d8-52c6-9b0e-eac051298aac",
-      "name": "soresneeze.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "soresneeze.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7bc08d76-5275-5a67-bd4e-1b3ea19c6e22",
-      "name": "sorethunder.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sorethunder.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b79ea1dc-a9bf-5a6a-91d7-9e0444103458",
       "name": "soretrain.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "soretrain.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b2934a11-329e-52f2-a639-7beb1ffd9773",
-      "name": "sortstructure.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sortstructure.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "124c4231-c35a-5ff5-b01e-074bed90bba6",
-      "name": "sortsummer.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sortsummer.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96246,18 +93978,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "26a3f737-7b9c-517a-9f58-e6349d4e24aa",
-      "name": "specialsnake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "specialsnake.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "44e5215e-a056-53a7-8fda-bc6c658593b9",
       "name": "spectacularstamp.com",
       "scope": "fqdn",
@@ -96299,18 +94019,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "spellmist.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e132886a-9d41-536e-84d0-c3a347237d4c",
-      "name": "spellsalsa.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "spellsalsa.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96510,18 +94218,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "53503bd1-7c60-5466-8e54-95c620ef8586",
-      "name": "springballet.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "springballet.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "528a1477-07a5-5b44-af81-fbfa1ce9da38",
       "name": "springolive.com",
       "scope": "fqdn",
@@ -96570,18 +94266,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8d0c6150-2b58-5d9f-8515-568b421250cf",
-      "name": "sprydelta.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sprydelta.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "ca808383-c7ac-5e26-a276-917c2b041641",
       "name": "sprysummit.com",
       "scope": "fqdn",
@@ -96599,18 +94283,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "spuriousair.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "321f9ee4-1316-565e-8d31-0f52569f8c3b",
-      "name": "spuriousbase.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "spuriousbase.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96894,18 +94566,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "b623740e-5579-51b0-ad1b-59e05131d445",
-      "name": "startingcars.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "startingcars.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "d5695934-ab1b-5bf6-a75f-99f42ade8911",
       "name": "statshunt.com",
       "scope": "fqdn",
@@ -96983,18 +94643,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "steadfastsystem.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "37f86fd3-7e40-5d06-9314-fe1d007aca7a",
-      "name": "steadycopper.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "steadycopper.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97302,18 +94950,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5852f43c-de00-5b87-bd35-efc9abef32ed",
-      "name": "stormyachiever.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "stormyachiever.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "e5e566a1-246f-52fb-9fae-c950af40d47c",
       "name": "stormyflower.com",
       "scope": "fqdn",
@@ -97350,11 +94986,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "96a1c785-a7d2-5700-a4fb-190ffed445ed",
-      "name": "strangeclocks.com",
+      "id": "bdefa883-579a-58ef-a7d6-690e941c1a87",
+      "name": "strandedgame.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "strangeclocks.com",
+      "pattern": "strandedgame.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97362,11 +94998,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "e3d8442a-8f42-51b2-9647-18c5846c8374",
-      "name": "strangesink.com",
+      "id": "96a1c785-a7d2-5700-a4fb-190ffed445ed",
+      "name": "strangeclocks.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "strangesink.com",
+      "pattern": "strangeclocks.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97542,18 +95178,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "6d1583f9-9b6f-5393-9349-19b93dc8f243",
-      "name": "stupidsnake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "stupidsnake.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "219fbc80-b62b-5267-954a-783a6f927040",
       "name": "sturdysnail.com",
       "scope": "fqdn",
@@ -97607,18 +95231,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "subjectivepoint.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "15510f9f-45f4-580d-8568-66f6dc850da2",
-      "name": "subletyoke.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "subletyoke.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97686,30 +95298,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "93b8bffa-9a79-5699-81b6-c5507876f6a9",
-      "name": "subsequentswim.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "subsequentswim.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "56066807-6702-56ef-94fd-0f88d873b40b",
-      "name": "substantialcarpenter.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "substantialcarpenter.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "873db05d-ccbb-575a-8b02-a92687a4c2d1",
       "name": "substantialgrade.com",
       "scope": "fqdn",
@@ -97727,54 +95315,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "successbuffet.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "dea5b4ea-2280-5038-92a4-520ea6cf5028",
-      "name": "successfuelevents.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "successfuelevents.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "4de39f42-18de-5e20-bec2-005f869b88c9",
-      "name": "successfulscent.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "successfulscent.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8cc3424e-f86f-5be7-9506-1633854cfbde",
-      "name": "suddensidewalk.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "suddensidewalk.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ec6d42d6-d0fc-56a3-9e45-d8942dda3e46",
-      "name": "suddensoda.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "suddensoda.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97943,18 +95483,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "surfacesmedia.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "59daf41a-0813-50ce-91d6-aa61acebeb1d",
-      "name": "surfbangles.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "surfbangles.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -98322,18 +95850,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8e097102-d817-5d4a-a2ee-653b64e85936",
-      "name": "tdzvm.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tdzvm.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "c21555c3-912d-5f83-994f-1f4f08f0c37a",
       "name": "tealjewel.com",
       "scope": "fqdn",
@@ -98387,18 +95903,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tediousbear.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ab0ddcf2-0250-5cac-9b4c-5e0212f54189",
-      "name": "tediousticket.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tediousticket.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -98495,18 +95999,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tempertrick.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "cb3213e4-e6a1-5a92-8375-16299a8b09ba",
-      "name": "tempttalk.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tempttalk.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -98742,30 +96234,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "34658c15-62eb-5e6b-beb4-f804d9a27613",
-      "name": "thickticket.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thickticket.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b5d70c78-5716-5907-bd3b-37ec24026b72",
-      "name": "thicktrucks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thicktrucks.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "aeaadaeb-3b67-525e-8ac0-5c4135e468eb",
       "name": "thingsafterthought.com",
       "scope": "fqdn",
@@ -98819,18 +96287,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "thirdrespect.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "749ae7a7-cf8e-50b8-8db0-3c16c0bdf9ff",
-      "name": "thirstytwig.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thirstytwig.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -98903,18 +96359,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "thrivingmarketplace.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "0b46a59e-c1c2-5ad9-87b5-32b60b8a08be",
-      "name": "thunderingtendency.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thunderingtendency.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99078,18 +96522,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5cbd74fd-9b8b-5bb0-a25e-e23ba15ba509",
-      "name": "tiredthroat.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tiredthroat.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "7a508fc3-9f30-59d5-92ad-bb006340834f",
       "name": "tireinside.com",
       "scope": "fqdn",
@@ -99131,18 +96563,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "toasttutor.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "70d73c26-6665-5d24-9a02-52ed4d80298a",
-      "name": "tofupancake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tofupancake.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99210,18 +96630,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "3683c70a-d2e5-5427-a929-c5fe5133d4af",
-      "name": "topbookgifts.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "topbookgifts.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "47f4fa2a-f8a8-55a6-9cc0-00eef81e67d9",
       "name": "topcrazypress.com",
       "scope": "fqdn",
@@ -99258,35 +96666,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "584efd13-9c70-5862-b3b5-e0edc94bfe47",
-      "name": "torpidtongue.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "torpidtongue.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "4b54692f-e2f7-5da9-a0b2-80dc971b056e",
       "name": "tortoisepage.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tortoisepage.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "47bd7ef0-bc2a-5278-9433-2be50c9a49c9",
-      "name": "touristfuel.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "touristfuel.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99366,35 +96750,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "fa9f3e83-19b4-5131-9cf6-d0d3f8a2b0a7",
-      "name": "tranquilcanyon.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tranquilcanyon.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "af264948-ae52-5159-9a4f-153627142374",
       "name": "tranquilplume.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tranquilplume.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "065fc010-567d-5094-8799-9ec9c99954bd",
-      "name": "tranquilside.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tranquilside.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99467,18 +96827,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "treatoceans.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "4b0ca6bc-ac17-559d-8df9-2592b61fe44c",
-      "name": "tremendousearthquake.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tremendousearthquake.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99678,6 +97026,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0ffde758-ac93-54df-b485-c0700219c989",
+      "name": "tuplebar.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tuplebar.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "9c49d633-6b89-5dd7-9586-a05cf2b1dd7d",
       "name": "turtleface.net",
       "scope": "fqdn",
@@ -99762,35 +97122,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "9c2f491d-8e3d-5a37-a76e-502d440e189c",
-      "name": "tzwaw.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "tzwaw.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "107e35fc-2392-54ce-80b2-de4cc7258635",
       "name": "ubiquitoussea.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ubiquitoussea.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "50316e71-dfe5-596a-a2a4-279b7f6d3654",
-      "name": "ubiquitousyard.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ubiquitousyard.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -99990,18 +97326,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5a98d934-5b1d-5375-b447-29794b9184b0",
-      "name": "unknowntray.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "unknowntray.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3caf0a78-b78a-5f98-ad14-f0cb653a38b8",
       "name": "unloadyourself.com",
       "scope": "fqdn",
@@ -100014,35 +97338,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "24ddfef8-d252-59b6-8619-83757ceb61b9",
-      "name": "untidyquestion.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "untidyquestion.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5476273f-34ff-5b56-9d7f-795cf07ca52f",
       "name": "untidyrice.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "untidyrice.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7ce25424-5110-512b-961c-417b59db2ddc",
-      "name": "unusedstone.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "unusedstone.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -100115,18 +97415,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "uppitytime.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "11d50a47-7a7e-5e1c-b42e-c477c621d08b",
-      "name": "upscaledigest.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "upscaledigest.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -100362,18 +97650,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "a9e536a6-235c-53b1-9dd9-09047653b35f",
-      "name": "verifiedarts.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "verifiedarts.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "27201c43-ca70-559a-80c4-b2b4f7f673cb",
       "name": "verseballs.com",
       "scope": "fqdn",
@@ -100530,18 +97806,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "3fb03b92-e608-5d1c-91e6-704fd9216de2",
-      "name": "visitstor.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "visitstor.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "8d793a12-cb55-55bf-868d-3ea25d6d569b",
       "name": "vividcanopy.com",
       "scope": "fqdn",
@@ -100662,18 +97926,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "29a4a6af-c2ed-5a63-ba66-d7cb2413add3",
-      "name": "vq1qi.pw",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "vq1qi.pw",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5c6efcc4-0079-5466-9b99-537ed0970bc7",
       "name": "waitingnumber.com",
       "scope": "fqdn",
@@ -100710,18 +97962,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "112a13ed-4a8c-5031-8e95-3d51c6842870",
-      "name": "warmquiver.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "warmquiver.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "7ebada38-c1e4-550a-8c9f-79fad6de7629",
       "name": "warnwing.com",
       "scope": "fqdn",
@@ -100739,30 +97979,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "washbanana.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d0b37404-1d56-5dab-a892-3ebb91afd346",
-      "name": "watersensible.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "watersensible.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c8831562-6da6-58ec-a344-18d09ec0d6f5",
-      "name": "wateryvan.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wateryvan.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -100890,18 +98106,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "93a014db-f814-5684-bbd4-f6443d161989",
-      "name": "weeklybanner.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "weeklybanner.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "4a9fb24f-7322-5dae-b9da-b2bb7ae2a2db",
       "name": "wellgroomedapparel.com",
       "scope": "fqdn",
@@ -100919,18 +98123,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wellgroomedhydrant.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "27163a92-300b-5bc1-a56e-20e15df95306",
-      "name": "wellmadefrog.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wellmadefrog.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -100991,18 +98183,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "whimsygadget.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "dba8ea05-0ef5-5665-9fe6-029b6c954a5c",
-      "name": "whineattempt.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "whineattempt.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101250,18 +98430,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "0624c981-23dd-5eef-9553-e375b64a371d",
-      "name": "wirypaste.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wirypaste.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "9a57fa25-e6e2-59b6-9da5-f996d916babb",
       "name": "wisedotcom.com",
       "scope": "fqdn",
@@ -101442,6 +98610,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "30b1f03a-cea5-5ffc-9715-535b1242eb08",
+      "name": "workwithdrones.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "workwithdrones.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "428cc6e6-3183-5894-9489-6d7e9804aa6b",
       "name": "worldlever.com",
       "scope": "fqdn",
@@ -101495,18 +98675,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wowfunnow.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "16121045-50e3-541e-b32c-5741c5f98ed3",
-      "name": "wrapstretch.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wrapstretch.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101598,18 +98766,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "909c85dd-db30-58ce-a269-f8e90233c087",
-      "name": "xovq5nemr.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "xovq5nemr.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "6909a467-fd9e-59cf-8c4e-6f8e933b78d8",
       "name": "yachtloft.com",
       "scope": "fqdn",
@@ -101651,18 +98807,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "yourlifedream.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "2c13fe48-19ad-5195-b3c6-b420f3523ac5",
-      "name": "zbwp6ghm.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "zbwp6ghm.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -114830,6 +111974,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "da171552-b4a2-510b-b424-988758e5a389",
+      "name": "a.cineflix.st",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "a.cineflix.st",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "64801680-5422-5a4a-957a-7711aff3aeee",
       "name": "a.emea01.idio.episerver.net",
       "scope": "fqdn",
@@ -118292,6 +115448,39 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?app\\.carnow\\.com(?::[0-9]+)?/dealers/track_visitor",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b0551cc0-2ba8-54ec-abc7-00cb09f48437",
+      "name": "app.clickfunnels.com/assets/pushcrew.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?app\\.clickfunnels\\.com(?::[0-9]+)?/assets/pushcrew\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "17e0bc9e-d2ce-59bc-9d00-b09a63dee41b",
+      "name": "app.clickfunnels.com/assets/userevents/application.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?app\\.clickfunnels\\.com(?::[0-9]+)?/assets/userevents/application\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4033e573-7c5e-500d-874e-ac8fe7d95e35",
+      "name": "app.clickfunnels.com/cf.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?app\\.clickfunnels\\.com(?::[0-9]+)?/cf\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -126943,6 +124132,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "8001bd09-c7ba-5ab8-9790-afbba85c31f7",
+      "name": "fubuki-umami.space/api/script.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?fubuki\\-umami\\.space(?::[0-9]+)?/api/script\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "59c35941-dda9-5330-a1d7-5efe6ec76063",
@@ -141775,6 +138975,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "track.91app.io",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "0c3e4d59-7b0c-567c-8e68-f9e28445c334",
+      "name": "track.addevent.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "track.addevent.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -173169,6 +170381,28 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ec3b9a8c-721c-5d16-be05-deb6a4b1e132",
+      "name": "me-qr.com/metrics/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?me\\-qr\\.com(?::[0-9]+)?/metrics/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b98e1ffe-4634-5bb7-9622-37ab73234d89",
+      "name": "me-qr.com/statistic/collect/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?me\\-qr\\.com(?::[0-9]+)?/statistic/collect/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "a68cfbe8-e727-54aa-957c-cdc9cd88617e",
       "name": "media.io/trk",
       "scope": "url",
@@ -173325,6 +170559,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3981fb76-f01c-5b22-bbcf-07a7a1fded61",
+      "name": "metrics-a.wbx2.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "metrics-a.wbx2.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b63a66ee-bd3a-5382-8ec9-25297eb87b5b",
       "name": "metrics.audius.co",
       "scope": "fqdn",
@@ -173426,6 +170672,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "metrics.morethings.digital",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f0fa5347-0bc7-51c9-943e-3ee67c41365d",
+      "name": "metrics.mtcgame.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "metrics.mtcgame.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -182489,6 +179747,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0f8ff9f3-4916-582f-9961-3643a83a4806",
+      "name": "tsa.webex.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tsa.webex.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "ea2dad6b-da41-59f0-8a42-4e957537c77c",
       "name": "tsmate.com/api/metrics",
       "scope": "url",
@@ -184278,6 +181548,28 @@
       "note": ""
     },
     {
+      "id": "38364cb7-cc1c-502d-9560-2d6be1afd241",
+      "name": "x.com/1.1/graphql/error_log.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/1\\.1/graphql/error_log\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f6b528c5-84f1-530a-9724-112bbb338453",
+      "name": "x.com/1.1/graphql/user_flow.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/1\\.1/graphql/user_flow\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "3c9c3db3-4ecb-5b31-9db2-b1393ca73ff8",
       "name": "x.com/1.1/jot",
       "scope": "url",
@@ -184294,6 +181586,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/9/measurement/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "242a865c-8a63-5535-a39e-df42ab896239",
+      "name": "x.com/i/api/1.1/graphql/error_log.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/i/api/1\\.1/graphql/error_log\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "57706c0e-7ea3-5a39-8845-1e4d81717676",
+      "name": "x.com/i/api/1.1/graphql/user_flow.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/i/api/1\\.1/graphql/user_flow\\.json",
       "isEnabled": true,
       "rank": 0,
       "action": "block",

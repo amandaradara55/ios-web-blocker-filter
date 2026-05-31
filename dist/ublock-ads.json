@@ -353,18 +353,6 @@
       "note": ""
     },
     {
-      "id": "3f577733-8cdf-575b-8681-f889c6851936",
-      "name": "ad.responsad1.space",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ad.responsad1.space",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "78ebb321-1936-5b61-853a-531a1868857c",
       "name": "3movs.com/su4unbl-ssu.js",
       "scope": "url",
@@ -1471,6 +1459,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "fba0930c-6d0f-5447-9976-a64359818f2d",
+      "name": "sophiaaccoladewest.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sophiaaccoladewest.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "47d05fcd-5bcf-5bdb-96fe-b8f1ecd2db03",
       "name": "typicallyuncovernull.com",
       "scope": "fqdn",
@@ -1495,40 +1495,15 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5c86dcc1-565d-5c3f-8995-8aa1cd57b5f9",
-      "name": "variationconfused.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "variationconfused.com",
+      "id": "e659c944-14b8-5d5d-a10c-ac404e181ee0",
+      "name": "hypersonicmedia.workers.dev/proxy/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hypersonicmedia\\.workers\\.dev(?::[0-9]+)?/proxy/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1e66e7e1-1063-5602-aa72-005175d2e5eb",
-      "name": "weakerscripts.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "weakerscripts.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c00f50dc-2e95-5c23-aa56-20b55f692cb5",
-      "name": "wingsmob.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wingsmob.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
+      "note": ""
     },
     {
       "id": "dd89ad03-272e-5153-b886-300109ec6914",
@@ -1715,17 +1690,6 @@
       "note": ""
     },
     {
-      "id": "53b76395-c76a-5b5f-a84f-f23b18676551",
-      "name": "javideo.net/js/popup.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?javideo\\.net(?::[0-9]+)?/js/popup\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "b3896141-ed15-51bd-9b05-f385f8ac607c",
       "name": "clenchedyouthmatching.com",
       "scope": "fqdn",
@@ -1793,18 +1757,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "a44af1db-995d-5a87-a35c-de80d6ae77b1",
-      "name": "vast.pet",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "vast.pet",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "9f25eb91-e065-5531-aac9-603b8f172ff0",
@@ -1903,17 +1855,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?malluporno\\.com(?::[0-9]+)?/red\\-sea\\-",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "6a968815-137d-53bf-9888-373a32210cca",
-      "name": "rule34.xxx/x/cookiefreead.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?rule34\\.xxx(?::[0-9]+)?/x/cookiefreead\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2103,18 +2044,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d78a58ec-1e60-5832-910b-43b010cff320",
-      "name": "injuredripplegentleman.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "injuredripplegentleman.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "8f58b3dd-5c5c-59b2-b33a-45ef86544fbc",
       "name": "nalroustaucmoux.net",
       "scope": "fqdn",
@@ -2221,18 +2150,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d29f564e-6f45-50d4-8bdc-1b0595c4e6a4",
-      "name": "egotisticexcavateplywood.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "egotisticexcavateplywood.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5a6ea0ae-ebe9-5af1-a3e5-3a939508e650",
       "name": "embedstreams.top/js/script.js",
       "scope": "url",
@@ -2264,18 +2181,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "b8385562-81e3-5ce0-b5d5-44a8c58c1b32",
-      "name": "myapiplay.top",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "myapiplay.top",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "52c25d8e-98d7-5f60-8862-755d7935eb99",
@@ -2383,18 +2288,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "55243c9d-6256-5ef2-93ec-3d448f71cf20",
-      "name": "unfurlsburgesshalvas.qpon",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "unfurlsburgesshalvas.qpon",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "307eee2c-197f-5c83-aa3b-800a6ceb280b",
       "name": "imgair.net/vip/splitest.html",
       "scope": "url",
@@ -2411,18 +2304,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "hottracker.biz",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "7ab3c095-e13b-5eee-bc70-16a45d0a042e",
-      "name": "explorads.xml-v4.ak-is2.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "explorads.xml-v4.ak-is2.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2459,18 +2340,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "searchwithme.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "bef8b1a0-dbe9-5404-8369-459b607640cc",
-      "name": "theadsparks.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "theadsparks.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2719,18 +2588,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "b0062839-beb7-5f62-a976-e8a9908ee5f1",
-      "name": "shieldload.neoseeker.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "shieldload.neoseeker.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "72d63094-a6f0-56fa-9e40-134c36fef18a",
       "name": "d222yr38kqru7v.cloudfront.net",
       "scope": "fqdn",
@@ -2795,30 +2652,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pndax.love",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "269f8a7e-ac6b-5302-8e82-563f2efbd4c8",
-      "name": "boaststockingsaucer.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "boaststockingsaucer.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "01bcb1e8-8e3b-5d3d-9672-eaeef4a1531f",
-      "name": "blinksbobblepadding.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "blinksbobblepadding.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3134,18 +2967,6 @@
       "note": ""
     },
     {
-      "id": "23d3c131-599d-59c7-b432-1b6edc6cd446",
-      "name": "preservehalt.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "preservehalt.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "2e92798a-a523-56f6-87cc-10271bc166fb",
       "name": "static.diaridetarragona.com/dab/detector.js",
       "scope": "url",
@@ -3446,17 +3267,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?deepfakeporn\\.net(?::[0-9]+)?/contents/rest/player/deepswap_japanese",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "51102daa-b6f2-54f0-8cf3-9fc84923d3fa",
-      "name": "w3schools.com/lib/sparteo.css",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?w3schools\\.com(?::[0-9]+)?/lib/sparteo\\.css",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6855,18 +6665,6 @@
       "note": ""
     },
     {
-      "id": "b4eec6d8-c09d-522f-94d8-47176ce4891b",
-      "name": "doqpm.click",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "doqpm.click",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "2005e4ab-d0c2-573f-925a-f5302bb52d27",
       "name": "/promo/next/adb/*",
       "scope": "url",
@@ -6876,18 +6674,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "c9e6f94d-fab8-5cfa-bd86-5d633ad203bc",
-      "name": "chinaprecentalsindu.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "chinaprecentalsindu.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "11d2d71e-ca0e-53fa-acd2-45289a58be26",
@@ -7314,18 +7100,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ghastlyejection.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "afdc1ce2-5440-5db6-9d0e-85fa862d40fd",
-      "name": "zonedummy.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "zonedummy.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8150,17 +7924,6 @@
       "note": ""
     },
     {
-      "id": "4ab6ed67-bd4d-57bc-bc99-e3a91c45a708",
-      "name": "mangadex.org/promo/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mangadex\\.org(?::[0-9]+)?/promo/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "1e30ed0d-33fe-534c-b4fa-2da7d1adc703",
       "name": "audiocircuit.dk/wp-content/plugins/awiftysw/",
       "scope": "url",
@@ -8181,30 +7944,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "f66f7c28-bebc-5e96-a190-6f2fa979bf02",
-      "name": "dl4d3y1ajyv3q.cloudfront.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dl4d3y1ajyv3q.cloudfront.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ea0f7c09-3d80-5bb0-b953-fd41aa58de97",
-      "name": "oundhertobeconsist.org",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "oundhertobeconsist.org",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "4b1457f7-aea7-5a4a-ada9-b9a903481f10",
@@ -8358,30 +8097,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "c5e77dc3-bc6d-5c46-8466-a8d0f247cd76",
-      "name": "prissyupland.qpon",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "prissyupland.qpon",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "2c783510-208d-5b1f-98ad-579b80838eb9",
-      "name": "yawperalluvio.cyou",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "yawperalluvio.cyou",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "af90d760-eb53-51de-a939-06e99acda126",
       "name": "scxjugrsizhfo.com",
       "scope": "fqdn",
@@ -8437,18 +8152,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "3ba76374-e4cf-55ad-b823-e358aaa038f7",
-      "name": "kuvirixa.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "kuvirixa.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "5cd2d05f-8965-510f-a93a-147d6d2a63a1",
@@ -8672,11 +8375,11 @@
       "note": ""
     },
     {
-      "id": "6406112b-30a5-5168-80aa-0de9170b2def",
-      "name": "caseousalba.cyou",
+      "id": "01bcb1e8-8e3b-5d3d-9672-eaeef4a1531f",
+      "name": "blinksbobblepadding.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "caseousalba.cyou",
+      "pattern": "blinksbobblepadding.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8684,11 +8387,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "b9fd88ca-f736-506e-b210-955405272b1e",
-      "name": "pickedsarcasm.com",
+      "id": "6406112b-30a5-5168-80aa-0de9170b2def",
+      "name": "caseousalba.cyou",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "pickedsarcasm.com",
+      "pattern": "caseousalba.cyou",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8778,18 +8481,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "89bf09fa-677a-5770-b1f6-82ecc6700628",
-      "name": "cylindrical-suggestion.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cylindrical-suggestion.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "0f41fb7e-b998-5376-bc27-fff2b52fd8c2",
       "name": "zealousimage.com",
       "scope": "fqdn",
@@ -8814,30 +8505,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "dd66fd02-d30e-59ca-a896-ba73dccb5271",
-      "name": "a11.click",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "a11.click",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8c20cf62-5c7a-59df-b0e5-2b0cf309b083",
-      "name": "omg10.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "omg10.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "93f119b5-3ef8-52eb-a062-80bd5d0461f6",
       "name": "||sulasok.*/00BANNER_",
       "scope": "url",
@@ -8847,18 +8514,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "479f0ad3-fc6a-5529-a51f-6937fd079709",
-      "name": "sibontwun.in",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sibontwun.in",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "acb9b97e-2e46-561d-9129-9eb8b6b3f7e5",
@@ -8949,17 +8604,6 @@
       "note": ""
     },
     {
-      "id": "f61f38b6-00a1-5055-82fc-f714b497c7ac",
-      "name": "guessthe.game/ads/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?guessthe\\.game(?::[0-9]+)?/ads/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "c2d3abf6-34dd-5645-9f5e-cd2895708c99",
       "name": "exposestrat.com/js/adcashexpo.js",
       "scope": "url",
@@ -9011,6 +8655,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?deeplol\\.gg(?::[0-9]+)?/images/ad/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "bb495e6e-82df-5059-945d-78778eb2a1ca",
+      "name": "watchporn.to/banners/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?watchporn\\.to(?::[0-9]+)?/banners/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9986,12 +9641,11 @@
       "note": ""
     },
     {
-      "id": "cc1d933a-237c-5568-98c3-8ca4db60fd65",
+      "id": "ff5448bd-96cd-5d35-85ee-c97eb954555f",
       "name": ".ad_bn.row",
       "selector": ".ad_bn.row",
       "domains": [
-        "indiatoday.in",
-        "indiatoday.intoday.in"
+        "indiatoday.in"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -13561,17 +13215,6 @@
       "note": ""
     },
     {
-      "id": "dd726ec9-e134-5f46-ab7a-6272b8ebf436",
-      "name": ".stream-display-ad__wrapper",
-      "selector": ".stream-display-ad__wrapper",
-      "domains": [
-        "twitch.tv"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "62a7b88f-0602-59d2-86f4-a18378509698",
       "name": "#pbar_outerdiv",
       "selector": "#pbar_outerdiv",
@@ -15676,17 +15319,6 @@
       "selector": ".banner-inner",
       "domains": [
         "linkjust.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9b1adfc4-7888-5f24-8812-f59109d81c2a",
-      "name": ".list-spots",
-      "selector": ".list-spots",
-      "domains": [
-        "camsexvideo.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -17964,35 +17596,6 @@
       "note": ""
     },
     {
-      "id": "af13474c-66a8-5bc2-8087-064f4f31ddad",
-      "name": "#Cam4DialogContainer",
-      "selector": "#Cam4DialogContainer",
-      "domains": [
-        "cam4.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7e6c34c9-ab8d-582e-b73e-3391a95b8076",
-      "name": "[href^=\"https://pl.allsports4free.club/\"]",
-      "selector": "[href^=\"https://pl.allsports4free.club/\"]",
-      "domains": [],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "8072e53b-ff80-5325-a6a0-c456a276acf2",
-      "name": "[href^=\"https://pl.allsports4u.club/\"]",
-      "selector": "[href^=\"https://pl.allsports4u.club/\"]",
-      "domains": [],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "8207dbfd-5b51-53cf-975f-24c22907695b",
       "name": ".adthrive-ad",
       "selector": ".adthrive-ad",
@@ -18814,17 +18417,6 @@
       "selector": "#btmx",
       "domains": [
         "acefile.co"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "b25d7873-d558-54c6-aa11-233bb1932c2b",
-      "name": ".ad",
-      "selector": ".ad",
-      "domains": [
-        "voiranime.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -23174,17 +22766,6 @@
       "note": ""
     },
     {
-      "id": "962498ff-8506-59d9-b7c8-9eeff50330bb",
-      "name": ".vda-item",
-      "selector": ".vda-item",
-      "domains": [
-        "see.xxx"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "9adc9e1e-9a3a-5f30-85ff-9715f6119bf5",
       "name": "#inv_pause",
       "selector": "#inv_pause",
@@ -25077,6 +24658,24 @@
       "note": ""
     },
     {
+      "id": "4c8538cf-464d-5d11-b056-8029bd7a0099",
+      "name": ".container a[href^=\"https://go.mavrtracktor.com/\"]",
+      "selector": ".container a[href^=\"https://go.mavrtracktor.com/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7836ccc5-95af-51fb-aeac-bf7b9a67ec01",
+      "name": ".container a[href^=\"https://seduced.com\"][href*=\"ref=\"]",
+      "selector": ".container a[href^=\"https://seduced.com\"][href*=\"ref=\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "dc74ebe9-b9c8-5970-9b19-967b379d1ead",
       "name": ".widget_custom_html",
       "selector": ".widget_custom_html",
@@ -25869,6 +25468,39 @@
         "variety.com",
         "vibe.com",
         "wwd.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2849c833-c53a-50ce-9a48-cae2ae64ba5e",
+      "name": "^script#admiral-script",
+      "selector": "^script#admiral-script",
+      "domains": [
+        "calgaryherald.com",
+        "calgarysun.com",
+        "canada.com",
+        "canoe.com",
+        "driving.ca",
+        "edmontonjournal.com",
+        "edmontonsun.com",
+        "financialpost.com",
+        "leaderpost.com",
+        "lfpress.com",
+        "montrealgazette.com",
+        "nationalpost.com",
+        "ontariofarmer.com",
+        "ottawacitizen.com",
+        "ottawasun.com",
+        "thegrowthop.com",
+        "theprovince.com",
+        "thestarphoenix.com",
+        "tj.news",
+        "torontosun.com",
+        "vancouversun.com",
+        "windsorstar.com",
+        "winnipegsun.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -39779,6 +39411,17 @@
       "note": ""
     },
     {
+      "id": "59a6f794-b01a-5e78-87c8-34f9b5524218",
+      "name": ".dkt-amz-head",
+      "selector": ".dkt-amz-head",
+      "domains": [
+        "dongknows.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "41e3e8dd-e329-55fe-acfb-14ed6d66f819",
       "name": ".item[style=\"text-align:center !important;\"]",
       "selector": ".item[style=\"text-align:center !important;\"]",
@@ -47048,17 +46691,6 @@
       "note": ""
     },
     {
-      "id": "0ad6ade8-b8a4-5c3b-be0b-37cd178b85a1",
-      "name": ".adhesiveAdSpacing",
-      "selector": ".adhesiveAdSpacing",
-      "domains": [
-        "bettycrocker.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "6931a2cf-eb36-5562-b0a8-3a066fc01627",
       "name": ".ad-300-250, .ad-billboard",
       "selector": ".ad-300-250, .ad-billboard",
@@ -47261,17 +46893,6 @@
       "id": "16c46bf9-c78e-54cc-9db2-b1e8882648ab",
       "name": ".OUTBRAIN",
       "selector": ".OUTBRAIN",
-      "domains": [
-        "apkmirror.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "677cf788-8da3-5a29-aeaf-7492302c0bfa",
-      "name": ".ains",
-      "selector": ".ains",
       "domains": [
         "apkmirror.com"
       ],
@@ -49764,17 +49385,6 @@
       "selector": "a[href^=\"https://go.wapdg.com/\"]",
       "domains": [
         "plutomovies.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e5480a0f-969a-5f8b-bdb3-7b388a7253e8",
-      "name": ".maps-header-advert",
-      "selector": ".maps-header-advert",
-      "domains": [
-        "metoffice.gov.uk"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -52379,17 +51989,6 @@
       "note": ""
     },
     {
-      "id": "cf968fe1-ee42-58d8-855a-45de1419e772",
-      "name": ".wbar",
-      "selector": ".wbar",
-      "domains": [
-        "thefappeningblog.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "2007278e-efa7-53f0-a9a0-13ab182fbffd",
       "name": ".dogytop",
       "selector": ".dogytop",
@@ -53536,17 +53135,6 @@
       "note": ""
     },
     {
-      "id": "ba3bccfd-1591-5bc7-9332-53d9b9ded066",
-      "name": "a[href^=\"https://www.runoperagx.com/\"]",
-      "selector": "a[href^=\"https://www.runoperagx.com/\"]",
-      "domains": [
-        "mangadex.org"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "2893da0d-8add-53ff-acda-120ba32f65f8",
       "name": "img[onclick=\"kemana()\"]",
       "selector": "img[onclick=\"kemana()\"]",
@@ -53586,17 +53174,6 @@
       "selector": "#promo-mobile",
       "domains": [
         "mangaread.org"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7773aaa6-7bb0-5552-8630-4129bbb35de1",
-      "name": ".square-ad-wrapper",
-      "selector": ".square-ad-wrapper",
-      "domains": [
-        "mobygames.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54572,17 +54149,6 @@
       "note": ""
     },
     {
-      "id": "aac659d2-4dd6-5d28-8b0c-15162059c505",
-      "name": "div[style=\"min-height:250px; text-align:center; margin:10px auto;\"]",
-      "selector": "div[style=\"min-height:250px; text-align:center; margin:10px auto;\"]",
-      "domains": [
-        "chessgames.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "01837eb7-1f6a-5724-b4e7-9138d0bcddce",
       "name": ".ads-overlay",
       "selector": ".ads-overlay",
@@ -54943,6 +54509,17 @@
       "note": ""
     },
     {
+      "id": "236f35a5-9334-5c28-8ba2-5c12beafb035",
+      "name": "section[aria-label=\"Sponsored content\"]",
+      "selector": "section[aria-label=\"Sponsored content\"]",
+      "domains": [
+        "vidbox.dev"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "6ab717c6-a310-5d4a-85df-5f44ed5adb72",
       "name": "a[href][target=\"_blank\"]",
       "selector": "a[href][target=\"_blank\"]",
@@ -55047,6 +54624,127 @@
       "selector": "#desktop-takeover",
       "domains": [
         "www.deeplol.gg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1ac8b18a-5fb4-5459-b7be-f469aee2c19e",
+      "name": ".banner",
+      "selector": ".banner",
+      "domains": [
+        "pilotsglobal.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e63c8ce5-a418-5b14-8d40-897afbbaf66c",
+      "name": ".adslot_horizontal_big_desktop_extra",
+      "selector": ".adslot_horizontal_big_desktop_extra",
+      "domains": [
+        "ondebola.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4380fa93-2636-54db-92e9-dc41eeb751fc",
+      "name": ".solverde-affiliate-banner",
+      "selector": ".solverde-affiliate-banner",
+      "domains": [
+        "ondebola.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "68599f9b-b898-5751-a205-68e8fe64b259",
+      "name": "#preroll-gate",
+      "selector": "#preroll-gate",
+      "domains": [
+        "streamcash.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "85b22262-d1e1-5832-b89a-f04424ce11b7",
+      "name": "#interVeil",
+      "selector": "#interVeil",
+      "domains": [
+        "cjr.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "404a0237-8202-5d58-9bba-c69ac91273a8",
+      "name": "#interContainer",
+      "selector": "#interContainer",
+      "domains": [
+        "cjr.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0b674b70-d660-548d-a0fb-b97b98a286aa",
+      "name": ".related",
+      "selector": ".related",
+      "domains": [
+        "prinxy.app"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a887fabf-b416-54e8-b5b9-7e3baf93f383",
+      "name": ".xoxo",
+      "selector": ".xoxo",
+      "domains": [
+        "prinxy.app"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "73b35ea8-ee19-58b7-81b0-6aef7dc1fa45",
+      "name": ".block-video > .table",
+      "selector": ".block-video > .table",
+      "domains": [
+        "fyxxr.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4f23ba41-3968-519b-a3b3-4e700c058d26",
+      "name": "[href^=\"https://go.mavrtracktor.com/\"]",
+      "selector": "[href^=\"https://go.mavrtracktor.com/\"]",
+      "domains": [
+        "fyxxr.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "23c7b6b0-e6e2-5eb2-b622-be58efddb0e1",
+      "name": "[href^=\"https://seduced.com/tour\"]",
+      "selector": "[href^=\"https://seduced.com/tour\"]",
+      "domains": [
+        "fyxxr.to"
       ],
       "isEnabled": true,
       "rank": 0,

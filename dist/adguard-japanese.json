@@ -4806,6 +4806,17 @@
       "note": ""
     },
     {
+      "id": "862e4f9e-50d6-5697-a177-35ddf291f180",
+      "name": "sonybank.jp/banners/js/fbaasbanner.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?sonybank\\.jp(?::[0-9]+)?/banners/js/fbaasbanner\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8413aa7b-c261-57a4-86dc-55fc2b77350e",
       "name": "keinet.ne.jp/common/images/ad/",
       "scope": "url",
@@ -10871,17 +10882,6 @@
       "note": ""
     },
     {
-      "id": "53de23e0-2dc1-5c1a-9272-75e5bcfe8a72",
-      "name": "gamewith.jp/js/dist/jp/search/cta.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gamewith\\.jp(?::[0-9]+)?/js/dist/jp/search/cta\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "73ecf1ea-36fa-5588-8f36-4cbb29d4545d",
       "name": "chouseisan.com/assets/js/ad/",
       "scope": "url",
@@ -15409,6 +15409,28 @@
       "note": ""
     },
     {
+      "id": "d98e364a-f954-5a57-8279-d62e0ccaf693",
+      "name": ".include1_iframe1",
+      "selector": ".include1_iframe1",
+      "domains": [
+        "nogizaka46link.blog.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b2cd92b9-f466-5a16-9402-f578ea09d7f7",
+      "name": ".include2_iframe1",
+      "selector": ".include2_iframe1",
+      "domains": [
+        "nogizaka46link.blog.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "e8f72c1e-fd45-5fee-afe9-489892145b55",
       "name": ".rect-ads-row",
       "selector": ".rect-ads-row",
@@ -15480,17 +15502,6 @@
       "selector": ".banner-item",
       "domains": [
         "crank-in.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ad1c7a2c-b36e-5a19-8d54-f3d1f8c6cf84",
-      "name": ".iminterstitial",
-      "selector": ".iminterstitial",
-      "domains": [
-        "blog.domesoccer.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -17980,6 +17991,17 @@
       "selector": "div[style^=\"text-align:center; border-top: 1px solid #f3f3f3; border-bottom: 1px solid #f3f3f3;\"]",
       "domains": [
         "bunshun.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8132bf6e-1a00-5281-ab28-626f98a43c37",
+      "name": "div[class$=\"affi-wrapper\"]",
+      "selector": "div[class$=\"affi-wrapper\"]",
+      "domains": [
+        "ascii.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -36988,11 +37010,11 @@
       "note": ""
     },
     {
-      "id": "f3fcd03c-6df5-5b4b-8d4a-0541f1d47642",
+      "id": "35a898f2-72ec-5bb2-8f1d-ad188cea63fd",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.cafe"
+        "jmanga.baby"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -71397,6 +71419,17 @@
       "note": ""
     },
     {
+      "id": "bfc6192f-fa64-5a33-ac0f-cedc654b4e66",
+      "name": ".gdb-cta-banner-outer",
+      "selector": ".gdb-cta-banner-outer",
+      "domains": [
+        "gamewith.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "04a4c36a-ff80-5c92-a93b-044aca28dad6",
       "name": ".gdb-ad-footer-creative",
       "selector": ".gdb-ad-footer-creative",
@@ -82432,10 +82465,12 @@
       "note": ""
     },
     {
-      "id": "e35531ec-5cc2-514a-a542-8871a7205111",
+      "id": "5986e3d6-cfcb-55e7-87e2-b282ec5bb532",
       "name": ".iminterstitial",
       "selector": ".iminterstitial",
       "domains": [
+        "buzzap.jp",
+        "blog.domesoccer.jp",
         "wikiwiki.jp",
         "saitama-city-marathon.jp"
       ],
@@ -94130,6 +94165,17 @@
       "selector": "div[id^=\"ad_special\"]",
       "domains": [
         "itest.bbspink.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8deaeead-f8f0-51ea-bffa-fcaa64e74af8",
+      "name": "#subback-ad-top",
+      "selector": "#subback-ad-top",
+      "domains": [
+        "itest.5ch.io"
       ],
       "isEnabled": true,
       "rank": 0,
