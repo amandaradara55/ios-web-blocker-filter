@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T21:37:26+00:00",
+  "generatedAt": "2026-06-07T19:14:03+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
@@ -61,25 +61,25 @@
       }
     },
     "general_url.txt": {
-      "inputRules": 375,
+      "inputRules": 369,
       "acceptedBlockRules": 45,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "unsupported_modifier": 328
+        "unsupported_modifier": 322
       }
     },
     "specific.txt": {
-      "inputRules": 10158,
-      "acceptedBlockRules": 753,
+      "inputRules": 10173,
+      "acceptedBlockRules": 754,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 6992,
+      "acceptedCosmeticRules": 7000,
       "duplicateRules": 0,
       "skipped": {
         "advanced_rule": 1004,
         "allowlist": 4,
-        "unsupported_cosmetic_selector": 885,
+        "unsupported_cosmetic_selector": 891,
         "unsupported_domain_scope": 45,
         "unsupported_modifier": 381,
         "unsupported_url_pattern": 94
@@ -87,17 +87,17 @@
     }
   },
   "totals": {
-    "blockRules": 1154,
+    "blockRules": 1155,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7139,
+    "cosmeticRules": 7147,
     "duplicateRules": 0,
     "skipped": {
       "advanced_rule": 1004,
       "allowlist": 4,
       "excluded_section": 1022,
-      "unsupported_cosmetic_selector": 885,
+      "unsupported_cosmetic_selector": 891,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 753,
+      "unsupported_modifier": 747,
       "unsupported_url_pattern": 94
     }
   }

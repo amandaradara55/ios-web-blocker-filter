@@ -1399,6 +1399,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "dac98952-cc5c-5f21-a40a-fe2a96cd1211",
+      "name": "ciderconcluded.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ciderconcluded.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "888e6dc0-1325-5f19-a2ac-499079accae3",
       "name": "comradegoodsfloor.com",
       "scope": "fqdn",
@@ -1635,6 +1647,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3956e8c0-245e-5869-8c8c-a3e4e4a4adc1",
+      "name": "pornzog.com/assets/inpage/banner.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pornzog\\.com(?::[0-9]+)?/assets/inpage/banner\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8e3ab44d-cec5-5b67-b2f8-d28d1b453bbc",
       "name": "see.xxx/nr.js",
       "scope": "url",
@@ -1651,6 +1674,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pornhits\\.com(?::[0-9]+)?/magic/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ba5570a4-2015-5617-ac83-76513d7c6e1c",
+      "name": "tporn.xxx/static/da/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tporn\\.xxx(?::[0-9]+)?/static/da/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1783,6 +1817,17 @@
       "literalOperator": "contains"
     },
     {
+      "id": "64d22cf5-c9b8-5ebd-be20-a18146fd4b9f",
+      "name": "/embed/*?c=object_container*&psid=",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/embed/.*\\?c=object_container.*\\&psid=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "6bb04e07-46bd-5959-9aee-741e9d6ad447",
       "name": "a.hentaiocean.com",
       "scope": "fqdn",
@@ -1888,6 +1933,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gayxnow\\.com(?::[0-9]+)?/bn/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "bef33c58-91ab-54ef-8e33-781555953ca8",
+      "name": "||camhub.*/static/js/cc-kvs.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?camhub\\..*/static/js/cc\\-kvs\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2161,6 +2217,17 @@
       "note": ""
     },
     {
+      "id": "79b43047-adc4-556b-9377-b562ff9fbde7",
+      "name": "streamfree.app/analytics.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?streamfree\\.app(?::[0-9]+)?/analytics\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "bf7e918e-7349-5095-a459-f1272c3fd524",
       "name": "strumyk.net/assets/z-",
       "scope": "url",
@@ -2234,6 +2301,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?streamex\\.sh(?::[0-9]+)?/pop\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "5df90fe3-17f2-5446-97ac-22a64694fea0",
+      "name": "player.videasy.net/scripts/ab.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.videasy\\.net(?::[0-9]+)?/scripts/ab\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3523,17 +3601,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?xszav\\.club(?::[0-9]+)?/nb/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "762c488c-22bf-5cab-b4df-7acfeaca284d",
-      "name": "/flo.js|",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "/flo\\.js$",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -4855,6 +4922,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "40a43c17-77b8-5dd5-8d82-e3b67b95657d",
+      "name": "wheelroot.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wheelroot.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "679e088b-2921-5ecf-82d3-3f73cc21b7eb",
@@ -7129,6 +7208,54 @@
       "note": ""
     },
     {
+      "id": "855bce7c-c059-520e-9bea-765374f278c8",
+      "name": "gresrv.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gresrv.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "98e99fea-54b8-5be8-b3dd-be91201a58a7",
+      "name": "dclsrv.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dclsrv.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "75db6a6a-aa8d-5948-88ee-bb6fe7f70154",
+      "name": "dtasrvr.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dtasrvr.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "93985958-13d0-535d-bcef-3a56b935cd11",
+      "name": "srvgl.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "srvgl.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3dbda144-2ad5-5408-9a84-cbf0759b2cfc",
       "name": "opgg.beer",
       "scope": "fqdn",
@@ -8505,6 +8632,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3c9d6cba-c430-5578-a977-7a2e85958c86",
+      "name": "prod-blocking.workers.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "prod-blocking.workers.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "93f119b5-3ef8-52eb-a062-80bd5d0461f6",
       "name": "||sulasok.*/00BANNER_",
       "scope": "url",
@@ -8670,6 +8809,30 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "6e595622-421c-5ccf-832a-b452545f0076",
+      "name": "/novajackpot-banner",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/novajackpot-banner",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "e2e11178-d073-5836-9c82-738d6e0affaa",
+      "name": "wnouncillorswhowish.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wnouncillorswhowish.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
@@ -10378,6 +10541,28 @@
       "selector": "[href^=\"http://www.coiwqe.site/\"]",
       "domains": [
         "thepiratebay.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ebaf7625-927d-5ec1-9d17-c4bfa7f1a936",
+      "name": "div[data-type=\"_mgwidget\"]",
+      "selector": "div[data-type=\"_mgwidget\"]",
+      "domains": [
+        "downsub.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5274d70a-6bab-5b7a-9716-890098ba0f37",
+      "name": "[href^=\"https://www.aiarty.com/ai-denoise-image/\"]",
+      "selector": "[href^=\"https://www.aiarty.com/ai-denoise-image/\"]",
+      "domains": [
+        "downsub.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -25947,11 +26132,12 @@
       "note": ""
     },
     {
-      "id": "19b1589b-dd0c-58ea-95bb-e4ab8d1dfd7d",
+      "id": "8d94ec22-7bb7-55ac-8e38-947f7244d8bc",
       "name": "#overlay",
       "selector": "#overlay",
       "domains": [
         "abysscdn.com",
+        "abyssplayer.com",
         "fembedx.top",
         "fullfreeimage.com",
         "hydraxcdn.biz",
@@ -25986,6 +26172,17 @@
       "selector": "#content-locker",
       "domains": [
         "myzoversion.blogspot.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ae99456e-9a18-5666-80f0-74ba2e603f94",
+      "name": "#media-player",
+      "selector": "#media-player",
+      "domains": [
+        "zokaj.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -26736,6 +26933,28 @@
       "name": ".pppx",
       "selector": ".pppx",
       "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "db536285-8cf3-5557-90a1-496e90bee135",
+      "name": "#adblock-overlay",
+      "selector": "#adblock-overlay",
+      "domains": [
+        "meuplayeronlinehd.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6979b1fb-6c26-537d-b03d-5d3215c4750e",
+      "name": "#popup-overlay",
+      "selector": "#popup-overlay",
+      "domains": [
+        "myapiplay.top"
+      ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -54039,28 +54258,6 @@
       "note": ""
     },
     {
-      "id": "db536285-8cf3-5557-90a1-496e90bee135",
-      "name": "#adblock-overlay",
-      "selector": "#adblock-overlay",
-      "domains": [
-        "meuplayeronlinehd.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6979b1fb-6c26-537d-b03d-5d3215c4750e",
-      "name": "#popup-overlay",
-      "selector": "#popup-overlay",
-      "domains": [
-        "myapiplay.top"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "6386aac5-8252-5c2e-b934-46335b6bb28e",
       "name": ".adblock_title",
       "selector": ".adblock_title",
@@ -54663,9 +54860,9 @@
       "note": ""
     },
     {
-      "id": "68599f9b-b898-5751-a205-68e8fe64b259",
-      "name": "#preroll-gate",
-      "selector": "#preroll-gate",
+      "id": "9099a36d-3b3c-56d3-b5b1-b3636e94d0b9",
+      "name": "#vc-overlay",
+      "selector": "#vc-overlay",
       "domains": [
         "streamcash.to"
       ],
@@ -54746,6 +54943,70 @@
       "domains": [
         "fyxxr.to"
       ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "37491f10-e38a-5029-a711-7808c4873f31",
+      "name": "div[id^=\"airli-\"] > .adsbygoogle",
+      "selector": "div[id^=\"airli-\"] > .adsbygoogle",
+      "domains": [
+        "airlive.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c6b35b99-43c5-5fd1-b4a3-355ecf05e0d6",
+      "name": ".custom-html-widget.textwidget > .adsbygoogle",
+      "selector": ".custom-html-widget.textwidget > .adsbygoogle",
+      "domains": [
+        "airlive.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "371de3b5-9062-5578-83d0-e5512a574767",
+      "name": "body > div[style=\"padding:15px 0;background:#f8f9fa;border-bottom:1px solid #e9ecef;min-height:120px;width:100%;display:flex;align-items:center;justify-content:center;overflow:visible;\"]",
+      "selector": "body > div[style=\"padding:15px 0;background:#f8f9fa;border-bottom:1px solid #e9ecef;min-height:120px;width:100%;display:flex;align-items:center;justify-content:center;overflow:visible;\"]",
+      "domains": [
+        "athlete-insurance.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "70c6178e-b9e2-5f90-8437-b2ee4305937e",
+      "name": ".sponsored-offer",
+      "selector": ".sponsored-offer",
+      "domains": [
+        "forums.redflagdeals.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "26874ac5-3133-5b5e-8b1d-e778dc0be783",
+      "name": ".ad_leaderboard_large",
+      "selector": ".ad_leaderboard_large",
+      "domains": [
+        "forums.redflagdeals.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7341b883-05aa-5801-887e-233b136ed752",
+      "name": "#main-content a[href^=\"https://hub.buzzaffiliates.com/\"]",
+      "selector": "#main-content a[href^=\"https://hub.buzzaffiliates.com/\"]",
+      "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""

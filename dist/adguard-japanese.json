@@ -5048,6 +5048,17 @@
       "note": ""
     },
     {
+      "id": "f7d57c47-23dc-59ba-a756-574a1fc7a591",
+      "name": "walkerplus.com/asset/jobbox/jobbox.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?walkerplus\\.com(?::[0-9]+)?/asset/jobbox/jobbox\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "90b9ac68-a0ab-5a02-9549-09da7fc048ce",
       "name": "walkerplus.com/asset/diy/images/shared/mvtk_630_100x2.webp",
       "scope": "url",
@@ -14890,7 +14901,7 @@
       "note": ""
     },
     {
-      "id": "fc260e27-e8ee-5a76-aa39-406815e45315",
+      "id": "ea5576d8-3db6-5da7-baef-5bea753c290e",
       "name": ".ads",
       "selector": ".ads",
       "domains": [
@@ -14949,7 +14960,6 @@
         "ginnga.blog.jp",
         "tools4music.info",
         "gaccom.jp",
-        "diskgarage.com",
         "tagindex.com",
         "flyteam.jp",
         "keyakizaka46matomerabo.com",
@@ -15403,6 +15413,105 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5967efa0-9a87-5294-89de-afddad056f6d",
+      "name": "#PC_UnderEyecatch_336x280",
+      "selector": "#PC_UnderEyecatch_336x280",
+      "domains": [
+        "kinmaweb.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "47a327d9-1164-55e5-892c-03747a5d13f6",
+      "name": "#SP_Inner_Ad_300x300",
+      "selector": "#SP_Inner_Ad_300x300",
+      "domains": [
+        "kinmaweb.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "faf67f95-ce8e-5731-86e8-742cc3287e4a",
+      "name": ".photo-external-link[data-widget=\"image\"][data-title^=\"【PR】\"][data-link*=\"/?waad=&ugad=&suid=\"]",
+      "selector": ".photo-external-link[data-widget=\"image\"][data-title^=\"【PR】\"][data-link*=\"/?waad=&ugad=&suid=\"]",
+      "domains": [
+        "jp.motorsport.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3dca7136-a4ca-5d91-a1fb-66d26033bdb7",
+      "name": "div[id^=\"ad-banner-\"]",
+      "selector": "div[id^=\"ad-banner-\"]",
+      "domains": [
+        "sports.tv.rakuten.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5acf594f-9a1a-500c-915a-121025ee8257",
+      "name": "div[style=\"text-align:center; margin: 2em 0; min-height: 280px;\"]",
+      "selector": "div[style=\"text-align:center; margin: 2em 0; min-height: 280px;\"]",
+      "domains": [
+        "biz-journal.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9cbaf888-a8a5-5690-9f8f-7a6f57919d36",
+      "name": "#block-member-adtagcontenttitlebottom",
+      "selector": "#block-member-adtagcontenttitlebottom",
+      "domains": [
+        "chibanippo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0ffa1b76-d971-536c-a4c8-3cd717b4a024",
+      "name": ".images-description > center",
+      "selector": ".images-description > center",
+      "domains": [
+        "javbee.co"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7a13d374-c2d9-5faa-a3ab-467649616bd2",
+      "name": "div[class^=\"cxenseAd\"]",
+      "selector": "div[class^=\"cxenseAd\"]",
+      "domains": [
+        "gizmodo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d2ed281a-b2b5-5e11-9e4c-0f75f5424b6f",
+      "name": ".gtm-recommend",
+      "selector": ".gtm-recommend",
+      "domains": [
+        "gizmodo.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -33886,28 +33995,6 @@
       "note": ""
     },
     {
-      "id": "da1e369b-f07d-56b7-a472-aab227420eff",
-      "name": ".main-topban",
-      "selector": ".main-topban",
-      "domains": [
-        "diskgarage.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4db6dce2-2d81-5a65-8fc6-9101d109bc9e",
-      "name": ".cm_ads",
-      "selector": ".cm_ads",
-      "domains": [
-        "diskgarage.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "141253d9-3871-58e5-847e-36ce77ae9ff0",
       "name": ".sc_banner",
       "selector": ".sc_banner",
@@ -37010,11 +37097,11 @@
       "note": ""
     },
     {
-      "id": "35a898f2-72ec-5bb2-8f1d-ad188cea63fd",
+      "id": "767a17ea-3c09-594a-a2a7-83372eab9af5",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.baby"
+        "jmanga.nyc"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57677,28 +57764,6 @@
       "note": ""
     },
     {
-      "id": "ee6ec8f9-93b8-5bbf-8075-1c0ae13625ca",
-      "name": "#adFooter",
-      "selector": "#adFooter",
-      "domains": [
-        "healthpress.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "5d885bf2-0909-5d5f-99ee-bd15ce3e0640",
-      "name": "#entryBottomAd",
-      "selector": "#entryBottomAd",
-      "domains": [
-        "healthpress.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "16acafa0-83f0-56cf-9d51-100db16797eb",
       "name": "#text1 p[style=\"text-align:center;\"]",
       "selector": "#text1 p[style=\"text-align:center;\"]",
@@ -57732,11 +57797,10 @@
       "note": ""
     },
     {
-      "id": "1730bb14-c50f-5cc1-a092-d3e0ee1048b9",
+      "id": "d5145a2a-2334-5b57-9557-9f253c298611",
       "name": "td[style=\"width:310px;vertical-align:top;\"]",
       "selector": "td[style=\"width:310px;vertical-align:top;\"]",
       "domains": [
-        "eegg.dip.jp",
         "eegg.fun"
       ],
       "isEnabled": true,
@@ -58404,17 +58468,6 @@
       "selector": "a[href^=\"https://tp-bb.jp/\"]",
       "domains": [
         "full-count.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "aa8a9ce9-da9e-5784-bb6c-73b10860166b",
-      "name": "a[href^=\"https://www.townu.jp/\"]",
-      "selector": "a[href^=\"https://www.townu.jp/\"]",
-      "domains": [
-        "magazine.aruhi-corp.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -71419,6 +71472,17 @@
       "note": ""
     },
     {
+      "id": "dc2eed0f-bb88-5c7f-95ff-6c746bd4a76f",
+      "name": ".gamedb-steam-ad-compact",
+      "selector": ".gamedb-steam-ad-compact",
+      "domains": [
+        "gamewith.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "bfc6192f-fa64-5a33-ac0f-cedc654b4e66",
       "name": ".gdb-cta-banner-outer",
       "selector": ".gdb-cta-banner-outer",
@@ -72509,6 +72573,28 @@
       "selector": ".sp-header-ad",
       "domains": [
         "traicy.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "860f8201-a8e5-5c94-8c98-9ac658d553cd",
+      "name": ".ad[style^=\"min-width:300px;min-height:250px\"]",
+      "selector": ".ad[style^=\"min-width:300px;min-height:250px\"]",
+      "domains": [
+        "hochi.news"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "73ac6a2b-96e5-54c8-a173-bf26e1d4330d",
+      "name": "div[style=\"display:flex;justify-content:space-around;\"]",
+      "selector": "div[style=\"display:flex;justify-content:space-around;\"]",
+      "domains": [
+        "hochi.news"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -92654,6 +92740,17 @@
       "selector": "#sub div.plugin-memo",
       "domains": [
         "mona-news.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e2e892f6-b23f-5589-a2b3-7ab0c10fdb42",
+      "name": "div[style=\"display:inline-block; border:1px solid #ccc; border-radius:4px; background-color:#fff; text-align:center; overflow:hidden;\"]",
+      "selector": "div[style=\"display:inline-block; border:1px solid #ccc; border-radius:4px; background-color:#fff; text-align:center; overflow:hidden;\"]",
+      "domains": [
+        "yugioh-starlight.com"
       ],
       "isEnabled": true,
       "rank": 0,
