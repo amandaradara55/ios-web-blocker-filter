@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-06-07T19:14:06+00:00",
+  "generatedAt": "2026-06-14T19:17:32+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 86043,
-      "acceptedBlockRules": 55166,
+      "inputRules": 82885,
+      "acceptedBlockRules": 52040,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 22813,
+      "acceptedCosmeticRules": 22836,
       "duplicateRules": 4,
       "skipped": {
-        "advanced_rule": 267,
-        "allowlist": 1073,
-        "unsupported_cosmetic_selector": 511,
-        "unsupported_domain_scope": 269,
-        "unsupported_modifier": 5730,
+        "advanced_rule": 269,
+        "allowlist": 1093,
+        "unsupported_cosmetic_selector": 516,
+        "unsupported_domain_scope": 270,
+        "unsupported_modifier": 5647,
         "unsupported_url_pattern": 201,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 55407,
-      "acceptedBlockRules": 53245,
+      "inputRules": 55423,
+      "acceptedBlockRules": 53256,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 2,
       "skipped": {
         "advanced_rule": 26,
-        "allowlist": 823,
+        "allowlist": 824,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 927,
-        "unsupported_url_pattern": 377
+        "unsupported_modifier": 930,
+        "unsupported_url_pattern": 378
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 108411,
+    "acceptedBlockRules": 105296,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 22815,
+    "acceptedCosmeticRules": 22838,
     "duplicateRules": 6,
     "skipped": {
-      "advanced_rule": 293,
-      "allowlist": 1896,
-      "unsupported_cosmetic_selector": 516,
-      "unsupported_domain_scope": 269,
-      "unsupported_modifier": 6657,
-      "unsupported_url_pattern": 578,
+      "advanced_rule": 295,
+      "allowlist": 1917,
+      "unsupported_cosmetic_selector": 521,
+      "unsupported_domain_scope": 270,
+      "unsupported_modifier": 6577,
+      "unsupported_url_pattern": 579,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
   }

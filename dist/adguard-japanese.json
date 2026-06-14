@@ -11729,6 +11729,17 @@
       "note": ""
     },
     {
+      "id": "69562d19-cc98-59f6-baab-4c85173a9d9b",
+      "name": "futapo.futakuro.com/iframe728_i.html",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?futapo\\.futakuro\\.com(?::[0-9]+)?/iframe728_i\\.html",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8beb5a08-0713-5504-96c4-4846004b0456",
       "name": "eiga.k-img.com/images/dvd/discas.gif",
       "scope": "url",
@@ -15413,6 +15424,51 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1eb7b23e-9435-57d0-9b86-43b415088b1e",
+      "name": "#ymsa-left",
+      "selector": "#ymsa-left",
+      "domains": [
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1bea9771-52ab-5c52-80a2-7d1fd6ff74a5",
+      "name": ".amz-ranking-set",
+      "selector": ".amz-ranking-set",
+      "domains": [
+        "yamiisoku.com",
+        "monhan-soku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4e265759-7f42-578c-adbc-875effb73f6a",
+      "name": ".gs-side-ad",
+      "selector": ".gs-side-ad",
+      "domains": [
+        "monhan-soku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "20a960ed-8433-538a-a7a5-2a606203b7b5",
+      "name": ".widget_ypl_feed_widget",
+      "selector": ".widget_ypl_feed_widget",
+      "domains": [
+        "monhan-soku.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -38153,10 +38209,11 @@
       "note": ""
     },
     {
-      "id": "1c7df64d-38a2-51af-93a3-01276a4faddc",
+      "id": "cc9efeaa-9c8f-5ff6-a182-76b9fa3261e4",
       "name": ".top-large-ad",
       "selector": ".top-large-ad",
       "domains": [
+        "solispia.com",
         "nakamaaru.asahi.com"
       ],
       "isEnabled": true,
@@ -69440,10 +69497,11 @@
       "note": ""
     },
     {
-      "id": "fc970236-3819-5f77-b4cf-59fdc84abdb2",
+      "id": "6233e31a-82ac-541c-8186-c7d9d5e0288a",
       "name": ".product-item-box",
       "selector": ".product-item-box",
       "domains": [
+        "gameboku.com",
         "solomon-review.net",
         "zack-it.com",
         "geartune.games",
@@ -82082,6 +82140,17 @@
         "imagis.jp",
         "costype.net",
         "oppaimall.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d9bce7e6-80c6-55c3-a5bd-24502fbb0770",
+      "name": ".futakoko",
+      "selector": ".futakoko",
+      "domains": [
+        "futapo.futakuro.com"
       ],
       "isEnabled": true,
       "rank": 0,
