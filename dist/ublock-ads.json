@@ -1363,6 +1363,30 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b726a6a9-fd45-5f93-81c2-d872d3051129",
+      "name": "willow-assets.space",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "willow-assets.space",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "380b4bef-033d-5b0d-b545-a759f04accd2",
+      "name": "stat-res.workers.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "stat-res.workers.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d35dda4e-daba-5b7d-b9b9-11fe8e0d75a0",
       "name": "accusationretrieval.com",
       "scope": "fqdn",
@@ -1416,6 +1440,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "degreeeruptionpredator.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "b9cef88b-fcd7-5384-a461-654a9733f047",
+      "name": "informedcleave.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "informedcleave.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2228,6 +2264,17 @@
       "note": ""
     },
     {
+      "id": "632f3371-786e-55c3-8f1c-b860ea4e3724",
+      "name": "cinehd.app/api/adcash",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cinehd\\.app(?::[0-9]+)?/api/adcash",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "bf7e918e-7349-5095-a459-f1272c3fd524",
       "name": "strumyk.net/assets/z-",
       "scope": "url",
@@ -2318,11 +2365,11 @@
       "note": ""
     },
     {
-      "id": "5df90fe3-17f2-5446-97ac-22a64694fea0",
-      "name": "player.videasy.net/scripts/ab.js",
+      "id": "ca981851-3776-5c20-b5f3-a4cc48d2efd3",
+      "name": "||player.videasy.*/scripts/ab.js",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.videasy\\.net(?::[0-9]+)?/scripts/ab\\.js",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.videasy\\..*/scripts/ab\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2956,6 +3003,28 @@
       "note": ""
     },
     {
+      "id": "a30c4900-1f3e-5e29-94bf-219835a7c2fb",
+      "name": "vivasexe.com/pix/pub/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vivasexe\\.com(?::[0-9]+)?/pix/pub/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b50e448d-2846-53fb-9218-c1ca2466e8e1",
+      "name": "vivasexe.com/disclaimer.php?cid=/search.php",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vivasexe\\.com(?::[0-9]+)?/disclaimer\\.php\\?cid=/search\\.php",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "fa9ab432-53db-5f93-b043-f726e5736f23",
       "name": "forum.ge/trash/ads_",
       "scope": "url",
@@ -3123,6 +3192,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "014f5400-856b-53fa-932e-b5fa76ff03f0",
+      "name": "instant-gaming.com/api/banner/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?instant\\-gaming\\.com(?::[0-9]+)?/api/banner/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "4eddb384-a035-5172-9791-602bc4a77779",
       "name": "filmvitrini.net/wp-content/themes/filmizle/js/elma.js",
       "scope": "url",
@@ -3244,6 +3324,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "602df73d-15dc-50da-ab53-05d504d5a0a3",
+      "name": "||phimcn.*/assets/pu.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?phimcn\\..*/assets/pu\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "12ac0235-0e09-5787-bc2a-f8fd903c85de",
+      "name": "||phimcn.*/graph/api?action=init-load-ads",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?phimcn\\..*/graph/api\\?action=init\\-load\\-ads",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "a9e3daed-160e-5efa-b663-ddabd37a0ac6",
@@ -7612,17 +7714,6 @@
       "note": ""
     },
     {
-      "id": "e4788192-e8c5-5b30-b31f-39f298b21570",
-      "name": "goalsport.info/fox/plugins/block1/dublocker.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?goalsport\\.info(?::[0-9]+)?/fox/plugins/block1/dublocker\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "6f533086-7f82-5665-9ef0-8570ca0e6813",
       "name": "ucast.pro",
       "scope": "fqdn",
@@ -8571,64 +8662,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "763a01ee-45aa-50e4-8a35-54141cf3f5e7",
-      "name": "||cfd/rfdtagarg/*.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cfd/rfdtagarg/.*\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "3240b1f1-b1d8-55d7-9165-a90377b98908",
-      "name": "zeilink.net/api/public/ads",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?zeilink\\.net(?::[0-9]+)?/api/public/ads",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "ca6ecce0-700e-5a53-b2d6-ece2e15c55c4",
-      "name": "cdn-n.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdn-n.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d0625327-8070-5a7e-9d00-b0d7b22ca3b2",
-      "name": "cdn-x.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdn-x.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "18110b9e-fded-50ba-b269-8ca172941ed3",
-      "name": "cdn-z.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdn-z.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "50c3a87a-0a98-5234-bc4e-afdf18e86eaa",
       "name": "romhandbook.com/assets/lib/adblock-",
       "scope": "url",
@@ -8889,6 +8922,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "38fd82bd-5652-50ae-9d25-b650b517f71d",
+      "name": "empirenovel.com/po.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?empirenovel\\.com(?::[0-9]+)?/po\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
@@ -9207,6 +9251,18 @@
       "note": ""
     },
     {
+      "id": "672a431d-1750-590c-adaa-b5b7a8eda553",
+      "name": "imrobpolit.pro",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "imrobpolit.pro",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "717dbfb5-b2cd-5502-8673-058fea0cae52",
       "name": "dohggte.com",
       "scope": "fqdn",
@@ -9272,6 +9328,64 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "systemsecurenow.icu",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "763a01ee-45aa-50e4-8a35-54141cf3f5e7",
+      "name": "||cfd/rfdtagarg/*.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cfd/rfdtagarg/.*\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "3240b1f1-b1d8-55d7-9165-a90377b98908",
+      "name": "zeilink.net/api/public/ads",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?zeilink\\.net(?::[0-9]+)?/api/public/ads",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ca6ecce0-700e-5a53-b2d6-ece2e15c55c4",
+      "name": "cdn-n.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdn-n.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d0625327-8070-5a7e-9d00-b0d7b22ca3b2",
+      "name": "cdn-x.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdn-x.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "18110b9e-fded-50ba-b269-8ca172941ed3",
+      "name": "cdn-z.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdn-z.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -18521,17 +18635,6 @@
       "note": ""
     },
     {
-      "id": "d8a019de-66b5-569f-95d6-62d13995eb37",
-      "name": "ins.adsbygoogle",
-      "selector": "ins.adsbygoogle",
-      "domains": [
-        "loveawake.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "4588ad4e-88ad-573a-82f3-9237d459f31a",
       "name": ".dfp-ad",
       "selector": ".dfp-ad",
@@ -26599,6 +26702,72 @@
       "note": ""
     },
     {
+      "id": "1d46cb89-70bf-5d61-b8ee-43e27f3e2c40",
+      "name": "#div_inline",
+      "selector": "#div_inline",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3c806e94-02e8-5da4-a2d2-b4f14b2bebbc",
+      "name": "#filtre",
+      "selector": "#filtre",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "07aae587-6422-597e-b50c-809f9d5e9cca",
+      "name": "#searchlisting > a[href][target=\"_blank\"]",
+      "selector": "#searchlisting > a[href][target=\"_blank\"]",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2c3b5765-9091-542a-af55-f9940fbc3dde",
+      "name": "#searchlisting > div#cadre_annonce[style]:not([onclick])",
+      "selector": "#searchlisting > div#cadre_annonce[style]:not([onclick])",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "651fdd50-e5dd-594d-bcf5-dbe080a2930e",
+      "name": ".rdv-card-wrapper",
+      "selector": ".rdv-card-wrapper",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "089db086-3e7a-5615-b1fe-9d4d15e2a4cf",
+      "name": "a.btnmoncompte[href=\"https://www.vivasexe.com/alerte/\"]",
+      "selector": "a.btnmoncompte[href=\"https://www.vivasexe.com/alerte/\"]",
+      "domains": [
+        "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "10e49dec-6ad7-527d-b7c5-c78dd2e0ed8d",
       "name": ".fb-popup",
       "selector": ".fb-popup",
@@ -27005,6 +27174,30 @@
       "note": ""
     },
     {
+      "id": "d2434f7d-fe4c-5147-8861-6f9e5638084b",
+      "name": ".content_store",
+      "selector": ".content_store",
+      "domains": [
+        "elamigosgames.net",
+        "elamigosgamez.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1001aa89-495f-53ef-b159-b72a75a85151",
+      "name": ".iframeDiv",
+      "selector": ".iframeDiv",
+      "domains": [
+        "elamigosgames.net",
+        "elamigosgamez.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "8bf7c9c3-589c-5698-9db7-a83570652027",
       "name": "[href*=\"adset\"]",
       "selector": "[href*=\"adset\"]",
@@ -27274,6 +27467,15 @@
       "domains": [
         "vnjpclub.com"
       ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d75e176d-a9f7-5424-9aaf-00615f8f9a17",
+      "name": "html[lang=\"vi\"] .sspp-area",
+      "selector": "html[lang=\"vi\"] .sspp-area",
+      "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -44125,28 +44327,6 @@
       "note": ""
     },
     {
-      "id": "0964d7c4-9de9-5247-99ad-2c1bb165adc9",
-      "name": ".content_store",
-      "selector": ".content_store",
-      "domains": [
-        "elamigosgamez.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d33ce8ca-85d0-598e-9574-877eb653c9b2",
-      "name": ".iframeDiv",
-      "selector": ".iframeDiv",
-      "domains": [
-        "elamigosgamez.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "aae50888-bd75-5e2b-ac75-ce2c0cc296ce",
       "name": "div[style=\"background: #ddd9d9; margin-bottom: 10px; width: 100%;\"]",
       "selector": "div[style=\"background: #ddd9d9; margin-bottom: 10px; width: 100%;\"]",
@@ -47873,9 +48053,9 @@
       "note": ""
     },
     {
-      "id": "4b173b71-3933-550b-9555-37dee2c2049b",
-      "name": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
-      "selector": "#hostabq, .hostabq, [id^=\"amtpeayv\"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^=\"window.location\"], [id^=\"antkeayvhaeap\"], [class*=\"-elative\"], [href*=\"?utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"]",
+      "id": "86c4ddb5-e7a0-50cd-89ad-eed6eaeb4970",
+      "name": "#amspeaytpuikprivatealps, .hostabw, [id^=\"amspeay\"], .ri-ctive, [id^=\"amspeaytpuikpp-liaryt\"], .blockxs, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"]",
+      "selector": "#amspeaytpuikprivatealps, .hostabw, [id^=\"amspeay\"], .ri-ctive, [id^=\"amspeaytpuikpp-liaryt\"], .blockxs, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"]",
       "domains": [
         "check-host.net"
       ],
@@ -49215,6 +49395,28 @@
       "id": "298dfde1-7235-5d9e-b381-32a5023461df",
       "name": "elastic-ad-service",
       "selector": "elastic-ad-service",
+      "domains": [
+        "lowfuelmotorsport.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f519986b-93ad-52d2-a98f-addb45a79af2",
+      "name": ".topbanner-center",
+      "selector": ".topbanner-center",
+      "domains": [
+        "lowfuelmotorsport.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5e8ff09d-e81d-5f1f-b0a7-8a0954546356",
+      "name": ".vm-placement",
+      "selector": ".vm-placement",
       "domains": [
         "lowfuelmotorsport.com"
       ],
@@ -54634,9 +54836,9 @@
       "note": ""
     },
     {
-      "id": "95d27b37-348a-582e-b52d-7a7edb4f5725",
-      "name": ".widget.HTML > .widget-content > .my-responsive-banner-container",
-      "selector": ".widget.HTML > .widget-content > .my-responsive-banner-container",
+      "id": "2583d723-3fa4-5a3d-82a3-856600c8de16",
+      "name": ".my-responsive-banner-container",
+      "selector": ".my-responsive-banner-container",
       "domains": [
         "blogspot.com"
       ],
@@ -54951,6 +55153,17 @@
       "note": ""
     },
     {
+      "id": "497ba8f0-4e2b-56df-a59c-0a950bbe3773",
+      "name": "a[href^=\"https://jerknut.com\"]",
+      "selector": "a[href^=\"https://jerknut.com\"]",
+      "domains": [
+        "streamcash.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "85b22262-d1e1-5832-b89a-f04424ce11b7",
       "name": "#interVeil",
       "selector": "#interVeil",
@@ -55128,6 +55341,70 @@
       "selector": "#topadspot",
       "domains": [
         "hytale-servers.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "692979c5-ca41-5054-b3a6-74c860eaeb47",
+      "name": "body > #mdl-register.modal.anm-e.regnow",
+      "selector": "body > #mdl-register.modal.anm-e.regnow",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3c4dbf51-85e8-521d-a0e7-b7822beabb7d",
+      "name": ".afu-ab",
+      "selector": ".afu-ab",
+      "domains": [
+        "luciferdonghua.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6723661d-21d2-54e2-9a96-95a6500158a3",
+      "name": ".afu-banner",
+      "selector": ".afu-banner",
+      "domains": [
+        "luciferdonghua.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "15674698-9f97-5efb-a07e-05bf0de2a834",
+      "name": ".kln",
+      "selector": ".kln",
+      "domains": [
+        "luciferdonghua.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f1f1f480-6188-5f2e-a363-a71fef5a9475",
+      "name": ".custom-html-widget",
+      "selector": ".custom-html-widget",
+      "domains": [
+        "luciferdonghua.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "006a8738-dac9-5a0f-b33c-5ea702518a5f",
+      "name": "section[aria-label=\"Sponsored content\"]",
+      "selector": "section[aria-label=\"Sponsored content\"]",
+      "domains": [
+        "autoembed.app"
       ],
       "isEnabled": true,
       "rank": 0,

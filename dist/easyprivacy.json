@@ -23650,16 +23650,15 @@
       "literalOperator": "contains"
     },
     {
-      "id": "9baa6e47-baf0-5358-b704-b4df25a40432",
-      "name": "/sdc.js",
+      "id": "61c4ed32-7cff-5e8d-94bb-8e123bf2cad4",
+      "name": "/sdc.js|",
       "scope": "url",
-      "matchKind": "literal",
-      "pattern": "/sdc.js",
+      "matchKind": "regex",
+      "pattern": "/sdc\\.js$",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
-      "note": "",
-      "literalOperator": "contains"
+      "note": ""
     },
     {
       "id": "665d7073-8c73-5bd6-b4b9-8cc2805b3d0f",
@@ -37077,6 +37076,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b57c0ed1-d5a2-56de-a00a-ca73072cd218",
+      "name": "ddlnk.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ddlnk.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b9bd93ba-68ba-5b13-90e2-282a5a1a51b7",
       "name": "demdex.net",
       "scope": "fqdn",
@@ -38889,18 +38900,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "cf87ffcb-35cc-5b6b-81a4-677b8808292a",
-      "name": "lipstat.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "lipstat.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3b73a988-f190-5f9d-8d46-ce55c83156ba",
       "name": "liveyield.com",
       "scope": "fqdn",
@@ -39926,18 +39925,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "procroanalytics.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e1c8611b-140d-5a14-8671-506353f6a6e1",
-      "name": "proftrafficcounter.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "proftrafficcounter.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -48673,6 +48660,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "data-dynamic.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "87eda2ab-6a0d-5dca-9ffa-d157956853b3",
+      "name": "data.u.software",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "data.u.software",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -85243,6 +85242,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "464fd542-6c01-5ad7-8479-8b3542861083",
+      "name": "kingsealed.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "kingsealed.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "dc7ec5e5-cd8d-5d75-98d0-7ed941ee3d60",
       "name": "kitetuning.com",
       "scope": "fqdn",
@@ -89119,6 +89130,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a10da3e6-77c2-5bf7-84e5-dabc052e358d",
+      "name": "pingsurvey.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pingsurvey.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "45fb3f83-f31d-52ad-b770-ad8bed577373",
       "name": "piquantgrove.com",
       "scope": "fqdn",
@@ -89268,6 +89291,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "planebasin.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "bd1bc67a-f540-580e-9ab4-6d98687138c1",
+      "name": "plantcourse.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "plantcourse.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89503,6 +89538,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "2f728480-3fcb-5caa-8417-78ba85d20b64",
+      "name": "poolcushions.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "poolcushions.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "53636bef-d92e-55f4-ae36-7366710e60f9",
       "name": "popliquids.com",
       "scope": "fqdn",
@@ -89700,6 +89747,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "prettybicycle.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "3581775a-447f-5f8b-b8d1-70f8221930f0",
+      "name": "prettydemo.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "prettydemo.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -91416,6 +91475,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "robotgarages.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "b83fed2c-c535-57b2-ae0d-c2ff8672411e",
+      "name": "robotsrefinery.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "robotsrefinery.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -94627,6 +94698,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "4099b8a6-ff7a-52b8-a900-d2320e7d5bf6",
+      "name": "starfurniture.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "starfurniture.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "e0a53664-1021-5ca6-9e4c-542e21b60fb1",
       "name": "starkscale.com",
       "scope": "fqdn",
@@ -95232,6 +95315,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "strongercity.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "38ccc1f1-a208-5a02-a79f-c60e5872c8a1",
+      "name": "studioalkaline.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "studioalkaline.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96216,6 +96311,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "thebrainybulb.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c1abbe9e-5e83-550f-8931-f243d7afeffd",
+      "name": "thecounter.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "thecounter.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101148,18 +101255,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "21db565f-2687-59e3-9edb-32249d6504cd",
-      "name": "counter-kostenlos.info",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "counter-kostenlos.info",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "24db5b74-6e7b-55fe-8ea2-e3781ae150ba",
       "name": "counter-kostenlos.net",
       "scope": "fqdn",
@@ -101405,18 +101500,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cptrack.de",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "87f02e51-bfa3-587a-ba4c-271bdebc8b88",
-      "name": "cya1t.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cya1t.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -101736,47 +101819,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "915844e2-cd8b-58ad-b37f-5ca68fe44340",
-      "name": "freihit.de",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "freihit.de",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "3179ad9c-e821-5b97-8ecd-e37360e2f009",
-      "name": "fremaks.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "fremaks.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "d9e2090c-5223-5961-bff2-6b38092869ee",
       "name": "fun-hits.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fun-hits.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9742cdfc-dc4d-558f-87f1-026385b058bc",
-      "name": "gacela.eu",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "gacela.eu",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -102384,18 +102431,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "27358939-d1e4-5348-b8c7-6fe73093c3e5",
-      "name": "my-stats.info",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "my-stats.info",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "e5c3175e-0cd7-5171-b4bb-f2516417b9c3",
       "name": "netcounter.de",
       "scope": "fqdn",
@@ -102893,18 +102928,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "selfcampaign.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "86cb9164-16b3-5724-beb5-57b6c990dacc",
-      "name": "semtracker.de",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "semtracker.de",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -103625,18 +103648,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "123compteur.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "4208ce25-9a68-5e99-9ebc-adf19484ef23",
-      "name": "24log.fr",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "24log.fr",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -104464,18 +104475,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "uzerly.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9de5f590-7765-511b-b51e-a5841a0ba2d8",
-      "name": "vpn-access.site",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "vpn-access.site",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -106427,18 +106426,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "bfaf4e50-ddd9-59b3-a980-2f568c8b3796",
-      "name": "freestats.biz",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "freestats.biz",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "54f8b47b-7f1e-5528-8733-4d1f41fc13f1",
       "name": "freestats.net",
       "scope": "fqdn",
@@ -107843,18 +107830,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "8001b7dc-2de2-5ab5-8a0e-67a7e72fdc06",
-      "name": "pdmp.jp",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pdmp.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b35e2a86-2ef4-5d24-8627-912e46ef8ff4",
       "name": "performancefirst.jp",
       "scope": "fqdn",
@@ -108076,18 +108051,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tgknt.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e2793a89-0f6e-5509-ad15-653bb39fbaf8",
-      "name": "thench.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thench.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -108443,18 +108406,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "1077eae6-efd5-559b-8df1-d9c10b44d427",
-      "name": "topsite.lv",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "topsite.lv",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "71fa2a0a-a8ee-5cff-b999-8a9300a0d2d2",
       "name": "webstatistika.lv",
       "scope": "fqdn",
@@ -108567,18 +108518,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "de17a.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "e309433b-885e-58f0-b93f-b7aa5a1d2a0f",
-      "name": "trafikkfondet.no",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "trafikkfondet.no",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -108790,18 +108729,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "1861f364-5446-5461-9063-aaeb4232e268",
-      "name": "i22lo.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "i22lo.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "35274054-0371-50ac-b621-f090369c4a60",
       "name": "inistrack.net",
       "scope": "fqdn",
@@ -108855,18 +108782,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ngastatic.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ba5b134b-a4b1-5032-a50a-4f798ebaa4a7",
-      "name": "nokaut.link",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "nokaut.link",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -109462,18 +109377,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ff4639bf-9ef9-578e-a621-1598929e4353",
-      "name": "wtstats.ro",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "wtstats.ro",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "620d8386-05ba-527f-8f78-0a9adc6a98fe",
       "name": "zontera.com",
       "scope": "fqdn",
@@ -109587,30 +109490,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "adx.com.ru",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "05eb5515-6d26-5b96-9fa3-69e0cdd14365",
-      "name": "airlogs.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "airlogs.ru",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "9d3bc3fb-4f79-5372-9d13-450645efefca",
-      "name": "announcement.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "announcement.ru",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -109750,18 +109629,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "38b5dbab-ef0c-5d2f-b517-52ad3b556af1",
-      "name": "cityua.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cityua.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "4c20fa75-22da-5c9a-9f5a-dd4b1f1c5c2f",
       "name": "click.ru",
       "scope": "fqdn",
@@ -109815,18 +109682,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cpaevent.ru",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "13cb652d-d966-5632-bccc-66a64593d121",
-      "name": "cszz.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cszz.ru",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -110290,18 +110145,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "5affdd8c-0cdc-5eee-8c85-86af7def9a3c",
-      "name": "more-data.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "more-data.ru",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "0ef5c1a2-f05f-5c44-a954-bc56680660ba",
       "name": "musiccounter.ru",
       "scope": "fqdn",
@@ -110355,18 +110198,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "octotracking.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "781291b1-48d3-5a6f-ac81-1f85d187d94d",
-      "name": "opentracking.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "opentracking.ru",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -110722,35 +110553,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "63e96528-8d93-5497-ad9b-44830ff29d85",
-      "name": "ttrace.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ttrace.ru",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "a5ba9c50-a94b-5b8a-90a5-7c125ed9cd43",
       "name": "uarating.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "uarating.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "8016db5b-f905-5d13-9e6c-dc00fbf5c4a3",
-      "name": "ulclick.ru",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ulclick.ru",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -111687,18 +111494,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tagon.co",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "34e11004-60d9-5ef0-ba45-d5f71e569542",
-      "name": "thequin.ai",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "thequin.ai",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -113146,6 +112941,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "analytic-client.panowars.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "172425d1-9a34-5e44-9225-a54fb3eca8ab",
+      "name": "analytic.divee.ai",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytic.divee.ai",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -126109,6 +125916,18 @@
       "note": ""
     },
     {
+      "id": "52feb336-9d59-5dc5-a516-a60f3c795fcf",
+      "name": "id.nbcuni.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "id.nbcuni.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "c0705d8f-8b1f-5038-b404-c5f1df5f6b9b",
       "name": "id.verticalhealth.net/script.js?partnerid=",
       "scope": "url",
@@ -128854,6 +128673,17 @@
       "note": ""
     },
     {
+      "id": "35c9b896-cbb1-59f0-8613-49ea84205cd3",
+      "name": "mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mcjs\\.prd\\.a\\.intuit\\.com(?::[0-9]+)?/assets/pixel\\-reporting\\-sdk/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "f2e40240-3df5-520d-9c8c-50232b85941c",
       "name": "mdxprod.io/analytics.js",
       "scope": "url",
@@ -129276,6 +129106,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "metrix.emagister.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6aa88473-b239-5331-906c-d0922391639d",
+      "name": "mfilterit.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "mfilterit.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -161314,6 +161156,17 @@
       "note": ""
     },
     {
+      "id": "8669ed22-ca65-5288-a82b-f00418ca9b1c",
+      "name": "app.nicealts.com/user/referral/visit",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?app\\.nicealts\\.com(?::[0-9]+)?/user/referral/visit",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "571f4317-c328-55ea-8d0b-c48bdda4355f",
       "name": "appanalysis.banggood.com",
       "scope": "fqdn",
@@ -162145,6 +161998,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bmoharris\\.com(?::[0-9]+)?/www/assets/analytics/loader\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "cd95dcdf-50a5-52a7-85f2-36f8404d6a90",
+      "name": "boldin.com/rails/arrival",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?boldin\\.com(?::[0-9]+)?/rails/arrival",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -167554,6 +167418,17 @@
       "note": ""
     },
     {
+      "id": "f712adae-0af0-554b-9dd5-b105ba8eac39",
+      "name": "glowing.com/unilog",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?glowing\\.com(?::[0-9]+)?/unilog",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "657c110a-8c2a-5d83-98fc-d6a9aaf0f80b",
       "name": "gmetrics.getbeamer.com",
       "scope": "fqdn",
@@ -167761,6 +167636,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?google\\.com(?::[0-9]+)?/images/phd/px\\.gif",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d23555f2-91a9-5eb2-8671-cded1b8cf35e",
+      "name": "google.com/measurement/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?google\\.com(?::[0-9]+)?/measurement/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -172707,6 +172593,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b056b8bb-ec8c-5d0c-a0ef-f28aca638553",
+      "name": "p.imgur.gg",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "p.imgur.gg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "a549cc06-a5ce-5667-8866-4619f7d828cd",
       "name": "p.mdb.tools",
       "scope": "fqdn",
@@ -173582,6 +173480,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.javboys\\.cam(?::[0-9]+)?/cdn\\-cgi/trace",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1cd1b72d-184e-59b2-9367-17f73dc5de72",
+      "name": "player.videasy.to/scripts/ab.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.videasy\\.to(?::[0-9]+)?/scripts/ab\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -180885,6 +180794,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "c008d329-0502-5228-8183-2885f8e203fe",
+      "name": "users.videasy.to/api/track",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?users\\.videasy\\.to(?::[0-9]+)?/api/track",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "9dfd27f8-a4b8-5705-944d-e11d3e000139",
       "name": "usmetric.rediff.com",
       "scope": "fqdn",
@@ -181492,6 +181412,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wapn1.flosports.tv",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "89b3a573-131e-5f4e-afc1-34039e006668",
+      "name": "wart.val.town",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wart.val.town",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -630163,6 +630095,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "028b2a5b-d09b-5c50-b880-3527e3c557db",
+      "name": "aka.asiae.co.kr/scripts/AKACollect.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?aka\\.asiae\\.co\\.kr(?::[0-9]+)?/scripts/AKACollect\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "31a7f132-4d16-5be9-9e41-2076833effb3",
       "name": "analysis.sooplive.co.kr",
       "scope": "fqdn",
@@ -634331,6 +634274,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "analytics.cosmopolitanmag.com.tr",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "be86aba5-0843-5774-9562-894a52a0f8c5",
+      "name": "analytics.mgm.gov.tr",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytics.mgm.gov.tr",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
