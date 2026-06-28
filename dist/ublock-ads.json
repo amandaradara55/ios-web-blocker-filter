@@ -1435,6 +1435,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "c5e077c0-da92-56b1-9174-4517202c162c",
+      "name": "confidecross.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "confidecross.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8e0cda85-3775-512a-8cb3-482004ec83dc",
       "name": "degreeeruptionpredator.com",
       "scope": "fqdn",
@@ -1507,11 +1519,35 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b5dfe8ba-07f3-5b8e-95f7-c168cd380a59",
+      "name": "stemsbargain.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "stemsbargain.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "86d0a437-d2df-5f0d-89cf-f4f12d65b52a",
       "name": "studyingiodineproposal.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "studyingiodineproposal.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "949858cb-5c67-5d55-9aea-427aef8bffe4",
+      "name": "trolleyincreasingly.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "trolleyincreasingly.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1552,6 +1588,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "da5ae29a-7747-5f84-98a7-0315080b200f",
+      "name": "/adspop.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/adspop.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
     },
     {
       "id": "dd89ad03-272e-5153-b886-300109ec6914",
@@ -3201,6 +3249,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "f02f51e0-7f1c-5ccc-9030-72678dede32d",
+      "name": "adme2.click",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "adme2.click",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "4eddb384-a035-5172-9791-602bc4a77779",
@@ -8935,6 +8995,50 @@
       "note": ""
     },
     {
+      "id": "02927deb-1940-5727-bcaa-59aaa63999d1",
+      "name": "greekfun.net/assets/js/managed-ads.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?greekfun\\.net(?::[0-9]+)?/assets/js/managed\\-ads\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "068fc23e-0c0c-57f5-bf7c-f9412fdc1e8b",
+      "name": "flybfree.ca/AdBlockDetect.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?flybfree\\.ca(?::[0-9]+)?/AdBlockDetect\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "57b587c9-23a0-5711-b799-b9ac98c930ce",
+      "name": "freemusiclessons4u.com/AdBlockDetect.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?freemusiclessons4u\\.com(?::[0-9]+)?/AdBlockDetect\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "71262bac-55ce-5bd2-a617-3aa232526577",
+      "name": "kingmahali.xyz/js/adBlockDetect.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kingmahali\\.xyz(?::[0-9]+)?/js/adBlockDetect\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -9386,6 +9490,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cdn-z.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a4d6d159-d5af-5f20-a5c3-d2c7fd6b2c52",
+      "name": "asset-cdn.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "asset-cdn.dev",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9958,30 +10074,6 @@
       "domains": [
         "indiatoday.in",
         "intoday.in"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "74e88de0-d5b0-59be-8974-f956997bdfeb",
-      "name": ".ego_column:if(a[href^=\"/campaign/landing\"])",
-      "selector": ".ego_column:if(a[href^=\"/campaign/landing\"])",
-      "domains": [
-        "facebook.com",
-        "facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "a9f60e68-a578-5b26-8c37-748c122ee286",
-      "name": ".ego_section:if(a[href^=\"/ad_campaign\"])",
-      "selector": ".ego_section:if(a[href^=\"/ad_campaign\"])",
-      "domains": [
-        "facebook.com",
-        "facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -19022,17 +19114,6 @@
       "note": ""
     },
     {
-      "id": "10a3484a-61b0-57e4-b86b-a1af487c1d99",
-      "name": "iframe",
-      "selector": "iframe",
-      "domains": [
-        "allporncomic.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "daf86c64-7169-5fbb-b6d7-43679b26f687",
       "name": "[href^=\"https://s.zlink0.com/\"], [href^=\"https://s.zline0.com/\"]",
       "selector": "[href^=\"https://s.zlink0.com/\"], [href^=\"https://s.zline0.com/\"]",
@@ -25818,6 +25899,39 @@
       "note": ""
     },
     {
+      "id": "6d796af6-7b78-5fd9-97cd-b0a7a019606b",
+      "name": ".topbarplaceholder",
+      "selector": ".topbarplaceholder",
+      "domains": [
+        "premierguitar.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1e821a4b-0bf5-5f20-8b85-d54d4fbaf318",
+      "name": "div#scomponentAdDiv_0_0_28_0_0_0_2_0",
+      "selector": "div#scomponentAdDiv_0_0_28_0_0_0_2_0",
+      "domains": [
+        "premierguitar.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c7c61387-f335-5466-830f-c58bc1ca6052",
+      "name": ".home-ad-block",
+      "selector": ".home-ad-block",
+      "domains": [
+        "premierguitar.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "040f8f1f-6c0e-5cff-878b-202ea706e995",
       "name": "a.wp-block-button__link:is([href^=\"https://amzn.to/\"], [href^=\"https://www.amazon.com/\"])",
       "selector": "a.wp-block-button__link:is([href^=\"https://amzn.to/\"], [href^=\"https://www.amazon.com/\"])",
@@ -25880,6 +25994,54 @@
       "selector": ".s-ad-banner-horizontal",
       "domains": [
         "animalia.bio"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5c703cfd-d429-59f8-9a00-66ff5a690f58",
+      "name": ".column.img_header_box",
+      "selector": ".column.img_header_box",
+      "domains": [
+        "base64decode.org",
+        "urldecoder.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3a3a2e15-6a62-597b-9085-f6236ed64438",
+      "name": ".column.img_right_top_box",
+      "selector": ".column.img_right_top_box",
+      "domains": [
+        "base64decode.org",
+        "urldecoder.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "13259086-a038-513c-b753-c4dcd7d18ce6",
+      "name": ".column.img_right_bottom_box",
+      "selector": ".column.img_right_bottom_box",
+      "domains": [
+        "base64decode.org",
+        "urldecoder.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dc82b033-d825-5779-bc4b-ca006310d262",
+      "name": ".column.img_left_box",
+      "selector": ".column.img_left_box",
+      "domains": [
+        "base64decode.org",
+        "urldecoder.org"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -26988,6 +27150,17 @@
       "note": ""
     },
     {
+      "id": "37a7e618-aace-50d4-b602-c370388c1919",
+      "name": ".almelo-ad",
+      "selector": ".almelo-ad",
+      "domains": [
+        "almelo1.nl"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "59d9f048-4663-53b6-adf9-c865b6c44ebb",
       "name": ".adsbygoogle",
       "selector": ".adsbygoogle",
@@ -27174,10 +27347,11 @@
       "note": ""
     },
     {
-      "id": "d2434f7d-fe4c-5147-8861-6f9e5638084b",
+      "id": "6af77e8f-b928-5e12-a36e-dce030832268",
       "name": ".content_store",
       "selector": ".content_store",
       "domains": [
+        "cg-gamespc.net",
         "elamigosgames.net",
         "elamigosgamez.net"
       ],
@@ -27186,10 +27360,11 @@
       "note": ""
     },
     {
-      "id": "1001aa89-495f-53ef-b159-b72a75a85151",
+      "id": "cf0e82aa-4f63-5123-a9b5-1f7a7e211673",
       "name": ".iframeDiv",
       "selector": ".iframeDiv",
       "domains": [
+        "cg-gamespc.net",
         "elamigosgames.net",
         "elamigosgamez.net"
       ],
@@ -38348,15 +38523,6 @@
       "note": ""
     },
     {
-      "id": "5c0692ac-7c1d-5d11-88ae-37740facd81a",
-      "name": "#ad_box:not([style^=\"position: absolute; left: -5000px\"])",
-      "selector": "#ad_box:not([style^=\"position: absolute; left: -5000px\"])",
-      "domains": [],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "8fb83e5b-706b-5930-afbd-a404cee26d06",
       "name": "#ad_footer:not([style^=\"position: absolute; left: -5000px\"])",
       "selector": "#ad_footer:not([style^=\"position: absolute; left: -5000px\"])",
@@ -43833,6 +43999,17 @@
       "note": ""
     },
     {
+      "id": "e0879076-f33e-5e03-bf96-b65602330412",
+      "name": ".ad-sas",
+      "selector": ".ad-sas",
+      "domains": [
+        "myanimelist.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "0628fe9e-6d18-5ccd-b5e7-70c717519f5e",
       "name": "main > .pics:first-child > li",
       "selector": "main > .pics:first-child > li",
@@ -44766,50 +44943,6 @@
         "adultcomixxx.com",
         "apk-gamers.com",
         "skiplinks.xyz"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f62fc2f3-92b0-542b-afe1-c891d73a7cd7",
-      "name": ".code-block a[href][target=\"_blank\"] > img[data-recalc-dims]",
-      "selector": ".code-block a[href][target=\"_blank\"] > img[data-recalc-dims]",
-      "domains": [
-        "gamedrive.org"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9302499f-17a9-50d4-b3f8-5f9a20fe4891",
-      "name": "a[href][target=\"_blank\"][rel=\"noopener noreferrer\"] > img",
-      "selector": "a[href][target=\"_blank\"][rel=\"noopener noreferrer\"] > img",
-      "domains": [
-        "gamedrive.org"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6214d7f9-e7dd-5e8b-a311-3e388846da33",
-      "name": ".netflix-banner",
-      "selector": ".netflix-banner",
-      "domains": [
-        "gamedrive.org"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "bc6135da-d764-5d42-b686-02ac1a3a0bb2",
-      "name": ".hbo-banner",
-      "selector": ".hbo-banner",
-      "domains": [
-        "gamedrive.org"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -49522,6 +49655,17 @@
       "note": ""
     },
     {
+      "id": "0bfcf066-9b68-5845-aef6-8cd9393961d4",
+      "name": "#adblockWarning",
+      "selector": "#adblockWarning",
+      "domains": [
+        "decompiler.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "206d900c-3474-539a-aa3b-fe46a1302466",
       "name": "ins.adsbygoogle[data-ad-slot]",
       "selector": "ins.adsbygoogle[data-ad-slot]",
@@ -53166,6 +53310,28 @@
       "note": ""
     },
     {
+      "id": "416a5416-2468-5375-84e2-bea2e9f636fd",
+      "name": "a.ID_live_cam_inner",
+      "selector": "a.ID_live_cam_inner",
+      "domains": [
+        "porn4fans.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "597bdd99-7f5d-5501-9e40-f727ee6fb8de",
+      "name": "#spot_player",
+      "selector": "#spot_player",
+      "domains": [
+        "porn4fans.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "4e4f3022-0fbe-5d8f-ad7f-e8ef9b3acdc3",
       "name": ".code-block",
       "selector": ".code-block",
@@ -54363,6 +54529,62 @@
       "note": ""
     },
     {
+      "id": "2a2c8272-474d-5438-b98c-bfef1d77b02a",
+      "name": "div > center > button[class][style]",
+      "selector": "div > center > button[class][style]",
+      "domains": [
+        "worldofpcgames.com",
+        "game-repack.site"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5c4b0638-e5ed-507d-9159-c4778474adaf",
+      "name": "[href][target=\"_blank\"][style*=\"cursor: pointer;\"]",
+      "selector": "[href][target=\"_blank\"][style*=\"cursor: pointer;\"]",
+      "domains": [
+        "worldofpcgames.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "57de484b-6f7a-596a-95e7-597a605d0c2c",
+      "name": "[href*=\"cfd\"]",
+      "selector": "[href*=\"cfd\"]",
+      "domains": [
+        "worldofpcgames.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ee1382c6-f685-5e57-8726-124fed61465a",
+      "name": "div > center > button[class][style]",
+      "selector": "div > center > button[class][style]",
+      "domains": [
+        "zpaste.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4fdcea6a-1480-5057-b155-c24a77d555d0",
+      "name": "center > center > button[class][style]",
+      "selector": "center > center > button[class][style]",
+      "domains": [
+        "zpaste.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "ad1ff5cd-873b-5687-a7f3-5457bcee79e9",
       "name": "div.details_ads:nth-of-type(2)",
       "selector": "div.details_ads:nth-of-type(2)",
@@ -55405,6 +55627,39 @@
       "selector": "section[aria-label=\"Sponsored content\"]",
       "domains": [
         "autoembed.app"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ad5064c9-f0ff-5d70-b6c1-502c79f19ce0",
+      "name": "#pi-step-ad",
+      "selector": "#pi-step-ad",
+      "domains": [
+        "hianime.ms"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "17b3ce3b-dbc4-558b-ad6b-faed406e54fb",
+      "name": ".pi-ads",
+      "selector": ".pi-ads",
+      "domains": [
+        "hianime.ms"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c3607ed6-e81d-5036-bb80-fb373c3069c0",
+      "name": "body > div[style=\"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01;height:437px;width:824px;cursor:pointer;\"]",
+      "selector": "body > div[style=\"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01;height:437px;width:824px;cursor:pointer;\"]",
+      "domains": [
+        "morencius.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57303,6 +57558,17 @@
       "selector": ".bg_cover.footer-area",
       "domains": [
         "linkshortx.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5d01c86f-b848-5a16-bac9-49b348b32a36",
+      "name": "div > center > button[class][style]",
+      "selector": "div > center > button[class][style]",
+      "domains": [
+        "koramaup.com"
       ],
       "isEnabled": true,
       "rank": 0,

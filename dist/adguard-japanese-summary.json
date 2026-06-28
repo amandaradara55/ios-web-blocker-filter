@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-21T19:22:35+00:00",
+  "generatedAt": "2026-06-28T19:11:09+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
-      "inputRules": 378,
-      "acceptedBlockRules": 334,
+      "inputRules": 380,
+      "acceptedBlockRules": 335,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "unsupported_modifier": 44
+        "unsupported_modifier": 45
       }
     },
     "adservers_firstparty.txt": {
@@ -31,13 +31,13 @@
       }
     },
     "antiadblock.txt": {
-      "inputRules": 426,
+      "inputRules": 432,
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "excluded_section": 426
+        "excluded_section": 432
       }
     },
     "general_elemhide.txt": {
@@ -61,44 +61,44 @@
       }
     },
     "general_url.txt": {
-      "inputRules": 371,
+      "inputRules": 372,
       "acceptedBlockRules": 45,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "unsupported_modifier": 324
+        "unsupported_modifier": 325
       }
     },
     "specific.txt": {
-      "inputRules": 10190,
-      "acceptedBlockRules": 755,
+      "inputRules": 10197,
+      "acceptedBlockRules": 753,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 7004,
+      "acceptedCosmeticRules": 7010,
       "duplicateRules": 0,
       "skipped": {
         "advanced_rule": 1010,
         "allowlist": 4,
-        "unsupported_cosmetic_selector": 895,
+        "unsupported_cosmetic_selector": 898,
         "unsupported_domain_scope": 45,
-        "unsupported_modifier": 383,
-        "unsupported_url_pattern": 94
+        "unsupported_modifier": 382,
+        "unsupported_url_pattern": 95
       }
     }
   },
   "totals": {
-    "blockRules": 1156,
+    "blockRules": 1155,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7151,
+    "cosmeticRules": 7157,
     "duplicateRules": 0,
     "skipped": {
       "advanced_rule": 1010,
       "allowlist": 4,
-      "excluded_section": 1029,
-      "unsupported_cosmetic_selector": 895,
+      "excluded_section": 1035,
+      "unsupported_cosmetic_selector": 898,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 751,
-      "unsupported_url_pattern": 94
+      "unsupported_modifier": 752,
+      "unsupported_url_pattern": 95
     }
   }
 }

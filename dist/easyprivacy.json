@@ -5929,6 +5929,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "b9cc8760-cbe4-5eac-9475-fc74e194a543",
+      "name": "/bydataAnalytics.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/bydataAnalytics.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "fc31ba24-73bc-5ea3-96f8-270f50a46020",
       "name": "/c.gif?",
       "scope": "url",
@@ -10728,6 +10740,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "211b02d2-0b35-57f4-9a58-45ff08f7b173",
+      "name": "/fcp/v1/i",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/fcp/v1/i",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "8eb49a2e-f55e-5c40-9a50-36ef42041bca",
       "name": "/fdmg-tag-manager/tags.js",
       "scope": "url",
@@ -10877,6 +10901,18 @@
       "scope": "url",
       "matchKind": "literal",
       "pattern": "/firebase-performance-compat.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "0ce3c28a-ea1b-5620-bd73-2c05ee0e94a2",
+      "name": "/firebase-performance-standalone-compat.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/firebase-performance-standalone-compat.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -13079,6 +13115,18 @@
       "scope": "url",
       "matchKind": "literal",
       "pattern": "/gtagv4.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "919d8da9-a47e-53cb-a014-91dd54a69f2c",
+      "name": "/gtgcore/?id=",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/gtgcore/?id=",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -37076,6 +37124,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d34c5c2e-4885-580a-9dee-b7f6d5728dcc",
+      "name": "dclsrv.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dclsrv.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b57c0ed1-d5a2-56de-a00a-ca73072cd218",
       "name": "ddlnk.net",
       "scope": "fqdn",
@@ -38389,6 +38449,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "herbgreencolumn.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2a2b6a2f-ab7a-5835-bee6-f3228398e945",
+      "name": "herbstarsbuilding.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "herbstarsbuilding.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -40064,6 +40136,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "263add84-b94f-537d-a306-a66cc3c0bd41",
+      "name": "qovani.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "qovani.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "7a2c8d29-5d37-5eaa-abb9-7f9142ed6959",
       "name": "queen-one.net",
       "scope": "fqdn",
@@ -40820,6 +40904,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "4d57ecb8-0f46-576d-b5e6-f0c83cd0c991",
+      "name": "syncingbridge.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "syncingbridge.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "9e5945c7-5fcf-5b4b-93bb-665faa6451fb",
       "name": "t13.io",
       "scope": "fqdn",
@@ -40861,6 +40957,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tatpek.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "fe861807-2f2e-50ce-8594-6a29c77e6fe6",
+      "name": "tblcontent.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tblcontent.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -61231,6 +61339,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "2d43e68d-c6b8-5376-a373-0e679e49c18a",
+      "name": "playdigo.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "playdigo.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "0358dda1-fc0b-5116-b405-5535c5c433b7",
       "name": "plecki.com",
       "scope": "fqdn",
@@ -68131,6 +68251,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "50996553-cd08-5a6d-866d-ae215a80c5a6",
+      "name": "tracker-shr.ortb.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tracker-shr.ortb.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4cdd78ee-af71-559b-b590-300195e38526",
       "name": "trackertest.org",
       "scope": "fqdn",
@@ -74490,18 +74622,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "12943f16-5de3-564d-a5ef-7c57d93c0ab6",
-      "name": "ampscamp.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ampscamp.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3a9ac985-ed49-5056-91f7-e6c5974f9967",
       "name": "amuckafternoon.com",
       "scope": "fqdn",
@@ -74711,18 +74831,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "arubahello.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "2bd0fcb9-114d-570b-a9b7-9f5340639daa",
-      "name": "askdriver.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "askdriver.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -76806,6 +76914,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f5deb305-3b0b-55a8-9c8d-79c17cf251b3",
+      "name": "canyonpizza.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "canyonpizza.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4968a771-abba-5498-ac60-d7624f890a2b",
       "name": "capriciouscorn.com",
       "scope": "fqdn",
@@ -78323,6 +78443,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "corgibeachday.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "3475c49d-2fc8-54eb-9d21-1cee492197ef",
+      "name": "correctedcode.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "correctedcode.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -88566,6 +88698,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "02388441-d499-5120-a328-d52779595be2",
+      "name": "outerwords.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "outerwords.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d464a638-8a43-51ce-95c3-bcb07201d8d8",
       "name": "outsidevibe.com",
       "scope": "fqdn",
@@ -97542,18 +97686,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "3caf0a78-b78a-5f98-ad14-f0cb653a38b8",
-      "name": "unloadyourself.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "unloadyourself.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5476273f-34ff-5b56-9d7f-795cf07ca52f",
       "name": "untidyrice.com",
       "scope": "fqdn",
@@ -99223,6 +99355,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?paradehomeandgarden\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "9a2551e9-8419-5543-8232-d9c157f314f5",
+      "name": "skateboarding.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?skateboarding\\.com(?::[0-9]+)?/\\.api/admiral",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -111937,6 +112080,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "cd56bfa7-6bca-5115-982b-978e5a8c8e17",
+      "name": "a.klaviyo.com/forms/api/v3/geo-ip",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?a\\.klaviyo\\.com(?::[0-9]+)?/forms/api/v3/geo\\-ip",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "6a29a0f1-6157-52a0-9840-5814d8e41992",
       "name": "a.mobify.com",
       "scope": "fqdn",
@@ -113308,6 +113462,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b4e8044d-44e1-54f6-b7d7-67eb946b07cf",
+      "name": "analytics.atlas5.co",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytics.atlas5.co",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "0d41a275-b2b7-5e72-add2-97dbe9ab6d46",
       "name": "analytics.audioeye.com",
       "scope": "fqdn",
@@ -113577,6 +113743,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "analytics.distributednews.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c8084f05-264f-5653-bb74-329209d8b754",
+      "name": "analytics.divulg.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytics.divulg.org",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -115284,6 +115462,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.pcid\\.ca(?::[0-9]+)?/v1/client/logs",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f612efc3-d846-5de4-b196-bc693550a3b9",
+      "name": "api.pearcommerce.com/v1/client_request_log?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.pearcommerce\\.com(?::[0-9]+)?/v1/client_request_log\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f1f9b20d-25fb-5629-bfe6-84fe5864cbfa",
+      "name": "api.pearcommerce.com/v1/page_load?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.pearcommerce\\.com(?::[0-9]+)?/v1/page_load\\?",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -121008,6 +121208,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "43ae5838-71ce-5fdc-9c6f-16b690a3a69e",
+      "name": "d2gt2ux04o03l1.cloudfront.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "d2gt2ux04o03l1.cloudfront.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "2b1b8415-1dfb-5d58-bac9-4072b18f3432",
       "name": "dadi.technology",
       "scope": "fqdn",
@@ -124931,6 +125143,18 @@
       "note": ""
     },
     {
+      "id": "eb01ccad-6dff-5e9b-b4cc-d0cbfb48ea24",
+      "name": "gollum.monotote.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gollum.monotote.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "01bcec38-e59e-5587-b37a-beaf6677918d",
       "name": "google.com/ccm/",
       "scope": "url",
@@ -125353,6 +125577,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "heartbeat-pearl.vercel.app",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "630a2b31-9fc9-5ab1-b51a-cdd332a1792c",
+      "name": "heimdall.hearstapps.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "heimdall.hearstapps.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -127201,6 +127437,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "fad9892e-7749-596a-9051-32f6fe8ee38f",
+      "name": "l.ffx.io",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "l.ffx.io",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "efab6c95-981b-5ca3-803c-781cbf07684f",
       "name": "l.ooyala.com",
       "scope": "fqdn",
@@ -127398,6 +127646,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "e7984686-cd0d-53c7-a986-d57442e6ab70",
+      "name": "legolas.monotote.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "legolas.monotote.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "9362c7f7-f1da-5fb0-b025-5d8315da75ab",
@@ -132790,6 +133050,17 @@
       "note": ""
     },
     {
+      "id": "4da9fc63-396e-5ee7-9708-f6b282dea761",
+      "name": "publisher-services.amazon.dev/v1/recordVendorsLoaded",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?publisher\\-services\\.amazon\\.dev(?::[0-9]+)?/v1/recordVendorsLoaded",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8fcf4055-992d-5d8a-8f5a-4120cfd526e7",
       "name": "pulse.ecmapps.com",
       "scope": "fqdn",
@@ -137654,6 +137925,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "fc009f78-45bc-592c-bedb-24263ce12e82",
+      "name": "t.mmganalytics.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "t.mmganalytics.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "5d5e9153-d5d6-5fc5-ae3f-d598b488e341",
       "name": "t.mydialoginsight.com",
       "scope": "fqdn",
@@ -138336,6 +138619,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "telemetrics.klaviyo.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "41b045e5-8561-5bd8-aadc-438124422220",
+      "name": "telemetry.bydata.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "telemetry.bydata.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -149951,6 +150246,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "34e8d6b0-5511-5eeb-a039-96d1534772d7",
+      "name": "dsp-track-global.zmaticoo.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dsp-track-global.zmaticoo.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "74482403-6205-509b-9458-fc3381a87e1c",
       "name": "dt.xfyun.cn",
       "scope": "fqdn",
@@ -159914,6 +160221,17 @@
       "note": ""
     },
     {
+      "id": "28b64df2-2b1c-5659-8aff-b1a86da726be",
+      "name": "amazonaws.com/telemetry.bydata/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?amazonaws\\.com(?::[0-9]+)?/telemetry\\.bydata/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "31fcec00-a3f6-55c4-b3f8-42966e8a49c6",
       "name": "amboss.com/analytics/",
       "scope": "url",
@@ -161936,6 +162254,17 @@
       "note": ""
     },
     {
+      "id": "6efe6be5-a1d0-5707-869b-637b9cfe40ea",
+      "name": "bis.org/metrics/web.gif?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bis\\.org(?::[0-9]+)?/metrics/web\\.gif\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "326cdb38-2e7e-5fe3-af80-d5345b236898",
       "name": "bitchute.com/data/script.js",
       "scope": "url",
@@ -162609,6 +162938,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?centerblog\\.net(?::[0-9]+)?/stats\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "da8f802e-18f2-524c-bd06-dc9628a65454",
+      "name": "cfparequest.pcpartpicker.com/api/event",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cfparequest\\.pcpartpicker\\.com(?::[0-9]+)?/api/event",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -163387,6 +163727,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "1bb2a3d3-5c32-5827-901e-2e9748e29b13",
+      "name": "collector.feedzop.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "collector.feedzop.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "332b7d41-beb3-5328-b441-0389658f7af5",
       "name": "collector.fiverr.com",
       "scope": "fqdn",
@@ -163459,6 +163811,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "e48ce0ea-0342-5fed-b6f4-7d9a8e806f4d",
+      "name": "collector.quizzop.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "collector.quizzop.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "6b20edd3-e749-5773-a441-47647e647328",
       "name": "collector.spankbang.party",
       "scope": "fqdn",
@@ -163488,6 +163852,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "collector.theconversation.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "179f2a99-d703-5685-810a-c50771186eb4",
+      "name": "collector.umogames.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "collector.umogames.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -164125,6 +164501,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "458132e5-b392-5b76-8d7e-cc513dfae450",
+      "name": "dap.hindustantimes.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dap.hindustantimes.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "5fbe2b23-d255-52cf-a2f0-f82e2bf264b3",
@@ -166258,6 +166646,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?farfetch\\.net(?::[0-9]+)?/v1/marketing/trackings",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b138c642-6a0b-5a3c-b619-97e19992234c",
+      "name": "fastly.com/metrics/gtm/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?fastly\\.com(?::[0-9]+)?/metrics/gtm/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -170056,6 +170455,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "9e9f7a04-8675-5d52-b34f-2e8e4fde6681",
+      "name": "log.strawpoll.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "log.strawpoll.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "1ab3466b-409a-5b26-84b2-4c61170a3aa7",
       "name": "log.webnovel.com",
       "scope": "fqdn",
@@ -171322,6 +171733,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?monitor\\.lifemiles\\.com(?::[0-9]+)?/collect",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ba2fc3bc-6193-5a7f-ad88-fa527161a978",
+      "name": "morningstar.com/api/v1/analytics",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?morningstar\\.com(?::[0-9]+)?/api/v1/analytics",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -175431,6 +175853,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "24999d6f-2090-56f6-bfca-1ac0499887b2",
+      "name": "seismic.com/playerservice/api/v1/log?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?seismic\\.com(?::[0-9]+)?/playerservice/api/v1/log\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "8c78892a-3d69-5eec-a050-6de192dcbef1",
@@ -180074,6 +180507,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ef4ee0f9-10de-5fa8-8da5-ded4bcef6a94",
+      "name": "tsa-f.webex.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tsa-f.webex.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "0f8ff9f3-4916-582f-9961-3643a83a4806",
       "name": "tsa.webex.com",
       "scope": "fqdn",
@@ -181921,6 +182366,17 @@
       "note": ""
     },
     {
+      "id": "d6f61bb6-1b74-5394-b33c-88a3e988b45b",
+      "name": "x.com/1.1/graphql/app_context.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/1\\.1/graphql/app_context\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "38364cb7-cc1c-502d-9560-2d6be1afd241",
       "name": "x.com/1.1/graphql/error_log.json",
       "scope": "url",
@@ -181937,6 +182393,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/1\\.1/graphql/user_flow\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "cd556dd6-10c2-5cde-87de-1effa56eaa14",
+      "name": "x.com/1.1/graphql/viewer_context.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/1\\.1/graphql/viewer_context\\.json",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -181965,6 +182432,17 @@
       "note": ""
     },
     {
+      "id": "a17b595a-930d-5629-8226-1d3c6e33762d",
+      "name": "x.com/i/api/1.1/graphql/app_context.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/i/api/1\\.1/graphql/app_context\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "242a865c-8a63-5535-a39e-df42ab896239",
       "name": "x.com/i/api/1.1/graphql/error_log.json",
       "scope": "url",
@@ -181981,6 +182459,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/i/api/1\\.1/graphql/user_flow\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "dc5c610d-ef72-559a-95ea-1543bc2bdf18",
+      "name": "x.com/i/api/1.1/graphql/viewer_context.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?x\\.com(?::[0-9]+)?/i/api/1\\.1/graphql/viewer_context\\.json",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -614174,6 +614663,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "bd8ef2ae-e648-5337-ac95-0828043ef7ea",
+      "name": "mengelke.de/Pub/img/ads/werbebanner/adserv.gif",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mengelke\\.de(?::[0-9]+)?/Pub/img/ads/werbebanner/adserv\\.gif",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "187aa38b-b9fe-5f52-ad94-e405fc689a62",
       "name": "metrics.n-tv.de",
       "scope": "fqdn",
@@ -622036,6 +622536,17 @@
       "note": ""
     },
     {
+      "id": "b5b72a35-abe2-5ae3-ac12-1bd4b27f9532",
+      "name": "ledevoir.com/js/analytics/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ledevoir\\.com(?::[0-9]+)?/js/analytics/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "da8c1d63-7002-5f6a-a9d3-f9174c86a006",
       "name": "ledevoir.com/js/pianoAnalyticsTags.js",
       "scope": "url",
@@ -622578,6 +623089,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tracking.cdiscount.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2a94d4e4-a987-52c1-9f80-c6bb80cd2d4b",
+      "name": "trk.edf.fr",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "trk.edf.fr",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -629103,6 +629626,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?m\\-oo\\-m\\.com(?::[0-9]+)?/data/report/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ab86ead1-2751-5694-8f03-607872cb4d83",
+      "name": "majikichi.com/js/tracking.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?majikichi\\.com(?::[0-9]+)?/js/tracking\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
