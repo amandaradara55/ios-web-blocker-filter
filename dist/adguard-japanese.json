@@ -4022,6 +4022,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a2c98b20-8bac-5790-9029-bec74a9533b5",
+      "name": "phileweb-amzrank.vercel.app",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "phileweb-amzrank.vercel.app",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "191c8a4d-bc90-538d-9567-a23ab8947e97",
       "name": "creative.5ch.fun",
       "scope": "fqdn",
@@ -11257,6 +11269,28 @@
       "note": ""
     },
     {
+      "id": "3044e4d3-80f3-59ab-9d42-a6ad46f0c661",
+      "name": "xn--y8j8gq48f5heu33c.jp/images/PD26_CCM_004_LUDO_Paid_yahoo_dtmb_640x360.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?xn\\-\\-y8j8gq48f5heu33c\\.jp(?::[0-9]+)?/images/PD26_CCM_004_LUDO_Paid_yahoo_dtmb_640x360\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a0c78f71-edc1-5f89-846d-e4f5e6259d1f",
+      "name": "alwys.net/contents/photos/bn_twotier_affiliate_2000point_os_480_360.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?alwys\\.net(?::[0-9]+)?/contents/photos/bn_twotier_affiliate_2000point_os_480_360\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "89279560-a310-51a2-b921-57effcef92d5",
       "name": "alfalfalfa.com/js/ads/",
       "scope": "url",
@@ -15415,6 +15449,83 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6c64799b-7bda-5dbf-9a42-ebc49f431c1c",
+      "name": "a[href^=\"https://futawa-sonic.com/?utm_source=\"]",
+      "selector": "a[href^=\"https://futawa-sonic.com/?utm_source=\"]",
+      "domains": [
+        "zakzak.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d53b79a5-a23b-5f8f-8105-22089a79923b",
+      "name": ".amz-card",
+      "selector": ".amz-card",
+      "domains": [
+        "blog.esuteru.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6b264db1-a6a6-5450-97bc-5e554fd3f0e6",
+      "name": "#pw-amzrank-article",
+      "selector": "#pw-amzrank-article",
+      "domains": [
+        "phileweb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6ebc17df-709f-526f-94f2-1e00c8564894",
+      "name": "div[style=\"width:100%; min-height:380px;\"]",
+      "selector": "div[style=\"width:100%; min-height:380px;\"]",
+      "domains": [
+        "footballchannel.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "71b1ee60-15a4-58e8-9a11-9788a74f055c",
+      "name": ".single > p[style=\"color: #8a9299; font-size: 10px; margin-bottom: 3px; margin-top: 3px; text-transform: uppercase; text-align: center; letter-spacing:normal;\"]",
+      "selector": ".single > p[style=\"color: #8a9299; font-size: 10px; margin-bottom: 3px; margin-top: 3px; text-transform: uppercase; text-align: center; letter-spacing:normal;\"]",
+      "domains": [
+        "number.bunshun.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3d191782-d4cb-564d-bb4b-f4ba1f61a26a",
+      "name": ".embed-affiliate-result",
+      "selector": ".embed-affiliate-result",
+      "domains": [
+        "nlab.itmedia.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5c6bb591-e5d2-547f-82fb-b5b6e94d5225",
+      "name": ".cx_pp_events_btm_amazon",
+      "selector": ".cx_pp_events_btm_amazon",
+      "domains": [
+        "nlab.itmedia.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -23941,20 +24052,9 @@
       "note": ""
     },
     {
-      "id": "93724779-bd8f-5cff-824c-280d88fe3c88",
-      "name": ".article-body > div.ArticleComponentButton[id]",
-      "selector": ".article-body > div.ArticleComponentButton[id]",
-      "domains": [
-        "ciatr.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6a339fd3-0be3-59ae-b352-e7b32427d9e8",
-      "name": ".article-body > div.ArticleComponentHtml > div.ach-btn-balloon",
-      "selector": ".article-body > div.ArticleComponentHtml > div.ach-btn-balloon",
+      "id": "31adf2cc-1d6e-5165-95ba-8a14a8e91921",
+      "name": "div[data-cptid][style=\"display: block; min-height: 250px;\"]",
+      "selector": "div[data-cptid][style=\"display: block; min-height: 250px;\"]",
       "domains": [
         "ciatr.jp"
       ],
@@ -56878,12 +56978,11 @@
       "note": ""
     },
     {
-      "id": "c1b959f8-15cd-55a7-ac79-decd00fec6f7",
+      "id": "45339876-690e-54f9-9790-a5768c3eb6f8",
       "name": "#header-banner",
       "selector": "#header-banner",
       "domains": [
-        "living.jp",
-        "mondotv.jp"
+        "living.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56971,17 +57070,6 @@
       "id": "55374ad0-aa46-5e21-b2da-4721cc8e3da4",
       "name": ".gunosy-ads-spot",
       "selector": ".gunosy-ads-spot",
-      "domains": [
-        "ovo.kyodo.co.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d202ecce-9526-57f9-ad12-a1d4a548202f",
-      "name": "a[href^=\"https://suumo.jp/tokushu/pre/mansion/kanto/\"]",
-      "selector": "a[href^=\"https://suumo.jp/tokushu/pre/mansion/kanto/\"]",
       "domains": [
         "ovo.kyodo.co.jp"
       ],
@@ -66278,6 +66366,17 @@
       "note": ""
     },
     {
+      "id": "7deb8e19-6151-52a5-86b8-7c51e05cf809",
+      "name": "#custom_html-69",
+      "selector": "#custom_html-69",
+      "domains": [
+        "sanblo.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "69cd8fb3-f25a-5e4a-8e64-2b5893b7312e",
       "name": "#custom_html-70",
       "selector": "#custom_html-70",
@@ -71258,17 +71357,6 @@
       "note": ""
     },
     {
-      "id": "67c25f83-58d9-5b9c-9211-73c74f79902e",
-      "name": ".k1y-inline-ad",
-      "selector": ".k1y-inline-ad",
-      "domains": [
-        "quick-timez.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "ce5366be-c202-5cb7-826a-5cdc8242144c",
       "name": "div[class*=\"-ad-banner\"]",
       "selector": "div[class*=\"-ad-banner\"]",
@@ -76223,28 +76311,6 @@
       "note": ""
     },
     {
-      "id": "e902b0f1-934b-5860-b53d-b6813c5eecd5",
-      "name": ".pickupBlock",
-      "selector": ".pickupBlock",
-      "domains": [
-        "moneyzine.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "fdc41ca3-a546-52d8-8ab0-7ea0dd70a640",
-      "name": ".specialBlock",
-      "selector": ".specialBlock",
-      "domains": [
-        "moneyzine.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "1e0407dc-a099-53ea-88a1-934158cfda26",
       "name": "#body > table:last-child",
       "selector": "#body > table:last-child",
@@ -80268,10 +80334,11 @@
       "note": ""
     },
     {
-      "id": "eb720c51-5a72-591a-a2f6-80fc9fad0221",
+      "id": "cc92d6c7-cfe9-578a-8b6f-6a43c75083dd",
       "name": "#scrollad",
       "selector": "#scrollad",
       "domains": [
+        "sanblo.com",
         "hotondo.work",
         "solodc2017.com",
         "blog.kaerucloud.com",

@@ -2678,6 +2678,17 @@
       "note": ""
     },
     {
+      "id": "54cd0fef-8122-5319-aa0d-019d03c5173a",
+      "name": "parkers.co.uk/polite-msg-js/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?parkers\\.co\\.uk(?::[0-9]+)?/polite\\-msg\\-js/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "9c258148-6cb2-57be-a183-0a78fd68840d",
       "name": "ad-shield.cc",
       "scope": "fqdn",
@@ -4290,6 +4301,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "/vast\\.php\\?.*\\&idzone=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "85ec9197-2447-57e6-b074-5e419eef7a80",
+      "name": "/vast.php?*exo*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/vast\\.php\\?.*exo.*",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6660,11 +6682,11 @@
       "note": ""
     },
     {
-      "id": "91d4040c-f95b-5987-b5f7-683a1b974821",
-      "name": "||xhamster20.*/api/*/vast",
+      "id": "3296df93-7ed8-548c-bf35-6ec14fa1d071",
+      "name": "||xhamster*/api/*/vast",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?xhamster20\\..*/api/.*/vast",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?xhamster.*/api/.*/vast",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8692,6 +8714,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\..*/adsconfig\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7b97c2a5-a4bc-5864-b005-0279df633e06",
+      "name": "gupload.xyz/data/player/adblock-detector",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gupload\\.xyz(?::[0-9]+)?/data/player/adblock\\-detector",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2bfadc64-b3c5-5829-8243-6abcb7525cfc",
+      "name": "gzupload.com/api/direct/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gzupload\\.com(?::[0-9]+)?/api/direct/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -25954,6 +25998,17 @@
       "note": ""
     },
     {
+      "id": "da9ed772-6efc-50a9-88ac-75ccd5d2cac9",
+      "name": "div.custom-banner-header",
+      "selector": "div.custom-banner-header",
+      "domains": [
+        "prydwen.gg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "e9a27d94-db1e-5d0f-9b42-c1b5ddb8a352",
       "name": "#left-ba",
       "selector": "#left-ba",
@@ -26801,6 +26856,17 @@
       "id": "e1663bd3-f56c-5e88-8907-e8ad5abf6440",
       "name": "#main > table",
       "selector": "#main > table",
+      "domains": [
+        "lidovky.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "622397fc-ec24-5db9-9810-790f2932eb33",
+      "name": "#selfart-box",
+      "selector": "#selfart-box",
       "domains": [
         "lidovky.cz"
       ],
@@ -49666,17 +49732,6 @@
       "note": ""
     },
     {
-      "id": "206d900c-3474-539a-aa3b-fe46a1302466",
-      "name": "ins.adsbygoogle[data-ad-slot]",
-      "selector": "ins.adsbygoogle[data-ad-slot]",
-      "domains": [
-        "ytlarge.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "663e1461-ea03-524a-b945-df85537d51e5",
       "name": "#chapterText + div.mantine-Container-root",
       "selector": "#chapterText + div.mantine-Container-root",
@@ -51299,6 +51354,17 @@
       "selector": ".bottom-container",
       "domains": [
         "katestube.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bd4b5821-5c01-5600-bef3-6cb663cddc17",
+      "name": ".banner-ad",
+      "selector": ".banner-ad",
+      "domains": [
+        "hanime.tv"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -53021,6 +53087,18 @@
       "note": ""
     },
     {
+      "id": "d99da53e-9ee8-5180-9405-6bba3cbd91ff",
+      "name": "body > div[style*=\"2147483647\"]",
+      "selector": "body > div[style*=\"2147483647\"]",
+      "domains": [
+        "audinifer.com",
+        "vibuxer.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "163b63db-61dd-5425-907a-bfd10895a664",
       "name": ".download-btn-group > a[href*=\"/4/\"].simple-btn",
       "selector": ".download-btn-group > a[href*=\"/4/\"].simple-btn",
@@ -54640,6 +54718,26 @@
       "note": ""
     },
     {
+      "id": "c468a9c7-a241-505f-b90d-89d231952132",
+      "name": "#modern-player-root ~ div[id^=\"custom-invisible-overlay-\"][class^=\"custom-popup-overlay-\"]",
+      "selector": "#modern-player-root ~ div[id^=\"custom-invisible-overlay-\"][class^=\"custom-popup-overlay-\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8bcfd6ed-3cae-50fb-928d-abf2cd6a72b1",
+      "name": "div[class^=\"custom-popup-overlay-\"]",
+      "selector": "div[class^=\"custom-popup-overlay-\"]",
+      "domains": [
+        "gupload.xyz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "4aca08ce-edb6-5f85-b5f4-da06f4e7d3f6",
       "name": ".itc-modal",
       "selector": ".itc-modal",
@@ -55052,6 +55150,17 @@
       "selector": ".sh-aawp-box",
       "domains": [
         "techsynchron.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "382e30c1-852c-51ff-a70f-d8540bd305b3",
+      "name": "#sticky-bottom-widget",
+      "selector": "#sticky-bottom-widget",
+      "domains": [
+        "blogspot.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -55660,6 +55769,39 @@
       "selector": "body > div[style=\"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01;height:437px;width:824px;cursor:pointer;\"]",
       "domains": [
         "morencius.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8de3703c-dbe2-5724-a37a-c35fb7eac793",
+      "name": "div[data-testid^=\"commercial-\"]",
+      "selector": "div[data-testid^=\"commercial-\"]",
+      "domains": [
+        "mylondon.news"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ef605540-6e5d-5a80-a0b9-bf2e83d6211d",
+      "name": "div[class^=\"Header_mastheadwebstrip-container\"]",
+      "selector": "div[class^=\"Header_mastheadwebstrip-container\"]",
+      "domains": [
+        "mylondon.news"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4a7b15c4-3e34-5511-8e3d-490ce2681fd2",
+      "name": ".ads",
+      "selector": ".ads",
+      "domains": [
+        "apps2app.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56842,6 +56984,18 @@
       "selector": ".popup",
       "domains": [
         "advicefunda.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "84287743-28f6-5098-828f-63252c3612f5",
+      "name": ".z-0.overflow-hidden.relative.w-full.rounded-lg.to-\\[\\#0948EA\\].from-\\[\\#5597FF\\].bg-gradient-to-r.p-8.min-h-\\[189px\\]",
+      "selector": ".z-0.overflow-hidden.relative.w-full.rounded-lg.to-\\[\\#0948EA\\].from-\\[\\#5597FF\\].bg-gradient-to-r.p-8.min-h-\\[189px\\]",
+      "domains": [
+        "lokerwfh.net",
+        "sfl.gl"
       ],
       "isEnabled": true,
       "rank": 0,

@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-28T19:11:11+00:00",
+  "generatedAt": "2026-07-05T19:08:34+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 83212,
-      "acceptedBlockRules": 53065,
+      "inputRules": 78312,
+      "acceptedBlockRules": 48175,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 22887,
+      "acceptedCosmeticRules": 22882,
       "duplicateRules": 4,
       "skipped": {
-        "advanced_rule": 271,
+        "advanced_rule": 273,
         "allowlist": 1093,
-        "unsupported_cosmetic_selector": 526,
+        "unsupported_cosmetic_selector": 531,
         "unsupported_domain_scope": 277,
-        "unsupported_modifier": 4880,
-        "unsupported_url_pattern": 200,
+        "unsupported_modifier": 4867,
+        "unsupported_url_pattern": 201,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 55470,
-      "acceptedBlockRules": 53299,
+      "inputRules": 55497,
+      "acceptedBlockRules": 53320,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 2,
@@ -27,23 +27,23 @@
         "advanced_rule": 26,
         "allowlist": 828,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 928,
+        "unsupported_modifier": 934,
         "unsupported_url_pattern": 380
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 106364,
+    "acceptedBlockRules": 101495,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 22889,
+    "acceptedCosmeticRules": 22884,
     "duplicateRules": 6,
     "skipped": {
-      "advanced_rule": 297,
+      "advanced_rule": 299,
       "allowlist": 1921,
-      "unsupported_cosmetic_selector": 531,
+      "unsupported_cosmetic_selector": 536,
       "unsupported_domain_scope": 277,
-      "unsupported_modifier": 5808,
-      "unsupported_url_pattern": 580,
+      "unsupported_modifier": 5801,
+      "unsupported_url_pattern": 581,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
   }
