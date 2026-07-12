@@ -15244,7 +15244,7 @@
       "note": ""
     },
     {
-      "id": "df1e0e42-7a81-5505-99f6-a533f7b4cca3",
+      "id": "aa2c9d73-b87b-54f9-9324-be5fec68c747",
       "name": ".dfad",
       "selector": ".dfad",
       "domains": [
@@ -15256,7 +15256,6 @@
         "bugbug.news",
         "camp-house.com",
         "tipstour.net",
-        "ani-chat.net",
         "angry-mhm.com",
         "ladybaba.net",
         "iine-kunitachi.net",
@@ -15449,6 +15448,94 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f888af83-dfe3-5475-967b-8fcbf1eb190f",
+      "name": "#endo_wrc_widget-3",
+      "selector": "#endo_wrc_widget-3",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "80593477-117e-5005-bffe-8ab20ca98563",
+      "name": "#endo_wrc_widget-4",
+      "selector": "#endo_wrc_widget-4",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "96359901-3911-51a2-99d9-76e3c63308af",
+      "name": "#endo_wrc_widget-8",
+      "selector": "#endo_wrc_widget-8",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "47b2d556-d6e5-5f48-aff4-08d4ac151a10",
+      "name": "#endo_wrc_widget-9",
+      "selector": "#endo_wrc_widget-9",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "52944241-090a-5406-9eb5-1e6dab2781dd",
+      "name": "#endo_wrc_widget-10",
+      "selector": "#endo_wrc_widget-10",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ef07d35a-9c5f-5e69-8012-bc3574c40467",
+      "name": "#endo_wrc_widget-13",
+      "selector": "#endo_wrc_widget-13",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "68bedc76-9325-5df0-ac3b-753027edb73a",
+      "name": "#endo_wrc_widget-19",
+      "selector": "#endo_wrc_widget-19",
+      "domains": [
+        "ani-chat.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5bc6facd-86a1-5fa6-a7bd-5f4300c209e3",
+      "name": ".ad-instream",
+      "selector": ".ad-instream",
+      "domains": [
+        "sundryst.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -27108,10 +27195,11 @@
       "note": ""
     },
     {
-      "id": "a98b6933-c1c9-501f-a5f6-dc3ee4f06e69",
+      "id": "ece2f4ac-feab-5deb-874d-b051e9faa7e2",
       "name": ".o--ads-area",
       "selector": ".o--ads-area",
       "domains": [
+        "gearmetrix.jp",
         "kasioda.com"
       ],
       "isEnabled": true,
@@ -34851,10 +34939,11 @@
       "note": ""
     },
     {
-      "id": "495a1aab-2691-532c-8b20-a679bbc74223",
+      "id": "265935d7-7599-5ea2-a7cd-905705db9114",
       "name": "#block-6",
       "selector": "#block-6",
       "domains": [
+        "ani-chat.net",
         "gameguide.tech"
       ],
       "isEnabled": true,
@@ -37321,11 +37410,11 @@
       "note": ""
     },
     {
-      "id": "7444f286-4420-50a0-9eec-4d0fcfda690c",
+      "id": "3c99e8de-095c-5507-88cc-072021ad1807",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.casa"
+        "jmanga.beer"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -48574,7 +48663,7 @@
       "note": ""
     },
     {
-      "id": "6ab7709e-e5a4-5a02-b330-5b8e0beaba02",
+      "id": "b60e93c0-f05e-55f9-8abe-0e45e3af4274",
       "name": ".posts-list-upper-widget",
       "selector": ".posts-list-upper-widget",
       "domains": [
@@ -48582,7 +48671,6 @@
         "tousatu-club.com",
         "plus1world.com",
         "panchirasan.site",
-        "ani-chat.net",
         "kimootoko.net"
       ],
       "isEnabled": true,
@@ -49316,17 +49404,6 @@
       "note": ""
     },
     {
-      "id": "18fa2ae7-b8c7-5514-8fdd-e810e6e54f77",
-      "name": "#execphp-71",
-      "selector": "#execphp-71",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "48d605d2-73d1-5ebe-b3f6-f828a5229a23",
       "name": ".idname2",
       "selector": ".idname2",
@@ -49338,80 +49415,13 @@
       "note": ""
     },
     {
-      "id": "e7e27643-b602-5a1b-9b08-82e13ea4783a",
-      "name": ".post-h2-title",
-      "selector": ".post-h2-title",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "91ccdd6e-dab0-5632-83e3-6478acf29984",
-      "name": "#resid",
-      "selector": "#resid",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "22c28465-f60e-5526-b350-3a53b13eb457",
-      "name": ".random3",
-      "selector": ".random3",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "061ae2a3-991d-50dc-a770-3a9a92adef36",
-      "name": "#mainEntity > div.clearfix > div.txt",
-      "selector": "#mainEntity > div.clearfix > div.txt",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c1fa72da-4ccb-5644-9549-c816b1c7019c",
+      "id": "3b617608-90d9-52d3-8e9b-6afd8c1a5ce0",
       "name": "#side-scroll",
       "selector": "#side-scroll",
       "domains": [
         "hpupdate.info",
         "2ji.pink",
-        "puchiho.net",
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "03721bc5-28e5-51b6-917b-f9a4c6e193c8",
-      "name": ".random",
-      "selector": ".random",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ec3f16a1-83c2-5f9a-8352-39f15742458c",
-      "name": "#side-fixed > div.widget_execphp",
-      "selector": "#side-fixed > div.widget_execphp",
-      "domains": [
-        "ani-chat.net"
+        "puchiho.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -49421,17 +49431,6 @@
       "id": "aea545c3-d01c-5ecf-a072-1ac249e8094e",
       "name": ".txt > p > a[target=\"_blank\"][rel^=\"noopener\"]",
       "selector": ".txt > p > a[target=\"_blank\"][rel^=\"noopener\"]",
-      "domains": [
-        "ani-chat.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "8112b77d-e362-5445-8b42-7ad37824d8bc",
-      "name": ".posts-under-1 > div.execphpwidget > div.txt",
-      "selector": ".posts-under-1 > div.execphpwidget > div.txt",
       "domains": [
         "ani-chat.net"
       ],
@@ -54305,11 +54304,10 @@
       "note": ""
     },
     {
-      "id": "74c26321-5181-54f4-a60f-3a5455aa6ee2",
+      "id": "73d57bbf-0f09-53fb-b139-5d68643b993f",
       "name": ".post-title-upper",
       "selector": ".post-title-upper",
       "domains": [
-        "ani-chat.net",
         "2ji.pink",
         "glamoroustube.com",
         "mhmatome.com"
@@ -65585,10 +65583,11 @@
       "note": ""
     },
     {
-      "id": "42e16519-6e1c-53af-93a3-a8a271e572d0",
+      "id": "ff151b5a-d71f-5417-8986-ed110d4b9070",
       "name": "#custom_html-3",
       "selector": "#custom_html-3",
       "domains": [
+        "ani-chat.net",
         "rekishi-shizitsu.jp",
         "marimo-info.net",
         "aieroi.com",
@@ -65691,10 +65690,11 @@
       "note": ""
     },
     {
-      "id": "2d1828c4-4368-5a49-b98a-fac6b5b02374",
+      "id": "dcdaed29-adf5-5ee0-b055-cab19f53874f",
       "name": "#custom_html-6",
       "selector": "#custom_html-6",
       "domains": [
+        "ani-chat.net",
         "nagoob.com",
         "office-enjin.jp",
         "arakawa-story.com",
@@ -67198,10 +67198,11 @@
       "note": ""
     },
     {
-      "id": "f256f5e5-3e88-5384-a1b5-58364ccd50e2",
+      "id": "17c80885-fcbb-5570-8530-926d98c71919",
       "name": "a[href^=\"https://al.fanza.co.jp\"]",
       "selector": "a[href^=\"https://al.fanza.co.jp\"]",
       "domains": [
+        "ani-chat.net",
         "leaked.jp"
       ],
       "isEnabled": true,
@@ -67562,6 +67563,17 @@
       "selector": ".entry-content > p > a[href^=\"https://www.amazon.co.jp/gp/search\"]",
       "domains": [
         "ga-m.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2b994593-3539-53dc-b49a-680737644e80",
+      "name": "div[class^=\"my-ad-\"]",
+      "selector": "div[class^=\"my-ad-\"]",
+      "domains": [
+        "shortener.gigafile.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -81791,10 +81803,11 @@
       "note": ""
     },
     {
-      "id": "64286edc-62ce-59e4-9f6d-bf0abc5294f6",
+      "id": "4da34f7d-575f-5f12-a846-6b427e54adf5",
       "name": ".top-banner",
       "selector": ".top-banner",
       "domains": [
+        "mangaraw24.net",
         "city.kagoshima-izumi.lg.jp",
         "kk-bestsellers.com",
         "gaming-city.com",
@@ -83461,10 +83474,11 @@
       "note": ""
     },
     {
-      "id": "3bca80be-8215-5c43-9fff-f5864a241877",
+      "id": "f13d50e8-d42a-55cf-9878-0ae03ff0bea2",
       "name": ".c-bnr",
       "selector": ".c-bnr",
       "domains": [
+        "kakaku.com",
         "applinote.com"
       ],
       "isEnabled": true,
@@ -87725,17 +87739,6 @@
       "note": ""
     },
     {
-      "id": "6bd19303-74bd-589a-ae19-1e063ac7a2f0",
-      "name": "a[href$=\"_tagrelatedbanner\"]",
-      "selector": "a[href$=\"_tagrelatedbanner\"]",
-      "domains": [
-        "nicovideo.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "bea50233-823c-5867-99f8-e9bdcad71711",
       "name": "#web_pc_prime",
       "selector": "#web_pc_prime",
@@ -88131,28 +88134,6 @@
       "domains": [
         "lifehacker.jp",
         "gizmodo.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "149b4f17-696d-5f86-a25e-7354622a5b1a",
-      "name": ".adAreaDownload",
-      "selector": ".adAreaDownload",
-      "domains": [
-        "dova-s.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "acc812f4-0f66-5bc3-ac5e-74ffa2e9aaac",
-      "name": ".adAreaHead",
-      "selector": ".adAreaHead",
-      "domains": [
-        "dova-s.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -94428,6 +94409,39 @@
         "vip-front.video.g.fc2.com",
         "video.laxd.com",
         "video.fc2.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "69802732-7ba6-5299-92b1-877ae5ecc1e5",
+      "name": ".add-DLaddarea",
+      "selector": ".add-DLaddarea",
+      "domains": [
+        "dova-s.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c23bce64-55cd-5115-b8af-d0c6e038e50d",
+      "name": ".add-homesubmenu",
+      "selector": ".add-homesubmenu",
+      "domains": [
+        "dova-s.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "29e109b2-583e-50b9-aa5a-100fa5593b9d",
+      "name": ".add-header",
+      "selector": ".add-header",
+      "domains": [
+        "dova-s.jp"
       ],
       "isEnabled": true,
       "rank": 0,

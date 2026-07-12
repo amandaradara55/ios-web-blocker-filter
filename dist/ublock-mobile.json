@@ -102,17 +102,6 @@
       "note": ""
     },
     {
-      "id": "1e2bc377-e38f-5c46-a24c-8b7543d14b01",
-      "name": ".ad-slot-wrapper",
-      "selector": ".ad-slot-wrapper",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "46b4f4b9-da8b-5c05-8b21-1eb68c13e8ec",
       "name": ".XPromoBlockingModal",
       "selector": ".XPromoBlockingModal",
@@ -175,6 +164,17 @@
       "selector": ".htvnad",
       "domains": [
         "hanime.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1e2bc377-e38f-5c46-a24c-8b7543d14b01",
+      "name": ".ad-slot-wrapper",
+      "selector": ".ad-slot-wrapper",
+      "domains": [
+        "fandom.com"
       ],
       "isEnabled": true,
       "rank": 0,

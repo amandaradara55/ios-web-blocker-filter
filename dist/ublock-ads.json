@@ -1247,18 +1247,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "dfcea95d-e33a-51ae-a827-1e8572afe1af",
-      "name": "45tu1c0.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "45tu1c0.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "74b8c89b-f5b0-53e1-903f-91db3c337b65",
       "name": "pub.searchnova.net",
       "scope": "fqdn",
@@ -1452,6 +1440,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "degreeeruptionpredator.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "9858c7a2-4e86-5e4b-972e-ef5d96b3b6fe",
+      "name": "demolishwrestconclusions.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "demolishwrestconclusions.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1882,6 +1882,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "roughremove.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "b971e5ff-7d38-5786-ae5e-a208d7613b84",
+      "name": "shameful-farm.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "shameful-farm.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -7841,6 +7853,18 @@
       "note": ""
     },
     {
+      "id": "9abd9f1b-81ce-566b-b39b-7d6ea19483a3",
+      "name": "enfacesplaineddeglory.qpon",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "enfacesplaineddeglory.qpon",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "68c8ccc3-2545-525b-8778-012cb2781198",
       "name": "sexjav.tv/popunderjs/",
       "scope": "url",
@@ -8555,6 +8579,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "dfcea95d-e33a-51ae-a827-1e8572afe1af",
+      "name": "45tu1c0.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "45tu1c0.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "a4c4699d-d2cc-5886-858b-832d0e424293",
@@ -15356,17 +15392,6 @@
       "note": ""
     },
     {
-      "id": "85be8ecd-bb2f-5f24-921a-3a908c2f4655",
-      "name": "#custom_html-2",
-      "selector": "#custom_html-2",
-      "domains": [
-        "watchhouseonline.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "75c529d4-77c5-5e12-b892-c04aa28c44ab",
       "name": ".ad-banner-container",
       "selector": ".ad-banner-container",
@@ -18059,72 +18084,6 @@
       "selector": ".right > .text",
       "domains": [
         "fuqer.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "0661e70f-4be7-501d-9c79-c57d1d64ed21",
-      "name": "[href*=\".php\"]",
-      "selector": "[href*=\".php\"]",
-      "domains": [
-        "sendvid.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4e55eb04-b36b-5315-b70c-8e4818dae62e",
-      "name": "#video-js-video > [href^=\"javascript:\"]",
-      "selector": "#video-js-video > [href^=\"javascript:\"]",
-      "domains": [
-        "sendvid.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7a5e3d12-0a51-50ae-b2a5-85658d55e40a",
-      "name": "#vjs-logo-top-bar",
-      "selector": "#vjs-logo-top-bar",
-      "domains": [
-        "sendvid.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c3bace1c-fe1f-5893-ae42-32b649916f65",
-      "name": "#ftr",
-      "selector": "#ftr",
-      "domains": [
-        "sendvid.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "06a102bf-81f1-590b-a799-1ac17fce0ad8",
-      "name": "a[href^=\"https://go.gsrv.dev/\"]",
-      "selector": "a[href^=\"https://go.gsrv.dev/\"]",
-      "domains": [
-        "sendvid.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "2bdc55b2-0935-58f8-9079-375c8fbfaa4f",
-      "name": "a[href][target=\"_blank\"][style^=\"display: block;position: fixed;\"][style*=\"z-index:\"]",
-      "selector": "a[href][target=\"_blank\"][style^=\"display: block;position: fixed;\"][style*=\"z-index:\"]",
-      "domains": [
-        "sendvid.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -21169,72 +21128,6 @@
       "selector": "[href*=\".php\"]",
       "domains": [
         "wohnungsboerse.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "a95fbb51-3200-5e39-9183-c9ded65b1152",
-      "name": "[id^=\"siderail_\"][id*=\"_gamepedia\"]",
-      "selector": "[id^=\"siderail_\"][id*=\"_gamepedia\"]",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c3c0f133-5f98-5d48-af4c-616034d264ce",
-      "name": ".instant-suggestion",
-      "selector": ".instant-suggestion",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "48a856e7-424d-531f-bfbe-7c0683f6045c",
-      "name": ".top-ads-container",
-      "selector": ".top-ads-container",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9a13156c-94cc-5da9-942b-c47d5a0ffdb0",
-      "name": "#rail-boxad-wrapper",
-      "selector": "#rail-boxad-wrapper",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "2c27c58a-48a8-52d0-9964-5f950b1152e0",
-      "name": "#mid_boxad",
-      "selector": "#mid_boxad",
-      "domains": [
-        "fandom.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "bd1d0b62-58c7-5a98-b52e-c91a450d76d9",
-      "name": "#incontent_boxad",
-      "selector": "#incontent_boxad",
-      "domains": [
-        "fandom.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -26589,6 +26482,15 @@
         "turbocloud.xyz",
         "turbovid.xyz"
       ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a7c5c560-a9b7-577c-b4ad-f7222fec33ba",
+      "name": "#videojs ~ div[style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;\"]",
+      "selector": "#videojs ~ div[style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;\"]",
+      "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -36620,39 +36522,6 @@
       "selector": ".spot",
       "domains": [
         "motherporno.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e48c37b0-31d4-5d4f-b4b9-628c28be97df",
-      "name": ".h_content",
-      "selector": ".h_content",
-      "domains": [
-        "watchhouseonline.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9cffb90e-b329-5c88-b0b4-d6b60f85654b",
-      "name": "#custom_html-6",
-      "selector": "#custom_html-6",
-      "domains": [
-        "watchhouseonline.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "62d004f2-598c-5ef9-af0d-d5e29cd0e007",
-      "name": ".module_single_ads",
-      "selector": ".module_single_ads",
-      "domains": [
-        "watchhouseonline.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -52428,17 +52297,6 @@
       "note": ""
     },
     {
-      "id": "e8c81fda-45fa-5d10-98b5-3111c9e46006",
-      "name": "a[href*=\"?key=\"][target=\"_blank\"]",
-      "selector": "a[href*=\"?key=\"][target=\"_blank\"]",
-      "domains": [
-        "kdramasmaza.com.pk"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "04193392-aa76-5efb-b66a-0533933a4e12",
       "name": ".code-block",
       "selector": ".code-block",
@@ -52612,11 +52470,80 @@
       "note": ""
     },
     {
-      "id": "adc13cbf-7527-515d-a755-633a30b6f7a3",
+      "id": "0c08ca3a-b160-5e34-bfa5-1a18669f240d",
       "name": ".ads-contain",
       "selector": ".ads-contain",
       "domains": [
-        "natomanga.com"
+        "mangabats.com",
+        "mangakakalot.gg",
+        "mangakakalove.com",
+        "manganato.gg",
+        "natomanga.com",
+        "nelomanga.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "060b06b6-5efe-5403-9c38-7d485fa39623",
+      "name": ".ads-contain-v2",
+      "selector": ".ads-contain-v2",
+      "domains": [
+        "mangabats.com",
+        "mangakakalot.gg",
+        "mangakakalove.com",
+        "manganato.gg",
+        "natomanga.com",
+        "nelomanga.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "662d9c09-7247-500f-a143-02a7b0a2f63d",
+      "name": ".banner-container",
+      "selector": ".banner-container",
+      "domains": [
+        "mangabats.com",
+        "mangakakalot.gg",
+        "mangakakalove.com",
+        "manganato.gg",
+        "natomanga.com",
+        "nelomanga.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ea6ba280-2cea-57b5-82c7-a9fb32ed7e05",
+      "name": ".pinned-ad-popular",
+      "selector": ".pinned-ad-popular",
+      "domains": [
+        "mangabats.com",
+        "mangakakalot.gg",
+        "mangakakalove.com",
+        "manganato.gg",
+        "natomanga.com",
+        "nelomanga.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5ce52913-e211-5765-b255-2888720f0691",
+      "name": "a[href^=\"https://bit.ly/\"]",
+      "selector": "a[href^=\"https://bit.ly/\"]",
+      "domains": [
+        "mangabats.com",
+        "mangakakalot.gg",
+        "mangakakalove.com",
+        "manganato.gg",
+        "natomanga.com",
+        "nelomanga.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54440,6 +54367,147 @@
       "note": ""
     },
     {
+      "id": "a95fbb51-3200-5e39-9183-c9ded65b1152",
+      "name": "[id^=\"siderail_\"][id*=\"_gamepedia\"]",
+      "selector": "[id^=\"siderail_\"][id*=\"_gamepedia\"]",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c3c0f133-5f98-5d48-af4c-616034d264ce",
+      "name": ".instant-suggestion",
+      "selector": ".instant-suggestion",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "48a856e7-424d-531f-bfbe-7c0683f6045c",
+      "name": ".top-ads-container",
+      "selector": ".top-ads-container",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9a13156c-94cc-5da9-942b-c47d5a0ffdb0",
+      "name": "#rail-boxad-wrapper",
+      "selector": "#rail-boxad-wrapper",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2c27c58a-48a8-52d0-9964-5f950b1152e0",
+      "name": "#mid_boxad",
+      "selector": "#mid_boxad",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bd1d0b62-58c7-5a98-b52e-c91a450d76d9",
+      "name": "#incontent_boxad",
+      "selector": "#incontent_boxad",
+      "domains": [
+        "fandom.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9ce875c4-b4d5-5444-b03a-c315ce9e8add",
+      "name": ".fandom-ad-sticky-container",
+      "selector": ".fandom-ad-sticky-container",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0661e70f-4be7-501d-9c79-c57d1d64ed21",
+      "name": "[href*=\".php\"]",
+      "selector": "[href*=\".php\"]",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4e55eb04-b36b-5315-b70c-8e4818dae62e",
+      "name": "#video-js-video > [href^=\"javascript:\"]",
+      "selector": "#video-js-video > [href^=\"javascript:\"]",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7a5e3d12-0a51-50ae-b2a5-85658d55e40a",
+      "name": "#vjs-logo-top-bar",
+      "selector": "#vjs-logo-top-bar",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c3bace1c-fe1f-5893-ae42-32b649916f65",
+      "name": "#ftr",
+      "selector": "#ftr",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "06a102bf-81f1-590b-a799-1ac17fce0ad8",
+      "name": "a[href^=\"https://go.gsrv.dev/\"]",
+      "selector": "a[href^=\"https://go.gsrv.dev/\"]",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2bdc55b2-0935-58f8-9079-375c8fbfaa4f",
+      "name": "a[href][target=\"_blank\"][style^=\"display: block;position: fixed;\"][style*=\"z-index:\"]",
+      "selector": "a[href][target=\"_blank\"][style^=\"display: block;position: fixed;\"][style*=\"z-index:\"]",
+      "domains": [
+        "sendvid.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "de4fcc9f-8546-5d30-9643-625f82032ba3",
       "name": ".ad-container",
       "selector": ".ad-container",
@@ -55223,29 +55291,30 @@
       "note": ""
     },
     {
-      "id": "c4998d7a-9618-5ae8-9997-bcff8e4684e3",
-      "name": "#wrapper ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
-      "selector": "#wrapper ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "id": "6e8e6202-19ed-5071-b8be-1c4a51dc9fa8",
+      "name": "#wrapper ~ a[href][target=\"_blank\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "selector": "#wrapper ~ a[href][target=\"_blank\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
       "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "69fc7d6d-8d0a-5e6c-b592-bec47537bacb",
-      "name": "#app-root ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
-      "selector": "#app-root ~ a[target=\"_blank\"][href=\"#\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "id": "4699a699-d9d2-5348-8b85-b180346f991b",
+      "name": "#app-root ~ a[href][target=\"_blank\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
+      "selector": "#app-root ~ a[href][target=\"_blank\"][style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto\"]",
       "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "aeccd95c-a79e-5690-a64d-d4d22e810aa2",
-      "name": "a[target=\"_blank\"][href=\"#\"]",
-      "selector": "a[target=\"_blank\"][href=\"#\"]",
+      "id": "d63689ac-525c-5e0b-a4dd-9ee310a3563e",
+      "name": "a[href][target=\"_blank\"][style*=\"z-index: 99999\"]",
+      "selector": "a[href][target=\"_blank\"][style*=\"z-index: 99999\"]",
       "domains": [
         "comix.to",
+        "mangafire.to",
         "ymix.to"
       ],
       "isEnabled": true,
@@ -55682,6 +55751,17 @@
       "name": "body > #mdl-register.modal.anm-e.regnow",
       "selector": "body > #mdl-register.modal.anm-e.regnow",
       "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "45e4759e-770b-5623-9384-70486ef5d52e",
+      "name": "div[data-afuhost]",
+      "selector": "div[data-afuhost]",
+      "domains": [
+        "luciferdonghua.in"
+      ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
