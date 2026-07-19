@@ -4785,6 +4785,18 @@
       "note": ""
     },
     {
+      "id": "9c5bb14e-1a8d-564a-8562-fb468872b0f8",
+      "name": "/landers/api/integration/back.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/landers/api/integration/back.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "61be77e3-d4fd-53fe-b342-f69e8bc7eeff",
       "name": "ondigitalocean.app/webC0deinfojphtml/",
       "scope": "url",
@@ -4824,6 +4836,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "://apple\\-.*\\.cn/account_int/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ffd1e0f8-e883-55cc-b585-357cb41c346d",
+      "name": "open.open2ch.net/test/ad.cgi/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?open\\.open2ch\\.net(?::[0-9]+)?/test/ad\\.cgi/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8025,6 +8048,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?getsuvolley\\.com(?::[0-9]+)?/valley\\-wp/wp\\-content/themes/gvalley/images/zamst\\-zk\\-560\\-500\\-",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8f2df714-47f0-5a3d-b514-ff522c4ede14",
+      "name": "hobby.dengeki.com/kyujinbox_res/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hobby\\.dengeki\\.com(?::[0-9]+)?/kyujinbox_res/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -15448,6 +15482,61 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d3eda0db-af2f-587e-9639-4250828f512a",
+      "name": "div[class^=\"AdSlot_\"]",
+      "selector": "div[class^=\"AdSlot_\"]",
+      "domains": [
+        "finance.biggo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "228a90f4-f1fb-5090-a21f-924173ed847d",
+      "name": "div[style=\"width: 100%; height: 90px; display: flex; justify-content: center; align-items: center;\"]",
+      "selector": "div[style=\"width: 100%; height: 90px; display: flex; justify-content: center; align-items: center;\"]",
+      "domains": [
+        "bokete.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "78cde131-e235-5558-b1fd-609b412a8679",
+      "name": ".kyujin-box-wrap",
+      "selector": ".kyujin-box-wrap",
+      "domains": [
+        "andgirl.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "add31e22-dda2-5b2d-bd16-8dfa9679a2d6",
+      "name": ".custom_campaign_pr",
+      "selector": ".custom_campaign_pr",
+      "domains": [
+        "anglers.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4fcfdfcf-5e23-5db5-8056-70e264e6e74e",
+      "name": ".js-coupon-modal",
+      "selector": ".js-coupon-modal",
+      "domains": [
+        "juno-beauty-pe.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -37410,11 +37499,11 @@
       "note": ""
     },
     {
-      "id": "3c99e8de-095c-5507-88cc-072021ad1807",
+      "id": "59ae4358-1f4a-57ae-9632-f8cbee0bcefb",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.beer"
+        "jmanga.bike"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56177,6 +56266,17 @@
       "note": ""
     },
     {
+      "id": "a4b273e7-e468-51e7-9910-dadc42b04318",
+      "name": ".u_kyujinBox_wrap",
+      "selector": ".u_kyujinBox_wrap",
+      "domains": [
+        "4travel.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "e420ea05-21d4-5493-8508-350be5fa9520",
       "name": ".u_adFloatingBox",
       "selector": ".u_adFloatingBox",
@@ -68366,10 +68466,11 @@
       "note": ""
     },
     {
-      "id": "baf175bb-489a-532b-8552-3911d2ffa932",
+      "id": "d70c01d7-e171-54d8-855e-668df3916957",
       "name": "a[href^=\"https://amzn.to\"]",
       "selector": "a[href^=\"https://amzn.to\"]",
       "domains": [
+        "fo76db.com",
         "daidaidiary.com",
         "grasoku.com",
         "cherio199.blog.fc2.com",
@@ -70956,10 +71057,11 @@
       "note": ""
     },
     {
-      "id": "7a715d32-386f-5865-a8b2-ac1f7e09586e",
+      "id": "f7319d02-fe7e-567c-9983-8a524a371d8c",
       "name": ".yyi-rinker-contents",
       "selector": ".yyi-rinker-contents",
       "domains": [
+        "gazlog.jp",
         "momen.tofu.fit",
         "re1wa018.com",
         "hapirouinfo.jp",
@@ -86044,6 +86146,17 @@
       "selector": ".c-sidePickup",
       "domains": [
         "news.mynavi.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "da99b8fd-cd34-5505-a0aa-07dfc25ec824",
+      "name": ".pop--excl",
+      "selector": ".pop--excl",
+      "domains": [
+        "javmix.tv"
       ],
       "isEnabled": true,
       "rank": 0,

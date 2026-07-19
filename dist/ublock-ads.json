@@ -70,18 +70,6 @@
       "literalOperator": "contains"
     },
     {
-      "id": "41ef14c9-df46-5d40-ac96-cdd3b885394c",
-      "name": "ebd.cda-hd.cc",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "ebd.cda-hd.cc",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "18d5e66c-70b9-528d-bd4e-4a6e943af0df",
       "name": "||123link.*/push/",
       "scope": "url",
@@ -1471,11 +1459,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "034cdba1-8a75-58a1-a693-6b7821f559d1",
-      "name": "officialplenty.com",
+      "id": "ceee119b-a78f-58e5-9486-e564105d2213",
+      "name": "pompositylance.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "officialplenty.com",
+      "pattern": "pompositylance.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1488,18 +1476,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "poplarcoinsyeah.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ee2c472f-b0f9-5301-a188-ee71a6dd8659",
-      "name": "pricklyassociation.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "pricklyassociation.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1543,11 +1519,23 @@
       "literalOperator": "exact"
     },
     {
-      "id": "949858cb-5c67-5d55-9aea-427aef8bffe4",
-      "name": "trolleyincreasingly.com",
+      "id": "7c15ff9c-55d5-508c-ad23-306755259c1f",
+      "name": "supersedeaccolade.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "trolleyincreasingly.com",
+      "pattern": "supersedeaccolade.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "dc6a5c0a-72e6-5364-89fa-fb525a1e0b29",
+      "name": "triggersdelusion.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "triggersdelusion.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1731,6 +1719,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ed5ec4f3-7667-5947-bf9e-caccf097d284",
+      "name": "n-tv.de/sport/adDefend.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?n\\-tv\\.de(?::[0-9]+)?/sport/adDefend\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "3956e8c0-245e-5869-8c8c-a3e4e4a4adc1",
       "name": "pornzog.com/assets/inpage/banner.js",
       "scope": "url",
@@ -1875,6 +1874,30 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "ee98e8b3-718f-5c40-ae63-419d4a2cdfc5",
+      "name": "lumbering-motor.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "lumbering-motor.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "028e55c4-c2fa-5574-b2e7-6cb3ff4e1497",
+      "name": "miserly-wrap.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "miserly-wrap.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "9f25eb91-e065-5531-aac9-603b8f172ff0",
@@ -4158,17 +4181,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ipvertnet\\.com(?::[0-9]+)?/clickunder/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "003c156b-1738-531d-b869-7df000f47274",
-      "name": "lesbian8.com/nb/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?lesbian8\\.com(?::[0-9]+)?/nb/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8593,6 +8605,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "41ef14c9-df46-5d40-ac96-cdd3b885394c",
+      "name": "ebd.cda-hd.cc",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ebd.cda-hd.cc",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "a4c4699d-d2cc-5886-858b-832d0e424293",
       "name": "great12.org",
       "scope": "fqdn",
@@ -9119,6 +9143,17 @@
       "note": ""
     },
     {
+      "id": "a1dfad75-ad55-53a6-972b-751b9b0ea979",
+      "name": "abs.twimg.com/responsive-web/client-web/loader.HomeTimelineAdblockNotice",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?abs\\.twimg\\.com(?::[0-9]+)?/responsive\\-web/client\\-web/loader\\.HomeTimelineAdblockNotice",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -9217,6 +9252,66 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "nonentrantcrpehibbin.monster",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "238df900-8532-5603-af4f-9a795b73c929",
+      "name": "goodpics.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "goodpics.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a16f960f-0c9b-5a04-a193-79924f5da085",
+      "name": "webls.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "webls.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8698fc98-73ca-59e9-b7c2-9af4a981f374",
+      "name": "2osb.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "2osb.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5d9346a1-4aaf-5a08-9738-ed01e718588d",
+      "name": "zzlocalsquared.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "zzlocalsquared.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "b8a408ab-f038-542d-979d-b03f38b6c501",
+      "name": "clickgenee.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "clickgenee.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -25054,6 +25149,17 @@
       "note": ""
     },
     {
+      "id": "0c88df54-0a83-58bc-9645-2a138501af26",
+      "name": "#clickgate",
+      "selector": "#clickgate",
+      "domains": [
+        "damitv.app"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d94c9d3b-8084-52f2-9cff-8e369b0b2c43",
       "name": "body > div[style$=\"z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;\"]",
       "selector": "body > div[style$=\"z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;\"]",
@@ -33298,37 +33404,6 @@
       "note": ""
     },
     {
-      "id": "df3a6869-0bc1-57e5-a93b-9e31dda8b0f9",
-      "name": "#lotal",
-      "selector": "#lotal",
-      "domains": [
-        "amateur8.com",
-        "bigtitslust.com",
-        "ebony8.com",
-        "lesbian8.com",
-        "sortporn.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "5a16cfe0-3dd1-5526-9f42-067e9c42722a",
-      "name": "#player_add",
-      "selector": "#player_add",
-      "domains": [
-        "amateur8.com",
-        "bigtitslust.com",
-        "ebony8.com",
-        "maturetubehere.com",
-        "shemalesin.com",
-        "sortporn.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "ef10eb6f-5baf-5922-8ed8-49cd8b5519be",
       "name": ".footer-margin",
       "selector": ".footer-margin",
@@ -33407,32 +33482,6 @@
       "note": ""
     },
     {
-      "id": "d6a9f687-4d1e-5573-914a-487fac55ea9e",
-      "name": "#intt-layer",
-      "selector": "#intt-layer",
-      "domains": [
-        "amateur8.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "befafd4a-503a-59a7-98b4-fcde9992d241",
-      "name": "#int-over",
-      "selector": "#int-over",
-      "domains": [
-        "amateur8.com",
-        "bigtitslust.com",
-        "freeporn8.com",
-        "lesbian8.com",
-        "sortporn.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "30d2984d-4b77-5a8c-b318-e2ce529b9ecf",
       "name": ".mitaru",
       "selector": ".mitaru",
@@ -33456,46 +33505,6 @@
         "freeporn8.com",
         "lesbian8.com",
         "sortporn.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "0835c8b7-7a7c-5673-b197-65b04ea7f1e7",
-      "name": ".top2.pignr",
-      "selector": ".top2.pignr",
-      "domains": [
-        "amateur8.com",
-        "ebony8.com",
-        "maturetubehere.com",
-        "shemalesin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "338e8544-2258-5627-b2a1-b6b6f696125a",
-      "name": ".item.pignr",
-      "selector": ".item.pignr",
-      "domains": [
-        "ebony8.com",
-        "freeporn8.com",
-        "maturetubehere.com",
-        "shemalesin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c166854d-fb74-5710-9625-dbbd0349e313",
-      "name": "li.pignr",
-      "selector": "li.pignr",
-      "domains": [
-        "amateur8.com",
-        "ebony8.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -43945,6 +43954,17 @@
       "note": ""
     },
     {
+      "id": "44b5bc94-7c9a-5cc6-83c7-da398271edc7",
+      "name": "a[href^=\"https://mangamirai.com/\"]",
+      "selector": "a[href^=\"https://mangamirai.com/\"]",
+      "domains": [
+        "myanimelist.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "0628fe9e-6d18-5ccd-b5e7-70c717519f5e",
       "name": "main > .pics:first-child > li",
       "selector": "main > .pics:first-child > li",
@@ -47640,39 +47660,6 @@
       "selector": "[data-defid]",
       "domains": [
         "lightnovelcave.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c7d344e4-d7b3-5350-b674-993095be5f4c",
-      "name": "._illust-upload + div[style*=\"968px;\"][style*=\"170px;\"]",
-      "selector": "._illust-upload + div[style*=\"968px;\"][style*=\"170px;\"]",
-      "domains": [
-        "pixiv.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "67b08345-0f49-5351-8b03-718094894ff1",
-      "name": "div[style=\"margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;\"]",
-      "selector": "div[style=\"margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;\"]",
-      "domains": [
-        "pixiv.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "3adba940-b6a9-5941-ba25-4608e39220d7",
-      "name": "div[style=\"position: static; z-index: auto;\"] + div[style^=\"margin-left\"]:empty",
-      "selector": "div[style=\"position: static; z-index: auto;\"] + div[style^=\"margin-left\"]:empty",
-      "domains": [
-        "pixiv.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -52297,6 +52284,17 @@
       "note": ""
     },
     {
+      "id": "9508653f-9d64-5849-a8ff-26b67002dd31",
+      "name": "button[data-openuri][data-open=\"_blank\"]",
+      "selector": "button[data-openuri][data-open=\"_blank\"]",
+      "domains": [
+        "fbstream.is"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "04193392-aa76-5efb-b66a-0533933a4e12",
       "name": ".code-block",
       "selector": ".code-block",
@@ -55179,11 +55177,12 @@
       "note": ""
     },
     {
-      "id": "00d62447-afe2-5d73-8908-102f364eef9e",
+      "id": "dc6e77b0-731d-5793-a0bf-11c9d8cc3fb3",
       "name": ".watch-ad-banner",
       "selector": ".watch-ad-banner",
       "domains": [
-        "ntv.cx"
+        "ntv.cx",
+        "ntvs.cx"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -55564,6 +55563,17 @@
       "note": ""
     },
     {
+      "id": "a5c40d0f-1c00-5505-8f0d-1d9db97ccd80",
+      "name": "a[rel*=\"sponsored\"]",
+      "selector": "a[rel*=\"sponsored\"]",
+      "domains": [
+        "streamcash.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "85b22262-d1e1-5832-b89a-f04424ce11b7",
       "name": "#interVeil",
       "selector": "#interVeil",
@@ -55882,6 +55892,48 @@
       "selector": ".ads",
       "domains": [
         "apps2app.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a1345620-b838-5e5f-afc7-193e3cdef106",
+      "name": ".slimlay",
+      "selector": ".slimlay",
+      "domains": [
+        "picnob.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "84c7e8a1-924f-59cc-b9c2-d5a4a7aaae92",
+      "name": ".container a[title=\"AI Jerk OFF\"][href][target=\"_blank\"]",
+      "selector": ".container a[title=\"AI Jerk OFF\"][href][target=\"_blank\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d2de5071-f26f-5ad7-8689-6f3a4ac0a984",
+      "name": ".fe_cmp_presetadvert",
+      "selector": ".fe_cmp_presetadvert",
+      "domains": [
+        "trustnet.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "528cdab8-eff4-536f-b317-7ddf3dbfb40d",
+      "name": ".header-fe-ad",
+      "selector": ".header-fe-ad",
+      "domains": [
+        "trustnet.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56754,9 +56806,9 @@
       "note": ""
     },
     {
-      "id": "721df8b1-a025-5fe6-aef8-abbd60976be2",
-      "name": "button[x-on\\:click=\"openPopup\"]:not([x-bind\\:disabled])",
-      "selector": "button[x-on\\:click=\"openPopup\"]:not([x-bind\\:disabled])",
+      "id": "8a76c996-d20e-5b30-8d82-290a210e6bb2",
+      "name": "p, li, ul, td, tr, .lazyload, [id^=\"h_\"], #teaser2",
+      "selector": "p, li, ul, td, tr, .lazyload, [id^=\"h_\"], #teaser2",
       "domains": [
         "crm.urlwebsite.com",
         "go.fakta.id",
@@ -56909,6 +56961,30 @@
       "selector": "[href=\"https://telegram.me/linkshortify\"] > .button-image",
       "domains": [
         "lksfy.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c47d1958-e833-5091-86ee-c4fb881e53be",
+      "name": "p, li, ul, ol, h2, h3",
+      "selector": "p, li, ul, ol, h2, h3",
+      "domains": [
+        "biovetro.net",
+        "dailyjobposting.xyz",
+        "digiztechno.com",
+        "financefernly.com",
+        "growgritly.com",
+        "guidetechly.com",
+        "jobnoid.net",
+        "napmap.net",
+        "shrtslug.biz",
+        "stfly.me",
+        "stly.link",
+        "technons.com",
+        "tournguide.com",
+        "yrtourguide.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57070,50 +57146,64 @@
       "note": ""
     },
     {
-      "id": "84287743-28f6-5098-828f-63252c3612f5",
+      "id": "40dc2c1a-8624-548f-afed-5b9fe788e17f",
       "name": ".z-0.overflow-hidden.relative.w-full.rounded-lg.to-\\[\\#0948EA\\].from-\\[\\#5597FF\\].bg-gradient-to-r.p-8.min-h-\\[189px\\]",
       "selector": ".z-0.overflow-hidden.relative.w-full.rounded-lg.to-\\[\\#0948EA\\].from-\\[\\#5597FF\\].bg-gradient-to-r.p-8.min-h-\\[189px\\]",
       "domains": [
         "lokerwfh.net",
-        "sfl.gl"
+        "sfl.gl",
+        "go.gociwidey.com"
       ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "977a47c3-9b5f-57bc-88d3-82c812b9231a",
+      "id": "a3886729-86c7-538d-b127-e979ab9a5112",
       "name": "[src*=\"blogger.googleusercontent.com\"]",
       "selector": "[src*=\"blogger.googleusercontent.com\"]",
       "domains": [
         "khaddavi.net",
-        "lokerwfh.net"
+        "lokerwfh.net",
+        "go.gociwidey.com"
       ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "671f5d7f-0d9b-56f2-b0b6-83798ba3c775",
+      "id": "52740c9e-9f4c-5d82-812c-2f0b0395f220",
       "name": "p",
       "selector": "p",
       "domains": [
         "khaddavi.net",
-        "lokerwfh.net"
+        "lokerwfh.net",
+        "go.gociwidey.com"
       ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "33f2793c-1800-5837-9ed8-80730e341fb5",
-      "name": "fieldset, .faqs, footer",
-      "selector": "fieldset, .faqs, footer",
+      "id": "a48f28ff-fbbc-5a76-83fa-79705ce4ced4",
+      "name": "fieldset, .faqs, footer, .features",
+      "selector": "fieldset, .faqs, footer, .features",
       "domains": [
         "upfilesgo.com",
         "upfion.com",
         "upfiles.app",
         "upfiles-urls.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8652ded5-45e8-5803-824c-d37129a3813b",
+      "name": ".box-main > .blog-item, .text-left",
+      "selector": ".box-main > .blog-item, .text-left",
+      "domains": [
+        "flycutlink.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57803,6 +57893,17 @@
       "selector": "div > center > button[class][style]",
       "domains": [
         "koramaup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2a69f518-8faf-5654-928c-c7a5358f572e",
+      "name": "#relevantEvent",
+      "selector": "#relevantEvent",
+      "domains": [
+        "qr1.me-qr.com"
       ],
       "isEnabled": true,
       "rank": 0,
