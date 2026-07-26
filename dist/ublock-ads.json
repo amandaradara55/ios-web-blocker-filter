@@ -1339,6 +1339,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d354c405-2344-5cae-87f3-e08c28a845c8",
+      "name": "glade-static.space",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "glade-static.space",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b726a6a9-fd45-5f93-81c2-d872d3051129",
       "name": "willow-assets.space",
       "scope": "fqdn",
@@ -3202,6 +3214,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kuyhaa\\.me(?::[0-9]+)?/pmbut\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d22d3a06-47a6-5aad-a6de-50712b4eda67",
+      "name": "jelonka.com/static/jelonka/js/news-ad-access-gate.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?jelonka\\.com(?::[0-9]+)?/static/jelonka/js/news\\-ad\\-access\\-gate\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6647,6 +6670,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "21573438-446a-5830-aac4-e9e3fa3d7a16",
+      "name": "viiukuhe.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "viiukuhe.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "a34550ed-252b-5871-943b-959238539520",
@@ -27257,6 +27292,17 @@
       "note": ""
     },
     {
+      "id": "54a82d08-9e91-5796-950b-0bfe635d765f",
+      "name": ".ad-area",
+      "selector": ".ad-area",
+      "domains": [
+        "jelonka.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "0f09fefe-d510-5eeb-ba14-d2eb31064612",
       "name": "body [class*=\"REKLAMA\"]",
       "selector": "body [class*=\"REKLAMA\"]",
@@ -42693,6 +42739,17 @@
       "note": ""
     },
     {
+      "id": "0f5ee65a-e488-5a46-a3b9-3c6ae4926e7a",
+      "name": ".ogm-branding-advert",
+      "selector": ".ogm-branding-advert",
+      "domains": [
+        "super.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "2471f171-876f-5bc1-a667-dac5103710df",
       "name": "#stream_message_overlay",
       "selector": "#stream_message_overlay",
@@ -44515,6 +44572,17 @@
       "note": ""
     },
     {
+      "id": "a654f026-44d1-5242-b381-f59133b9ff34",
+      "name": "#bottom-sticky-container",
+      "selector": "#bottom-sticky-container",
+      "domains": [
+        "kobietyhistorii.pl"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "68bba9f2-edb5-52ba-8e78-56e75e45d687",
       "name": "#bottom-sticky-ads-container",
       "selector": "#bottom-sticky-ads-container",
@@ -46169,6 +46237,17 @@
       "note": ""
     },
     {
+      "id": "ab02c07e-3942-5f19-949e-326469553dd1",
+      "name": "div[data-identifier=\"exoclick-native-impression\"]",
+      "selector": "div[data-identifier=\"exoclick-native-impression\"]",
+      "domains": [
+        "startpage.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9828f8e2-c2dd-5e5d-b791-3e3d28ef9383",
       "name": "div[id^=\"div-ad-gpt-\"]",
       "selector": "div[id^=\"div-ad-gpt-\"]",
@@ -46844,33 +46923,11 @@
       "note": ""
     },
     {
-      "id": "fa35cd86-7bd9-5b48-8376-5cdb4a22ce38",
-      "name": "body >a[id][href][target^=\"_blank\"]",
-      "selector": "body >a[id][href][target^=\"_blank\"]",
+      "id": "92d9f0cf-1b0d-541f-b086-aca3da0a4117",
+      "name": ".adsbygoogle",
+      "selector": ".adsbygoogle",
       "domains": [
         "freex2line.online"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "67f5da7b-5671-5c4c-8d86-19811f0ac9f2",
-      "name": "a[href*=\"/jump/next.php?r=\"]",
-      "selector": "a[href*=\"/jump/next.php?r=\"]",
-      "domains": [
-        "freex2line.online"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "0dbf433c-6326-5c31-a0cc-1c7570b9a44e",
-      "name": "[href*=\"blockID\"]",
-      "selector": "[href*=\"blockID\"]",
-      "domains": [
-        "cimanow.cc"
       ],
       "isEnabled": true,
       "rank": 0,

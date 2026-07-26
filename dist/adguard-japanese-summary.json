@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T18:57:42+00:00",
+  "generatedAt": "2026-07-26T19:02:33+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
@@ -21,13 +21,13 @@
       "skipped": {}
     },
     "allowlist.txt": {
-      "inputRules": 342,
+      "inputRules": 343,
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "excluded_section": 342
+        "excluded_section": 343
       }
     },
     "antiadblock.txt": {
@@ -61,25 +61,25 @@
       }
     },
     "general_url.txt": {
-      "inputRules": 377,
+      "inputRules": 379,
       "acceptedBlockRules": 46,
       "quarantinedBlockRules": 2,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "unsupported_modifier": 329
+        "unsupported_modifier": 331
       }
     },
     "specific.txt": {
-      "inputRules": 10221,
-      "acceptedBlockRules": 757,
+      "inputRules": 10233,
+      "acceptedBlockRules": 759,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 7021,
+      "acceptedCosmeticRules": 7026,
       "duplicateRules": 0,
       "skipped": {
-        "advanced_rule": 1009,
+        "advanced_rule": 1012,
         "allowlist": 4,
-        "unsupported_cosmetic_selector": 908,
+        "unsupported_cosmetic_selector": 910,
         "unsupported_domain_scope": 45,
         "unsupported_modifier": 382,
         "unsupported_url_pattern": 95
@@ -87,17 +87,17 @@
     }
   },
   "totals": {
-    "blockRules": 1161,
+    "blockRules": 1163,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7168,
+    "cosmeticRules": 7173,
     "duplicateRules": 0,
     "skipped": {
-      "advanced_rule": 1009,
+      "advanced_rule": 1012,
       "allowlist": 4,
-      "excluded_section": 1048,
-      "unsupported_cosmetic_selector": 908,
+      "excluded_section": 1049,
+      "unsupported_cosmetic_selector": 910,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 756,
+      "unsupported_modifier": 758,
       "unsupported_url_pattern": 95
     }
   }

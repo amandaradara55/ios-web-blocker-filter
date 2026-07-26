@@ -4842,6 +4842,17 @@
       "note": ""
     },
     {
+      "id": "9b8ea950-c03d-5cf4-be56-551f7d821df7",
+      "name": "socialxup.com/api/sale-accounts",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?socialxup\\.com(?::[0-9]+)?/api/sale\\-accounts",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "ffd1e0f8-e883-55cc-b585-357cb41c346d",
       "name": "open.open2ch.net/test/ad.cgi/",
       "scope": "url",
@@ -4935,6 +4946,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?storage\\.googleapis\\.com(?::[0-9]+)?/kyujinbox/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "6e7963cd-5799-526b-ad25-7cb86330e62b",
+      "name": "static.chunichi.co.jp/chunichi/js/spo-recruit-box.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?static\\.chunichi\\.co\\.jp(?::[0-9]+)?/chunichi/js/spo\\-recruit\\-box\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -15488,6 +15510,17 @@
       "note": ""
     },
     {
+      "id": "3208de2c-3dbe-58da-865e-5c10a1c5af87",
+      "name": "div[style=\"font-size: 13px;\"]",
+      "selector": "div[style=\"font-size: 13px;\"]",
+      "domains": [
+        "x-shadowban-checker.fia-s.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d3eda0db-af2f-587e-9639-4250828f512a",
       "name": "div[class^=\"AdSlot_\"]",
       "selector": "div[class^=\"AdSlot_\"]",
@@ -23242,17 +23275,6 @@
       "note": ""
     },
     {
-      "id": "251863ab-3efe-5d7a-92f9-e823dcb09761",
-      "name": "#fullscreen-ad-container",
-      "selector": "#fullscreen-ad-container",
-      "domains": [
-        "suki-kira.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "5f6a7bd3-c129-52c7-96a6-78612eaadbaa",
       "name": ".content-container > div.md\\:w-\\[796px\\].md\\:mx-auto.md\\:pt-20",
       "selector": ".content-container > div.md\\:w-\\[796px\\].md\\:mx-auto.md\\:pt-20",
@@ -23280,6 +23302,28 @@
       "selector": "iframe[src=\"https://mx-timeline.nan-net.jp/system/timeline/timeline_ad.html\"]",
       "domains": [
         "mx-timeline.nan-net.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "eb4991d5-5275-5d4d-bfaa-355a51fe834b",
+      "name": ".h-\\[240px\\].screen3\\:h-\\[154px\\]",
+      "selector": ".h-\\[240px\\].screen3\\:h-\\[154px\\]",
+      "domains": [
+        "dic.pixiv.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "abde76a4-6080-5601-8bcf-58017a69fcbe",
+      "name": "article > div.mt-\\[36px\\].h-\\[200px\\]",
+      "selector": "article > div.mt-\\[36px\\].h-\\[200px\\]",
+      "domains": [
+        "dic.pixiv.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -24656,6 +24700,17 @@
       "selector": ".content_widget",
       "domains": [
         "osusume.mynavi.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f629bd0b-97d2-5bcb-9f55-41261966e903",
+      "name": "#kahoku_pc_article_footeroverlay",
+      "selector": "#kahoku_pc_article_footeroverlay",
+      "domains": [
+        "kahoku.news"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -37499,11 +37554,11 @@
       "note": ""
     },
     {
-      "id": "59ae4358-1f4a-57ae-9632-f8cbee0bcefb",
+      "id": "ac7af469-82d6-564f-8299-3b910fbca928",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.bike"
+        "jmanga.care"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -65062,6 +65117,28 @@
       "selector": ".ad-_badge",
       "domains": [
         "bikebros.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "95f65975-927e-5b80-a065-1e22ea85a4d3",
+      "name": ".c-affiliateAdList",
+      "selector": ".c-affiliateAdList",
+      "domains": [
+        "bcnretail.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "df51f39c-e7c0-5769-a31e-ef0a9ec1825c",
+      "name": ".rectangleBanner",
+      "selector": ".rectangleBanner",
+      "domains": [
+        "bcnretail.com"
       ],
       "isEnabled": true,
       "rank": 0,

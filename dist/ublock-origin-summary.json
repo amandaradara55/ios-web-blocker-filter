@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-07-19T18:57:47+00:00",
+  "generatedAt": "2026-07-26T19:02:37+00:00",
   "inputDir": "sources/ublock-origin/flat",
   "profiles": {
     "ads": {
-      "inputRules": 22677,
-      "acceptedBlockRules": 850,
-      "acceptedCosmeticRules": 4307,
+      "inputRules": 22698,
+      "acceptedBlockRules": 853,
+      "acceptedCosmeticRules": 4309,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9201,
-        "allowlist": 2065,
+        "advanced_rule": 9210,
+        "allowlist": 2064,
         "negated_domain": 14,
-        "unsupported_cosmetic_selector": 1617,
-        "unsupported_domain_scope": 1042,
-        "unsupported_modifier": 3437,
+        "unsupported_cosmetic_selector": 1622,
+        "unsupported_domain_scope": 1043,
+        "unsupported_modifier": 3439,
         "unsupported_url_pattern": 142,
         "unsupported_webkit_regex_brace_quantifier": 1
       }
     },
     "mobileEffective": {
-      "inputRules": 22819,
-      "acceptedBlockRules": 849,
-      "acceptedCosmeticRules": 4373,
+      "inputRules": 22840,
+      "acceptedBlockRules": 852,
+      "acceptedCosmeticRules": 4375,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9223,
-        "allowlist": 2073,
+        "advanced_rule": 9232,
+        "allowlist": 2072,
         "negated_domain": 14,
-        "unsupported_cosmetic_selector": 1640,
-        "unsupported_domain_scope": 1059,
-        "unsupported_modifier": 3444,
+        "unsupported_cosmetic_selector": 1645,
+        "unsupported_domain_scope": 1060,
+        "unsupported_modifier": 3446,
         "unsupported_url_pattern": 142,
         "unsupported_webkit_regex_brace_quantifier": 1
       }
