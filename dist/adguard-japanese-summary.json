@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-26T19:02:33+00:00",
+  "generatedAt": "2026-08-02T19:01:33+00:00",
   "inputDir": "sources/adguard-japanese",
   "sections": {
     "adservers.txt": {
-      "inputRules": 380,
-      "acceptedBlockRules": 335,
+      "inputRules": 381,
+      "acceptedBlockRules": 336,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
@@ -31,13 +31,13 @@
       }
     },
     "antiadblock.txt": {
-      "inputRules": 439,
+      "inputRules": 440,
       "acceptedBlockRules": 0,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 0,
       "duplicateRules": 0,
       "skipped": {
-        "excluded_section": 439
+        "excluded_section": 440
       }
     },
     "general_elemhide.txt": {
@@ -71,33 +71,33 @@
       }
     },
     "specific.txt": {
-      "inputRules": 10233,
-      "acceptedBlockRules": 759,
+      "inputRules": 10240,
+      "acceptedBlockRules": 761,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 7026,
+      "acceptedCosmeticRules": 7032,
       "duplicateRules": 0,
       "skipped": {
-        "advanced_rule": 1012,
+        "advanced_rule": 1010,
         "allowlist": 4,
         "unsupported_cosmetic_selector": 910,
         "unsupported_domain_scope": 45,
-        "unsupported_modifier": 382,
+        "unsupported_modifier": 383,
         "unsupported_url_pattern": 95
       }
     }
   },
   "totals": {
-    "blockRules": 1163,
+    "blockRules": 1166,
     "disabledBlockRules": 2,
-    "cosmeticRules": 7173,
+    "cosmeticRules": 7179,
     "duplicateRules": 0,
     "skipped": {
-      "advanced_rule": 1012,
+      "advanced_rule": 1010,
       "allowlist": 4,
-      "excluded_section": 1049,
+      "excluded_section": 1050,
       "unsupported_cosmetic_selector": 910,
       "unsupported_domain_scope": 49,
-      "unsupported_modifier": 758,
+      "unsupported_modifier": 759,
       "unsupported_url_pattern": 95
     }
   }
