@@ -1177,6 +1177,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f42ebc74-9bc2-5a8b-8e63-4ceb1734cf01",
+      "name": "ligainsider.de/li-probe",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ligainsider\\.de(?::[0-9]+)?/li\\-probe",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "0f4a3ecc-6ef3-5b4a-bea6-fded7d95816f",
       "name": "computer-bild.de/_static-assets/homad/homad.js",
       "scope": "url",
@@ -1858,6 +1869,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?simpcity\\..*/smp/d\\.min\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "b42f5964-99fc-57ab-a1a4-ea0016bb42f5",
+      "name": "letsporn.com/npadm/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?letsporn\\.com(?::[0-9]+)?/npadm/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "37326b53-5700-5fd1-b97f-1289b00ac787",
+      "name": "letsporn.com/abrk/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?letsporn\\.com(?::[0-9]+)?/abrk/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3028,6 +3061,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "790f5926-1bd8-5b60-a466-8182dbb97aa7",
+      "name": "gxbs.cc/dog.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gxbs\\.cc(?::[0-9]+)?/dog\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "3d5098e2-2f8a-5ba3-87a7-72855842f209",
@@ -6425,11 +6469,11 @@
       "note": ""
     },
     {
-      "id": "e750f792-ed09-51ba-88ed-1c6ca2197fd9",
-      "name": "androidauth.wpengine.com/wp-json/api/advanced_placement/",
+      "id": "3978a164-b772-5fe4-b05f-b7df1fdb1965",
+      "name": "/wp-json/api/advanced_placement/*",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?androidauth\\.wpengine\\.com(?::[0-9]+)?/wp\\-json/api/advanced_placement/",
+      "pattern": "/wp\\-json/api/advanced_placement/.*",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -17967,53 +18011,6 @@
       "note": ""
     },
     {
-      "id": "36cab648-fd2f-514c-b4d3-b146b2d23188",
-      "name": ".dm_ad",
-      "selector": ".dm_ad",
-      "domains": [
-        "express.de",
-        "mopo.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7626b038-0746-58c0-b486-590d8f4f17e1",
-      "name": ".dm_ad-container",
-      "selector": ".dm_ad-container",
-      "domains": [
-        "express.de",
-        "mopo.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "11ff0033-fad8-52c7-9886-9fa1e6c28ef7",
-      "name": "#nativendo-marginal",
-      "selector": "#nativendo-marginal",
-      "domains": [
-        "express.de",
-        "mopo.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "00234359-51a9-54cf-b08d-5189eedcd5a0",
-      "name": ".dm_ta300x300_html",
-      "selector": ".dm_ta300x300_html",
-      "domains": [
-        "mopo.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "3280a57d-18ae-5f80-a0de-1c5bcc40984a",
       "name": "ins.adsbygoogle",
       "selector": "ins.adsbygoogle",
@@ -20809,6 +20806,17 @@
       "note": ""
     },
     {
+      "id": "41e43da3-36dd-5994-8f4e-cf69e48d0d2e",
+      "name": ".new_add",
+      "selector": ".new_add",
+      "domains": [
+        "ligainsider.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "a1993fd1-2b9e-5aa1-8412-375d8c4f6f7e",
       "name": ".ad_target",
       "selector": ".ad_target",
@@ -22844,17 +22852,6 @@
       "note": ""
     },
     {
-      "id": "5e16013b-152d-532c-9240-a921aeb0f09c",
-      "name": ".bs-wrap-gdpr-law",
-      "selector": ".bs-wrap-gdpr-law",
-      "domains": [
-        "enterinit.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "7f30746c-7fa1-5952-a9bc-3a89872455ca",
       "name": "ins.adsbygoogle",
       "selector": "ins.adsbygoogle",
@@ -24336,6 +24333,15 @@
       "domains": [
         "manhwaus.net"
       ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "353779dd-53d2-5d1f-b976-eadac59cfee6",
+      "name": "#kt_player ~ #sp-player",
+      "selector": "#kt_player ~ #sp-player",
+      "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -27423,6 +27429,17 @@
       "selector": ".global__advertisement",
       "domains": [
         "wspinanie.pl"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2d1f83a8-7e5d-51e1-935a-9849987cb804",
+      "name": ".grid__ad",
+      "selector": ".grid__ad",
+      "domains": [
+        "tuwroclaw.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -32905,17 +32922,6 @@
       "selector": "#remove_ads_link",
       "domains": [
         "forum.gigabyte.us"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "5caed389-2cbd-54c5-9054-10731a331f57",
-      "name": ".adace-slideup-slot-wrap",
-      "selector": ".adace-slideup-slot-wrap",
-      "domains": [
-        "novelmultiverse.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -46296,6 +46302,17 @@
       "note": ""
     },
     {
+      "id": "c9fa40d3-3b2a-5e04-9073-c7dcd8698c39",
+      "name": "#main > div[data-bvs][data-identifier]",
+      "selector": "#main > div[data-bvs][data-identifier]",
+      "domains": [
+        "startpage.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "ab02c07e-3942-5f19-949e-326469553dd1",
       "name": "div[data-identifier=\"exoclick-native-impression\"]",
       "selector": "div[data-identifier=\"exoclick-native-impression\"]",
@@ -52550,6 +52567,17 @@
       "note": ""
     },
     {
+      "id": "adcd3e7c-ab43-5400-bc78-e2091acc092f",
+      "name": "#mys-wrapper",
+      "selector": "#mys-wrapper",
+      "domains": [
+        "safeframe.googlesyndication.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "c47a18db-efeb-5be2-8dcc-365f9e0605c7",
       "name": "#mnfDetail_adSenseHead",
       "selector": "#mnfDetail_adSenseHead",
@@ -56100,6 +56128,28 @@
       "note": ""
     },
     {
+      "id": "9beabab8-4369-5482-bd13-9a7ef4aed43a",
+      "name": "#top-banner-ad-container",
+      "selector": "#top-banner-ad-container",
+      "domains": [
+        "readcomicsonline.lol"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "974fc64f-c6c6-5e83-8f78-7c174ff6fa11",
+      "name": "[rel*=\"sponsored\"]",
+      "selector": "[rel*=\"sponsored\"]",
+      "domains": [
+        "readcomicsonline.lol"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "cde51020-52cf-53b8-927f-211e67832190",
       "name": ".fa-sticky-unit",
       "selector": ".fa-sticky-unit",
@@ -56127,6 +56177,17 @@
       "selector": ".blockplace",
       "domains": [
         "simkl.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f4ae1f3a-1cc1-5505-a0a5-a1ceebad1c64",
+      "name": "[id^=\"__clb-spot_\"]",
+      "selector": "[id^=\"__clb-spot_\"]",
+      "domains": [
+        "balbums.st"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57333,6 +57394,19 @@
       "selector": ".popup",
       "domains": [
         "advicefunda.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "496ae833-7d6c-58f8-805b-9328be587a3e",
+      "name": "li, ol, ul, h2, h3, .entry-meta, .entry-title",
+      "selector": "li, ol, ul, h2, h3, .entry-meta, .entry-title",
+      "domains": [
+        "lokerwfh.net",
+        "app.khaddavi.net",
+        "go.gociwidey.com"
       ],
       "isEnabled": true,
       "rank": 0,
