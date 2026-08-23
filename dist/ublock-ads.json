@@ -1446,6 +1446,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a878e6bb-6c3b-5a56-ac8b-ce40b0249e5f",
+      "name": "gossipycompetitive.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gossipycompetitive.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "245ad599-1f65-5b8c-9781-ea3d88db7bfc",
       "name": "politicallygreek.com",
       "scope": "fqdn",
@@ -2171,6 +2183,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7e82093a-7e98-5100-95e4-84b3ac1bfd52",
+      "name": "pubds.bid",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pubds.bid",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "00099d2c-a1e3-561d-a7e6-9f01da80fc24",
       "name": "filmex.to/api/antiadblock",
       "scope": "url",
@@ -2746,17 +2770,6 @@
       "note": ""
     },
     {
-      "id": "54cd0fef-8122-5319-aa0d-019d03c5173a",
-      "name": "parkers.co.uk/polite-msg-js/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?parkers\\.co\\.uk(?::[0-9]+)?/polite\\-msg\\-js/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "9c258148-6cb2-57be-a183-0a78fd68840d",
       "name": "ad-shield.cc",
       "scope": "fqdn",
@@ -3074,6 +3087,17 @@
       "note": ""
     },
     {
+      "id": "7272cc10-c6f2-5e16-ac37-573a5aaf1380",
+      "name": "portalridice.cz/data/banner-creative/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?portalridice\\.cz(?::[0-9]+)?/data/banner\\-creative/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "3d5098e2-2f8a-5ba3-87a7-72855842f209",
       "name": "shared.mediahuis.be/ka-ching/goplay/ka-ching.umd.js",
       "scope": "url",
@@ -3246,6 +3270,39 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kuyhaa\\.me(?::[0-9]+)?/pmbut\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "267a11a4-99b8-59c4-8539-d2a321c0a796",
+      "name": "donasi.showcdnx.com/seiklasnya.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?donasi\\.showcdnx\\.com(?::[0-9]+)?/seiklasnya\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "45661a02-641a-53e9-8e30-1a78002317b4",
+      "name": "dokiraw.wtf/public/assets/js/a.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dokiraw\\.wtf(?::[0-9]+)?/public/assets/js/a\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c8443d3b-43f5-5c46-abaa-a8ef1ba73966",
+      "name": "gomuraw.info/public/assets/js/a.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gomuraw\\.info(?::[0-9]+)?/public/assets/js/a\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -5546,6 +5603,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mercury\\.akamaized\\.net(?::[0-9]+)?/cm/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "76962c01-072b-5fe1-9a06-b6422e9abddb",
+      "name": "chip.de/download-charts/__assets/screen13/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?chip\\.de(?::[0-9]+)?/download\\-charts/__assets/screen13/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9315,6 +9383,62 @@
       "note": ""
     },
     {
+      "id": "d0940381-3a42-5bd1-993e-31505e1702b5",
+      "name": "/wp-content/plugins/bw-newstack-addon-monetization/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/wp\\-content/plugins/bw\\-newstack\\-addon\\-monetization/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "502c3880-d71e-5387-8d86-edf3240ae970",
+      "name": "pearos.xyz/assets/adblock-detector.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pearos\\.xyz(?::[0-9]+)?/assets/adblock\\-detector\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7b406e7d-f8df-5ad1-85c1-f05bcc221aeb",
+      "name": "waldnet.nl/assets/js/abd.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?waldnet\\.nl(?::[0-9]+)?/assets/js/abd\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "41a73a84-764f-5f1e-aaf5-ed50eb949063",
+      "name": "youtubetoolkit.com/js/adblock-",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?youtubetoolkit\\.com(?::[0-9]+)?/js/adblock\\-",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f79e01d7-1456-5e10-b699-15e01411361d",
+      "name": "antiadblockcore.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "antiadblockcore.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -9831,6 +9955,18 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "427df12c-f8f6-5d70-8c93-c0be4f5e5b86",
+      "name": "uploadao.com.dl0-ad-row",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "uploadao.com.dl0-ad-row",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
     }
   ],
   "cosmetic-rules": [
@@ -25160,6 +25296,15 @@
       "note": ""
     },
     {
+      "id": "5e4dc406-52a2-5fc6-972d-0f16ab38ffa9",
+      "name": ".ID_live_cam_inner",
+      "selector": ".ID_live_cam_inner",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "4c8538cf-464d-5d11-b056-8029bd7a0099",
       "name": ".container a[href^=\"https://go.mavrtracktor.com/\"]",
       "selector": ".container a[href^=\"https://go.mavrtracktor.com/\"]",
@@ -26994,6 +27139,28 @@
       "note": ""
     },
     {
+      "id": "4a8fcec6-9efd-5436-99a1-5a67617aa7cf",
+      "name": ".bz-branding",
+      "selector": ".bz-branding",
+      "domains": [
+        "portalridice.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "674cd4f8-234f-59bc-b4d0-49706339dbbe",
+      "name": ".ad",
+      "selector": ".ad",
+      "domains": [
+        "penize.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "397ec287-b8f7-5941-9c99-0ce64bd3192c",
       "name": "a[href^=\"https://planetwealthbuilders.net/trck/\"]",
       "selector": "a[href^=\"https://planetwealthbuilders.net/trck/\"]",
@@ -27247,6 +27414,28 @@
       "note": ""
     },
     {
+      "id": "ce266a31-568e-5fd4-846e-44ca7a6416e2",
+      "name": "div.widget[class*=\"-widget\"][id*=\"-widget-\"]",
+      "selector": "div.widget[class*=\"-widget\"][id*=\"-widget-\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9c698aac-e13a-56ff-b8c6-f4264ec3e7e0",
+      "name": "a[aria-label*=\"Banner\"]",
+      "selector": "a[aria-label*=\"Banner\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d4fda8b6-b8bb-5d97-95fe-991026f257ce",
       "name": ".sgpb-popup-overlay",
       "selector": ".sgpb-popup-overlay",
@@ -27318,6 +27507,37 @@
       "selector": "#protected-content",
       "domains": [
         "kuyhaa.me"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "56fa1caf-e9a3-55f8-b8c3-c73d8c1e1e2c",
+      "name": "#vstr ~ #overlay",
+      "selector": "#vstr ~ #overlay",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f292eec4-d504-59fb-9810-bea73e0c7e54",
+      "name": "#overlay",
+      "selector": "#overlay",
+      "domains": [
+        "videonode.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "630ff0cd-a034-50c4-ab51-8a24532af2d6",
+      "name": "body > a[target=\"_blank\"]",
+      "selector": "body > a[target=\"_blank\"]",
+      "domains": [
+        "videonode.de"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -30568,6 +30788,26 @@
       "note": ""
     },
     {
+      "id": "8bdf2d28-f373-5217-a9d7-5fe44a2ce43f",
+      "name": "body > img[id]",
+      "selector": "body > img[id]",
+      "domains": [
+        "kaembed.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "20055dde-814a-56cf-be9f-b8cb807e9474",
+      "name": "#vplayer ~ img[id][onclick]",
+      "selector": "#vplayer ~ img[id][onclick]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "12220fc0-5602-5900-8acf-77b352020a63",
       "name": "#rang2",
       "selector": "#rang2",
@@ -30824,6 +31064,17 @@
       "id": "715c85ce-5853-5279-868e-41f75affaa92",
       "name": ".switchabig",
       "selector": ".switchabig",
+      "domains": [
+        "beverfood.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "03d0613d-b5ea-51aa-91be-764b368f18fd",
+      "name": "a#x1",
+      "selector": "a#x1",
       "domains": [
         "beverfood.com"
       ],
@@ -42192,6 +42443,61 @@
       "note": ""
     },
     {
+      "id": "094a1e6a-f93d-5886-8965-64b9cecfbc1c",
+      "name": ".ad-slot",
+      "selector": ".ad-slot",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dc2894b9-3460-5ac9-a93f-c37121568c32",
+      "name": ".ad-listing",
+      "selector": ".ad-listing",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "64c3f976-9388-5f95-b8db-3731bb1b230e",
+      "name": "div[id*=\"AdSlot\"]",
+      "selector": "div[id*=\"AdSlot\"]",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "00ad6347-2516-5422-80c9-64992396aa47",
+      "name": ".ae-banner",
+      "selector": ".ae-banner",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "835bc6f4-0d42-52b1-af49-333861d4737c",
+      "name": ".ae-skyscraper",
+      "selector": ".ae-skyscraper",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "2042cb2b-d538-501f-8bd9-f0bbe0cd836a",
       "name": "div[data-bc-data-trackvars]",
       "selector": "div[data-bc-data-trackvars]",
@@ -48241,9 +48547,9 @@
       "note": ""
     },
     {
-      "id": "86c4ddb5-e7a0-50cd-89ad-eed6eaeb4970",
-      "name": "#amspeaytpuikprivatealps, .hostabw, [id^=\"amspeay\"], .ri-ctive, [id^=\"amspeaytpuikpp-liaryt\"], .blockxs, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"]",
-      "selector": "#amspeaytpuikprivatealps, .hostabw, [id^=\"amspeay\"], .ri-ctive, [id^=\"amspeaytpuikpp-liaryt\"], .blockxs, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"]",
+      "id": "f618b9b2-bf01-50b8-a45c-95e7f27c628c",
+      "name": "#amdtveaytpuikprivatealps, [id^=\"amdtveaytpuikpp-liaryt\"], .hostabe, .ri-btive, .specjp, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"], a[href^=\"https://hostealo.es\"]",
+      "selector": "#amdtveaytpuikprivatealps, [id^=\"amdtveaytpuikpp-liaryt\"], .hostabe, .ri-btive, .specjp, [href*=\"&utm_\"], a[href*=\"privatealps.net\"], [onclick*=\"https://privatealps.net/\"], [onclick*=\"https://aeza.net/\"], [onclick*=\"https://alexhost.com\"], [onclick*=\"https://justhost.asia\"], [onclick*=\"https://u1host.com\"], a[href^=\"https://aeza.net/\"], a[href^=\"https://alexhost.com/\"], a[href^=\"https://the.hosting\"], a[href^=\"https://mhost.ee\"], a[href^=\"https://waicore.net/\"], a[href^=\"https://hostealo.es\"]",
       "domains": [
         "check-host.net"
       ],
@@ -48518,9 +48824,9 @@
       "note": ""
     },
     {
-      "id": "f36c1cac-7fcd-55c8-93a6-6d04a65e711e",
-      "name": "iframe[id^=\"google_ads_iframe\"]",
-      "selector": "iframe[id^=\"google_ads_iframe\"]",
+      "id": "d6e8294e-9901-5d6d-b2f2-e1ffa3f0564f",
+      "name": ".body-top-ads",
+      "selector": ".body-top-ads",
       "domains": [
         "dragontea.ink"
       ],
@@ -49849,6 +50155,28 @@
         "btv.bg",
         "btvnovinite.bg",
         "btvsport.bg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0a772514-00cd-5aaf-a079-f0aef87e05a3",
+      "name": ".an-zone-footer-footer",
+      "selector": ".an-zone-footer-footer",
+      "domains": [
+        "polygon.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7d2c2e50-4923-5fee-a6e1-fe4942bc2417",
+      "name": ".an-zone-d",
+      "selector": ".an-zone-d",
+      "domains": [
+        "polygon.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -54895,6 +55223,19 @@
       "note": ""
     },
     {
+      "id": "0f92d26f-8b6a-5a7c-9447-d7fb90618990",
+      "name": "div.max-w-3xl.mx-auto > div.relative.mb-5.rounded-xl.p-7.text-center",
+      "selector": "div.max-w-3xl.mx-auto > div.relative.mb-5.rounded-xl.p-7.text-center",
+      "domains": [
+        "vidara.so",
+        "vidara.to",
+        "vidavra.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "ad1ff5cd-873b-5687-a7f3-5457bcee79e9",
       "name": "div.details_ads:nth-of-type(2)",
       "selector": "div.details_ads:nth-of-type(2)",
@@ -55509,11 +55850,24 @@
       "note": ""
     },
     {
-      "id": "236f35a5-9334-5c28-8ba2-5c12beafb035",
+      "id": "1832a8f3-3de0-5e58-802e-f41f5e291536",
       "name": "section[aria-label=\"Sponsored content\"]",
       "selector": "section[aria-label=\"Sponsored content\"]",
       "domains": [
-        "vidbox.dev"
+        "vidbox.dev",
+        "vidbox.vc"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9108c715-81c5-59a7-97cf-b0e63c4393a6",
+      "name": "button[aria-label=\"Continue to player\"]",
+      "selector": "button[aria-label=\"Continue to player\"]",
+      "domains": [
+        "vidbox.dev",
+        "vidbox.vc"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56194,6 +56548,138 @@
       "note": ""
     },
     {
+      "id": "956ceadf-3fef-56c8-a3e9-da5653395e27",
+      "name": "[class^=\"article_adContainer\"]",
+      "selector": "[class^=\"article_adContainer\"]",
+      "domains": [
+        "puzzleshq.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "cce3b013-6a3b-5634-89d5-b4fdefe21f3b",
+      "name": "div[data-e2e=\"detail.banner.projektu-container\"]",
+      "selector": "div[data-e2e=\"detail.banner.projektu-container\"]",
+      "domains": [
+        "sreality.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "55516ca2-d1c3-53e3-b8eb-044d2c7fefc8",
+      "name": "div[data-e2e=\"banner.projektu-container\"]",
+      "selector": "div[data-e2e=\"banner.projektu-container\"]",
+      "domains": [
+        "sreality.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a47e8feb-f6ed-5fd6-bdf3-579510a27363",
+      "name": "div[data-e2e=\"leaderboard-container\"]",
+      "selector": "div[data-e2e=\"leaderboard-container\"]",
+      "domains": [
+        "sreality.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2a051ef8-fafb-569c-a594-9e6f601f3174",
+      "name": "div[data-e2e=\"middle-container\"]",
+      "selector": "div[data-e2e=\"middle-container\"]",
+      "domains": [
+        "sreality.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "092f3a4c-cf8c-5a87-befc-f440d1443141",
+      "name": ".mol-advert__ad-info-paragraph",
+      "selector": ".mol-advert__ad-info-paragraph",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4adfe83f-cf6d-5662-b6f8-2250e10f6fc7",
+      "name": ".ogm-branding-advert + div[class]:empty",
+      "selector": ".ogm-branding-advert + div[class]:empty",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "edddcdb8-7c79-55f5-8883-5c99eda6a3ba",
+      "name": ".ogm-advert-rectangle-inscreen",
+      "selector": ".ogm-advert-rectangle-inscreen",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ab4eda41-4da8-539a-830e-5f655860c47e",
+      "name": ".ogm-seznam-recommends",
+      "selector": ".ogm-seznam-recommends",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9b846e01-bb7b-5ae5-9b9a-09bd8f2859e6",
+      "name": ".placeholder-wrapper",
+      "selector": ".placeholder-wrapper",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "353b7048-01b1-580b-b329-f407f910606d",
+      "name": "div[data-advert]",
+      "selector": "div[data-advert]",
+      "domains": [
+        "garaz.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "25f0495f-ca42-550f-8018-3bc6b2e658f2",
+      "name": "curtain-ad",
+      "selector": "curtain-ad",
+      "domains": [
+        "cyklobazar.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9cdd154b-7a88-5d05-9932-5c910edbd55c",
       "name": ".fluidprimary, #go_d, .adb_detected > h2",
       "selector": ".fluidprimary, #go_d, .adb_detected > h2",
@@ -56749,6 +57235,20 @@
       "selector": "a[href^=\"https://t.me/\"]",
       "domains": [
         "indianshortner.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a48f28ff-fbbc-5a76-83fa-79705ce4ced4",
+      "name": "fieldset, .faqs, footer, .features",
+      "selector": "fieldset, .faqs, footer, .features",
+      "domains": [
+        "upfilesgo.com",
+        "upfion.com",
+        "upfiles.app",
+        "upfiles-urls.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57446,20 +57946,6 @@
         "khaddavi.net",
         "lokerwfh.net",
         "go.gociwidey.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "a48f28ff-fbbc-5a76-83fa-79705ce4ced4",
-      "name": "fieldset, .faqs, footer, .features",
-      "selector": "fieldset, .faqs, footer, .features",
-      "domains": [
-        "upfilesgo.com",
-        "upfion.com",
-        "upfiles.app",
-        "upfiles-urls.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -58171,6 +58657,28 @@
       "selector": "#relevantEvent",
       "domains": [
         "qr1.me-qr.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b73d6b26-e962-5091-bbfa-712d50bbba21",
+      "name": ".banner",
+      "selector": ".banner",
+      "domains": [
+        "link.snipcash.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b6d2cd7a-9a75-5063-b93e-c0e238e24a9c",
+      "name": ".text-left",
+      "selector": ".text-left",
+      "domains": [
+        "link.snipcash.com"
       ],
       "isEnabled": true,
       "rank": 0,
