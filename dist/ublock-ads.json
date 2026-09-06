@@ -9418,6 +9418,29 @@
       "note": ""
     },
     {
+      "id": "d1838aa2-ff97-53ac-9364-17fa95b09bf3",
+      "name": "workers.dev/adblock.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?workers\\.dev(?::[0-9]+)?/adblock\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "bdd93b13-ba89-58d9-9fcc-1b5e592b4e70",
+      "name": "fmhyfxdijrmtf.site",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fmhyfxdijrmtf.site",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -9929,6 +9952,90 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "asset-cdn.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "902fb3fc-bf67-564e-bb81-0bf047088439",
+      "name": "ui-wp.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ui-wp.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "80d9e80a-5d35-59eb-9467-d22923785296",
+      "name": "lib-net.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "lib-net.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5c96cf71-76b8-5d89-80b9-15ba8842221f",
+      "name": "core-ui.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "core-ui.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "0dec2d12-63b7-598b-85b9-dacdcf5b29c4",
+      "name": "static-lib.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "static-lib.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2c061c84-09a0-5fc9-9f68-a8bdf55a30b2",
+      "name": "wp-lib.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wp-lib.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2e7be6d7-9c33-5364-b543-ac71db70a83a",
+      "name": "srv.ui-wp.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "srv.ui-wp.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "e9918708-e37a-59e1-be85-84e8d09ee010",
+      "name": "js.core-ui.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "js.core-ui.dev",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -26075,6 +26182,17 @@
       "note": ""
     },
     {
+      "id": "8344110b-4365-5427-9e32-41c5216f1a32",
+      "name": ".ad-container",
+      "selector": ".ad-container",
+      "domains": [
+        "futbin.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "7435f333-44f0-5d48-a59d-506158bdc7c2",
       "name": ".DCDOr",
       "selector": ".DCDOr",
@@ -27035,12 +27153,11 @@
       "note": ""
     },
     {
-      "id": "b30d62fe-b634-5b5a-8ed0-bc8d08756164",
+      "id": "c03dc4c5-f106-5fe7-8c0e-f97c7abdfad3",
       "name": "div[id^=\"cx_\"]",
       "selector": "div[id^=\"cx_\"]",
       "domains": [
-        "augsburger-allgemeine.de",
-        "nikkansports.com"
+        "augsburger-allgemeine.de"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -50026,17 +50143,6 @@
       "note": ""
     },
     {
-      "id": "b584d38d-b0d0-59c8-8893-49910ff84a99",
-      "name": "div.game-cta-section",
-      "selector": "div.game-cta-section",
-      "domains": [
-        "repack-games.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "c8e09b57-c347-5bd7-93c2-8e49bf7da25c",
       "name": ".movie-detail-banner > div[style*=\"z-index\"]",
       "selector": ".movie-detail-banner > div[style*=\"z-index\"]",
@@ -50751,6 +50857,28 @@
         "upns.ink",
         "upns.one",
         "upns.xyz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "42191554-12e5-5b06-b323-f4c595639b8a",
+      "name": "#adBlockModal",
+      "selector": "#adBlockModal",
+      "domains": [
+        "multishows.top"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bd1a730a-d4a1-5034-b749-00a8c0ec095d",
+      "name": "#ms-homepage-root",
+      "selector": "#ms-homepage-root",
+      "domains": [
+        "multishows.top"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -55166,6 +55294,17 @@
       "note": ""
     },
     {
+      "id": "5bb5c157-3b1e-5eeb-9b72-8c5bea6293fd",
+      "name": "div > center > button[style*=\"border: 0px\"][style*=\"cursor: pointer\"]",
+      "selector": "div > center > button[style*=\"border: 0px\"][style*=\"cursor: pointer\"]",
+      "domains": [
+        "steam-repacks.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "2a2c8272-474d-5438-b98c-bfef1d77b02a",
       "name": "div > center > button[class][style]",
       "selector": "div > center > button[class][style]",
@@ -55194,6 +55333,28 @@
       "selector": "[href*=\"cfd\"]",
       "domains": [
         "worldofpcgames.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b584d38d-b0d0-59c8-8893-49910ff84a99",
+      "name": "div.game-cta-section",
+      "selector": "div.game-cta-section",
+      "domains": [
+        "repack-games.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7ecfd178-80ff-54f7-9609-93c409969c07",
+      "name": "div > center > button[data-bound=\"true\"]",
+      "selector": "div > center > button[data-bound=\"true\"]",
+      "domains": [
+        "repack-games.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56470,6 +56631,28 @@
       "note": ""
     },
     {
+      "id": "73d13ba1-bc25-5c8e-8c4f-6ce04321a04a",
+      "name": "[data-poseidon-placement-name^=\"uploadvrcom_In_Article_Ad_\"]",
+      "selector": "[data-poseidon-placement-name^=\"uploadvrcom_In_Article_Ad_\"]",
+      "domains": [
+        "uploadvr.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "47e9a81c-20c4-59b7-a651-8e653f29dffd",
+      "name": "[data-poseidon-placement-name^=\"uploadvr_btf_ad_\"]",
+      "selector": "[data-poseidon-placement-name^=\"uploadvr_btf_ad_\"]",
+      "domains": [
+        "uploadvr.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d2de5071-f26f-5ad7-8689-6f3a4ac0a984",
       "name": ".fe_cmp_presetadvert",
       "selector": ".fe_cmp_presetadvert",
@@ -56695,6 +56878,39 @@
       "selector": "curtain-ad",
       "domains": [
         "cyklobazar.cz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "14e62478-c3ac-5a9b-bac9-e24797efd01f",
+      "name": ".featured",
+      "selector": ".featured",
+      "domains": [
+        "gizguide.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bdc43d5d-5ed3-56a9-b86b-778b77a5fafa",
+      "name": "#fixedbox",
+      "selector": "#fixedbox",
+      "domains": [
+        "gizguide.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0648d887-ac7d-5136-bf7f-6466c937e7a0",
+      "name": "a[href^=\"https://bit.ly/\"]",
+      "selector": "a[href^=\"https://bit.ly/\"]",
+      "domains": [
+        "gizguide.com"
       ],
       "isEnabled": true,
       "rank": 0,

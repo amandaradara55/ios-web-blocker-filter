@@ -4669,6 +4669,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "ec58e143-d502-5de9-b50e-934fc4d6fad4",
+      "name": "/manga-scroll-gate.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/manga-scroll-gate.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "fd949416-e6a2-50c6-9898-2356f611ff83",
       "name": "/openstrap/js/ads.js",
       "scope": "url",
@@ -4860,6 +4872,39 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "://apple\\-.*\\.cn/account_int/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c832d8ce-f8f1-5b92-bd8b-a1d49d0fb15a",
+      "name": "cdp.livedoor.com/client.js?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cdp\\.livedoor\\.com(?::[0-9]+)?/client\\.js\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1e1ef7a2-a941-5425-bfa6-404bab5e791c",
+      "name": "konoyubitomare.jp/Amazon/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?konoyubitomare\\.jp(?::[0-9]+)?/Amazon/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "9c8411f6-35c8-5e08-900b-19588324e76a",
+      "name": "dengekionline.com/api/kyujinbox",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dengekionline\\.com(?::[0-9]+)?/api/kyujinbox",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6846,17 +6891,6 @@
       "note": ""
     },
     {
-      "id": "5df033aa-2168-544a-9b5a-a8a12305f97d",
-      "name": "dameparts.com/pbanner/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dameparts\\.com(?::[0-9]+)?/pbanner/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "e2258f9d-c601-5d51-bfa5-0691eeaf25f6",
       "name": "maniax-uploads.com/imglib/material/ad/",
       "scope": "url",
@@ -7016,17 +7050,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?city\\.higashimurayama\\.tokyo\\.jp(?::[0-9]+)?/js/banner_random\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "7963bfb0-e5c0-516b-8180-8dfcf9fcd7a5",
-      "name": "blog.livedoor.jp/itsoku/scroll2.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?blog\\.livedoor\\.jp(?::[0-9]+)?/itsoku/scroll2\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -14993,10 +15016,11 @@
       "note": ""
     },
     {
-      "id": "0db7e982-7a26-5db2-a55b-7d190f72bede",
+      "id": "e7b1f1fa-1862-5aa9-82d3-c3bb00336271",
       "name": ".amazon",
       "selector": ".amazon",
       "domains": [
+        "news23vip.livedoor.blog",
         "konoyubitomare.jp",
         "xn--dkqp0gri91r38rn1wmlurtz.com",
         "nogizaka46link.blog.jp",
@@ -15247,10 +15271,11 @@
       "note": ""
     },
     {
-      "id": "56b25cd7-68b1-582e-b9c1-67b12b9cd03f",
+      "id": "9a32d17f-f963-576a-a33f-05eebcf4b3cc",
       "name": ".ad",
       "selector": ".ad",
       "domains": [
+        "blog.livedoor.com",
         "rocketnews24.com",
         "gqjapan.jp",
         "abc-mart.net",
@@ -15642,6 +15667,226 @@
       "note": ""
     },
     {
+      "id": "9b135314-10dc-5281-a312-177a95924dfc",
+      "name": "#c2_click_pc_side_banner_JFA_adidas",
+      "selector": "#c2_click_pc_side_banner_JFA_adidas",
+      "domains": [
+        "football-zone.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "96d7f1cb-342f-54c1-bea9-8bde35083108",
+      "name": "#c2_click_pc_side_banner_JFC",
+      "selector": "#c2_click_pc_side_banner_JFC",
+      "domains": [
+        "football-zone.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5efce1ef-5158-562f-adc9-6bb62732fd63",
+      "name": "#c2_click_endofarticle_JFA_adidas_pc",
+      "selector": "#c2_click_endofarticle_JFA_adidas_pc",
+      "domains": [
+        "football-zone.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2d396496-0f95-5a9e-a856-6dc794c36ec9",
+      "name": "div[aria-labelledby=\"recirc-heading\"]",
+      "selector": "div[aria-labelledby=\"recirc-heading\"]",
+      "domains": [
+        "harpersbazaar.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ba02fc2b-bdba-56db-8071-bd63127c3934",
+      "name": "div[data-gtm-ad-slot]",
+      "selector": "div[data-gtm-ad-slot]",
+      "domains": [
+        "play.rakuten.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e6c74e54-5a54-5918-a7e9-1d2a16544b3c",
+      "name": "a[href^=\"https://t.afi-b.com/visit.php?\"] > img",
+      "selector": "a[href^=\"https://t.afi-b.com/visit.php?\"] > img",
+      "domains": [
+        "at-s.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3b05f4db-b5b8-50a3-8872-668d8fb7ec4c",
+      "name": ".right-column-inner > a[href*=\"://www.amazon.co.jp/gp/\"]",
+      "selector": ".right-column-inner > a[href*=\"://www.amazon.co.jp/gp/\"]",
+      "domains": [
+        "momoclozamurai.xxxblog.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "47f9d0d1-81ad-566e-9209-0b17de296b04",
+      "name": ".toppr300",
+      "selector": ".toppr300",
+      "domains": [
+        "xn--h-k9tybb8g5ivhkczry701afhpm4sru6d.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b4c12b50-bfe6-50f2-b732-1bb5ebcdd462",
+      "name": ".blockSide > div.blockWrapper > div.blockBody > center > a[href^=\"https://al.fanza.co.jp\"][rel=\"sponsored\"] > img[src^=\"https://pix.cds.dmm.com/creatives/\"]",
+      "selector": ".blockSide > div.blockWrapper > div.blockBody > center > a[href^=\"https://al.fanza.co.jp\"][rel=\"sponsored\"] > img[src^=\"https://pix.cds.dmm.com/creatives/\"]",
+      "domains": [
+        "blogterest.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c6c03340-ce6e-52c7-9eaa-0e3b4d1a513d",
+      "name": ".adsmid",
+      "selector": ".adsmid",
+      "domains": [
+        "itsoku.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "70a9d0ca-ed05-5d40-a3cd-e6bba1bad977",
+      "name": "div[id^=\"yads\"]",
+      "selector": "div[id^=\"yads\"]",
+      "domains": [
+        "voisjp.me"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b8720ad5-97c1-5c0a-a5af-0427bd03666b",
+      "name": "div[class$=\"-nw-ad\"]",
+      "selector": "div[class$=\"-nw-ad\"]",
+      "domains": [
+        "kinarino.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d1445d09-5ea5-5fd0-a38e-48975300a446",
+      "name": ".article_adTextList",
+      "selector": ".article_adTextList",
+      "domains": [
+        "xtrend.nikkei.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "58c11ab3-174f-5d23-8237-f4c136c62ca3",
+      "name": "section[aria-labelledby=\"aside-featuredPicks\"]",
+      "selector": "section[aria-labelledby=\"aside-featuredPicks\"]",
+      "domains": [
+        "xtrend.nikkei.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "495ca0b5-277d-5c2e-a86b-00e99202495e",
+      "name": "section[aria-labelledby=\"sec-special\"]",
+      "selector": "section[aria-labelledby=\"sec-special\"]",
+      "domains": [
+        "xtrend.nikkei.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ff9f037d-9c4c-5f18-8f53-d2c67ddb2d07",
+      "name": "div.mb-10[style=\"display:flex;justify-content:center\"]",
+      "selector": "div.mb-10[style=\"display:flex;justify-content:center\"]",
+      "domains": [
+        "pointmall.aeon.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1b78d2e3-9ea1-5b9f-8c62-70be1b79f0c1",
+      "name": "div[class^=\"CompanyBaseModule_companyBaseModule__ad_\"]",
+      "selector": "div[class^=\"CompanyBaseModule_companyBaseModule__ad_\"]",
+      "domains": [
+        "jobcatalog.yahoo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0f7a7d20-fb7d-56ad-99f1-8cba3981d6a3",
+      "name": "div[class^=\"QaBaseModule_qaAd__\"]",
+      "selector": "div[class^=\"QaBaseModule_qaAd__\"]",
+      "domains": [
+        "contents.jobcatalog.yahoo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "837a3506-96e8-5160-a1d3-b1fe64619ab0",
+      "name": "div[class^=\"AgentDirect_agentDirect__\"]",
+      "selector": "div[class^=\"AgentDirect_agentDirect__\"]",
+      "domains": [
+        "contents.jobcatalog.yahoo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "077897db-091b-5c59-932e-a27a9edc5bef",
+      "name": "section.sidebar_banner",
+      "selector": "section.sidebar_banner",
+      "domains": [
+        "kyodo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "a8ca401b-597c-5acc-b409-ce891770db09",
       "name": "div[data-ratid=\"click_banner\"]",
       "selector": "div[data-ratid=\"click_banner\"]",
@@ -15942,11 +16187,23 @@
       "note": ""
     },
     {
-      "id": "da68ef26-422c-55bc-b1a1-70a317702b73",
+      "id": "a5d61efe-b112-57b2-a827-00944eabe4f9",
       "name": "div[class^=\"article-body\"] a[href^=\"https://link.amazon/\"]",
       "selector": "div[class^=\"article-body\"] a[href^=\"https://link.amazon/\"]",
       "domains": [
+        "saikyo-jump.com",
         "hamusoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "97f9caae-0f11-5cc7-a8be-cfff92b0fcbe",
+      "name": "#BelowArtSpecialLinkITS",
+      "selector": "#BelowArtSpecialLinkITS",
+      "domains": [
+        "itmedia.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -17664,10 +17921,11 @@
       "note": ""
     },
     {
-      "id": "b7519e86-5485-5438-8a41-2ad3474bfa67",
+      "id": "cddb368e-e023-57d2-86ae-0c152af6f753",
       "name": "div[id^=\"advads-\"]",
       "selector": "div[id^=\"advads-\"]",
       "domains": [
+        "at-s.com",
         "news.mynavi.jp"
       ],
       "isEnabled": true,
@@ -18631,9 +18889,9 @@
       "note": ""
     },
     {
-      "id": "84d853a0-c928-514f-a374-144e1b13f860",
-      "name": "section[aria-labelledby=\"aside-featuredPicks\"]",
-      "selector": "section[aria-labelledby=\"aside-featuredPicks\"]",
+      "id": "9eeb9fb2-9355-5783-ba8b-5a3cdf498315",
+      "name": ".article_adTextList",
+      "selector": ".article_adTextList",
       "domains": [
         "xtech.nikkei.com"
       ],
@@ -18642,11 +18900,11 @@
       "note": ""
     },
     {
-      "id": "9eeb9fb2-9355-5783-ba8b-5a3cdf498315",
-      "name": ".article_adTextList",
-      "selector": ".article_adTextList",
+      "id": "f760b25f-8337-5a8f-aa17-151cb1c42e2d",
+      "name": "section[aria-labelledby=\"aside-featuredPicks\"]",
+      "selector": "section[aria-labelledby=\"aside-featuredPicks\"]",
       "domains": [
-        "xtech.nikkei.com"
+        "nikkei.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -19718,6 +19976,17 @@
       "selector": "div[class^=\"fanza-\"]",
       "domains": [
         "nijifan.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8f9ae0e7-9caf-57cd-bb1d-7fba913a10d2",
+      "name": "div[style=\"clear:both;overflow:hidden;max-height:250px;min-height:90px;\"]",
+      "selector": "div[style=\"clear:both;overflow:hidden;max-height:250px;min-height:90px;\"]",
+      "domains": [
+        "kabutan.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -22037,6 +22306,17 @@
       "selector": "#block-9 table",
       "domains": [
         "seikyuresyasokuho.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f2ef3ec4-3c9c-55c8-80c3-624a27ef2c2d",
+      "name": "iframe[title=\"advertisement\"]",
+      "selector": "iframe[title=\"advertisement\"]",
+      "domains": [
+        "twihub.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -24751,6 +25031,28 @@
       "note": ""
     },
     {
+      "id": "12c83766-7379-5ea2-a88f-e41c4cf4b4eb",
+      "name": ".a8rakuten-wrap",
+      "selector": ".a8rakuten-wrap",
+      "domains": [
+        "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "864c541d-a644-516c-876e-ea21eae65286",
+      "name": ".first-article > div#kijisita_rss2 ~ div[align=\"center\"]:not([class], [id])",
+      "selector": ".first-article > div#kijisita_rss2 ~ div[align=\"center\"]:not([class], [id])",
+      "domains": [
+        "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "87c2a931-c02b-5f1d-9026-4c3434e6a286",
       "name": "div[id^=\"ad-container\"]",
       "selector": "div[id^=\"ad-container\"]",
@@ -25130,10 +25432,11 @@
       "note": ""
     },
     {
-      "id": "7ccf8605-ac34-589c-aadd-b82fbc120481",
+      "id": "6382a39a-611c-537d-8d2f-1a412b214d0e",
       "name": "div[id^=\"im-\"]",
       "selector": "div[id^=\"im-\"]",
       "domains": [
+        "voisjp.me",
         "teller.jp"
       ],
       "isEnabled": true,
@@ -37362,23 +37665,11 @@
       "note": ""
     },
     {
-      "id": "723fbce3-f27b-510b-bd55-5b7386ea4b8b",
-      "name": ".Rectangle01",
-      "selector": ".Rectangle01",
-      "domains": [
-        "skincare-univ.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "31c60545-af74-5741-8b14-674c59cd6743",
+      "id": "57a3a530-8f5e-5eac-8a2c-d8925e5fb7a8",
       "name": ".sideBnr",
       "selector": ".sideBnr",
       "domains": [
-        "townnews.co.jp",
-        "skincare-univ.com"
+        "townnews.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -37401,17 +37692,6 @@
       "selector": "#main_right",
       "domains": [
         "studiok-i.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "2c91eada-7fca-58e7-aa18-35f5bd64d0f0",
-      "name": ".widget",
-      "selector": ".widget",
-      "domains": [
-        "sugoren.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -37714,6 +37994,17 @@
       "selector": ".ad-sec",
       "domains": [
         "city.fukuroi.shizuoka.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dff26a7f-a31d-5003-b993-59a3e243e35b",
+      "name": ".front-feature-placement-player",
+      "selector": ".front-feature-placement-player",
+      "domains": [
+        "javtiful.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -38045,11 +38336,11 @@
       "note": ""
     },
     {
-      "id": "a3317bd5-6a97-5883-8fa9-dd7cb83c000f",
+      "id": "2897d769-e1c6-5c50-9d22-a7bb3829bef2",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.world"
+        "jmanga.email"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -44015,10 +44306,11 @@
       "note": ""
     },
     {
-      "id": "54eb4520-37cf-56ed-97b2-9c8a151001a5",
+      "id": "e794ec5d-742b-5b53-890c-f319782f600a",
       "name": ".ad01",
       "selector": ".ad01",
       "domains": [
+        "itsoku.org",
         "tekoki-fuzoku-joho.com",
         "ita-do.com"
       ],
@@ -48085,6 +48377,17 @@
       "note": ""
     },
     {
+      "id": "50290e46-b51c-595d-af4a-a16b86e8e9ee",
+      "name": ".pkt-adw",
+      "selector": ".pkt-adw",
+      "domains": [
+        "po-kaki-to.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "e233262a-e4f3-5231-99b9-e88f3ad99fc5",
       "name": "#apptemppk2",
       "selector": "#apptemppk2",
@@ -49617,6 +49920,17 @@
       "selector": ".adsbygoogle ~ table[width=\"100%\"]",
       "domains": [
         "keyakizaka46matomemory.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d990a373-05a4-568d-890d-dd7d8005d841",
+      "name": ".kaerebalink-footer + br + div[style=\"padding: 10px; margin-bottom: 10px; border: 1px solid #333333;\"]",
+      "selector": ".kaerebalink-footer + br + div[style=\"padding: 10px; margin-bottom: 10px; border: 1px solid #333333;\"]",
+      "domains": [
+        "46matome.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -66630,10 +66944,11 @@
       "note": ""
     },
     {
-      "id": "0fe673a0-7aff-575f-809a-d366150f1bac",
+      "id": "927d7034-07f4-59dc-bd7a-8a183c97c7c2",
       "name": "#custom_html-20",
       "selector": "#custom_html-20",
       "domains": [
+        "nichepcgamer.com",
         "news2019.biz",
         "ichimame.com",
         "taisy0.com"
@@ -67845,10 +68160,11 @@
       "note": ""
     },
     {
-      "id": "17c80885-fcbb-5570-8530-926d98c71919",
+      "id": "3a9c333f-97fb-5c7c-babb-e2c64acc905a",
       "name": "a[href^=\"https://al.fanza.co.jp\"]",
       "selector": "a[href^=\"https://al.fanza.co.jp\"]",
       "domains": [
+        "2chcopipe.com",
         "ani-chat.net",
         "leaked.jp"
       ],
@@ -93154,10 +93470,11 @@
       "note": ""
     },
     {
-      "id": "44c2f571-4536-51da-b604-72bd588df04f",
+      "id": "0f0e454a-e15b-5f99-8d32-82f663c19562",
       "name": ".google-user-ad",
       "selector": ".google-user-ad",
       "domains": [
+        "livedoor.blog",
         "livedoor.jp"
       ],
       "isEnabled": true,
@@ -93481,6 +93798,17 @@
       "selector": ".article-banner",
       "domains": [
         "eroitaiken.blog.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2b4b8a2d-eaee-5e1a-b0d6-54b8fcb3ed59",
+      "name": ".oj-side-picks",
+      "selector": ".oj-side-picks",
+      "domains": [
+        "crx7601.com"
       ],
       "isEnabled": true,
       "rank": 0,
