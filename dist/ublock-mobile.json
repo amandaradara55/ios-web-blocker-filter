@@ -787,6 +787,17 @@
       "isEnabled": true,
       "rank": 0,
       "note": ""
+    },
+    {
+      "id": "9227207f-ae6c-5228-ae0e-3df373fbbe64",
+      "name": ".content > table.list > tbody > tr[style]:not([id]):not([class])",
+      "selector": ".content > table.list > tbody > tr[style]:not([id]):not([class])",
+      "domains": [
+        "freeforums.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
     }
   ]
 }

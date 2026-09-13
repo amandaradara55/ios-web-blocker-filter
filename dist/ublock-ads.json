@@ -452,18 +452,6 @@
       "note": ""
     },
     {
-      "id": "6177c75d-1f89-5df8-8203-78574f636e56",
-      "name": "/pu-placer.js",
-      "scope": "url",
-      "matchKind": "literal",
-      "pattern": "/pu-placer.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "contains"
-    },
-    {
       "id": "ed3d45e0-1e96-5c84-b8af-e6c0fdb92946",
       "name": "sersh.com",
       "scope": "fqdn",
@@ -1397,11 +1385,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "dac98952-cc5c-5f21-a40a-fe2a96cd1211",
-      "name": "ciderconcluded.com",
+      "id": "5480d99a-4b75-5275-a49a-6a60e0e6cbe2",
+      "name": "chalkedwhiningromance.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "ciderconcluded.com",
+      "pattern": "chalkedwhiningromance.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1457,11 +1445,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "a878e6bb-6c3b-5a56-ac8b-ce40b0249e5f",
-      "name": "gossipycompetitive.com",
+      "id": "b6c152b4-0afe-50d5-ad87-b67791673d98",
+      "name": "oblivioncertain.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "gossipycompetitive.com",
+      "pattern": "oblivioncertain.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1823,6 +1811,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?admin\\.animesrbija\\.com(?::[0-9]+)?/playertag",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "9f51ca0d-ba1b-50dc-94d2-2dc9a86488bd",
+      "name": "||eurostream.*/pmirror.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?eurostream\\..*/pmirror\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3359,6 +3358,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?webcinevs.*\\.com/api/app/vast\\-ads",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4cd436c7-99c9-59d4-970e-6ae755b4e2c5",
+      "name": "minhatela.xyz/mt-probe.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?minhatela\\.xyz(?::[0-9]+)?/mt\\-probe\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9441,6 +9451,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f3007e08-6dcf-52d5-9018-083510413557",
+      "name": "js.gay-torrents.net/cleanup.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?js\\.gay\\-torrents\\.net(?::[0-9]+)?/cleanup\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -10036,6 +10057,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "js.core-ui.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "84aae0c3-b9ee-54c5-aee7-16d329368d4b",
+      "name": "unnajd.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "unnajd.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -14621,30 +14654,6 @@
       "note": ""
     },
     {
-      "id": "1b32c76c-5e8c-55c4-8973-8e46434291bd",
-      "name": "[id^=\"ad-\"], #remove_ads_link",
-      "selector": "[id^=\"ad-\"], #remove_ads_link",
-      "domains": [
-        "boards.net",
-        "freeforums.net",
-        "proboards.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f3ff6081-8fc1-551c-8aa9-d817eb584a93",
-      "name": "#ad1",
-      "selector": "#ad1",
-      "domains": [
-        "proboards.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "3608a78b-3ea5-5b94-a219-baa1386811c9",
       "name": "[href^=\"https://efukt.com/videos/naughty/\"]",
       "selector": "[href^=\"https://efukt.com/videos/naughty/\"]",
@@ -18810,17 +18819,6 @@
       "selector": ".pb-ad-video-player",
       "domains": [
         "cda.pl"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9fa910b2-2ea1-52bf-a6f4-e564a4250b96",
-      "name": ".in.fade.modal-backdrop",
-      "selector": ".in.fade.modal-backdrop",
-      "domains": [
-        "cinema.maalaimalar.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -27263,6 +27261,17 @@
       "note": ""
     },
     {
+      "id": "21e7adb4-0cfe-5cfb-b31b-4e89a0905ae9",
+      "name": "div[aria-labelledby=\"recirc-heading\"]",
+      "selector": "div[aria-labelledby=\"recirc-heading\"]",
+      "domains": [
+        "harpersbazaar.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "12b6dfc6-7a22-5082-8abe-21d6ca10937a",
       "name": ".article__footer > div[style=\"height:500px; overflow-y:scroll;\"]",
       "selector": ".article__footer > div[style=\"height:500px; overflow-y:scroll;\"]",
@@ -28025,6 +28034,15 @@
       "note": ""
     },
     {
+      "id": "7588054c-c12e-5835-bfd9-2a3e5eec6931",
+      "name": "body > a.visible[id][href][target=\"_blank\"]",
+      "selector": "body > a.visible[id][href][target=\"_blank\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "f292eec4-d504-59fb-9810-bea73e0c7e54",
       "name": "#overlay",
       "selector": "#overlay",
@@ -28570,6 +28588,17 @@
       "name": "html[lang=\"vi\"] .sspp-area",
       "selector": "html[lang=\"vi\"] .sspp-area",
       "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8092dbc6-4f24-52e0-99d0-dc6c7e38f0cb",
+      "name": ".wrap-hd-adblock",
+      "selector": ".wrap-hd-adblock",
+      "domains": [
+        "vnexpress.net"
+      ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -48342,6 +48371,37 @@
       "note": ""
     },
     {
+      "id": "228a112e-a9d2-5b77-8da7-8d6907e45380",
+      "name": ".code-block",
+      "selector": ".code-block",
+      "domains": [
+        "jpopsingles.eu"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "fe94f732-f519-5e1a-a41b-1e709f42ff7b",
+      "name": "#start ~ div[align=\"center\"]",
+      "selector": "#start ~ div[align=\"center\"]",
+      "domains": [
+        "jpopsingles.eu"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3c40e55e-c2f7-5fa3-ab39-5a886e535f36",
+      "name": ".container a[href^=\"https://insensitiveshoweraudible.com/\"]",
+      "selector": ".container a[href^=\"https://insensitiveshoweraudible.com/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "902f148f-91fa-5dc3-8f69-f2ab088a6f14",
       "name": "[class^=\"ads\"]",
       "selector": "[class^=\"ads\"]",
@@ -55127,6 +55187,56 @@
       "note": ""
     },
     {
+      "id": "19abb754-ee8e-5adb-b21f-4ca2e1219032",
+      "name": "[id^=\"ad-\"]",
+      "selector": "[id^=\"ad-\"]",
+      "domains": [
+        "boards.net",
+        "freeforums.net",
+        "proboards.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9b0cf566-6c44-5ee3-a891-d457b70a21ca",
+      "name": "#remove_ads_link",
+      "selector": "#remove_ads_link",
+      "domains": [
+        "boards.net",
+        "freeforums.net",
+        "proboards.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "36b3f3df-b67f-5800-a483-da2ad0522a83",
+      "name": "#ad1",
+      "selector": "#ad1",
+      "domains": [
+        "boards.net",
+        "freeforums.net",
+        "proboards.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "39582fb2-4dcc-5fc2-a02e-02319817b22f",
+      "name": "div[id^=\"FreeForums_net_InThread\"]",
+      "selector": "div[id^=\"FreeForums_net_InThread\"]",
+      "domains": [
+        "freeforums.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "de4fcc9f-8546-5d30-9643-625f82032ba3",
       "name": ".ad-container",
       "selector": ".ad-container",
@@ -55509,6 +55619,62 @@
       "selector": ".font-semibold.hover\\:underline.text-primary.cursor-pointer.group.p-0\\.5.text-xs.text-center.block",
       "domains": [
         "lofi-nopixel.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bb38ff1f-82b9-50ff-a0c9-f5d6497c0e9b",
+      "name": "div[data-testid=\"ad-anchor\"]",
+      "selector": "div[data-testid=\"ad-anchor\"]",
+      "domains": [
+        "lofi-nopixel.com",
+        "lofi-onx.com",
+        "lofi-prodigy.com",
+        "lofi-prestige.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7841fa16-ccf0-50ea-a29a-cfd9e72ba863",
+      "name": "aside[data-testid=\"ad-rail\"]",
+      "selector": "aside[data-testid=\"ad-rail\"]",
+      "domains": [
+        "lofi-nopixel.com",
+        "lofi-onx.com",
+        "lofi-prodigy.com",
+        "lofi-prestige.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "74bac252-cefa-5685-b4c1-d76476e79f25",
+      "name": "div[data-testid=\"ad-in-feed\"]",
+      "selector": "div[data-testid=\"ad-in-feed\"]",
+      "domains": [
+        "lofi-nopixel.com",
+        "lofi-onx.com",
+        "lofi-prodigy.com",
+        "lofi-prestige.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e16b4a7b-2db9-5287-8cbd-20ea9b6de298",
+      "name": "div[data-testid=\"ad-anchor-spacer\"]",
+      "selector": "div[data-testid=\"ad-anchor-spacer\"]",
+      "domains": [
+        "lofi-nopixel.com",
+        "lofi-onx.com",
+        "lofi-prodigy.com",
+        "lofi-prestige.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56917,6 +57083,61 @@
       "note": ""
     },
     {
+      "id": "7c2ac78f-40e5-5dc5-9d80-7798c819b629",
+      "name": "ins.adsbygoogle[data-ad-client]",
+      "selector": "ins.adsbygoogle[data-ad-client]",
+      "domains": [
+        "v2ex.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "37390c59-d2b7-52ad-b320-173717f0b8b5",
+      "name": "ins.adsbygoogle[data-ad-slot]",
+      "selector": "ins.adsbygoogle[data-ad-slot]",
+      "domains": [
+        "v2ex.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "98e86a0a-2c28-52d0-81fc-a54a43c2804e",
+      "name": "body > [style^=\"position: fixed; top: 0; left: 0;\"][style*=\"z-index: 999999;\"][target=\"_blank\"]",
+      "selector": "body > [style^=\"position: fixed; top: 0; left: 0;\"][style*=\"z-index: 999999;\"][target=\"_blank\"]",
+      "domains": [
+        "aniwixi.xyz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "19bae6ed-24f6-5533-920c-9cd6c422705f",
+      "name": "#wixi-single-ad-overlay",
+      "selector": "#wixi-single-ad-overlay",
+      "domains": [
+        "aniwixi.xyz"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "51a7423f-9832-55ca-90be-f9b15adf1881",
+      "name": "body > .loader ~ div[class][style]:not([id])",
+      "selector": "body > .loader ~ div[class][style]:not([id])",
+      "domains": [
+        "svetserialu.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9cdd154b-7a88-5d05-9932-5c910edbd55c",
       "name": ".fluidprimary, #go_d, .adb_detected > h2",
       "selector": ".fluidprimary, #go_d, .adb_detected > h2",
@@ -57630,9 +57851,9 @@
       "note": ""
     },
     {
-      "id": "bebf8017-f955-50a9-ab75-a19572daa254",
-      "name": ".right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*=\"s0-greate\"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments",
-      "selector": ".right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*=\"s0-greate\"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments",
+      "id": "4d4e6630-08df-540a-8197-2d64c3e646f1",
+      "name": ".right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*=\"s0-greate\"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption",
+      "selector": ".right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*=\"s0-greate\"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption",
       "domains": [
         "intercelestial.com",
         "teknoasian.com"
