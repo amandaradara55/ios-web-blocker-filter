@@ -170,18 +170,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "655c3f8b-5c0c-571d-8472-394e8e96d9a4",
-      "name": "adlookmanager.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "adlookmanager.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "c3c602b6-3be4-54ee-be3d-b549014d3d8d",
       "name": "ads-lite2.net",
       "scope": "fqdn",
@@ -662,18 +650,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "23b57581-76ee-5b36-a6be-edf6ab0c142e",
-      "name": "dlp4luwpus5kr.cloudfront.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "dlp4luwpus5kr.cloudfront.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "6d0c9d6d-a802-5bd8-9345-c645f6a4aca8",
       "name": "mobadme.jp",
       "scope": "fqdn",
@@ -751,18 +727,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "d830x8j3o1b2k.cloudfront.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "91d5fbf3-b883-56f1-81cb-6c1a68be36c3",
-      "name": "x-lift.jp",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "x-lift.jp",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1238,18 +1202,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "60e5f1f7-6516-5156-9c13-c8854447e2a0",
-      "name": "cdn.mixx-ad.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdn.mixx-ad.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "5eef8ced-4681-56c5-aeac-d30b98f00a02",
       "name": "ad.xrea.com",
       "scope": "fqdn",
@@ -1610,18 +1562,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "c8893eed-53d6-54ad-8ee7-372376b63b2b",
-      "name": "zastag.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "zastag.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "3431678b-2a71-52b9-aed7-83e30d0065e9",
       "name": "adcent.jp",
       "scope": "fqdn",
@@ -1699,30 +1639,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ad-nex.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "d15daee1-d2e3-5cd6-97e3-69084788dc35",
-      "name": "reemo-ad.jp",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "reemo-ad.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "6c65cfba-b87c-5609-9a93-e07706331393",
-      "name": "cdn.alistcloud.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "cdn.alistcloud.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2774,18 +2690,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "1a3007a3-2110-5438-8f23-affa7d52668d",
-      "name": "api.primecaster.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "api.primecaster.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "59ea6897-ae68-5fbc-be5f-9fe6822952ad",
       "name": "fam-8.net",
       "scope": "fqdn",
@@ -3415,18 +3319,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ads.metropolis.co.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "3b340abc-a9cf-56e1-985a-7c06f8793546",
-      "name": "api.unthem.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "api.unthem.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -4231,18 +4123,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "mbadv.nan.co.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "09d020ee-1cad-52ce-b3b3-9c73f60148a8",
-      "name": "creative.live.tktube.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "creative.live.tktube.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -5323,6 +5203,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gallerieshub\\.com(?::[0-9]+)?/pyocobanner/src/js/pyocobanner\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8a7d01eb-d453-51d3-a88c-db7b9f26a28c",
+      "name": "i-pclub.com/faz_side.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?i\\-pclub\\.com(?::[0-9]+)?/faz_side\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6462,17 +6353,6 @@
       "note": ""
     },
     {
-      "id": "b53ea9a1-9e6a-55f5-abba-85e0709453cc",
-      "name": "assets.tvkingdom.jp/images/gtv/banner/bnr_",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?assets\\.tvkingdom\\.jp(?::[0-9]+)?/images/gtv/banner/bnr_",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "5c43a64b-db9a-5ae3-8c59-76a53a0bf9ef",
       "name": "stat.ameba.jp/user_images/20210415/17/kotaro-izawa/69/4f/j/o1080108014926818586.jpg",
       "scope": "url",
@@ -6495,11 +6375,11 @@
       "note": ""
     },
     {
-      "id": "d8890a22-a455-50e2-a721-d861b5617547",
-      "name": "z.nazo.cc/afdt/",
+      "id": "5f8d7de6-b189-5318-ad38-95340c62f580",
+      "name": "cck.eek.jp/afdt/",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?z\\.nazo\\.cc(?::[0-9]+)?/afdt/",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cck\\.eek\\.jp(?::[0-9]+)?/afdt/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8051,17 +7931,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?newsweekjapan\\.jp(?::[0-9]+)?/api_kakakucom/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "5f35df75-c2fa-571d-b83e-872b86094fcc",
-      "name": "olch.biz/css/ad.css",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?olch\\.biz(?::[0-9]+)?/css/ad\\.css",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -10074,94 +9943,6 @@
       "note": ""
     },
     {
-      "id": "630a5603-5e36-51d7-a1e5-1fd0093658b3",
-      "name": "mozakin.com/ad/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/ad/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "65c6a2fd-4a78-540e-9ece-e5c33eca329b",
-      "name": "mozakin.com/auto_updater/nls/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/auto_updater/nls/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "023d00c4-0939-5ff2-adba-5a9cacbfd045",
-      "name": "mozakin.com/js/movie.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/js/movie\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "3019a8e2-b6ce-54c4-a353-df8b2b214b7e",
-      "name": "mozakin.com/v4/ad/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/v4/ad/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "ac398e2f-039c-5e25-91a4-eb13f85923fe",
-      "name": "mozakin.com/v4/data/sbimovie.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/v4/data/sbimovie\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "cc690e30-efbc-5eae-be58-63b9edcff3be",
-      "name": "mozakin.com/v4/js/bbs/dynamic/right_dtis2.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/v4/js/bbs/dynamic/right_dtis2\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "67771d31-500c-5859-bfe0-67659c56e118",
-      "name": "mozakin.com/v4/js/imgx/imgd.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/v4/js/imgx/imgd\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "233233fa-456e-5c3a-9337-899ef1afaf61",
-      "name": "mozakin.com/v4/js/mplayer.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mozakin\\.com(?::[0-9]+)?/v4/js/mplayer\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "8041d1c3-d1d5-5913-90d5-9c7c726a5ad1",
       "name": "nissen.co.jp/BtoB/other.html",
       "scope": "url",
@@ -11031,6 +10812,17 @@
       "note": ""
     },
     {
+      "id": "a0d2e2ba-da80-520f-a38e-345ab9bf32dd",
+      "name": "moedb.net/lazy/side",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?moedb\\.net(?::[0-9]+)?/lazy/side",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "dc03cece-fde6-5ae9-8c8c-42826210ab30",
       "name": "dlv.itmedia.jp/adsv/",
       "scope": "url",
@@ -11768,17 +11560,6 @@
       "note": ""
     },
     {
-      "id": "313f1833-8e70-5616-aeff-408047427cee",
-      "name": "mychild.dear-ai.net/img/ad300_600.pnb",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mychild\\.dear\\-ai\\.net(?::[0-9]+)?/img/ad300_600\\.pnb",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "5ce026e7-2ef3-5892-affb-a804042d1af9",
       "name": "kabu-sokuhou.com/img/banner/",
       "scope": "url",
@@ -11916,17 +11697,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mag2\\.com(?::[0-9]+)?/ovtr/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "3fa5b15e-8d32-5169-a270-2965a57f017d",
-      "name": "39.benesse.ne.jp/resource/ad/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?39\\.benesse\\.ne\\.jp(?::[0-9]+)?/resource/ad/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -15690,6 +15460,149 @@
       "note": ""
     },
     {
+      "id": "dcb4570a-f877-5ce3-8d03-c8a51a1ff232",
+      "name": ".lg\\:tw-min-h-\\[600px\\]",
+      "selector": ".lg\\:tw-min-h-\\[600px\\]",
+      "domains": [
+        "koubo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "127ae86e-0b61-55be-b70b-c14630fcea6a",
+      "name": ".md\\:tw-min-h-\\[280px\\]",
+      "selector": ".md\\:tw-min-h-\\[280px\\]",
+      "domains": [
+        "koubo.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "72ab14b4-3ffb-5f85-985a-33243928e517",
+      "name": ".article-wrap__powered",
+      "selector": ".article-wrap__powered",
+      "domains": [
+        "eiga.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "fa9166b3-7824-5362-aeea-8a9b233cf45c",
+      "name": "a[data-track^=\"xdepot_promo\"]",
+      "selector": "a[data-track^=\"xdepot_promo\"]",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c8aad825-335f-5d70-844a-064ec7d2b24a",
+      "name": ".ad-inarticle",
+      "selector": ".ad-inarticle",
+      "domains": [
+        "39mag.thankyu.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ceca9944-9d4d-555b-9382-eacd9bc0981b",
+      "name": ".pickup-item--ad",
+      "selector": ".pickup-item--ad",
+      "domains": [
+        "39mag.thankyu.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bbbec87f-470d-56ff-ab67-04bbfec36b2f",
+      "name": ".sidebar-gam-banner",
+      "selector": ".sidebar-gam-banner",
+      "domains": [
+        "39mag.thankyu.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3d704400-8b66-5085-9598-e9afb8298009",
+      "name": ".recommend-section",
+      "selector": ".recommend-section",
+      "domains": [
+        "39mag.thankyu.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9ec84d45-6aa5-5236-85f9-318d1e619c70",
+      "name": ".blogroll > li > a[href^=\"https://link.amazon/\"]",
+      "selector": ".blogroll > li > a[href^=\"https://link.amazon/\"]",
+      "domains": [
+        "nanjgod.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dcbe05cb-c7cb-5e0a-b443-1f7e261ce1e1",
+      "name": "#myplace1",
+      "selector": "#myplace1",
+      "domains": [
+        "tvguide.or.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7024155a-9d19-5d93-8198-ff280e12e921",
+      "name": ".adwidget-wrapper",
+      "selector": ".adwidget-wrapper",
+      "domains": [
+        "tvguide.or.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8a010dfc-84ea-5a05-9ed1-0bc99a3e11d0",
+      "name": "div.fourm_ad",
+      "selector": "div.fourm_ad",
+      "domains": [
+        "thefirsttimes.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2d8ec221-e98b-5c60-9194-6d75a846a1dd",
+      "name": ".archive-ad-item",
+      "selector": ".archive-ad-item",
+      "domains": [
+        "voisjp.me"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "b97d1bd8-5448-56f3-91c2-19fffc9d2f5d",
       "name": ".video-float-ad",
       "selector": ".video-float-ad",
@@ -15728,6 +15641,17 @@
       "selector": "#im_interstitial_b",
       "domains": [
         "kurukura.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e47b8a49-41b9-529a-8c37-115a3e7eaa7e",
+      "name": "div[style=\"text-align: center; display: flex; justify-content: center;\"]",
+      "selector": "div[style=\"text-align: center; display: flex; justify-content: center;\"]",
+      "domains": [
+        "news.ksb.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16645,6 +16569,17 @@
       "selector": ".single > p[style=\"color: #8a9299; font-size: 10px; margin-bottom: 3px; margin-top: 3px; text-transform: uppercase; text-align: center; letter-spacing:normal;\"]",
       "domains": [
         "number.bunshun.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "add52638-7c09-506a-afd8-3f54517d8da6",
+      "name": ".afi",
+      "selector": ".afi",
+      "domains": [
+        "nlab.itmedia.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18328,17 +18263,6 @@
       "selector": ".FooterBannerPcApp-ads",
       "domains": [
         "kurashiru.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ae8d9dca-142d-51a4-9694-ccf52545d46b",
-      "name": "#gtm_abtest_001",
-      "selector": "#gtm_abtest_001",
-      "domains": [
-        "money.smt.docomo.ne.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -21060,6 +20984,17 @@
       "selector": ".dividerTop > aside.widget-main.widget_custom_html",
       "domains": [
         "beikokukabu-etf-matome.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f4e13d0c-316c-54e0-8f22-7c93d4d3ef2d",
+      "name": "a[href^=\"https://al.dmm.com/\"] + p[style=\"margin:5px 0 0 0;padding:0;color:#c00;font-weight:bold;\"]",
+      "selector": "a[href^=\"https://al.dmm.com/\"] + p[style=\"margin:5px 0 0 0;padding:0;color:#c00;font-weight:bold;\"]",
+      "domains": [
+        "mashlife.doorblog.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -24805,6 +24740,17 @@
       "selector": "div[data-type=\"embed_code\"]:not([data-uid=\"DUtZ1VZE\"])",
       "domains": [
         "sekai-hub.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d3df1edd-5114-5944-a983-eab14fbab18b",
+      "name": "#c2_click_JAF_textlink",
+      "selector": "#c2_click_JAF_textlink",
+      "domains": [
+        "encount.press"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -28803,28 +28749,6 @@
       "note": ""
     },
     {
-      "id": "b87ff694-74a1-5a40-94c6-85c982d4a346",
-      "name": ".contBannerList",
-      "selector": ".contBannerList",
-      "domains": [
-        "tvkingdom.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "03f85391-05a4-5203-a18c-3817e9398df8",
-      "name": ".billboardBannerBox",
-      "selector": ".billboardBannerBox",
-      "domains": [
-        "tvkingdom.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "8183b592-4114-5c50-8706-23ed6fdae8d1",
       "name": "div[style^=\"top:0px;position:fixed;z-index:0;left:50%;\"]",
       "selector": "div[style^=\"top:0px;position:fixed;z-index:0;left:50%;\"]",
@@ -29246,6 +29170,17 @@
       "selector": ".notice-area-link[href^=\"https://x.com/nintendoevery/status/1789294462038122577\"]",
       "domains": [
         "nintendoevery.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b32f9d65-1d5d-5677-a60b-8b8391b5d2ca",
+      "name": ".nin_af",
+      "selector": ".nin_af",
+      "domains": [
+        "l-o-l.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -32602,6 +32537,17 @@
       "selector": "#extra div.plugin-memo + div.ad",
       "domains": [
         "s-max.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "820902a2-cbbc-5d80-94ce-10ad74d1123c",
+      "name": "div[style^=\"width:760px;height:300px;\"]",
+      "selector": "div[style^=\"width:760px;height:300px;\"]",
+      "domains": [
+        "2ch-c.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -38519,11 +38465,11 @@
       "note": ""
     },
     {
-      "id": "2897d769-e1c6-5c50-9d22-a7bb3829bef2",
+      "id": "c69b8277-35c6-5035-ae0e-5a7482ece1db",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.email"
+        "jmanga.actor"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -41131,12 +41077,11 @@
       "note": ""
     },
     {
-      "id": "83833e06-d98d-58ec-a6d9-35fb22522d51",
+      "id": "c4a7a392-174d-5235-bf8c-966b153dbf6d",
       "name": "a[href=\"http://dir.spdoga1.net/e-top/deaivv.php\"]",
       "selector": "a[href=\"http://dir.spdoga1.net/e-top/deaivv.php\"]",
       "domains": [
-        "deaisns1.com",
-        "olch.biz"
+        "deaisns1.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -46139,17 +46084,6 @@
       "selector": "#right",
       "domains": [
         "zettai-ero.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f6b0c17d-88bb-5e95-a070-ea5b5730f8a4",
-      "name": "#more > table[border=\"0\"] + br",
-      "selector": "#more > table[border=\"0\"] + br",
-      "domains": [
-        "nogizaka-46bunno1.blog.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -60177,210 +60111,11 @@
       "note": ""
     },
     {
-      "id": "2dd90cd3-7ac4-57ad-8d99-83d625f1f00f",
-      "name": ".dti3free",
-      "selector": ".dti3free",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "91322b67-4c71-5709-956a-19c928a09cbe",
-      "name": "div[style=\"width: 1020px; height: 380px; background-color: white; padding: 4px;\"]",
-      "selector": "div[style=\"width: 1020px; height: 380px; background-color: white; padding: 4px;\"]",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e7e0d7c8-93d4-59b6-a9a7-9097c5f13d4f",
-      "name": "#ad960x540",
-      "selector": "#ad960x540",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f2d8497d-1ff0-5edf-ac6c-ebf5f0a6348e",
-      "name": "#dti_movie",
-      "selector": "#dti_movie",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d37bf9f1-c577-59a9-9565-263c325d817c",
-      "name": ".adbd[style^=\"background-color: rgb(255, 0, 96); color: white; text-align: center\"]",
-      "selector": ".adbd[style^=\"background-color: rgb(255, 0, 96); color: white; text-align: center\"]",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "39bda56a-3523-57f3-b0da-7c9f9e7f89dd",
-      "name": "div[style=\"height: 300px;\"]",
-      "selector": "div[style=\"height: 300px;\"]",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d8334e96-9fcd-5b6b-973b-1519869295d9",
-      "name": "div[style=\"height: 840px; padding: 6px; margin: 0px 0px 16px;\"]",
-      "selector": "div[style=\"height: 840px; padding: 6px; margin: 0px 0px 16px;\"]",
-      "domains": [
-        "mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "19a7a526-3774-52b0-b2aa-dba847a9cac1",
-      "name": ".hey_douga",
-      "selector": ".hey_douga",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "b09399b8-737a-5cf7-b80d-2235b9d9fe1d",
-      "name": "div[style=\"margin-left: -1px; font-size: 0px; overflow: hidden; width: 200px; border: 1px solid gray; height: 64px;\"]",
-      "selector": "div[style=\"margin-left: -1px; font-size: 0px; overflow: hidden; width: 200px; border: 1px solid gray; height: 64px;\"]",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "3af8f029-afd5-5dc8-9556-c11647058893",
-      "name": "div[style=\"width: 400px; height: 720px; margin-top: 30px;\"]",
-      "selector": "div[style=\"width: 400px; height: 720px; margin-top: 30px;\"]",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6f2634c4-a171-5bee-9c2e-45da7a87e9f4",
-      "name": ".hey_video",
-      "selector": ".hey_video",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "30d6c49d-e07f-513d-9979-6a6e722e8fb8",
-      "name": "#dtiovervideo",
-      "selector": "#dtiovervideo",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "792776c6-1236-5f13-9140-fc3c4ce89c61",
-      "name": "#left_ad_body",
-      "selector": "#left_ad_body",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "fe09ca61-f95b-5443-a864-0e642b832ced",
-      "name": "#thread_index_adb > div[style]:not(.btn)",
-      "selector": "#thread_index_adb > div[style]:not(.btn)",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "5a5f6ef2-7329-5fc8-b0ad-d36ccf9cb9dd",
-      "name": "#thread_index_adt > div[style]:not(.btn)",
-      "selector": "#thread_index_adt > div[style]:not(.btn)",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4fdf87fd-3aae-5685-9c61-efec12a085a4",
-      "name": "#trend_pain",
-      "selector": "#trend_pain",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c85d99a7-4d13-57b4-a26d-bd6d95026b10",
-      "name": ".trend_body > div:first-child",
-      "selector": ".trend_body > div:first-child",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d0c6025f-8b6e-5a29-82a6-0c6940282f6c",
-      "name": ".trend_body div[style^=\"background-color: black; overflow: hidden; color: white\"]",
-      "selector": ".trend_body div[style^=\"background-color: black; overflow: hidden; color: white\"]",
-      "domains": [
-        "bbs4.mozakin.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f9f4d5d2-1d8f-51c9-ac04-d387d6d96b26",
+      "id": "896a86b8-ee94-53b0-95d5-03dfc15b4dbe",
       "name": ".txtad",
       "selector": ".txtad",
       "domains": [
-        "nagasaki-np.co.jp",
-        "bbs4.mozakin.com"
+        "nagasaki-np.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -60392,17 +60127,6 @@
       "selector": ".side_rectangle",
       "domains": [
         "nagasaki-np.co.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "9324fa15-05b4-5d0d-840e-1e51206f1f43",
-      "name": "body > div[style^=\"z-index: 105; position: fixed\"]",
-      "selector": "body > div[style^=\"z-index: 105; position: fixed\"]",
-      "domains": [
-        "bbs4.mozakin.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -72351,9 +72075,9 @@
       "note": ""
     },
     {
-      "id": "63a89a11-ac41-5dab-8cfc-7fd8f550548c",
-      "name": ".d-md-block.col[style^=\"flex:\"]",
-      "selector": ".d-md-block.col[style^=\"flex:\"]",
+      "id": "273e7314-9ca5-5193-b599-8dda61732d71",
+      "name": ".min-h-\\[200px\\]",
+      "selector": ".min-h-\\[200px\\]",
       "domains": [
         "moedb.net"
       ],
@@ -80231,10 +79955,11 @@
       "note": ""
     },
     {
-      "id": "5dbeba4e-2938-5536-bee0-9505a0ffe1b2",
+      "id": "5e94470b-7c16-5d8c-b8f0-3ee0114ba039",
       "name": "#sidebar-scroll",
       "selector": "#sidebar-scroll",
       "domains": [
+        "nanjgod.com",
         "chaos-giga.com",
         "haronbouchannel.com",
         "mhwsmatome.com",
@@ -81277,36 +81002,13 @@
       "note": ""
     },
     {
-      "id": "8c37c535-13b1-5ab0-89a4-acfb951bd7c7",
+      "id": "54c51c64-f6ad-5a88-84dc-f175ceccfcb2",
       "name": "center > a[target=\"_blank\"] > img",
       "selector": "center > a[target=\"_blank\"] > img",
       "domains": [
         "nme-jp.com",
         "phuot.site",
-        "jpmediadl.com",
-        "fx-koryaku.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d894f5b3-2293-5600-80b7-562f15c02d66",
-      "name": "iframe[src^=\"https://blog.fx-on.com/parts/ebooks_ranking_parts.php\"]",
-      "selector": "iframe[src^=\"https://blog.fx-on.com/parts/ebooks_ranking_parts.php\"]",
-      "domains": [
-        "fx-koryaku.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "37abc816-8254-5ad9-9182-ab656e6a5b02",
-      "name": ".cta-content",
-      "selector": ".cta-content",
-      "domains": [
-        "fx-koryaku.com"
+        "jpmediadl.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -82732,28 +82434,6 @@
       "note": ""
     },
     {
-      "id": "29ca5e74-98cc-5e15-bb16-f4e64543870a",
-      "name": "div[style=\"min-height:300px;\"]",
-      "selector": "div[style=\"min-height:300px;\"]",
-      "domains": [
-        "39mag.benesse.ne.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ed0d1233-1fbb-52ef-bec9-e9c066790319",
-      "name": "[id^=\"div-M_MD_gtx_fluid_\"]",
-      "selector": "[id^=\"div-M_MD_gtx_fluid_\"]",
-      "domains": [
-        "39mag.benesse.ne.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "06e958bd-aa81-56c1-9012-bfd673813807",
       "name": "[id^=\"div-M_MD_inf_fluid_\"]",
       "selector": "[id^=\"div-M_MD_inf_fluid_\"]",
@@ -83744,13 +83424,13 @@
       "note": ""
     },
     {
-      "id": "0d894a63-0251-59af-a944-e3c7f4e8f01e",
+      "id": "0aa302a5-df13-5369-a782-de0b4b8795d5",
       "name": ".ad_response",
       "selector": ".ad_response",
       "domains": [
+        "webcartop.jp",
         "financial-field.com",
         "kanaloco.jp",
-        "webcartop.jp",
         "lisani.jp",
         "news.tv-aichi.co.jp",
         "newsee-media.com",
@@ -90179,13 +89859,12 @@
       "note": ""
     },
     {
-      "id": "044ad32a-ca5d-5bbb-ac3e-a380660cef16",
+      "id": "460223f4-f3b2-5d18-aa3c-5d23ec6f461d",
       "name": ".recommend",
       "selector": ".recommend",
       "domains": [
         "football-zone.net",
         "tosonline.jp",
-        "39mag.benesse.ne.jp",
         "estate.nikkan.co.jp",
         "marieclairejapon.com",
         "daily.co.jp",

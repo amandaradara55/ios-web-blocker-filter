@@ -194,17 +194,6 @@
       "note": ""
     },
     {
-      "id": "72a2e035-46fb-58c4-b16d-5748393545ea",
-      "name": "||pussyspace.*/lazyload.im",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pussyspace\\..*/lazyload\\.im",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "46a59dd2-0614-55e5-93a0-e4e4b5c510f8",
       "name": "doathair.com",
       "scope": "fqdn",
@@ -1361,6 +1350,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "6651e1e0-fe1f-56ba-93bd-15f8e35b720f",
+      "name": "onepyrincehyarey.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "onepyrincehyarey.org",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d35dda4e-daba-5b7d-b9b9-11fe8e0d75a0",
       "name": "accusationretrieval.com",
       "scope": "fqdn",
@@ -1450,6 +1451,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "oblivioncertain.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "2f9e6633-dbd8-5ba7-b9d4-d72daf095fc8",
+      "name": "performanceingredientgoblet.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "performanceingredientgoblet.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1734,6 +1747,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?n\\-tv\\.de(?::[0-9]+)?/sport/adDefend\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0233bf38-b3b5-5315-8b61-f0e505669f16",
+      "name": "||txxx.*/static/tf/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?txxx\\..*/static/tf/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2986,6 +3010,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tookfree.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6da0bf7a-b97c-544d-a0ed-2cd7276897ab",
+      "name": "superficial-disaster.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "superficial-disaster.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9462,6 +9498,84 @@
       "note": ""
     },
     {
+      "id": "78beb275-87c3-5120-a3b5-3f3f008f72b0",
+      "name": "||svetserialu.*/assets/js/popads.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?svetserialu\\..*/assets/js/popads\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "6bf54507-8963-5b0d-9359-f6486182350f",
+      "name": "||svetserialu.*/assets/js/ads.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?svetserialu\\..*/assets/js/ads\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "682c4b22-ad30-5f9f-9e3e-8f3013fa3081",
+      "name": "traingon.top/static/content-access.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?traingon\\.top(?::[0-9]+)?/static/content\\-access\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f0ef7f3e-f8a5-5506-821d-1b62a48d04e0",
+      "name": "ktepkolfi.in",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ktepkolfi.in",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "42489423-15a0-57b8-9912-a7f406b00380",
+      "name": "second-hand.it/js/hinweis.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?second\\-hand\\.it(?::[0-9]+)?/js/hinweis\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a4264eee-cbf5-5dca-9dbd-aea0089dde01",
+      "name": "dilar.tube/api/ads_settings",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dilar\\.tube(?::[0-9]+)?/api/ads_settings",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ecf3209d-b286-597e-a369-5a728ebf4406",
+      "name": "dilar.tube/ads-config.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dilar\\.tube(?::[0-9]+)?/ads\\-config\\.json",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -12786,6 +12900,18 @@
       "id": "fdbdaec4-8e75-5b3d-ab67-6e77ac3db264",
       "name": "[style] [style*=\"cursor\"] img",
       "selector": "[style] [style*=\"cursor\"] img",
+      "domains": [
+        "pussyspace.com",
+        "pussyspace.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "64c2da1a-d339-52e0-b0ba-bb98926920e1",
+      "name": "a[href$=\"/watch/tiktok/\"]",
+      "selector": "a[href$=\"/watch/tiktok/\"]",
       "domains": [
         "pussyspace.com",
         "pussyspace.net"
@@ -21158,28 +21284,6 @@
       "note": ""
     },
     {
-      "id": "b7d7bebf-e22d-556a-a7c4-9816cc11275b",
-      "name": "#vjs-overlayclip-box",
-      "selector": "#vjs-overlayclip-box",
-      "domains": [
-        "video.sibnet.ru"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d0fd9c1f-98ee-5933-91fd-34a648811245",
-      "name": ".vjs-overlayclip-box-close",
-      "selector": ".vjs-overlayclip-box-close",
-      "domains": [
-        "video.sibnet.ru"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "04e71bfe-d1bf-5c58-9fdc-ae6edfa31a91",
       "name": ".adv",
       "selector": ".adv",
@@ -26238,7 +26342,7 @@
       "note": ""
     },
     {
-      "id": "2849c833-c53a-50ce-9a48-cae2ae64ba5e",
+      "id": "2693c751-9694-5b2a-bd71-f20b724f1746",
       "name": "^script#admiral-script",
       "selector": "^script#admiral-script",
       "domains": [
@@ -26257,6 +26361,8 @@
         "ontariofarmer.com",
         "ottawacitizen.com",
         "ottawasun.com",
+        "pembrokeobserver.com",
+        "standard-freeholder.com",
         "thegrowthop.com",
         "theprovince.com",
         "thestarphoenix.com",
@@ -57127,11 +57233,22 @@
       "note": ""
     },
     {
-      "id": "51a7423f-9832-55ca-90be-f9b15adf1881",
-      "name": "body > .loader ~ div[class][style]:not([id])",
-      "selector": "body > .loader ~ div[class][style]:not([id])",
+      "id": "3414bfb2-7863-589b-9665-632a21a4ffb1",
+      "name": ".werbung-container",
+      "selector": ".werbung-container",
       "domains": [
-        "svetserialu.to"
+        "second-hand.it"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ae5465a0-60ec-5238-9511-79636bec765e",
+      "name": ".u4dl-spotcol.u4dl-choice",
+      "selector": ".u4dl-spotcol.u4dl-choice",
+      "domains": [
+        "up-4ever.net"
       ],
       "isEnabled": true,
       "rank": 0,
