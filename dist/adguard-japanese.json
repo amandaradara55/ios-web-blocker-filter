@@ -4595,6 +4595,18 @@
       "note": ""
     },
     {
+      "id": "354b1834-ad32-579f-9948-0f2c58a250e8",
+      "name": "/public/assets/js/a.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/public/assets/js/a.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "dfa0f9fa-67b8-5fde-9803-9104203d20a4",
       "name": "/random_ad/random_ad.js",
       "scope": "url",
@@ -4752,6 +4764,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "://apple\\-.*\\.cn/account_int/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "49fb3398-cec3-5419-81bd-afea7dcf8360",
+      "name": "genicpress.com/wp-admin/admin-ajax.php?action=get_rakuten_random_items",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?genicpress\\.com(?::[0-9]+)?/wp\\-admin/admin\\-ajax\\.php\\?action=get_rakuten_random_items",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -7920,6 +7943,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?johojima\\.com(?::[0-9]+)?/wp\\-content/uploads/2020/07/bnr_belt640\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "086d6ca2-8164-5cc6-a57b-93a87451d74f",
+      "name": "newsweekjapan.jp/list/ajax/newsweek/kyujinbox.json",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?newsweekjapan\\.jp(?::[0-9]+)?/list/ajax/newsweek/kyujinbox\\.json",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -14689,10 +14723,11 @@
       "note": ""
     },
     {
-      "id": "5b1ac479-931e-54b4-b927-1eba7756a8b3",
+      "id": "ab34a98b-a901-5c2c-91ef-336032678d12",
       "name": "body .code-block",
       "selector": "body .code-block",
       "domains": [
+        "news.dulichqatar.info",
         "switch-news.com",
         "itpassportgokaku.com",
         "nukieroge.com",
@@ -15454,6 +15489,72 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b2977d3c-68ec-5ed3-96a9-0d8ebf8e66d0",
+      "name": ".ad-rectangle-wrap",
+      "selector": ".ad-rectangle-wrap",
+      "domains": [
+        "powerwatch.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6addba60-c2f0-57d6-b3fa-d8ffb3a892a2",
+      "name": "#SmallSquare",
+      "selector": "#SmallSquare",
+      "domains": [
+        "f1-gate.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "df25ebb1-42a4-5853-bbbb-7e804ce4ba23",
+      "name": "#Skyscraper03",
+      "selector": "#Skyscraper03",
+      "domains": [
+        "f1-gate.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "150111fb-eb1f-56a0-b024-8f833c6f46aa",
+      "name": "div[id^=\"LargeRectangle\"]",
+      "selector": "div[id^=\"LargeRectangle\"]",
+      "domains": [
+        "f1-gate.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "25ef8af8-28aa-5916-9a7a-b57455ed3367",
+      "name": ".widget_games_amazon_affi",
+      "selector": ".widget_games_amazon_affi",
+      "domains": [
+        "games.appmatch.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0c5006f9-1d03-57db-8714-b008b8d8c999",
+      "name": ".sponsor-banner-section",
+      "selector": ".sponsor-banner-section",
+      "domains": [
+        "japanmetal.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16676,12 +16777,13 @@
       "note": ""
     },
     {
-      "id": "75aaa14c-3a03-5396-8c6f-d471b635c6ec",
+      "id": "5af34d48-11aa-5c30-a7bb-41d39b387663",
       "name": ".promo-box",
       "selector": ".promo-box",
       "domains": [
         "genshin-soku.com",
-        "monhan-soku.com"
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16732,12 +16834,25 @@
       "note": ""
     },
     {
-      "id": "f8b32045-8685-527c-b44e-218076d6ed03",
+      "id": "0e7d8108-3d30-5727-801f-4782578e67d6",
       "name": ".amz-ranking-set",
       "selector": ".amz-ranking-set",
       "domains": [
         "genshin-soku.com",
-        "yamiisoku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "785cf44c-578d-517d-bee4-f62757d13c84",
+      "name": ".ypl-product-list",
+      "selector": ".ypl-product-list",
+      "domains": [
+        "genshin-soku.com",
         "monhan-soku.com"
       ],
       "isEnabled": true,
@@ -16757,11 +16872,14 @@
       "note": ""
     },
     {
-      "id": "20a960ed-8433-538a-a7a5-2a606203b7b5",
+      "id": "b1f239f8-2043-5a32-9ede-21b0279331f9",
       "name": ".widget_ypl_feed_widget",
       "selector": ".widget_ypl_feed_widget",
       "domains": [
-        "monhan-soku.com"
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -17457,6 +17575,17 @@
       "selector": ".ad-profile-header",
       "domains": [
         "news.golfdigest.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ff3e0a13-a660-5ff7-b0a2-760026524c92",
+      "name": "div[class^=\"FullArticleItemWrapperWithInfeed_gptBody_\"]",
+      "selector": "div[class^=\"FullArticleItemWrapperWithInfeed_gptBody_\"]",
+      "domains": [
+        "alba.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18181,6 +18310,28 @@
       "note": ""
     },
     {
+      "id": "9e0361d1-b83d-5849-910d-cd3b49296f94",
+      "name": "div[class^=\"MainYda_\"]",
+      "selector": "div[class^=\"MainYda_\"]",
+      "domains": [
+        "search.yahoo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c6e3e8bf-1e23-5ee2-bad5-203eaa358dcc",
+      "name": "div[class^=\"SubYda_\"]",
+      "selector": "div[class^=\"SubYda_\"]",
+      "domains": [
+        "search.yahoo.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d6924b73-19cd-589c-a6a8-7e1a88d579fa",
       "name": ".AnswerShoppingIntegration__SSACarousel",
       "selector": ".AnswerShoppingIntegration__SSACarousel",
@@ -18457,17 +18608,6 @@
       "selector": "div[id^=\"pc_all_\"]",
       "domains": [
         "eigaland.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ade95ded-7d02-5301-bcb7-69299dd98cec",
-      "name": "a[class*=\"ArticleDetailBody_buttonForEC\"]",
-      "selector": "a[class*=\"ArticleDetailBody_buttonForEC\"]",
-      "domains": [
-        "famitsu.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -20049,6 +20189,17 @@
       "selector": "ins.box",
       "domains": [
         "matometa-antenna.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "20ae2fcf-c1c2-5b00-800d-662d9cc1b1e1",
+      "name": "div[style$=\"max-width:700px; box-sizing:border-box;\"]",
+      "selector": "div[style$=\"max-width:700px; box-sizing:border-box;\"]",
+      "domains": [
+        "nwknews.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -28428,10 +28579,11 @@
       "note": ""
     },
     {
-      "id": "d4db18fe-3b1d-5508-8ddc-701db37877c2",
+      "id": "6dabb5fb-9184-5e0c-a6ce-dbefd54ad77a",
       "name": "div[style^=\"min-height:280px;\"]",
       "selector": "div[style^=\"min-height:280px;\"]",
       "domains": [
+        "egolf.jp",
         "sim-jozu.net"
       ],
       "isEnabled": true,
@@ -29436,17 +29588,6 @@
       "selector": "div[align=\"center\"][style=\"margin-top:8px;\"]",
       "domains": [
         "chat.shalove.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "5ef08d08-9343-566f-9729-860049847554",
-      "name": ".main > p[style=\"text-align:center;font-size: 80%;color: #a9a9a9;\"]",
-      "selector": ".main > p[style=\"text-align:center;font-size: 80%;color: #a9a9a9;\"]",
-      "domains": [
-        "japanmetal.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -34350,6 +34491,17 @@
       "note": ""
     },
     {
+      "id": "6ab43bb9-ec75-5beb-97e6-0a625efc80a7",
+      "name": ".c-box-ad--space",
+      "selector": ".c-box-ad--space",
+      "domains": [
+        "dailyshincho.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "0eaec169-9009-5591-98ef-bf56debc9d64",
       "name": "#taboola-below-article-thumbnails-pc-summary-1",
       "selector": "#taboola-below-article-thumbnails-pc-summary-1",
@@ -38465,11 +38617,11 @@
       "note": ""
     },
     {
-      "id": "c69b8277-35c6-5035-ae0e-5a7482ece1db",
+      "id": "d31d08ad-a040-5228-ab02-5aa03dfe332b",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.actor"
+        "jmanga.locker"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -84106,17 +84258,6 @@
       "id": "0cfaa039-a524-5951-8121-59354597dcf4",
       "name": "div[class^=\"Lrec_\"]",
       "selector": "div[class^=\"Lrec_\"]",
-      "domains": [
-        "yahoo.co.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6d5e3e4b-b053-5952-84bc-47f68bd761f0",
-      "name": "div[class*=\"Yda_\"]",
-      "selector": "div[class*=\"Yda_\"]",
       "domains": [
         "yahoo.co.jp"
       ],

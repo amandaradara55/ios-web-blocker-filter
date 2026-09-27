@@ -102,6 +102,17 @@
       "note": ""
     },
     {
+      "id": "911351c9-3d0d-58be-a8ef-6c8312930031",
+      "name": ".sp-ifad",
+      "selector": ".sp-ifad",
+      "domains": [
+        "s.response.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "46b4f4b9-da8b-5c05-8b21-1eb68c13e8ec",
       "name": ".XPromoBlockingModal",
       "selector": ".XPromoBlockingModal",

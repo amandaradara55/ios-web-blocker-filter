@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-09-20T20:09:59+00:00",
+  "generatedAt": "2026-09-27T20:42:54+00:00",
   "inputDir": "sources/ublock-origin/flat",
   "profiles": {
     "ads": {
-      "inputRules": 23043,
-      "acceptedBlockRules": 895,
-      "acceptedCosmeticRules": 4384,
+      "inputRules": 23109,
+      "acceptedBlockRules": 913,
+      "acceptedCosmeticRules": 4388,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9357,
-        "allowlist": 2080,
+        "advanced_rule": 9377,
+        "allowlist": 2086,
         "negated_domain": 14,
-        "unsupported_cosmetic_selector": 1637,
-        "unsupported_domain_scope": 1044,
-        "unsupported_modifier": 3482,
-        "unsupported_url_pattern": 148,
+        "unsupported_cosmetic_selector": 1644,
+        "unsupported_domain_scope": 1046,
+        "unsupported_modifier": 3488,
+        "unsupported_url_pattern": 151,
         "unsupported_webkit_regex_brace_quantifier": 1
       }
     },
     "mobileEffective": {
-      "inputRules": 23189,
-      "acceptedBlockRules": 894,
-      "acceptedCosmeticRules": 4451,
+      "inputRules": 23257,
+      "acceptedBlockRules": 912,
+      "acceptedCosmeticRules": 4456,
       "quarantinedBlockRules": 0,
       "duplicateRules": 1,
       "skipped": {
-        "advanced_rule": 9382,
-        "allowlist": 2088,
+        "advanced_rule": 9402,
+        "allowlist": 2094,
         "negated_domain": 14,
-        "unsupported_cosmetic_selector": 1660,
-        "unsupported_domain_scope": 1061,
-        "unsupported_modifier": 3489,
-        "unsupported_url_pattern": 148,
+        "unsupported_cosmetic_selector": 1667,
+        "unsupported_domain_scope": 1064,
+        "unsupported_modifier": 3495,
+        "unsupported_url_pattern": 151,
         "unsupported_webkit_regex_brace_quantifier": 1
       }
     },
     "mobileDelta": {
       "blockRules": 0,
       "disabledBlockRules": 0,
-      "cosmeticRules": 69
+      "cosmeticRules": 70
     }
   }
 }
