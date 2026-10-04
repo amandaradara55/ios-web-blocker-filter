@@ -2330,6 +2330,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "53cebed4-2ca3-54a2-b70e-2164dedcc98c",
+      "name": "/alog/dp.min.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/alog/dp.min.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "0ca57a3b-30a6-506f-abfd-c8bbf6f41707",
       "name": "/amazon_linker.min.js",
       "scope": "url",
@@ -36441,6 +36453,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ba064e95-7235-5c13-b184-e717a38643c3",
+      "name": "amspbs.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "amspbs.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "153eb53f-98bf-58ab-9a72-594d34ede7c2",
       "name": "analys.live",
       "scope": "fqdn",
@@ -36986,6 +37010,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cdjbf8trk.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5debbdd6-092f-5efc-870c-d14ef1e48447",
+      "name": "cdn-vitals.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdn-vitals.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -38025,6 +38061,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0afab53e-07ae-581c-a6ec-47d4f1a585fb",
+      "name": "floors.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "floors.dev",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "204afe82-3e8d-52a7-924a-3eaa85d8f084",
       "name": "fn-pz.com",
       "scope": "fqdn",
@@ -38138,6 +38186,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fran.pro",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "1a628799-fc4e-5947-b682-cff7f0f5e905",
+      "name": "fsrv.io",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fsrv.io",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -53708,6 +53768,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "801d72b7-5fd4-5008-8da2-16eac244c345",
+      "name": "happierleads.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "happierleads.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "c132d6c4-3eb2-5bbb-bb5d-79b6e10d5a66",
       "name": "havasedge.com",
       "scope": "fqdn",
@@ -60997,6 +61069,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pagefair.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c337e0f2-23cb-5ac7-badc-a4abb0232600",
+      "name": "pagemetry.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pagemetry.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -74491,6 +74575,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "6aa81bb7-55e6-55cd-932c-cf22b04ff71f",
+      "name": "addmoves.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "addmoves.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "af1371b5-f32a-5769-ba57-11a9e8da08eb",
       "name": "addressfriend.com",
       "scope": "fqdn",
@@ -75367,6 +75463,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7c322873-e569-572a-a672-bdc41ef4cd1c",
+      "name": "arthustler.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "arthustler.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "fd142b73-8138-5ce1-8992-e5d87cd9af73",
       "name": "articledemon.com",
       "scope": "fqdn",
@@ -75672,6 +75780,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "axiomaticanger.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "44206036-3300-5759-9b42-abbfd0e1081d",
+      "name": "axonsite.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "axonsite.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -81859,6 +81979,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3ed9bccb-1aaf-510f-b09f-aa33702367bd",
+      "name": "dusthorses.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dusthorses.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "2181bff0-2516-5329-8a53-4254dbfdfdfe",
       "name": "dustydime.com",
       "scope": "fqdn",
@@ -82092,6 +82224,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "economysoil.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "48df784b-22ea-5505-9527-b202c9069206",
+      "name": "edshowpigs.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "edshowpigs.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -86863,6 +87007,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "14889715-2e32-5a8d-8761-dba8b5722cf7",
+      "name": "hyperfrost.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "hyperfrost.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3aff8058-1d7b-5bfa-8a24-1c41a647974d",
       "name": "hyperlegend.com",
       "scope": "fqdn",
@@ -89412,6 +89568,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "marblediscussion.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8533c197-2df0-5889-bf93-3b72804c767f",
+      "name": "marbleseeds.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "marbleseeds.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96415,6 +96583,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "84167ca3-53a2-5cad-836e-78534647de71",
+      "name": "scholarsark.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "scholarsark.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "aab08f6f-91b4-50c5-9420-05c8cd3add73",
       "name": "schoolpaws.com",
       "scope": "fqdn",
@@ -100999,6 +101179,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "79ba064d-2038-5137-9396-abd45b06c84d",
+      "name": "tapoutmusic.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tapoutmusic.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "485aef78-1db8-54a7-99a0-dbce8720749d",
       "name": "taskdelight.com",
       "scope": "fqdn",
@@ -101388,6 +101580,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "thebestpaints.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "412217d8-853d-52ab-a053-d32365745a4a",
+      "name": "thebicyclehut.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "thebicyclehut.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -102084,6 +102288,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "toplaunch.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "e5e674df-4627-5df3-8267-d81edc3309b3",
+      "name": "topratedwaterfilter.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "topratedwaterfilter.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -105135,6 +105351,17 @@
       "note": ""
     },
     {
+      "id": "2f94e87c-95b4-5053-b774-dc006e95b8e9",
+      "name": "gamedaily.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gamedaily\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "8177f0d8-b450-5a1a-9083-3c2c0f060f92",
       "name": "mensjournal.com/.api/admiral",
       "scope": "url",
@@ -105184,6 +105411,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?surfer\\.com(?::[0-9]+)?/\\.api/admiral",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "af25d24f-b5ba-5f52-9081-994303c95446",
+      "name": "thespun.com/.api/admiral",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thespun\\.com(?::[0-9]+)?/\\.api/admiral",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -105626,6 +105864,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "nativesubscribe.pro",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f50c29d6-3db5-5c17-b23a-280e09aeb4e1",
+      "name": "natom.app",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "natom.app",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -119234,6 +119484,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "742e8004-7315-5034-907d-97986c26b6ed",
+      "name": "analytics.app.funnelish.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytics.app.funnelish.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b4e8044d-44e1-54f6-b7d7-67eb946b07cf",
       "name": "analytics.atlas5.co",
       "scope": "fqdn",
@@ -121376,6 +121638,17 @@
       "note": ""
     },
     {
+      "id": "4f3f2b24-49f7-5908-b62b-4da278d8a22b",
+      "name": "api.useunloq.com/event_management/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.useunloq\\.com(?::[0-9]+)?/event_management/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "db641a25-87fe-5440-9623-93d0c31d3b91",
       "name": "api.visitorapi.com",
       "scope": "fqdn",
@@ -123502,6 +123775,18 @@
       "note": ""
     },
     {
+      "id": "7aa2a6d9-d3ee-567f-9bf0-98824521acd4",
+      "name": "bws.airwallex.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "bws.airwallex.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "987489c1-baad-51b2-85cd-de2ef63d8920",
       "name": "bytedance.com/pixel/",
       "scope": "url",
@@ -124307,6 +124592,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "77be932e-7b6d-5a9f-bf33-bf1814207fa7",
+      "name": "cdn.zeroclick.io/scripts/badge.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cdn\\.zeroclick\\.io(?::[0-9]+)?/scripts/badge\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "c57cc3be-11d2-5d24-a391-bc1516e1d6ca",
@@ -129256,6 +129552,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ee3f9a60-0b38-5eb0-904a-b7c686d16227",
+      "name": "events.searchtap.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "events.searchtap.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "1dd1c8ad-4051-5031-a801-730fe6196ab0",
       "name": "events.shareably.net",
       "scope": "fqdn",
@@ -130980,6 +131288,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "551ac309-6141-5d7c-80a2-15f7ad5d0fab",
+      "name": "gkx.gokwik.co",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gkx.gokwik.co",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "ffd2124d-c679-5a95-89ab-abc5c893aea7",
@@ -137219,6 +137539,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "2c1d77bb-191b-5d92-9766-f54a0efbecb7",
+      "name": "p.sa7eer.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "p.sa7eer.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "645d0673-88db-5bdc-85e6-1a1b0aa20f08",
       "name": "p.skimresources.com",
       "scope": "fqdn",
@@ -137578,6 +137910,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pcrl\\.co(?::[0-9]+)?/js/jstracker\\.min\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "6b3e633f-a71c-51fa-afd0-4b5f6546e413",
+      "name": "pdp.gokwik.co/cart-get-tokens.html",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pdp\\.gokwik\\.co(?::[0-9]+)?/cart\\-get\\-tokens\\.html",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -139738,6 +140081,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "realm.hearst3pcc.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "e02a33f7-8fac-5b22-bbe7-4e7ce3f4206f",
+      "name": "realtimeanalytics.yext.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "realtimeanalytics.yext.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -145731,6 +146086,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "track.contently.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5136f6ba-64bc-5d6f-a7d0-cd886d4e4763",
+      "name": "track.convertfox.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "track.convertfox.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -152113,6 +152480,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f7dd4289-145d-5dfc-a114-fb4340c4749c",
+      "name": "dppesulohfqre.cloudfront.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dppesulohfqre.cloudfront.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "e770ee0d-8e34-5093-8fb1-47f9ef1a5983",
       "name": "dqif5bl25s0bf.cloudfront.net",
       "scope": "fqdn",
@@ -153960,6 +154339,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "9bee8a38-2f43-5b34-a3e0-01123c95f2fc",
+      "name": "ippen.space/api/metrics",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ippen\\.space(?::[0-9]+)?/api/metrics",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "caca2cbe-520d-5ca9-b578-4fa1f4b2aa72",
@@ -156452,6 +156842,18 @@
       "note": ""
     },
     {
+      "id": "f9e376e9-41aa-52be-a9c9-10993ab9485f",
+      "name": "browsertdidticket.m.qq.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "browsertdidticket.m.qq.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b6db2ef2-b645-55c2-be63-3d1ee8c89b2e",
       "name": "busuanzi.ibruce.info",
       "scope": "fqdn",
@@ -156770,6 +157172,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "aa331b9e-bad6-576c-9034-7af2aa09742e",
+      "name": "gatherer.m.qq.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gatherer.m.qq.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4a209047-9d52-5e10-b0b8-d1db98fdae6a",
       "name": "gdt.qq.com",
       "scope": "fqdn",
@@ -157066,6 +157480,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?netease\\.com(?::[0-9]+)?/web/performance\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7f2fde5d-36d5-5d05-8db5-42651297a402",
+      "name": "nstool.netease.com/info.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?nstool\\.netease\\.com(?::[0-9]+)?/info\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -157629,6 +158054,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "webstat.qiumibao.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "39786f26-0fca-590a-8a5d-5fa8248386df",
+      "name": "webstat.ws.126.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "webstat.ws.126.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -160135,6 +160572,17 @@
       "note": ""
     },
     {
+      "id": "3009c605-692f-587d-b3eb-0826ed9ae444",
+      "name": "boingo.jp/analytics.php",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?boingo\\.jp(?::[0-9]+)?/analytics\\.php",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "7774b1fe-dc2a-511e-89c9-caf1c4b318a1",
       "name": "bridge-ashiato.appspot.com/beacon/",
       "scope": "url",
@@ -161153,17 +161601,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?snva\\.jp(?::[0-9]+)?/api/bcon/basic\\?",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "d2082932-6ed1-5be2-8390-012c85fbf182",
-      "name": "snva.jp/javascripts/reco/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?snva\\.jp(?::[0-9]+)?/javascripts/reco/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -165430,6 +165867,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d71ebb9c-2b2e-54ac-b12c-b441a8fd8e4a",
+      "name": "analytic.is",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytic.is",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "5caf58ce-d5f1-5544-b081-8e0094f5a5d6",
       "name": "analytics.cdnstr.com",
       "scope": "fqdn",
@@ -165690,6 +166139,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "traffic.wdc.center",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "84f20f89-016e-56d9-9ab8-fe05334cf689",
+      "name": "trafik.koopit.ist",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "trafik.koopit.ist",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -171301,6 +171762,18 @@
       "note": ""
     },
     {
+      "id": "3df9a6d8-5a93-5496-8136-a00177d7252c",
+      "name": "crta.dailymail.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "crta.dailymail.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8ddab29d-d456-5bdd-bd96-9a5c336ec9cc",
       "name": "crta.metro.co.uk",
       "scope": "fqdn",
@@ -171439,17 +171912,6 @@
       "note": ""
     },
     {
-      "id": "2132628b-caca-5a48-ac55-81db6b35ad0d",
-      "name": "cybernews.com/fxq4/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cybernews\\.com(?::[0-9]+)?/fxq4/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "00968fba-89b3-5a02-9231-573f9a1c2077",
       "name": "d.analyticsmania.com",
       "scope": "fqdn",
@@ -171537,6 +171999,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dailymail\\.co\\.uk(?::[0-9]+)?/rta2/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "15b70c00-9ecc-5465-8a9c-18e84a4449f6",
+      "name": "dailymail.com/zephr/features",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dailymail\\.com(?::[0-9]+)?/zephr/features",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -179300,17 +179773,6 @@
       "note": ""
     },
     {
-      "id": "bd6b00e0-c583-515c-bce2-8d409f67e040",
-      "name": "namethatporn.com/assets/imgs/1x1.gif",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?namethatporn\\.com(?::[0-9]+)?/assets/imgs/1x1\\.gif",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "89996aba-b6fc-52f9-85db-c462cf729c70",
       "name": "narkive.com/ajax/TelemV2?",
       "scope": "url",
@@ -181756,6 +182218,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pulse.genki.world",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6678da82-cccd-5b64-9e6d-411c216761d7",
+      "name": "pulsepoint.ideal.house",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pulsepoint.ideal.house",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -186427,6 +186901,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "488d3d0e-5cae-5df3-9497-6bda936d3d2c",
+      "name": "ted.dailymail.co.uk",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ted.dailymail.co.uk",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3a58b16b-2c40-5922-9858-48135744df2d",
       "name": "telegraph.prd.api.max.com",
       "scope": "fqdn",
@@ -188881,6 +189367,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vbox7\\.com(?::[0-9]+)?/aj/player\\-stats\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "850eb3c7-2b54-5dc4-aaa6-cca1fdfe2431",
+      "name": "vecteezy.com/dmpu/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vecteezy\\.com(?::[0-9]+)?/dmpu/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -632195,6 +632692,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "e6f7f394-5a99-51e4-b945-1ba493ab23ab",
+      "name": "log.news.baidu.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "log.news.baidu.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "530bc4e4-2541-5131-b975-0da8763cd00b",
       "name": "log.sina.cn",
       "scope": "fqdn",
@@ -637721,6 +638230,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mxmkitchen\\.com(?::[0-9]+)?/in/pcl/track\\.php",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ff59f88c-5a6a-55cc-aa56-401e237f56b4",
+      "name": "netkeiba.com/img.dir//ndtracker/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?netkeiba\\.com(?::[0-9]+)?/img\\.dir//ndtracker/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",

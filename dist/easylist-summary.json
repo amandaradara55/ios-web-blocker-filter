@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-09-27T20:42:52+00:00",
+  "generatedAt": "2026-10-04T20:46:28+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 84798,
-      "acceptedBlockRules": 54457,
+      "inputRules": 79246,
+      "acceptedBlockRules": 48901,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 23102,
+      "acceptedCosmeticRules": 23110,
       "duplicateRules": 5,
       "skipped": {
         "advanced_rule": 287,
-        "allowlist": 1096,
-        "unsupported_cosmetic_selector": 597,
-        "unsupported_domain_scope": 292,
-        "unsupported_modifier": 4745,
+        "allowlist": 1093,
+        "unsupported_cosmetic_selector": 601,
+        "unsupported_domain_scope": 295,
+        "unsupported_modifier": 4737,
         "unsupported_url_pattern": 208,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 56211,
-      "acceptedBlockRules": 53981,
+      "inputRules": 56260,
+      "acceptedBlockRules": 54025,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 3,
       "skipped": {
         "advanced_rule": 28,
-        "allowlist": 846,
+        "allowlist": 847,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 959,
-        "unsupported_url_pattern": 387
+        "unsupported_modifier": 962,
+        "unsupported_url_pattern": 388
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 108438,
+    "acceptedBlockRules": 102926,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 23104,
+    "acceptedCosmeticRules": 23112,
     "duplicateRules": 8,
     "skipped": {
       "advanced_rule": 315,
-      "allowlist": 1942,
-      "unsupported_cosmetic_selector": 602,
-      "unsupported_domain_scope": 292,
-      "unsupported_modifier": 5704,
-      "unsupported_url_pattern": 595,
+      "allowlist": 1940,
+      "unsupported_cosmetic_selector": 606,
+      "unsupported_domain_scope": 295,
+      "unsupported_modifier": 5699,
+      "unsupported_url_pattern": 596,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
   }

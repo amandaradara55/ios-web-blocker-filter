@@ -1176,6 +1176,17 @@
       "note": ""
     },
     {
+      "id": "aba7b0c2-6663-5f72-ac4b-126739b1a3cd",
+      "name": "ligainsider.de/js/82563b61.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ligainsider\\.de(?::[0-9]+)?/js/82563b61\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "0f4a3ecc-6ef3-5b4a-bea6-fded7d95816f",
       "name": "computer-bild.de/_static-assets/homad/homad.js",
       "scope": "url",
@@ -1511,6 +1522,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "poplarcoinsyeah.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8678ed49-936c-5d8a-9a89-681e4d2cd122",
+      "name": "raggedapproaching.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "raggedapproaching.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2873,6 +2896,17 @@
       "note": ""
     },
     {
+      "id": "17710286-e389-58ec-8ab4-f30a4bc2fb70",
+      "name": "gamingsmart.com/abr.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gamingsmart\\.com(?::[0-9]+)?/abr\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "0f7343a1-c785-5b10-971c-a6092aee7c0e",
       "name": "azerion.com",
       "scope": "fqdn",
@@ -3676,6 +3710,28 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?paypou\\.com(?::[0-9]+)?/newbanner",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "15a640e7-e871-5476-a810-5676c6dcb43f",
+      "name": "oklivetv.com/xplay/ad-serve.php",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?oklivetv\\.com(?::[0-9]+)?/xplay/ad\\-serve\\.php",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c1f2a958-789c-5aee-a080-0fe63525efad",
+      "name": "oklivetv.com/xplay/ad-click.php",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?oklivetv\\.com(?::[0-9]+)?/xplay/ad\\-click\\.php",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -8309,6 +8365,18 @@
       "note": ""
     },
     {
+      "id": "027fe766-2b65-5dd2-9a12-c0ea4daa8e6c",
+      "name": "affectionatestorage.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "affectionatestorage.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "56653641-ef17-5559-835c-beaad1fd7fcd",
       "name": "speechma.com/anti-adblocker.js",
       "scope": "url",
@@ -9644,6 +9712,28 @@
       "note": ""
     },
     {
+      "id": "3277b0ca-8175-512f-b71d-0e86652beb61",
+      "name": "dokkandb.com/site-support-recovery-v1.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dokkandb\\.com(?::[0-9]+)?/site\\-support\\-recovery\\-v1\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f39eeb30-e6cc-5c8c-9277-69e2ad6a9612",
+      "name": "xboxdynasty.de/wp-content/plugins/xd-performance/assets/ads.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?xboxdynasty\\.de(?::[0-9]+)?/wp\\-content/plugins/xd\\-performance/assets/ads\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -10412,6 +10502,29 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "a66991bd-8d10-5969-935e-bd27e414ebe1",
+      "name": "zmfcxr.srnky.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "zmfcxr.srnky.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "542178df-9b6f-5bca-afd7-dbfb20eddf0b",
+      "name": "srnky.com/u1710i/polyfill.",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?srnky\\.com(?::[0-9]+)?/u1710i/polyfill\\.",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     }
   ],
   "cosmetic-rules": [
@@ -25678,6 +25791,50 @@
       "note": ""
     },
     {
+      "id": "55ab71be-3ccd-5133-ac12-f5ef6bf8f53d",
+      "name": ".footer_spots",
+      "selector": ".footer_spots",
+      "domains": [
+        "rule34video.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7a9657e3-38fb-5d51-b9bd-a129192bb3bb",
+      "name": ".spot_under",
+      "selector": ".spot_under",
+      "domains": [
+        "rule34video.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4967cc29-b4dc-5386-a7a4-6ba6583054f4",
+      "name": ".panel_header--promo",
+      "selector": ".panel_header--promo",
+      "domains": [
+        "rule34video.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4581b26a-a07d-5986-83cc-fa659b470ddd",
+      "name": ".spot",
+      "selector": ".spot",
+      "domains": [
+        "camgirlfap.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "5c03f155-c28e-5023-938e-1ccc0a01a6be",
       "name": "#kt_player #ads_iframe",
       "selector": "#kt_player #ads_iframe",
@@ -26552,7 +26709,7 @@
       "note": ""
     },
     {
-      "id": "4618cb5a-6879-5337-848c-dd415c2b1f5f",
+      "id": "f45904a7-67c1-5254-8114-a0c8faa040bc",
       "name": "^script#admiral-script",
       "selector": "^script#admiral-script",
       "domains": [
@@ -26572,6 +26729,7 @@
         "ottawacitizen.com",
         "ottawasun.com",
         "pembrokeobserver.com",
+        "recorder.ca",
         "standard-freeholder.com",
         "thegrowthop.com",
         "theprovince.com",
@@ -46885,6 +47043,17 @@
       "note": ""
     },
     {
+      "id": "64327b3c-9cae-573c-89b6-3be0e4c50306",
+      "name": "a[rel*=\"sponsored\"]",
+      "selector": "a[rel*=\"sponsored\"]",
+      "domains": [
+        "modrinth.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "57e72b97-7942-5c0b-8a1c-68d2c4fa3ea0",
       "name": ".sticky-container",
       "selector": ".sticky-container",
@@ -57501,6 +57670,116 @@
       "selector": "[href=\"https://theporndude.com/\"]",
       "domains": [
         "fapnut.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "016d07ca-9733-5212-a62c-7853705ea85b",
+      "name": "app-card-details-ad-slot",
+      "selector": "app-card-details-ad-slot",
+      "domains": [
+        "dokkandb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0cc4e925-787a-50b3-88ac-76d985f66014",
+      "name": ".raptive-below-post-placeholder",
+      "selector": ".raptive-below-post-placeholder",
+      "domains": [
+        "dokkandb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9cfb7375-9965-54bd-ae45-d7b45c31c2a6",
+      "name": ".card-details-video-ad",
+      "selector": ".card-details-video-ad",
+      "domains": [
+        "dokkandb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "fed96245-2c08-531d-86d0-ae26e4992921",
+      "name": ".raptive-content-placeholder",
+      "selector": ".raptive-content-placeholder",
+      "domains": [
+        "dokkandb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "765c92fd-38b8-5b54-ae76-0a7cf3cf2939",
+      "name": "#vidProtectOverlay",
+      "selector": "#vidProtectOverlay",
+      "domains": [
+        "vikuy.click"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c4c94b32-f92c-570c-8ed6-b4c762511087",
+      "name": ".watch-ad-slot",
+      "selector": ".watch-ad-slot",
+      "domains": [
+        "vikuy.click"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "19353c00-2886-5c15-9deb-69a19ba24742",
+      "name": ".prm-wrapper",
+      "selector": ".prm-wrapper",
+      "domains": [
+        "xfeed.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "701bb7dc-60c0-5ee8-a4e2-ea2483c7ce7f",
+      "name": "[data-badge=\"Ad\"]",
+      "selector": "[data-badge=\"Ad\"]",
+      "domains": [
+        "xfeed.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e774c08b-f7ef-57d0-aea8-a6a3be7b1ee3",
+      "name": ".hill-top-slot",
+      "selector": ".hill-top-slot",
+      "domains": [
+        "xfeed.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ebe307f8-ab55-50ea-a1a4-e0a27763ac84",
+      "name": ".bottom-outstream",
+      "selector": ".bottom-outstream",
+      "domains": [
+        "xfeed.com"
       ],
       "isEnabled": true,
       "rank": 0,
