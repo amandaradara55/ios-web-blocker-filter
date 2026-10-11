@@ -4794,6 +4794,17 @@
       "note": ""
     },
     {
+      "id": "c06f4534-774b-5342-bebf-61a48060665a",
+      "name": "zion-its.com/sankei-api/public/api",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?zion\\-its\\.com(?::[0-9]+)?/sankei\\-api/public/api",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "be874523-1a06-54c4-9e74-cd4bebcfc3f6",
       "name": "news.denfaminicogamer.jp/wp-content/uploads/pa-banners",
       "scope": "url",
@@ -15380,10 +15391,11 @@
       "note": ""
     },
     {
-      "id": "23c4535d-92d8-55fb-ace9-d7a6f06c5031",
+      "id": "1a7f4182-8f68-52fe-aa32-ff51be417e23",
       "name": ".ad-banner",
       "selector": ".ad-banner",
       "domains": [
+        "giga-watasu.jp",
         "pricemap.s-otk.com",
         "muragon.com",
         "live.nicovideo.jp",
@@ -15552,11 +15564,110 @@
       "note": ""
     },
     {
+      "id": "68c00663-8dc4-5516-8e80-0b984a7e7941",
+      "name": "div.area-kyujinbox",
+      "selector": "div.area-kyujinbox",
+      "domains": [
+        "emogram.sankei.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2df0b314-edce-5e9c-8703-d7d8c6833f04",
+      "name": ".sara-mac-fftrans-banner",
+      "selector": ".sara-mac-fftrans-banner",
+      "domains": [
+        "sara-mac.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e06e14c8-deea-5cb0-b583-b1657d37853b",
+      "name": ".content-bottom.wwa",
+      "selector": ".content-bottom.wwa",
+      "domains": [
+        "lovelive-petitsoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d0419da8-2c5a-5c3a-8c3c-3ef46d72f6e3",
+      "name": ".adunder",
+      "selector": ".adunder",
+      "domains": [
+        "2nd-train.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6e11301e-58ca-5e33-9106-64f850f5def8",
+      "name": ".adbox50",
+      "selector": ".adbox50",
+      "domains": [
+        "2nd-train.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9e0ad772-6438-5dbd-8a59-f928946afe14",
+      "name": "div[style=\"margin:0px auto; width:auto; text-align:center; margin-bottom: 5px; margin-top:-20px; min-height:245px;\"]",
+      "selector": "div[style=\"margin:0px auto; width:auto; text-align:center; margin-bottom: 5px; margin-top:-20px; min-height:245px;\"]",
+      "domains": [
+        "news-postseven.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d4e02131-7ab6-53d1-ba7a-b461265b0928",
+      "name": ".job-box-container",
+      "selector": ".job-box-container",
+      "domains": [
+        "nikkan-gendai.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "4d0aed03-7d67-5db9-b8c3-d89bfbe29ef2",
       "name": ".bnr-fixed",
       "selector": ".bnr-fixed",
       "domains": [
         "mhw-blog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "edb08478-781c-5331-a1cb-e3e7b16f9ce7",
+      "name": "#sp-ad",
+      "selector": "#sp-ad",
+      "domains": [
+        "baseballchannel.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f8541fd3-ce4b-56db-b9e5-7364c7e209f4",
+      "name": ".custom-button-wrap a[href^=\"//ck.jp.ap.valuecommerce.com/servlet/referral?\"]",
+      "selector": ".custom-button-wrap a[href^=\"//ck.jp.ap.valuecommerce.com/servlet/referral?\"]",
+      "domains": [
+        "magmix.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16290,9 +16401,9 @@
       "note": ""
     },
     {
-      "id": "dbe37990-1fbc-5f70-b776-22eee9c42ff0",
-      "name": ".post[style=\"margin-bottom: 1rem; opacity: 1; transition: opacity 0.5s ease-in;\"]",
-      "selector": ".post[style=\"margin-bottom: 1rem; opacity: 1; transition: opacity 0.5s ease-in;\"]",
+      "id": "46336b06-0f09-5cd8-bfa5-27ef82deb39f",
+      "name": "#ad-containerx",
+      "selector": "#ad-containerx",
       "domains": [
         "pdftoshokan.com"
       ],
@@ -16612,17 +16723,6 @@
       "note": ""
     },
     {
-      "id": "228a90f4-f1fb-5090-a21f-924173ed847d",
-      "name": "div[style=\"width: 100%; height: 90px; display: flex; justify-content: center; align-items: center;\"]",
-      "selector": "div[style=\"width: 100%; height: 90px; display: flex; justify-content: center; align-items: center;\"]",
-      "domains": [
-        "bokete.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "78cde131-e235-5558-b1fd-609b412a8679",
       "name": ".kyujin-box-wrap",
       "selector": ".kyujin-box-wrap",
@@ -16898,9 +16998,9 @@
       "note": ""
     },
     {
-      "id": "19e42164-a665-50a1-b18c-464c93a6074a",
-      "name": "[href*=\"amazon.co.jp\"]",
-      "selector": "[href*=\"amazon.co.jp\"]",
+      "id": "ca1db5b1-12fe-5cb8-889c-7b0b11f52922",
+      "name": ".rkx-product-groups",
+      "selector": ".rkx-product-groups",
       "domains": [
         "genshin-soku.com",
         "monhan-soku.com",
@@ -16912,9 +17012,9 @@
       "note": ""
     },
     {
-      "id": "9e8e463e-adb6-536a-8bd8-2f11377e83da",
-      "name": "[href*=\"amzn.to\"]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
-      "selector": "[href*=\"amzn.to\"]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
+      "id": "3e3a478b-359e-59cb-81cd-0f903b7cd86f",
+      "name": ".ypc-product-widget",
+      "selector": ".ypc-product-widget",
       "domains": [
         "genshin-soku.com",
         "monhan-soku.com",
@@ -16926,9 +17026,9 @@
       "note": ""
     },
     {
-      "id": "f93b74b4-780a-5ed1-b7f4-c81793133712",
-      "name": "[href*=\"link.amazon\"]",
-      "selector": "[href*=\"link.amazon\"]",
+      "id": "b933a88d-bbf8-5a50-8c6e-50c442c845b3",
+      "name": "[class*=\"pdx-\"]",
+      "selector": "[class*=\"pdx-\"]",
       "domains": [
         "genshin-soku.com",
         "monhan-soku.com",
@@ -16940,9 +17040,107 @@
       "note": ""
     },
     {
-      "id": "5b2baed4-1873-5793-8386-6b4f06403144",
-      "name": "[class*=\"ypl-\"]",
-      "selector": "[class*=\"ypl-\"]",
+      "id": "361e2ab2-9e09-5294-bf2a-898bcbfce7a0",
+      "name": "a[rel*=\"sponsored\"]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
+      "selector": "a[rel*=\"sponsored\"]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "820fc051-7377-53b0-b4a3-16ff5c484c1f",
+      "name": "[href*=\"aHR0\"]",
+      "selector": "[href*=\"aHR0\"]",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "2d0731ac-739d-5653-8578-d6a9863da867",
+      "name": "[href*=\"amazon.co.jp\" i]",
+      "selector": "[href*=\"amazon.co.jp\" i]",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b845fb9b-2586-56d5-8825-554ea2eb7c4d",
+      "name": "[href*=\"amzn.to\" i]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
+      "selector": "[href*=\"amzn.to\" i]:not(.aedr-form__purchase[href=\"https://amzn.to/4g4yOhg\"])",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8e0a34e4-9e20-574d-9246-18adae8be651",
+      "name": "[href*=\"link.amazon\" i]",
+      "selector": "[href*=\"link.amazon\" i]",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f32bd213-0b14-5263-8797-530362d70cb9",
+      "name": "[id*=\"-sale\"]",
+      "selector": "[id*=\"-sale\"]",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "75bdac9a-7b4f-595c-b770-41c0a5c2eb67",
+      "name": "[id*=\"-remote\"]",
+      "selector": "[id*=\"-remote\"]",
+      "domains": [
+        "genshin-soku.com",
+        "monhan-soku.com",
+        "xn--gckdevd5myivf.site",
+        "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1d922c90-6906-58a2-87fa-97ea91da665d",
+      "name": "[class*=\"-remote\"]",
+      "selector": "[class*=\"-remote\"]",
       "domains": [
         "genshin-soku.com",
         "monhan-soku.com",
@@ -17045,6 +17243,28 @@
         "monhan-soku.com",
         "xn--gckdevd5myivf.site",
         "yamiisoku.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ab21b226-c950-5ffb-85d1-d69e44c6fec7",
+      "name": "#SP_UnderEyecatch_base",
+      "selector": "#SP_UnderEyecatch_base",
+      "domains": [
+        "kinmaweb.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0cfde9a4-c004-5857-be40-b49e3cb74c53",
+      "name": "#PC_UnderEyecatch_base",
+      "selector": "#PC_UnderEyecatch_base",
+      "domains": [
+        "kinmaweb.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18000,17 +18220,6 @@
       "note": ""
     },
     {
-      "id": "90208681-7478-522a-a355-9884518da080",
-      "name": "a[href^=\"https://prf.hn/\"]",
-      "selector": "a[href^=\"https://prf.hn/\"]",
-      "domains": [
-        "baseballchannel.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "cd1cfdd1-e563-511d-a34c-f786a3ef7eaa",
       "name": "div[class^=\"gmossp_core_\"]",
       "selector": "div[class^=\"gmossp_core_\"]",
@@ -18049,17 +18258,6 @@
       "selector": "#advanced_text-28",
       "domains": [
         "topgear.tokyo"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f76b3eac-d584-505f-9e51-835d3ee11e3f",
-      "name": "article#omc-full-article > div[style^=\"width: 100%; min-height: 300px;\"]:not([class]):not([id])",
-      "selector": "article#omc-full-article > div[style^=\"width: 100%; min-height: 300px;\"]:not([class]):not([id])",
-      "domains": [
-        "baseballchannel.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18226,17 +18424,6 @@
       "selector": ".js-kyujin-box",
       "domains": [
         "tokyo-sports.co.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ef018b64-c64a-5a78-bec9-c090b0c8054d",
-      "name": "div[style$=\"min-height:300px;\"]",
-      "selector": "div[style$=\"min-height:300px;\"]",
-      "domains": [
-        "baseballchannel.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -18784,6 +18971,17 @@
       "selector": ".top-sponsorArea02",
       "domains": [
         "lazuda.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b8a1393c-88b1-5cae-b309-8f40334fa2f0",
+      "name": ".diw.banner",
+      "selector": ".diw.banner",
+      "domains": [
+        "news.denfaminicogamer.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -22338,20 +22536,9 @@
       "note": ""
     },
     {
-      "id": "9d540048-bda9-5d4e-a60d-b5168c1918f2",
-      "name": ".Jungle",
-      "selector": ".Jungle",
-      "domains": [
-        "2ch.logpo.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "a960661d-0031-53e0-9481-9917c27b422e",
-      "name": ".TATEJungleLarge",
-      "selector": ".TATEJungleLarge",
+      "id": "36a25221-1847-57c7-a096-b930e0f0a816",
+      "name": ".AdsInfeed",
+      "selector": ".AdsInfeed",
       "domains": [
         "2ch.logpo.jp"
       ],
@@ -26443,9 +26630,9 @@
       "note": ""
     },
     {
-      "id": "e6d49233-d3ba-5d4d-b811-83e77f4d96ef",
-      "name": "#omc-full-article > div[style^=\"padding: 10px;\"][style*=\"border: 5px double #333333;\"]",
-      "selector": "#omc-full-article > div[style^=\"padding: 10px;\"][style*=\"border: 5px double #333333;\"]",
+      "id": "60ce4d6e-463c-50b1-a735-6b3769b3e3b3",
+      "name": "div[style^=\"padding:\"][style*=\"margin-bottom:\"][style*=\"5px double #333333;\"][style*=\"border-radius:\"]",
+      "selector": "div[style^=\"padding:\"][style*=\"margin-bottom:\"][style*=\"5px double #333333;\"][style*=\"border-radius:\"]",
       "domains": [
         "baseballchannel.jp"
       ],
@@ -31012,10 +31199,11 @@
       "note": ""
     },
     {
-      "id": "41bfe924-137d-56c2-95e0-67ae82b77d21",
+      "id": "6a77adfb-044f-5db9-b982-5f5225d5ab72",
       "name": ".c-infoBar",
       "selector": ".c-infoBar",
       "domains": [
+        "toramemoblog.com",
         "buywrite.jp"
       ],
       "isEnabled": true,
@@ -54726,12 +54914,11 @@
       "note": ""
     },
     {
-      "id": "c51e7725-b78a-5d0d-aecd-cd3cd9f574ab",
+      "id": "dc6b0167-2c89-5fb4-a3f5-ffb40c24bca4",
       "name": "div[style$=\"min-height: 250px;\"]",
       "selector": "div[style$=\"min-height: 250px;\"]",
       "domains": [
         "cgworld.jp",
-        "bokete.jp",
         "friday.kodansha.co.jp",
         "mx-timeline.nan-net.jp",
         "er-animal.jp",
@@ -60792,12 +60979,11 @@
       "note": ""
     },
     {
-      "id": "f67707d2-26da-5438-a9f3-386b1d582bcb",
+      "id": "ed3397cc-3707-5118-bc3e-bf50d265e3c7",
       "name": "div[style^=\"min-height:250px\"]",
       "selector": "div[style^=\"min-height:250px\"]",
       "domains": [
         "vague.style",
-        "bokete.jp",
         "eroita.net",
         "adacomi.com",
         "mwed.jp",
@@ -64021,7 +64207,7 @@
       "note": ""
     },
     {
-      "id": "2004f5fd-9f08-5910-ab36-3bc346e9df2a",
+      "id": "1b6340d3-7d9f-54ab-8512-0357490ed0b7",
       "name": "#text-13",
       "selector": "#text-13",
       "domains": [
@@ -64029,8 +64215,7 @@
         "game16.net",
         "videogakuen.com",
         "yamakamu.net",
-        "minaminumaebi.blogmimi.com",
-        "baseballchannel.jp"
+        "minaminumaebi.blogmimi.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -68607,10 +68792,11 @@
       "note": ""
     },
     {
-      "id": "70799558-2796-51c7-81b9-7cd2c09c08ff",
+      "id": "386f8ec1-e7aa-58e3-a05d-1ab6b2eaaa2d",
       "name": "a[href^=\"https://bit.ly\"]",
       "selector": "a[href^=\"https://bit.ly\"]",
       "domains": [
+        "kakao-bosyu.com",
         "majandofu.com"
       ],
       "isEnabled": true,
@@ -69592,10 +69778,11 @@
       "note": ""
     },
     {
-      "id": "3bffe73b-3afc-5381-937a-085827580cbd",
+      "id": "c5ff9838-3639-5403-ac32-bf444a7141a4",
       "name": ".pochipp-box",
       "selector": ".pochipp-box",
       "domains": [
+        "androplus.jp",
         "mori-k3.blog",
         "gadget.hyakkaidan.com",
         "anime-rating.com",
@@ -80413,9 +80600,9 @@
       "note": ""
     },
     {
-      "id": "38b05b3b-83a9-5737-8f1e-b8d90fee6487",
-      "name": "#fanza_top_sale_1",
-      "selector": "#fanza_top_sale_1",
+      "id": "b8cb870b-993f-503b-be29-94d3682da38a",
+      "name": "div[style^=\"display: flex;min-height: 232px;align-items: center;\"]",
+      "selector": "div[style^=\"display: flex;min-height: 232px;align-items: center;\"]",
       "domains": [
         "exploader.net"
       ],
@@ -80424,20 +80611,9 @@
       "note": ""
     },
     {
-      "id": "cb4a6b5e-02af-5cb6-ac57-7b3b5f57b1b3",
-      "name": "#fanza_top_sale_2",
-      "selector": "#fanza_top_sale_2",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "6dcd2dc0-aabd-551e-b02e-1c91d5ff3164",
-      "name": "article > div:not([class]):not([id]):not([style]) > div[style*=\"305px\"][div*=\"750px\"]",
-      "selector": "article > div:not([class]):not([id]):not([style]) > div[style*=\"305px\"][div*=\"750px\"]",
+      "id": "34789573-9cf9-5c30-9ebf-08e3e1a2e419",
+      "name": "aside > div > div[style=\"margin-bottom: 5px;min-height: 305px;border: 2px solid rgb(133, 50, 18);\"]",
+      "selector": "aside > div > div[style=\"margin-bottom: 5px;min-height: 305px;border: 2px solid rgb(133, 50, 18);\"]",
       "domains": [
         "exploader.net"
       ],
@@ -80457,111 +80633,22 @@
       "note": ""
     },
     {
-      "id": "c01139b6-6b5e-59c9-888e-fc75b5b19f2d",
-      "name": "#preview_images > div[style^=\"max-width: 560px; position: relative; height: \"] > div.h_items[style=\"margin-bottom: 10px;\"]",
-      "selector": "#preview_images > div[style^=\"max-width: 560px; position: relative; height: \"] > div.h_items[style=\"margin-bottom: 10px;\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "8dc5f8a0-82bb-5972-a000-615b541221ae",
-      "name": "#preview_images > span[class^=\"tracking_\"]",
-      "selector": "#preview_images > span[class^=\"tracking_\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "1fbb5912-5b23-585a-94a0-9e2e496de9f1",
-      "name": "#newfiles > ul.list > li[style*=\"height: 120px;\"]",
-      "selector": "#newfiles > ul.list > li[style*=\"height: 120px;\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "fd6b2e4b-26b5-5356-b7b6-641e2f7694bc",
-      "name": "#wrapper > div[data-style][style*=\"fixed\"]",
-      "selector": "#wrapper > div[data-style][style*=\"fixed\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "734f4eaf-4c88-53d5-8f3e-f5d66ed9f4f2",
-      "name": "a[link*=\"al.dmm.co.jp\"]",
-      "selector": "a[link*=\"al.dmm.co.jp\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "95b6c7bb-784e-5658-92c6-2f9c1f6ff9a2",
-      "name": "article > div[style*=\"305px\"][style*=\"align-items:\"]",
-      "selector": "article > div[style*=\"305px\"][style*=\"align-items:\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "fd7d5269-7245-5e52-8c5d-08ff18b68362",
-      "name": "body ul.list > li[style=\"clear: left;width: calc(100% + 3px) !important;margin-right: -1px;height: 120px;margin-left: -2px;float: none;display: block !important;\"]",
-      "selector": "body ul.list > li[style=\"clear: left;width: calc(100% + 3px) !important;margin-right: -1px;height: 120px;margin-left: -2px;float: none;display: block !important;\"]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "905b47ef-0b26-53d3-ae4c-6b38e35060c9",
-      "name": ".tag + div[class]",
-      "selector": ".tag + div[class]",
-      "domains": [
-        "exploader.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7c871744-860f-506a-834a-fa01ed5d7fed",
+      "id": "a5e8ba83-801a-50b2-9b4b-0591fcc67012",
       "name": "div[class$=\"-ad\"]",
       "selector": "div[class$=\"-ad\"]",
       "domains": [
-        "coromoo.com"
+        "hobonichierog.com"
       ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "026f428e-5c69-5502-b65c-45e93e89c10b",
+      "id": "f75a94c7-ddf5-57b1-a80d-ae081dd53f49",
       "name": ".amazon-link",
       "selector": ".amazon-link",
       "domains": [
-        "news.denfaminicogamer.jp",
-        "coromoo.com"
+        "news.denfaminicogamer.jp"
       ],
       "isEnabled": true,
       "rank": 0,

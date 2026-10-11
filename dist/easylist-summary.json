@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-10-04T20:46:28+00:00",
+  "generatedAt": "2026-10-11T21:22:39+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 79246,
-      "acceptedBlockRules": 48901,
+      "inputRules": 81260,
+      "acceptedBlockRules": 50878,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 23110,
-      "duplicateRules": 5,
+      "acceptedCosmeticRules": 23120,
+      "duplicateRules": 12,
       "skipped": {
-        "advanced_rule": 287,
+        "advanced_rule": 284,
         "allowlist": 1093,
-        "unsupported_cosmetic_selector": 601,
+        "unsupported_cosmetic_selector": 613,
         "unsupported_domain_scope": 295,
-        "unsupported_modifier": 4737,
+        "unsupported_modifier": 4748,
         "unsupported_url_pattern": 208,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 56260,
-      "acceptedBlockRules": 54025,
+      "inputRules": 56309,
+      "acceptedBlockRules": 54068,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
       "duplicateRules": 3,
       "skipped": {
-        "advanced_rule": 28,
-        "allowlist": 847,
+        "advanced_rule": 29,
+        "allowlist": 851,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 962,
+        "unsupported_modifier": 963,
         "unsupported_url_pattern": 388
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 102926,
+    "acceptedBlockRules": 104946,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 23112,
-    "duplicateRules": 8,
+    "acceptedCosmeticRules": 23122,
+    "duplicateRules": 15,
     "skipped": {
-      "advanced_rule": 315,
-      "allowlist": 1940,
-      "unsupported_cosmetic_selector": 606,
+      "advanced_rule": 313,
+      "allowlist": 1944,
+      "unsupported_cosmetic_selector": 618,
       "unsupported_domain_scope": 295,
-      "unsupported_modifier": 5699,
+      "unsupported_modifier": 5711,
       "unsupported_url_pattern": 596,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
