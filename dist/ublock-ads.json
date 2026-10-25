@@ -1482,6 +1482,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "cccb4734-702b-5a33-a71a-be67aca0a94b",
+      "name": "gownslacken.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gownslacken.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b6c152b4-0afe-50d5-ad87-b67791673d98",
       "name": "oblivioncertain.com",
       "scope": "fqdn",
@@ -2003,6 +2015,18 @@
       "note": ""
     },
     {
+      "id": "03c98646-46f9-56da-8f7b-a6243698a9d1",
+      "name": "gummy-debt.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gummy-debt.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "ee98e8b3-718f-5c40-ae63-419d4a2cdfc5",
       "name": "lumbering-motor.com",
       "scope": "fqdn",
@@ -2015,11 +2039,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "028e55c4-c2fa-5574-b2e7-6cb3ff4e1497",
-      "name": "miserly-wrap.com",
+      "id": "9f25eb91-e065-5531-aac9-603b8f172ff0",
+      "name": "roughremove.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "miserly-wrap.com",
+      "pattern": "roughremove.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2027,11 +2051,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "9f25eb91-e065-5531-aac9-603b8f172ff0",
-      "name": "roughremove.com",
+      "id": "28abbcad-115d-5b54-8ca7-0081c57f8442",
+      "name": "severe-capital.com",
       "scope": "fqdn",
       "matchKind": "literal",
-      "pattern": "roughremove.com",
+      "pattern": "severe-capital.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3384,6 +3408,17 @@
       "note": ""
     },
     {
+      "id": "6824e2dd-8082-507a-81d4-3889473ea29d",
+      "name": "static.portail-assurance.ca/dist/adblock-blocker/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?static\\.portail\\-assurance\\.ca(?::[0-9]+)?/dist/adblock\\-blocker/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "fa9ab432-53db-5f93-b043-f726e5736f23",
       "name": "forum.ge/trash/ads_",
       "scope": "url",
@@ -3415,6 +3450,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "1f770acc-8d6e-52c7-927f-675a9928555c",
+      "name": "npaw1.rtl.fr",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "npaw1.rtl.fr",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "bd14e0c5-4132-5a35-a864-845c8d94081f",
@@ -3685,17 +3732,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "7225883f-c8d8-56fd-bfcc-6cc6c6282458",
-      "name": "||cap3.*/api/ads",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cap3\\..*/api/ads",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "bc0ac774-8226-5f79-8247-6a92da61e959",
       "name": "googleapiscdn.com/admin/api/ads/",
       "scope": "url",
@@ -3717,6 +3753,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "7225883f-c8d8-56fd-bfcc-6cc6c6282458",
+      "name": "||cap3.*/api/ads",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cap3\\..*/api/ads",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "602df73d-15dc-50da-ab53-05d504d5a0a3",
@@ -4914,18 +4961,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "oi.fapnado.xxx",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b1881c35-c707-5b03-9088-a33f8bc90a28",
-      "name": "googles.video",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "googles.video",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -9493,6 +9528,17 @@
       "note": ""
     },
     {
+      "id": "3ad26a58-17eb-5901-84fd-5eed5c396c53",
+      "name": "api.leakgallery.com/r/z?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.leakgallery\\.com(?::[0-9]+)?/r/z\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "02927deb-1940-5727-bcaa-59aaa63999d1",
       "name": "greekfun.net/assets/js/managed-ads.js",
       "scope": "url",
@@ -9897,6 +9943,28 @@
       "note": ""
     },
     {
+      "id": "bd815a26-9f0f-546b-81a3-205da64bcab2",
+      "name": "kakamanga.com/vendor/widget/loader.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kakamanga\\.com(?::[0-9]+)?/vendor/widget/loader\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a63d17ab-83a1-551f-b73d-92b44bbc04fd",
+      "name": "cdn.jsdelivr.net/gh/JStivenCM/Aggressive-Anti-AdBlock/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cdn\\.jsdelivr\\.net(?::[0-9]+)?/gh/JStivenCM/Aggressive\\-Anti\\-AdBlock/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
       "name": "rdrclk.com",
       "scope": "fqdn",
@@ -9976,6 +10044,29 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "74118c69-0d00-5d6b-aed1-a5434785d3b1",
+      "name": "antiadblockcore.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "antiadblockcore.org",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "cc0ad21e-c69c-57d6-907c-b5d734fb9bec",
+      "name": "aii.sh/webroot/cloud_theme/img/downloadbaner.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?aii\\.sh(?::[0-9]+)?/webroot/cloud_theme/img/downloadbaner\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "5b8fdcd3-f9f4-523f-b285-c4be8da2ad85",
@@ -10345,6 +10436,162 @@
       "literalOperator": "exact"
     },
     {
+      "id": "eb784455-2cc7-57bd-bbbc-674e02e45d4a",
+      "name": "cloudnery.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cloudnery.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8869b963-d8cb-56e5-8aa8-cbbedbb82082",
+      "name": "cloudnary.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cloudnary.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f1a886a9-49ed-5dd3-932b-bcbca7b26a02",
+      "name": "unspalsh.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "unspalsh.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a92c822c-5884-5d3f-b139-54205373d358",
+      "name": "pexelss.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pexelss.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "255826b7-5994-5612-b34d-6ebee5f97f98",
+      "name": "flickrr.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "flickrr.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "44ad3eae-0a78-5dd4-9d8c-f8a4ea67acca",
+      "name": "pixabayy.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pixabayy.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "67445035-1c28-5c7a-9a0f-e7a016af28f6",
+      "name": "plxabay.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "plxabay.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "1ccf8bc9-53e9-55c7-bad1-111bd8e1f3c3",
+      "name": "flickrnet.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "flickrnet.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "4294f0a7-d2ae-526c-8a7a-e62ebe191952",
+      "name": "unsplah.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "unsplah.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6fde96e4-026d-5be6-945f-acca25ef2ff7",
+      "name": "pexelsx.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pexelsx.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8fcc599b-9060-5c0b-80d5-128d8f709b31",
+      "name": "cloudnaery.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cloudnaery.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6abf6dc6-300f-59e8-9c3b-20b160c9ef79",
+      "name": "cloudinaryy.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cloudinaryy.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c89b0c5e-3716-5743-9648-6cd846fa8e3c",
+      "name": "flickier.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "flickier.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "763a01ee-45aa-50e4-8a35-54141cf3f5e7",
       "name": "||cfd/rfdtagarg/*.js",
       "scope": "url",
@@ -10636,18 +10883,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "cloudfronte.net",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "67445035-1c28-5c7a-9a0f-e7a016af28f6",
-      "name": "plxabay.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "plxabay.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -27420,10 +27655,11 @@
       "note": ""
     },
     {
-      "id": "8d94ec22-7bb7-55ac-8e38-947f7244d8bc",
+      "id": "67167441-e477-52cc-9169-1db54ef8887d",
       "name": "#overlay",
       "selector": "#overlay",
       "domains": [
+        "ab.nanacdn.com",
         "abysscdn.com",
         "abyssplayer.com",
         "fembedx.top",
@@ -27439,10 +27675,11 @@
       "note": ""
     },
     {
-      "id": "73be4a20-1314-5c83-b729-1ac14a5f4f1c",
+      "id": "2d214f99-c040-501f-b1e7-3f5f70c17ca6",
       "name": ".loading-overlay ~ div[style^=\"position: relative;\"]",
       "selector": ".loading-overlay ~ div[style^=\"position: relative;\"]",
       "domains": [
+        "ab.nanacdn.com",
         "abysscdn.com",
         "fullfreeimage.com",
         "hihihaha1.xyz",
@@ -28414,6 +28651,17 @@
       "selector": "a.btnmoncompte[href=\"https://www.vivasexe.com/alerte/\"]",
       "domains": [
         "vivasexe.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b12a277c-0cd3-5d51-90c9-59e6c75cb07a",
+      "name": ".eja-ad",
+      "selector": ".eja-ad",
+      "domains": [
+        "portail-assurance.ca"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -38169,17 +38417,6 @@
       "selector": "ins.adsbygoogle",
       "domains": [
         "cyberbunkers.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "94b2095e-dde3-5381-a178-bce2d153129a",
-      "name": ".click_block",
-      "selector": ".click_block",
-      "domains": [
-        "embed.nana2play.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -56468,6 +56705,35 @@
       "note": ""
     },
     {
+      "id": "a1e21887-408d-598e-920b-b3904099192b",
+      "name": "#app a[href^=\"https://s.smartfloralab.com/\"]",
+      "selector": "#app a[href^=\"https://s.smartfloralab.com/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "37233e2a-6eea-54eb-8757-8c5068dfad1c",
+      "name": "#app a[href^=\"https://t.nettrck.store/\"]",
+      "selector": "#app a[href^=\"https://t.nettrck.store/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ddde280c-7641-5b6c-9e10-973620b2baff",
+      "name": "#premium-swipey-bar",
+      "selector": "#premium-swipey-bar",
+      "domains": [
+        "kaa.lt"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "f519a1be-6127-5cb4-b6f9-3e0b24c5c4eb",
       "name": ".ps-block-a-top",
       "selector": ".ps-block-a-top",
@@ -56957,6 +57223,17 @@
       "selector": ".a-prerollvideo-container",
       "domains": [
         "abcya.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4a3d430b-4bdf-5446-bbb6-e3b708de8aa7",
+      "name": ".home-leaderboard-reserve",
+      "selector": ".home-leaderboard-reserve",
+      "domains": [
+        "aha-music.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -57492,6 +57769,26 @@
       "selector": "section[aria-label=\"Sponsored content\"]",
       "domains": [
         "autoembed.app"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "27f8910e-1c7f-500f-a29f-ead86966b7c1",
+      "name": ".page-layout a[href^=\"https://hashcounts.com/\"]",
+      "selector": ".page-layout a[href^=\"https://hashcounts.com/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bf2559bd-96c2-55a6-98bc-b58b4f6b37e3",
+      "name": "a[rel~=\"sponsored\"]",
+      "selector": "a[rel~=\"sponsored\"]",
+      "domains": [
+        "leakgallery.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -58229,6 +58526,17 @@
       "note": ""
     },
     {
+      "id": "3c146556-3c8c-5b58-ae98-cc39e334c47d",
+      "name": "a[target=\"_blank\"] > img",
+      "selector": "a[target=\"_blank\"] > img",
+      "domains": [
+        "nanamovies.co"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9cdd154b-7a88-5d05-9932-5c910edbd55c",
       "name": ".fluidprimary, #go_d, .adb_detected > h2",
       "selector": ".fluidprimary, #go_d, .adb_detected > h2",
@@ -58955,6 +59263,34 @@
       "note": ""
     },
     {
+      "id": "469cd7ae-d7cf-55b1-a94b-033cc1724b5d",
+      "name": "a[href][target=\"_blank\"]",
+      "selector": "a[href][target=\"_blank\"]",
+      "domains": [
+        "clksz.com",
+        "tpi.li",
+        "oii.la",
+        "srnky.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c23cec7b-4ca0-5692-af54-59159eaff6ac",
+      "name": ".td-post-template-default.td-container, .banner-inner",
+      "selector": ".td-post-template-default.td-container, .banner-inner",
+      "domains": [
+        "clksz.com",
+        "tpi.li",
+        "oii.la",
+        "srnky.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "cde803d4-bc8a-5391-b4a1-ab27b4525c61",
       "name": ".mh-wrapper,#btn1",
       "selector": ".mh-wrapper,#btn1",
@@ -59103,34 +59439,6 @@
       "selector": "[id^=\"wpsafe-wait\"], #content-wrapper",
       "domains": [
         "segurosdevida.site"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "469cd7ae-d7cf-55b1-a94b-033cc1724b5d",
-      "name": "a[href][target=\"_blank\"]",
-      "selector": "a[href][target=\"_blank\"]",
-      "domains": [
-        "clksz.com",
-        "tpi.li",
-        "oii.la",
-        "srnky.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c23cec7b-4ca0-5692-af54-59159eaff6ac",
-      "name": ".td-post-template-default.td-container, .banner-inner",
-      "selector": ".td-post-template-default.td-container, .banner-inner",
-      "domains": [
-        "clksz.com",
-        "tpi.li",
-        "oii.la",
-        "srnky.com"
       ],
       "isEnabled": true,
       "rank": 0,
