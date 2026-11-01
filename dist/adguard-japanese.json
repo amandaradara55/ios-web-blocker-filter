@@ -2,6 +2,18 @@
   "web-block-filter-version": "1.0",
   "block-rules": [
     {
+      "id": "374b0420-e7d0-5057-90b7-2078cd44c837",
+      "name": "onetag.adnx.jp",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "onetag.adnx.jp",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d71a1720-4db7-5038-9959-66a6a15640b4",
       "name": "fanza.ftbucket.info",
       "scope": "fqdn",
@@ -4830,6 +4842,50 @@
       "note": ""
     },
     {
+      "id": "96a2e935-a81b-52c4-93c5-d6a508425b59",
+      "name": "5ch.io/adstir.html",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?5ch\\.io(?::[0-9]+)?/adstir\\.html",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "14c49287-4161-58b9-8cd5-5302ec04214e",
+      "name": "twidouga.net/js/popunder-inject.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?twidouga\\.net(?::[0-9]+)?/js/popunder\\-inject\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "02650c39-3d1e-5cfb-a576-c51121966135",
+      "name": "2game.info/pr/menu.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?2game\\.info(?::[0-9]+)?/pr/menu\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0c293f9a-4372-5501-a215-fd01ce9adbe8",
+      "name": "2game.info/adf/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?2game\\.info(?::[0-9]+)?/adf/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "c06f4534-774b-5342-bebf-61a48060665a",
       "name": "zion-its.com/sankei-api/public/api",
       "scope": "url",
@@ -4989,17 +5045,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kurashi\\-tips\\.com(?::[0-9]+)?/ads/manifest\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "9b8ea950-c03d-5cf4-be56-551f7d821df7",
-      "name": "socialxup.com/api/sale-accounts",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?socialxup\\.com(?::[0-9]+)?/api/sale\\-accounts",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -11984,17 +12029,6 @@
       "note": ""
     },
     {
-      "id": "3c6da1a7-4b0b-59ed-adde-de7001b47388",
-      "name": "tokyo-motion.net/bnr/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tokyo\\-motion\\.net(?::[0-9]+)?/bnr/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "b125eaab-b8a1-55b5-adda-a3f2f8e0bc99",
       "name": "tsumanne.net/ad2.html",
       "scope": "url",
@@ -15193,10 +15227,11 @@
       "note": ""
     },
     {
-      "id": "99896b4a-60ed-5490-ae70-a6044d783456",
+      "id": "424218fc-1dac-5247-9401-dc98af0f8f78",
       "name": ".ad",
       "selector": ".ad",
       "domains": [
+        "bowlroll.net",
         "ullu-egg.com",
         "blog.livedoor.com",
         "rocketnews24.com",
@@ -15586,6 +15621,128 @@
       "selector": "#more > iframe[src^=\"https://richlink.blogsys.jp\"]",
       "domains": [
         "gundamlog.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "12907a14-b76f-5a1b-8e02-3583b2a1e050",
+      "name": ".infeed-ad",
+      "selector": ".infeed-ad",
+      "domains": [
+        "bowlroll.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b3b72b62-5266-5d3f-a7e1-2c673070c846",
+      "name": "#video-grid > div.grid-item--wide[style]:not([data-id])",
+      "selector": "#video-grid > div.grid-item--wide[style]:not([data-id])",
+      "domains": [
+        "twidouga.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4389b787-b142-543a-9b43-2b5cfc667a65",
+      "name": ".h-\\[300px\\]",
+      "selector": ".h-\\[300px\\]",
+      "domains": [
+        "kako.5ch.io"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f28419d8-a7f8-54f1-b68c-a8444d97f8be",
+      "name": ".w-\\[728px\\]",
+      "selector": ".w-\\[728px\\]",
+      "domains": [
+        "kako.5ch.io"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6619430c-3cfb-52ba-a262-0c05a9b956c2",
+      "name": ".ichioshi_pc_anchor",
+      "selector": ".ichioshi_pc_anchor",
+      "domains": [
+        "ichioshi.allabout.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f7d1a986-fe54-58a1-a81e-a77c818bc9c0",
+      "name": ".banner_advertisement",
+      "selector": ".banner_advertisement",
+      "domains": [
+        "ichioshi.allabout.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "17542048-a258-5484-bd83-4a49f838eb28",
+      "name": ".amazon_sale_box",
+      "selector": ".amazon_sale_box",
+      "domains": [
+        "posfie.com",
+        "togetter.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9326fbe6-68c2-5180-8f1b-23d3c80469a4",
+      "name": "div[class$=\"rectangleBanner\"]",
+      "selector": "div[class$=\"rectangleBanner\"]",
+      "domains": [
+        "dengekionline.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "cd3375b3-6475-5eaa-9175-20504c235ac4",
+      "name": "div[class^=\"InLead-\"]",
+      "selector": "div[class^=\"InLead-\"]",
+      "domains": [
+        "dengekionline.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "11d732d5-e15c-53ba-9700-98fbfd98cfc4",
+      "name": "a:not([href])",
+      "selector": "a:not([href])",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9641ea6a-a796-5a56-943d-7e955ce2265f",
+      "name": ".postFeed__item--ad",
+      "selector": ".postFeed__item--ad",
+      "domains": [
+        "news.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16257,17 +16414,6 @@
       "selector": ".article-wrap__powered",
       "domains": [
         "eiga.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "fa9166b3-7824-5362-aeea-8a9b233cf45c",
-      "name": "a[data-track^=\"xdepot_promo\"]",
-      "selector": "a[data-track^=\"xdepot_promo\"]",
-      "domains": [
-        "socialxup.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -20107,9 +20253,9 @@
       "note": ""
     },
     {
-      "id": "866ba61e-1e29-56d6-9d3b-0540b2eca2c6",
-      "name": "div[id^=\"article-body-\"] > div#header-1 > div[class*=\"CommonParts_underBanner\"]",
-      "selector": "div[id^=\"article-body-\"] > div#header-1 > div[class*=\"CommonParts_underBanner\"]",
+      "id": "d346af0a-960c-5bf0-b618-9e78d874fa40",
+      "name": "div[id^=\"article-body-\"] > div#header-1 > div[class*=\"_underBanner\"]",
+      "selector": "div[id^=\"article-body-\"] > div#header-1 > div[class*=\"_underBanner\"]",
       "domains": [
         "dengekionline.com"
       ],
@@ -29599,10 +29745,11 @@
       "note": ""
     },
     {
-      "id": "4efb38ed-c30a-54cd-85f5-7875f9a55305",
+      "id": "db632dec-0c33-573c-b3b9-0f119593e26c",
       "name": "div[id^=\"bnc_ad\"]",
       "selector": "div[id^=\"bnc_ad\"]",
       "domains": [
+        "gofile-douga.com",
         "twidouga.net",
         "les-koko.com",
         "anige-sokuhouvip.com"
@@ -39439,11 +39586,11 @@
       "note": ""
     },
     {
-      "id": "c21f8c7c-f7eb-5791-85aa-a3ac4dfcd89e",
+      "id": "40d7a584-9004-5d14-bd46-5bb1fdd163a6",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.cool"
+        "jmanga.golf"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -41241,6 +41388,17 @@
       "selector": "iframe[src^=\"https://media5.fc2.com/\"]",
       "domains": [
         "fc2.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "38fa89fc-a576-56ad-8602-3404112a6bd0",
+      "name": "#rect",
+      "selector": "#rect",
+      "domains": [
+        "rakuten-sec.co.jp"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -63564,12 +63722,11 @@
       "note": ""
     },
     {
-      "id": "b8bc216c-e4a6-543a-bfaf-787226e40a11",
+      "id": "613e414b-9875-5bcb-b3b8-c5c24758918f",
       "name": "div[class^=\"fluct-unit\"]",
       "selector": "div[class^=\"fluct-unit\"]",
       "domains": [
-        "urbanlife.tokyo",
-        "2game.info"
+        "urbanlife.tokyo"
       ],
       "isEnabled": true,
       "rank": 0,
