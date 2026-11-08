@@ -7716,6 +7716,17 @@
       "note": ""
     },
     {
+      "id": "64cbf8b1-36e0-57f6-b165-877bc623f3ed",
+      "name": "hentai2read.com/x/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hentai2read\\.com(?::[0-9]+)?/x/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "207b8604-e7e2-5216-bf58-9a0a1871af33",
       "name": "hentai2w.com/templates/default/js/ab.functions.js",
       "scope": "url",
@@ -8247,6 +8258,18 @@
       "note": ""
     },
     {
+      "id": "1beec587-9977-5803-955f-cb9395c5dbc7",
+      "name": "velvetloom.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "velvetloom.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "161bc4fa-a23c-5b12-823d-a30d63726c69",
       "name": "traffinity.pro",
       "scope": "fqdn",
@@ -8257,6 +8280,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "41bf999d-ec46-50a6-909b-b4911f8629e7",
+      "name": "gkstreams2.click/img/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gkstreams2\\.click(?::[0-9]+)?/img/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1c117b63-6f44-58dc-b086-179852cb3367",
+      "name": "gkstreams1.click/img/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gkstreams1\\.click(?::[0-9]+)?/img/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "a1cd2444-4735-525a-9703-4c76398c2f44",
@@ -9586,17 +9631,6 @@
       "note": ""
     },
     {
-      "id": "3ad26a58-17eb-5901-84fd-5eed5c396c53",
-      "name": "api.leakgallery.com/r/z?",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.leakgallery\\.com(?::[0-9]+)?/r/z\\?",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "02927deb-1940-5727-bcaa-59aaa63999d1",
       "name": "greekfun.net/assets/js/managed-ads.js",
       "scope": "url",
@@ -10064,6 +10098,492 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "ccnsad.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "0de7ca70-9277-5b3a-8995-42912ecf7824",
+      "name": "enmods.com/wp-content/uploads/jlikfa/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?enmods\\.com(?::[0-9]+)?/wp\\-content/uploads/jlikfa/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c44a6a16-a9f6-52c2-bfeb-ad4197b82f89",
+      "name": "4umods.com/wp-content/uploads/mmaaol/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?4umods\\.com(?::[0-9]+)?/wp\\-content/uploads/mmaaol/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ad2f36fc-fada-5c2f-878b-3d5e1a2d6b20",
+      "name": "||uqload.*/js2/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?uqload\\..*/js2/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "445e7319-960c-56cb-9fbc-c1c4b745bdf1",
+      "name": "arabcanadanews.ca/storage/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?arabcanadanews\\.ca(?::[0-9]+)?/storage/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "fd060c2b-df7c-5e99-a7a4-dc239eebd3a5",
+      "name": "igorslab.de/wp-content/uploads/2020/03/980x120px_pure.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2020/03/980x120px_pure\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7c331c78-d895-5405-8ea9-2361f6a63caa",
+      "name": "igorslab.de/wp-content/uploads/2020/03/igor_pulse_9070GRE_",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2020/03/igor_pulse_9070GRE_",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d8ccc027-2aa8-5cd3-ae87-866340cd9587",
+      "name": "igorslab.de/wp-content/uploads/2020/06/nv-rtx-pro-blackwell-980x125-1.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2020/06/nv\\-rtx\\-pro\\-blackwell\\-980x125\\-1\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "bceb575c-f89e-509e-b117-60404813f8d9",
+      "name": "igorslab.de/wp-content/uploads/2020/06/nv-rtx-pro-blackwell-display-300x300-1.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2020/06/nv\\-rtx\\-pro\\-blackwell\\-display\\-300x300\\-1\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "575269c6-d3bf-5508-b890-12bf75e734af",
+      "name": "igorslab.de/wp-content/uploads/2021/04/Optris_Final-2.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/04/Optris_Final\\-2\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7d230377-7071-54cd-98e7-9708d90723fe",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_1024x120px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1\\-D6_1024x120px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1161654e-b0f2-5e89-bc6d-bc046f4e1c9d",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x251px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x251px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "06ad97df-20f1-5ee9-8362-c759bb7cf298",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x501px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x501px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c756b58b-6682-541b-8d3d-51aa35c273fd",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x501px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x501px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ead7ec7c-8e58-5a20-b7c0-ce9e4e4650c6",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_1024x120px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_1024x120px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "187ec794-d735-5062-87a3-6f76896113e6",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x251px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1\\-D6_301x251px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f14e97f9-80a4-5d3a-a05e-194652c2bbd1",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x501px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1\\-D6_301x501px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "647fa4de-eb24-574d-a650-e86a390d22a2",
+      "name": "igorslab.de/wp-content/uploads/2021/11/Fractal-Sep-launch.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/11/Fractal\\-Sep\\-launch\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "5f5f2535-c2aa-593b-93cb-025f7b025f7a",
+      "name": "igorslab.de/wp-content/uploads/2022/12/View-600-Teal-300x400-1.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2022/12/View\\-600\\-Teal\\-300x400\\-1\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "46952a79-5f02-5bb6-87de-2f69e2fdbbff",
+      "name": "igorslab.de/wp-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "de1280da-697c-599a-9dac-b668235ee206",
+      "name": "igorslab.de/wp-content/uploads/2023/04/Igors_Lab_ARCTIC_MX-7_980x100_",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2023/04/Igors_Lab_ARCTIC_MX\\-7_980x100_",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0f4385b8-2c3a-5f5f-ba6e-cf375a6146b1",
+      "name": "igorslab.de/wp-content/uploads/2023/11/980x125-2.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2023/11/980x125\\-2\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "93c1c54e-6a8e-5c4d-8563-274ef66fbbb1",
+      "name": "igorslab.de/wp-content/uploads/2024/01/Palit_RTX50_300_250_en.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2024/01/Palit_RTX50_300_250_en\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a5a7ff95-57d7-5759-866e-7ad2a7ef7866",
+      "name": "igorslab.de/wp-content/uploads/2024/09/0926_VGA_Autumn-Pack_900x125.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2024/09/0926_VGA_Autumn\\-Pack_900x125\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0c49d58d-4a34-5181-b520-003cb0394cfa",
+      "name": "igorslab.de/wp-content/uploads/2024/09/Igors_Lab_980x125.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2024/09/Igors_Lab_980x125\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "557ce4f9-b16c-5656-86cc-d0a2d05c024d",
+      "name": "igorslab.de/wp-content/uploads/2025/03/DP_H_DE.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/03/DP_H_DE\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2d114494-1eac-53dd-a409-124d67bbea9f",
+      "name": "igorslab.de/wp-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "7fe6be39-9070-5c30-8aa9-b47b965d7178",
+      "name": "igorslab.de/wp-content/uploads/2025/08/HATOR-Skyfall_80_MAG_ULTIMA_8K_Wireless.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/08/HATOR\\-Skyfall_80_MAG_ULTIMA_8K_Wireless\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a1bc78b3-a18f-58b3-ba4e-eab5777ac1ea",
+      "name": "igorslab.de/wp-content/uploads/2025/10/Terminator-Air_300-x-400-1.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/10/Terminator\\-Air_300\\-x\\-400\\-1\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "32a68032-80b8-5466-88f8-2fefd709c829",
+      "name": "igorslab.de/wp-content/uploads/2025/11/V2-Banner_V4_1-2.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/11/V2\\-Banner_V4_1\\-2\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "46338e38-30ea-5035-8a83-cc6671b547e6",
+      "name": "igorslab.de/wp-content/uploads/2025/12/Halnziye.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/12/Halnziye\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "af04c28b-fab1-57bf-8fa0-d86536f46660",
+      "name": "igorslab.de/wp-content/uploads/2026/01/Cooler-Master.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/01/Cooler\\-Master\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "81ecefab-cca8-5db8-b116-c65f701c21fe",
+      "name": "igorslab.de/wp-content/uploads/2026/03/AT-120-K-300%C3%97250.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/03/AT\\-120\\-K\\-300%C3%97250\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "e92b7b5a-cce2-5383-9b79-7d189937da4e",
+      "name": "igorslab.de/wp-content/uploads/2026/04/300-%D1%85-350-HATOR-Quasar-3-Ultima-3.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/04/300\\-%D1%85\\-350\\-HATOR\\-Quasar\\-3\\-Ultima\\-3\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f95c740f-c88c-5125-ac92-08553f604448",
+      "name": "igorslab.de/wp-content/uploads/2026/07/Terminator-Air_980-x-125-1.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/07/Terminator\\-Air_980\\-x\\-125\\-1\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4cbd6405-99be-5514-9fe3-ab91bafb0544",
+      "name": "igorslab.de/wp-content/uploads/2026/08/DP_V_DE.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/DP_V_DE\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "15426d9f-2fed-5df4-828e-4d18a547dd0a",
+      "name": "igorslab.de/wp-content/uploads/2026/08/HK5-2026.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/HK5\\-2026\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "aef5dca1-4385-53c3-8651-581e4c66ff9d",
+      "name": "igorslab.de/wp-content/uploads/2026/08/Horizontal.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/Horizontal\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2616c83b-9329-5c40-853f-2162789c15bf",
+      "name": "igorslab.de/wp-content/uploads/2026/08/Vertical.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/Vertical\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "761a7e16-dba6-5d2e-a263-1e423bfa689c",
+      "name": "igorslab.de/wp-content/uploads/2026/10/HY2612-V2.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/10/HY2612\\-V2\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "ee1c8387-4b61-58e1-a89d-4a1a7db4b4e6",
+      "name": "igorslab.de/wp-content/uploads/2026/10/Solstice-H.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/10/Solstice\\-H\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a83e760d-8b86-5eeb-a5a9-cddbbd2e8fc2",
+      "name": "igorslab.de/wp-content/uploads/2026/10/Solstice-V.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/10/Solstice\\-V\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "6501b8af-78d1-523e-8935-49f71aad8dfd",
+      "name": "igorslab.de/wp-content/plugins/igorslab-ads-suite/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/plugins/igorslab\\-ads\\-suite/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a01d0e89-9f3b-551c-b92a-560a66de6c61",
+      "name": "alypinehubbly.cyou",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "alypinehubbly.cyou",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "573bf9a9-377a-5b7d-9848-8a7512308b81",
+      "name": "embercascademaple.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "embercascademaple.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -22789,17 +23309,6 @@
       "selector": "[data-author=\"Advertisement\"]",
       "domains": [
         "fellowsfilm.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "f0f32bea-d061-59a1-87c6-d31907f6dcd6",
-      "name": ".samCodeUnit",
-      "selector": ".samCodeUnit",
-      "domains": [
-        "hobby-machinist.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -44029,31 +44538,9 @@
       "note": ""
     },
     {
-      "id": "4dea67bf-cf66-5b21-9a18-767b2e383bf6",
-      "name": ".Ad-Slot",
-      "selector": ".Ad-Slot",
-      "domains": [
-        "chip.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "83787943-29b3-5cae-aaea-1078a15461db",
-      "name": "div[class*=\"ad-slot\"]",
-      "selector": "div[class*=\"ad-slot\"]",
-      "domains": [
-        "chip.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "dc2894b9-3460-5ac9-a93f-c37121568c32",
-      "name": ".ad-listing",
-      "selector": ".ad-listing",
+      "id": "8075856c-95f4-549a-9a4d-68712da45162",
+      "name": "div[class*=\"ad-slot\" i]",
+      "selector": "div[class*=\"ad-slot\" i]",
       "domains": [
         "chip.de"
       ],
@@ -44073,20 +44560,9 @@
       "note": ""
     },
     {
-      "id": "00ad6347-2516-5422-80c9-64992396aa47",
-      "name": ".ae-banner",
-      "selector": ".ae-banner",
-      "domains": [
-        "chip.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "835bc6f4-0d42-52b1-af49-333861d4737c",
-      "name": ".ae-skyscraper",
-      "selector": ".ae-skyscraper",
+      "id": "dc2894b9-3460-5ac9-a93f-c37121568c32",
+      "name": ".ad-listing",
+      "selector": ".ad-listing",
       "domains": [
         "chip.de"
       ],
@@ -45833,9 +46309,9 @@
       "note": ""
     },
     {
-      "id": "9d740713-9aec-5464-9f07-a084f7d5f498",
-      "name": "main > section.container.wide-container > div.container > div.mt-10",
-      "selector": "main > section.container.wide-container > div.container > div.mt-10",
+      "id": "ba1e183b-426c-5400-bf0b-3af5c7a02d73",
+      "name": "[href*=\"aff_c?\"]",
+      "selector": "[href*=\"aff_c?\"]",
       "domains": [
         "alternativeto.net"
       ],
@@ -45844,9 +46320,9 @@
       "note": ""
     },
     {
-      "id": "ba1e183b-426c-5400-bf0b-3af5c7a02d73",
-      "name": "[href*=\"aff_c?\"]",
-      "selector": "[href*=\"aff_c?\"]",
+      "id": "091efeb3-78a4-5bab-83f5-c3dbdeeb15b4",
+      "name": ".border-official-partner",
+      "selector": ".border-official-partner",
       "domains": [
         "alternativeto.net"
       ],
@@ -53256,6 +53732,17 @@
       "note": ""
     },
     {
+      "id": "11ec61ec-5c9c-5ccc-a536-cd56af520574",
+      "name": "[href=\"/girlfriend-experience\"]",
+      "selector": "[href=\"/girlfriend-experience\"]",
+      "domains": [
+        "fsicomics.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "79e99f6f-e013-5115-8be2-1375d3740952",
       "name": "[href^=\"https://www.e6ui8pc.com/\"]",
       "selector": "[href^=\"https://www.e6ui8pc.com/\"]",
@@ -53852,6 +54339,26 @@
       "domains": [
         "omegascans.org"
       ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "32ca3911-51b5-59e0-b92e-fada0718104d",
+      "name": ".ai-top-bar",
+      "selector": ".ai-top-bar",
+      "domains": [
+        "omegascans.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "f82253f9-c8f2-5009-8399-980b0fd12427",
+      "name": ".flex a[href^=\"https://tt.culinar9sync.com/\"]",
+      "selector": ".flex a[href^=\"https://tt.culinar9sync.com/\"]",
+      "domains": [],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -56411,6 +56918,17 @@
       "note": ""
     },
     {
+      "id": "31047b72-1179-569b-be12-b9b23497cefd",
+      "name": ".jw-wrapper ~ div[style*=\"z-index:\"]:not([class])",
+      "selector": ".jw-wrapper ~ div[style*=\"z-index:\"]:not([class])",
+      "domains": [
+        "embedorigin.cc"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "25431232-755d-5f5b-ac5d-7387745e7f16",
       "name": "#preroll-overlay",
       "selector": "#preroll-overlay",
@@ -57877,6 +58395,17 @@
       "note": ""
     },
     {
+      "id": "05959a35-37a2-534d-b2ff-ed811210cc9c",
+      "name": "app-page-lead",
+      "selector": "app-page-lead",
+      "domains": [
+        "leakgallery.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "bf2559bd-96c2-55a6-98bc-b58b4f6b37e3",
       "name": "a[rel~=\"sponsored\"]",
       "selector": "a[rel~=\"sponsored\"]",
@@ -58648,6 +59177,15 @@
       "note": ""
     },
     {
+      "id": "c73a5f03-68c8-5ecc-b729-30a5e9e028d6",
+      "name": ".code-block a[href^=\"https://ewxerd.site/\"]",
+      "selector": ".code-block a[href^=\"https://ewxerd.site/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "33a389bf-aab7-5f72-affc-1cf102fdee0b",
       "name": ".main-wrapper ~ aside",
       "selector": ".main-wrapper ~ aside",
@@ -58675,6 +59213,202 @@
       "selector": ".ads",
       "domains": [
         "1xfaucet.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a72138e7-29ee-5ce4-9d25-c676ea1e8a41",
+      "name": ".namiko-ad-band",
+      "selector": ".namiko-ad-band",
+      "domains": [
+        "namiko.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8d0d7fe2-cb5c-523b-bdf5-237d812431e8",
+      "name": "div[data-ad-slot-name]",
+      "selector": "div[data-ad-slot-name]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "38bb4644-8d88-5a06-852f-abece3180701",
+      "name": ".flash-container-wrapper",
+      "selector": ".flash-container-wrapper",
+      "domains": [
+        "gg.deals"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "76299e5d-07f8-587e-b70b-eb9c6b583372",
+      "name": ".flex a[href^=\"https://s.smartfloralab.com/\"]",
+      "selector": ".flex a[href^=\"https://s.smartfloralab.com/\"]",
+      "domains": [],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b3eda1e8-cbad-5d1b-87a7-48187040de69",
+      "name": ".enmods-ad-slot",
+      "selector": ".enmods-ad-slot",
+      "domains": [
+        "enmods.com",
+        "4umods.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5e48239e-2a4a-500e-9fe1-ef5663da4d66",
+      "name": "a[href=\"https://theporndude.com/\"]",
+      "selector": "a[href=\"https://theporndude.com/\"]",
+      "domains": [
+        "chaturflix.cam",
+        "striphub.cam"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4f18bea6-35f9-5b9b-a6a6-b01ad55c025b",
+      "name": ".detailsAdvertisementWrap",
+      "selector": ".detailsAdvertisementWrap",
+      "domains": [
+        "arabcanadanews.ca"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ef8bf611-7b9c-5729-8b19-229526c7cec1",
+      "name": ".sliderAdvertisementWrap",
+      "selector": ".sliderAdvertisementWrap",
+      "domains": [
+        "arabcanadanews.ca"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d558303d-83d7-5b29-8894-10d32f96f915",
+      "name": "^script#igorslab-tracking",
+      "selector": "^script#igorslab-tracking",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9c698aac-e13a-56ff-b8c6-f4264ec3e7e0",
+      "name": "a[aria-label*=\"Banner\"]",
+      "selector": "a[aria-label*=\"Banner\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3ebf58df-777a-5b80-933e-1a3974a706de",
+      "name": ".herald-sticky",
+      "selector": ".herald-sticky",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9e7dae47-5710-588f-9b0a-c813ee8b9f0f",
+      "name": "img[src^=\"blob:http\"]",
+      "selector": "img[src^=\"blob:http\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3dd0f194-f543-53a0-9783-794d12dbd2da",
+      "name": "a[rel][target]:not([target=\"blank\"],[target=\"_blank\"])",
+      "selector": "a[rel][target]:not([target=\"blank\"],[target=\"_blank\"])",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4ae11d82-0bc4-5107-822a-32445e7a52ab",
+      "name": "div[style=\"height: 90 px; text-align: left;\"]",
+      "selector": "div[style=\"height: 90 px; text-align: left;\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "41459cd0-0026-50a6-aa1f-d41d697f733f",
+      "name": "div[style^=\"display:block;position:relative;max-width:\"]",
+      "selector": "div[style^=\"display:block;position:relative;max-width:\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ad645328-0618-54ee-b95e-562f24119b71",
+      "name": "[style*=\"!important\"]",
+      "selector": "[style*=\"!important\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ae877226-a055-511d-ab0c-9f4cf560ccb4",
+      "name": "[style*=\"aspect-ratio\"]",
+      "selector": "[style*=\"aspect-ratio\"]",
+      "domains": [
+        "igorslab.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e0550f7c-72d7-56f6-b21f-a4629c5e7184",
+      "name": "[style*=\"background-image:url\"]",
+      "selector": "[style*=\"background-image:url\"]",
+      "domains": [
+        "igorslab.de"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -60708,6 +61442,17 @@
       "selector": ".text-left",
       "domains": [
         "link.snipcash.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e4804a39-67c0-53f1-88f6-eccf81b9e4dc",
+      "name": "div.fr-gate-ad",
+      "selector": "div.fr-gate-ad",
+      "domains": [
+        "fileroy.com"
       ],
       "isEnabled": true,
       "rank": 0,

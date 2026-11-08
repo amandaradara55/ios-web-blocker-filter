@@ -2,6 +2,18 @@
   "web-block-filter-version": "1.0",
   "block-rules": [
     {
+      "id": "021d1561-e4c1-5f54-97c6-f5cf9361bcd9",
+      "name": "re-n-ai.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "re-n-ai.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "374b0420-e7d0-5057-90b7-2078cd44c837",
       "name": "onetag.adnx.jp",
       "scope": "fqdn",
@@ -4842,6 +4854,17 @@
       "note": ""
     },
     {
+      "id": "5b61c050-830b-5f32-a800-c5d18bf0a3b3",
+      "name": "gcolle.net/blogparts/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gcolle\\.net(?::[0-9]+)?/blogparts/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "96a2e935-a81b-52c4-93c5-d6a508425b59",
       "name": "5ch.io/adstir.html",
       "scope": "url",
@@ -6904,17 +6927,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pvpoke\\-re\\.com(?::[0-9]+)?/nitro\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "8f10fd46-0845-53b2-ada7-0e6120d30709",
-      "name": "dabun.net/js/addAmz.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dabun\\.net(?::[0-9]+)?/js/addAmz\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -11248,17 +11260,6 @@
       "note": ""
     },
     {
-      "id": "49c8ea53-0fbc-57f8-8c34-5d2b8108ee4d",
-      "name": "utamap.com/banner/banner_stand_bana.jpg",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?utamap\\.com(?::[0-9]+)?/banner/banner_stand_bana\\.jpg",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "4e43fdd0-b097-5d40-bed4-4f35f9fd8043",
       "name": "rdlp.jp/wp/wp-content/themes/rdlp/header/img/header_haikei.png",
       "scope": "url",
@@ -11710,17 +11711,6 @@
       "note": ""
     },
     {
-      "id": "60c21785-32b7-530b-9894-290ecc0296bb",
-      "name": "utamap.com/review/list/shared/images/banner_",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?utamap\\.com(?::[0-9]+)?/review/list/shared/images/banner_",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "e3cf483d-a374-5cd0-bbee-05673196be4b",
       "name": "ultra-soccer.jp/ad/logly_",
       "scope": "url",
@@ -11875,11 +11865,11 @@
       "note": ""
     },
     {
-      "id": "257e3177-1935-58fb-a11b-6105194f795b",
-      "name": "matomedane.jp/js/right_navi/",
+      "id": "7df49727-3412-5174-b988-24a014f7e84e",
+      "name": "matomedane.jp/js/adv/",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?matomedane\\.jp(?::[0-9]+)?/js/right_navi/",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?matomedane\\.jp(?::[0-9]+)?/js/adv/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -15105,10 +15095,11 @@
       "note": ""
     },
     {
-      "id": "ea5576d8-3db6-5da7-baef-5bea753c290e",
+      "id": "811d8099-eb47-5d9e-82b4-0ab6a5adf547",
       "name": ".ads",
       "selector": ".ads",
       "domains": [
+        "dengekionline.com",
         "rkd3.dev",
         "my-favorite-giants.net",
         "weddingcard.jp",
@@ -15627,6 +15618,185 @@
       "note": ""
     },
     {
+      "id": "98f77fa6-992c-53b0-a86a-13e333ce1603",
+      "name": ".ad-flex-group",
+      "selector": ".ad-flex-group",
+      "domains": [
+        "f1-gate.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "79b1df93-c404-5cc3-8381-924d771685fc",
+      "name": "section[class^=\"home-v2_adsSection\"]",
+      "selector": "section[class^=\"home-v2_adsSection\"]",
+      "domains": [
+        "soraraw.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "1d1e4b7e-e1ee-5c6f-89b2-624d80dff123",
+      "name": ".splink",
+      "selector": ".splink",
+      "domains": [
+        "doumori.com",
+        "mario2-3ds.net",
+        "mario-wiiu.net",
+        "mario3d-wiiu.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e1d0c83e-e157-51f1-b1d3-5673a271b013",
+      "name": "div[class^=\"TopHeaderBanner\"]",
+      "selector": "div[class^=\"TopHeaderBanner\"]",
+      "domains": [
+        "famitsu.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6dcca613-a695-534d-ad4d-c1bb622d70aa",
+      "name": "section[class^=\"WrapperBackgroundJack-\"]",
+      "selector": "section[class^=\"WrapperBackgroundJack-\"]",
+      "domains": [
+        "famitsu.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0cae8d8d-3b39-55f3-a1be-12073dc43cb5",
+      "name": "div[class^=\"HalfPageBottomOrLargeRectangle-\"]",
+      "selector": "div[class^=\"HalfPageBottomOrLargeRectangle-\"]",
+      "domains": [
+        "famitsu.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e49577d3-f139-5380-b014-f6513c0442d1",
+      "name": "div[class^=\"FooterRectangle-module-\"]",
+      "selector": "div[class^=\"FooterRectangle-module-\"]",
+      "domains": [
+        "famitsu.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ea3520ad-d155-5d64-9d3f-9b49d07e3934",
+      "name": "div[class^=\"ArticleDetailBanner-\"]",
+      "selector": "div[class^=\"ArticleDetailBanner-\"]",
+      "domains": [
+        "famitsu.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "86837bc8-7cb6-5d8b-93e4-416c7060c023",
+      "name": "table[style=\"width:100%;border:1px solid #ddd;border-radius:6px;border-collapse:separate;border-spacing:0;margin:12px 0;\"]",
+      "selector": "table[style=\"width:100%;border:1px solid #ddd;border-radius:6px;border-collapse:separate;border-spacing:0;margin:12px 0;\"]",
+      "domains": [
+        "nwknews.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3f80c3f7-9ad5-5639-aac1-0d8a3e291a6d",
+      "name": ".bxud9W_slot",
+      "selector": ".bxud9W_slot",
+      "domains": [
+        "official.ameba.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d9e2a851-62e6-5603-bc75-62ca8da0d372",
+      "name": ".bhMHeW_billboard",
+      "selector": ".bhMHeW_billboard",
+      "domains": [
+        "official.ameba.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "24b5c80b-a896-5dc4-b872-695290ca8bef",
+      "name": ".wrap_banner5",
+      "selector": ".wrap_banner5",
+      "domains": [
+        "city.yubari.lg.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3c85c89d-4a03-5e29-bf82-4dfc5fa1abe3",
+      "name": "div[class^=\"watch-live_watch-live-wrapper_\"]",
+      "selector": "div[class^=\"watch-live_watch-live-wrapper_\"]",
+      "domains": [
+        "goal.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "71f39b9c-a661-5046-a05c-e3ed3e302c82",
+      "name": ".fco-affiliate-button",
+      "selector": ".fco-affiliate-button",
+      "domains": [
+        "goal.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "741856b2-f315-5f02-b3ad-df3b3f4e03fc",
+      "name": ".fco-affiliate-promo-panel",
+      "selector": ".fco-affiliate-promo-panel",
+      "domains": [
+        "goal.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6cde3d70-7cc1-53a0-b23d-85b98a8bc896",
+      "name": ".sr-ad-hold",
+      "selector": ".sr-ad-hold",
+      "domains": [
+        "slorepo.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "12907a14-b76f-5a1b-8e02-3583b2a1e050",
       "name": ".infeed-ad",
       "selector": ".infeed-ad",
@@ -15721,6 +15891,17 @@
       "selector": "div[class^=\"InLead-\"]",
       "domains": [
         "dengekionline.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0f3e0214-b7a9-5689-adea-48ec5619d440",
+      "name": "[style*=\"cursor:\"]",
+      "selector": "[style*=\"cursor:\"]",
+      "domains": [
+        "socialxup.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -17015,6 +17196,17 @@
       "note": ""
     },
     {
+      "id": "378fe95c-3468-5195-b0ba-93992ed1cc3c",
+      "name": "a[href^=\"https://dlaf.jp/maniax/dlaf/\"]",
+      "selector": "a[href^=\"https://dlaf.jp/maniax/dlaf/\"]",
+      "domains": [
+        "kako.futakuro.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "e04cc257-def1-594b-b78c-feb3f5c12316",
       "name": "body > iframe[src^=\"https://chobit.cc/embed/\"]",
       "selector": "body > iframe[src^=\"https://chobit.cc/embed/\"]",
@@ -17441,6 +17633,17 @@
       "selector": ".amz-card",
       "domains": [
         "blog.esuteru.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "631bccf3-1c2f-5a09-9107-26035aa785fb",
+      "name": ".sticky_ad",
+      "selector": ".sticky_ad",
+      "domains": [
+        "phileweb.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -22652,6 +22855,17 @@
       "note": ""
     },
     {
+      "id": "a137c7fc-76cc-5b46-a07a-24960a143d31",
+      "name": "div[style^=\"position:fixed;left:0;right:0;bottom:0;height:100px\"]",
+      "selector": "div[style^=\"position:fixed;left:0;right:0;bottom:0;height:100px\"]",
+      "domains": [
+        "h1g.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "95b154b5-d7e1-59c4-ac73-d08edbb64e54",
       "name": "#menubar > div[style^=\"width:330px; height:2\"][style$=\"auto;\"][align=\"center\"]",
       "selector": "#menubar > div[style^=\"width:330px; height:2\"][style$=\"auto;\"][align=\"center\"]",
@@ -22734,28 +22948,6 @@
       "selector": "._169wog0",
       "domains": [
         "roboin.io"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ed7d832b-9a0a-5b43-80f7-5f881398ba8a",
-      "name": ".fixed_widget",
-      "selector": ".fixed_widget",
-      "domains": [
-        "metyayaba.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4e347cc5-3f30-59fe-b394-cb6704cadc25",
-      "name": ".left-side-widget_area",
-      "selector": ".left-side-widget_area",
-      "domains": [
-        "metyayaba.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -23618,28 +23810,6 @@
       "selector": "a[href^=\"https://www.amazon.co.jp/dp/\"] ~ img[src=\"qr-amazon-logo.png\"]",
       "domains": [
         "oninet.ne.jp"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "1caf6dcf-3595-5dd9-8f94-f9455553cda5",
-      "name": ".md\\:h-\\[200px\\]",
-      "selector": ".md\\:h-\\[200px\\]",
-      "domains": [
-        "math-joy-life.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c407664d-85f7-5030-a9eb-8ef0146e2fb3",
-      "name": ".swiper.md\\:h-\\[800px\\]",
-      "selector": ".swiper.md\\:h-\\[800px\\]",
-      "domains": [
-        "math-joy-life.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -25428,6 +25598,17 @@
       "selector": "#pc_home_header",
       "domains": [
         "autoby.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "61024851-bf1c-55b0-8178-f62318a8ed88",
+      "name": "#pc_j-town_kiji_instream",
+      "selector": "#pc_j-town_kiji_instream",
+      "domains": [
+        "j-town.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -32876,6 +33057,17 @@
       "note": ""
     },
     {
+      "id": "d3b353b1-bd17-52d4-84e3-a18f10baddeb",
+      "name": "#outotu-managed-bottom-slot",
+      "selector": "#outotu-managed-bottom-slot",
+      "domains": [
+        "hattatu-matome.ldblog.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "bdaca391-cb60-5126-bac3-492c0ad95976",
       "name": ".sale-box",
       "selector": ".sale-box",
@@ -39586,11 +39778,11 @@
       "note": ""
     },
     {
-      "id": "40d7a584-9004-5d14-bd46-5bb1fdd163a6",
+      "id": "5a2c1d1a-423d-5cde-8696-a740ba3bd359",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.golf"
+        "jmanga.cloud"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -44757,22 +44949,22 @@
       "note": ""
     },
     {
-      "id": "f9ce1ea0-05be-5ddc-94e2-a103c232e3f5",
+      "id": "4dfd2a3f-bdf0-54e5-a511-bb9a5680818f",
       "name": ".card[style=\"margin: 15px 0px\"]",
       "selector": ".card[style=\"margin: 15px 0px\"]",
       "domains": [
-        "fc2hub.com"
+        "javten.com"
       ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
     },
     {
-      "id": "a1115ea8-4ebb-59cf-ab03-53d715bda377",
+      "id": "d73f044d-6cc9-54a2-bf0c-12fe9f3bba96",
       "name": ".col-xl-8 > div.row > div.col > div.card.d-lg-block",
       "selector": ".col-xl-8 > div.row > div.col > div.card.d-lg-block",
       "domains": [
-        "fc2hub.com"
+        "javten.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -49544,11 +49736,10 @@
       "note": ""
     },
     {
-      "id": "5bf50c5a-99e5-5e4d-8070-2b52f7476394",
+      "id": "f6af0335-6f0f-5e60-82a1-6b2bdbb578d9",
       "name": "#extra div.plugin-memo:last-of-type",
       "selector": "#extra div.plugin-memo:last-of-type",
       "domains": [
-        "otaku.golog.jp",
         "yugioh-starlight.com",
         "koisoku.ldblog.jp",
         "kitimama-matome.net",
@@ -64909,10 +65100,11 @@
       "note": ""
     },
     {
-      "id": "4c1e3bf9-4a37-5dfd-840b-e99b3c89a16f",
+      "id": "4640e7c1-b77a-50e7-9c63-b377948326b1",
       "name": "#text-21",
       "selector": "#text-21",
       "domains": [
+        "erogamo.com",
         "murakichi.net"
       ],
       "isEnabled": true,
@@ -67964,10 +68156,11 @@
       "note": ""
     },
     {
-      "id": "b409d3b9-1119-5839-9c8e-6c03fd2a2053",
+      "id": "e742ec46-76ff-5350-981c-d68b8eae9d42",
       "name": "#custom_html-22",
       "selector": "#custom_html-22",
       "domains": [
+        "lions-matome.com",
         "tousatu-club.com",
         "namba-osaka.com",
         "virtualgorillaplus.com"
@@ -71721,10 +71914,11 @@
       "note": ""
     },
     {
-      "id": "648f9972-9987-5127-b6cd-0d906f148faf",
+      "id": "2a11400f-9ab8-52ef-9ecd-b58143fe488a",
       "name": "#pc_text-2",
       "selector": "#pc_text-2",
       "domains": [
+        "erotaredogaonly.xyz",
         "adult-live.com",
         "fatego-matome.com",
         "footcalcio.com",
@@ -75619,28 +75813,6 @@
       "note": ""
     },
     {
-      "id": "ef255091-8a7c-5e27-af91-62355afee2b4",
-      "name": "body > div[style^=\"width:300px\"] > div[style=\"margin:15px auto 0 auto; font-size:11px;line-height:1.5;text-align:left;\"]",
-      "selector": "body > div[style^=\"width:300px\"] > div[style=\"margin:15px auto 0 auto; font-size:11px;line-height:1.5;text-align:left;\"]",
-      "domains": [
-        "utamap.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "14696810-d826-577d-a783-178f7620e807",
-      "name": "body > div[style^=\"width:300px\"] > table[style^=\"margin:0;\"]",
-      "selector": "body > div[style^=\"width:300px\"] > table[style^=\"margin:0;\"]",
-      "domains": [
-        "utamap.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "1fa8cf2f-3448-5bb1-aa4c-aa26cb7989d9",
       "name": "#bnrLp",
       "selector": "#bnrLp",
@@ -78225,6 +78397,17 @@
       "selector": "div[style=\"padding:25px 10px;display:inline-block;\"]",
       "domains": [
         "gaccom.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c6f612a4-b84a-50da-b13f-ee790c99f79b",
+      "name": "#pc_text-30",
+      "selector": "#pc_text-30",
+      "domains": [
+        "egone.org"
       ],
       "isEnabled": true,
       "rank": 0,
