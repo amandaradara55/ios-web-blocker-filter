@@ -9059,17 +9059,6 @@
       "note": ""
     },
     {
-      "id": "ca3f1d43-cfb4-5b54-b94e-834c5f37cd25",
-      "name": "response.jp/base/scripts/cx-fbq.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?response\\.jp(?::[0-9]+)?/base/scripts/cx\\-fbq\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "7d040759-58ba-5701-9fd6-95df597ab811",
       "name": "pref.toyama.jp/banner/",
       "scope": "url",
@@ -15618,6 +15607,50 @@
       "note": ""
     },
     {
+      "id": "5ea59107-3f80-5602-a23e-4fb276104c72",
+      "name": ".talk-ad-slot",
+      "selector": ".talk-ad-slot",
+      "domains": [
+        "shikutoku.me"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "38a6e795-821a-5301-a92d-cc47000f6709",
+      "name": "#sp_article_header",
+      "selector": "#sp_article_header",
+      "domains": [
+        "phileweb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e9fbd5cd-5edd-52fc-b7c5-efef83b4e0bd",
+      "name": "#sp_article_undertitle_wrapper",
+      "selector": "#sp_article_undertitle_wrapper",
+      "domains": [
+        "phileweb.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "335e3c0f-7456-5c9d-b9fb-282be8bd11c2",
+      "name": "div[class^=\"aside-box-ifad\"]",
+      "selector": "div[class^=\"aside-box-ifad\"]",
+      "domains": [
+        "response.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "98f77fa6-992c-53b0-a86a-13e333ce1603",
       "name": ".ad-flex-group",
       "selector": ".ad-flex-group",
@@ -15897,6 +15930,39 @@
       "note": ""
     },
     {
+      "id": "52b0c9f3-b75c-5a3e-99d6-b34ef06cc221",
+      "name": "a[target][href^=\"https://socialxup.com/\"]",
+      "selector": "a[target][href^=\"https://socialxup.com/\"]",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d362d99c-9664-5c00-910d-c9eeaf828ee4",
+      "name": "a[target][href^=\"/\"]",
+      "selector": "a[target][href^=\"/\"]",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d028c947-916f-59cf-82e8-b0f7647e3b34",
+      "name": ".cursor-pointer",
+      "selector": ".cursor-pointer",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "0f3e0214-b7a9-5689-adea-48ec5619d440",
       "name": "[style*=\"cursor:\"]",
       "selector": "[style*=\"cursor:\"]",
@@ -15941,11 +16007,11 @@
       "note": ""
     },
     {
-      "id": "0c6bc42b-fa69-5848-a300-cd1161a3a9cb",
+      "id": "f2f4ee81-463e-5960-801e-befe6e3ebd1d",
       "name": "#ipob",
       "selector": "#ipob",
       "domains": [
-        "syosetu.help"
+        "syosetu.town"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -16001,6 +16067,28 @@
       "selector": ".w-full[style=\"width: 100%; max-width: 728px; min-height: 90px; overflow: visible; box-sizing: border-box;\"]",
       "domains": [
         "trogiupnhanh.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "9d47db6f-1232-5b96-9f73-53a640ac5892",
+      "name": "a[href^=\"https://al.dmm.co\"]",
+      "selector": "a[href^=\"https://al.dmm.co\"]",
+      "domains": [
+        "ftbucket.info"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bde40dc3-b53e-5c8e-8480-967ce82c5c28",
+      "name": "#x-rec-rank",
+      "selector": "#x-rec-rank",
+      "domains": [
+        "ftbucket.info"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -25303,17 +25391,6 @@
       "note": ""
     },
     {
-      "id": "bff846e7-d692-55de-9bb5-638d1dbb091b",
-      "name": "body > div[style=\"height:250px\"]",
-      "selector": "body > div[style=\"height:250px\"]",
-      "domains": [
-        "mangaraw.fish"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "54cf5efd-a779-5611-ae64-2f3970ad51e5",
       "name": ".mgs-ad",
       "selector": ".mgs-ad",
@@ -28378,17 +28455,6 @@
       "selector": "p[align=\"center\"] > a[target=\"_blank\"] > img",
       "domains": [
         "natuero-dougakan.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "2f416e2c-ec4e-532f-9ede-ca94c561d24f",
-      "name": ".text-center[style^=\" height: 300px; overflow: hidden; max-width:\"]:empty",
-      "selector": ".text-center[style^=\" height: 300px; overflow: hidden; max-width:\"]:empty",
-      "domains": [
-        "saikomangaraw.net"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -39778,11 +39844,11 @@
       "note": ""
     },
     {
-      "id": "5a2c1d1a-423d-5cde-8696-a740ba3bd359",
+      "id": "d14da3a3-338c-5227-90e5-bbc70ff2423b",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.cloud"
+        "jmanga.party"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -69685,10 +69751,11 @@
       "note": ""
     },
     {
-      "id": "9d4fc189-957e-5e0e-9cbe-de62534676b1",
+      "id": "94bd2cec-ac08-5796-9c7a-4c24bcac8504",
       "name": ".aside-box-ad",
       "selector": ".aside-box-ad",
       "domains": [
+        "response.jp",
         "s.cinemacafe.net",
         "rbbtoday.com"
       ],
@@ -83761,10 +83828,11 @@
       "note": ""
     },
     {
-      "id": "ecbafc47-8a7a-52fa-8c3d-56d6f6f26f04",
+      "id": "d5c80dc5-f0e2-528e-9383-300fd4acacb8",
       "name": ".top-banner",
       "selector": ".top-banner",
       "domains": [
+        "response.jp",
         "mangaraw24.net",
         "city.kagoshima-izumi.lg.jp",
         "kk-bestsellers.com",
@@ -94204,10 +94272,11 @@
       "note": ""
     },
     {
-      "id": "13214e68-392b-58b4-84b9-ea7f69d840d2",
+      "id": "baa46680-824e-51d4-8422-3289187b0dc0",
       "name": "a[href^=\"https://www.amazon.co.jp/\"]",
       "selector": "a[href^=\"https://www.amazon.co.jp/\"]",
       "domains": [
+        "hamusoku.com",
         "poweruse.seesaa.net",
         "2ch.logpo.jp",
         "mt-soft.sakura.ne.jp",

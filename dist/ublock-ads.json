@@ -1314,6 +1314,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "67df3d2c-9759-53e4-a5c7-5aabd40d94ee",
+      "name": "increaserev.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "increaserev.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "d354c405-2344-5cae-87f3-e08c28a845c8",
       "name": "glade-static.space",
       "scope": "fqdn",
@@ -2716,6 +2728,17 @@
       "note": ""
     },
     {
+      "id": "c8c7b28f-ed79-5a83-add0-6a8ddd53fd2a",
+      "name": "vidy.st/scripts/movy.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vidy\\.st(?::[0-9]+)?/scripts/movy\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "76dcfa00-f976-5c93-ae08-3e85d8650a96",
       "name": "64gkf7zhlwqn6y4eutgq1hjjo9y.rest",
       "scope": "fqdn",
@@ -2993,15 +3016,16 @@
       "note": ""
     },
     {
-      "id": "269e529a-49c1-543c-8cb2-c0117205c65a",
-      "name": "ash.automobile-catalog.com/core.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?ash\\.automobile\\-catalog\\.com(?::[0-9]+)?/core\\.js",
+      "id": "f783908d-195c-5d51-a5e1-077068006fb3",
+      "name": "ash.automobile-catalog.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ash.automobile-catalog.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
-      "note": ""
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "17710286-e389-58ec-8ab4-f30a4bc2fb70",
@@ -3555,6 +3579,18 @@
       "note": ""
     },
     {
+      "id": "2d982c45-211b-5de2-b463-c236516be7a1",
+      "name": "cdn.adwebcode.gr",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cdn.adwebcode.gr",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cbe80d2b-5ea7-58b5-9267-bf1605016f0f",
       "name": "ads.desustream.com",
       "scope": "fqdn",
@@ -3694,6 +3730,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "adme2.click",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d354419b-9477-53b7-b2d6-6b823b832bf8",
+      "name": "sources.network",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sources.network",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -6692,6 +6740,17 @@
       "note": ""
     },
     {
+      "id": "5196a562-f710-5421-a8d9-edc979f5e1fc",
+      "name": "scripts.dkmedia.now.sh/popunders/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?scripts\\.dkmedia\\.now\\.sh(?::[0-9]+)?/popunders/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "6db25342-8d40-5f2a-b6ee-02a7de5d74c1",
       "name": "accuradio.com/vast",
       "scope": "url",
@@ -8327,6 +8386,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "defabf5a-3703-56e0-8614-d4b53dff9953",
+      "name": "babaktv.com/redirect/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?babaktv\\.com(?::[0-9]+)?/redirect/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "953b1877-54b9-58b8-b2be-44a3c6ba2424",
       "name": "cdn.mobalytics.gg/assets/common/prebid/",
       "scope": "url",
@@ -8487,6 +8557,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?demonicscans\\.org(?::[0-9]+)?/img/wsup\\.gif",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c0ac9972-8bc7-5643-a801-c80055b916da",
+      "name": "||sextb.*/js/popup.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?sextb\\..*/js/popup\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -10589,6 +10670,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "aa17d6de-495e-59d4-922b-ce381fac45b3",
+      "name": "blackoutcomics.com/build/assets/adblock-wall-",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?blackoutcomics\\.com(?::[0-9]+)?/build/assets/adblock\\-wall\\-",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
@@ -17424,17 +17516,6 @@
       "selector": "#sr",
       "domains": [
         "tryboobs.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "af8f2446-f033-50a8-921b-3f65dd571052",
-      "name": "center",
-      "selector": "center",
-      "domains": [
-        "cutpaid.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -25763,15 +25844,14 @@
       "note": ""
     },
     {
-      "id": "86f4fc22-4d1f-5c1a-83f0-c54fa9bfd4e1",
+      "id": "e0422eba-06ef-5dc2-9e53-19a4e163aec1",
       "name": ".itemads",
       "selector": ".itemads",
       "domains": [
         "javbake.com",
         "javcensored.net",
         "javdoge.com",
-        "javsexfree.com",
-        "javuncensored.watch"
+        "javsexfree.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -27609,11 +27689,10 @@
       "note": ""
     },
     {
-      "id": "2ae7cf41-9ed0-582d-bea5-6894fbf15040",
+      "id": "fe8d617a-f9a1-5bcc-8f57-a35750174f1b",
       "name": "^script.pmc-admiral",
       "selector": "^script.pmc-admiral",
       "domains": [
-        "ampav.com",
         "artforum.com",
         "artnews.com",
         "atxtv.co",
@@ -29316,6 +29395,28 @@
       "note": ""
     },
     {
+      "id": "df12b453-9296-5ec9-b28f-c23ca258b761",
+      "name": ".ads-baneri-1",
+      "selector": ".ads-baneri-1",
+      "domains": [
+        "televiziebi.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bbec31af-eaca-56ff-a93c-f5f3979fada4",
+      "name": ".avc-asvl",
+      "selector": ".avc-asvl",
+      "domains": [
+        "televiziebi.tv"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "8604d303-766f-5a8f-880c-ed718014a526",
       "name": "#bluum",
       "selector": "#bluum",
@@ -29858,6 +29959,17 @@
         "cg-gamespc.net",
         "elamigosgames.net",
         "elamigosgamez.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6e35cac1-7ac7-5459-b76c-ce18ed1afb80",
+      "name": "a#tracking-url",
+      "selector": "a#tracking-url",
+      "domains": [
+        "onlyputaria.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -38950,17 +39062,6 @@
       "note": ""
     },
     {
-      "id": "ed3fa81d-90ed-573b-8c57-2a10af810da7",
-      "name": "#text-3",
-      "selector": "#text-3",
-      "domains": [
-        "pclicious.net"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "f367b514-429a-5af5-9e0a-5849e6ecb227",
       "name": ".ads",
       "selector": ".ads",
@@ -44134,17 +44235,6 @@
       "domains": [
         "derstandard.at",
         "derstandard.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "c28c308d-c48f-5430-bc6e-809ddaafca7a",
-      "name": ".countdown",
-      "selector": ".countdown",
-      "domains": [
-        "adzz.in"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -52739,6 +52829,28 @@
       "note": ""
     },
     {
+      "id": "414a9298-b420-5cd8-80ab-723ce1cbee16",
+      "name": ".my-8.gap-2.items-center",
+      "selector": ".my-8.gap-2.items-center",
+      "domains": [
+        "sheepesports.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d979e81f-8441-5a36-9101-bbbc12bae220",
+      "name": ".px-5.my-10.max-w-\\[70rem\\]",
+      "selector": ".px-5.my-10.max-w-\\[70rem\\]",
+      "domains": [
+        "sheepesports.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "d8a72106-fbbf-5038-a430-dabf3e60c852",
       "name": ".sharethis-inline-share-buttons.st-hidden",
       "selector": ".sharethis-inline-share-buttons.st-hidden",
@@ -57323,6 +57435,17 @@
       "note": ""
     },
     {
+      "id": "abe7b042-01bb-5175-ad8d-5e3f2c52235a",
+      "name": "#fullscreen-ad-trap",
+      "selector": "#fullscreen-ad-trap",
+      "domains": [
+        "kaa.lt"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "f519a1be-6127-5cb4-b6f9-3e0b24c5c4eb",
       "name": ".ps-block-a-top",
       "selector": ".ps-block-a-top",
@@ -58001,6 +58124,17 @@
       "selector": "#desktop-takeover",
       "domains": [
         "www.deeplol.gg"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "3cf81ead-3818-5f8a-8fc6-ade4abee5193",
+      "name": ".slot-note",
+      "selector": ".slot-note",
+      "domains": [
+        "wispbyte.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -58756,6 +58890,17 @@
       "note": ""
     },
     {
+      "id": "c70ac2a1-1ebc-51aa-bba2-4b421d301ea2",
+      "name": ".AdspAdContainer",
+      "selector": ".AdspAdContainer",
+      "domains": [
+        "goodreads.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "14e62478-c3ac-5a9b-bac9-e24797efd01f",
       "name": ".featured",
       "selector": ".featured",
@@ -59415,6 +59560,83 @@
       "note": ""
     },
     {
+      "id": "9c5539ed-98b0-5e90-b022-95c5341b3ea4",
+      "name": "div[id^=\"maimunka-ad-\"]",
+      "selector": "div[id^=\"maimunka-ad-\"]",
+      "domains": [
+        "maimuna.to"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "0b440a1f-5ad4-58d8-812b-7099e32acd04",
+      "name": ".ad_kontener",
+      "selector": ".ad_kontener",
+      "domains": [
+        "elektrotanya.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "93152466-18b4-5f9a-9b93-46393cfbb0b9",
+      "name": "#ad-header4",
+      "selector": "#ad-header4",
+      "domains": [
+        "elektrotanya.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "07f944df-e31c-557c-b823-3281af8609d6",
+      "name": "#ad-header3",
+      "selector": "#ad-header3",
+      "domains": [
+        "elektrotanya.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5b7d32be-23e0-5796-b781-e0f2e393dda4",
+      "name": ".story-content .ad",
+      "selector": ".story-content .ad",
+      "domains": [
+        "applescoop.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5ac1e4ab-3797-55b9-8c9b-b810db485cce",
+      "name": ".as-ad-rail",
+      "selector": ".as-ad-rail",
+      "domains": [
+        "applescoop.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "e394f4a6-658a-5f61-b361-7dda26ee860f",
+      "name": ".as-ad",
+      "selector": ".as-ad",
+      "domains": [
+        "applescoop.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "9cdd154b-7a88-5d05-9932-5c910edbd55c",
       "name": ".fluidprimary, #go_d, .adb_detected > h2",
       "selector": ".fluidprimary, #go_d, .adb_detected > h2",
@@ -59583,18 +59805,6 @@
       "selector": "#link-view > br",
       "domains": [
         "birdurls.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "8bd8257f-b6f7-504f-a828-0ad64a081b77",
-      "name": ".process, .txt_top",
-      "selector": ".process, .txt_top",
-      "domains": [
-        "utkarshonlinetest.com",
-        "financewada.com"
       ],
       "isEnabled": true,
       "rank": 0,
