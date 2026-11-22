@@ -1326,35 +1326,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "d354c405-2344-5cae-87f3-e08c28a845c8",
-      "name": "glade-static.space",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "glade-static.space",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "b726a6a9-fd45-5f93-81c2-d872d3051129",
       "name": "willow-assets.space",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "willow-assets.space",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "380b4bef-033d-5b0d-b545-a759f04accd2",
-      "name": "stat-res.workers.dev",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "stat-res.workers.dev",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -1697,6 +1673,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "0e44785c-4f6e-5284-b7cb-fa50846b6d0b",
+      "name": "/player/jw8/vast.js?",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/player/jw8/vast.js?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "dd89ad03-272e-5153-b886-300109ec6914",
       "name": "/banner.go?spaceid=",
       "scope": "url",
@@ -1934,18 +1922,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "b3896141-ed15-51bd-9b05-f385f8ac607c",
-      "name": "clenchedyouthmatching.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "clenchedyouthmatching.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "dc4586fa-9165-5574-bf51-d388d96a2229",
@@ -2466,47 +2442,11 @@
       "literalOperator": "exact"
     },
     {
-      "id": "bc4605f9-3829-5745-b461-420d14c665f2",
-      "name": "riqhisfus.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "riqhisfus.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "371fda24-4baa-5628-a635-6ea7a9a58762",
       "name": "sefeethameel.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "sefeethameel.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "95862f5e-294a-52f4-9b16-36f10294c70b",
-      "name": "smahxdfxxdc.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "smahxdfxxdc.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "b4838347-0f5f-5d82-8465-7cb5320fbf2d",
-      "name": "staukaptaicm.net",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "staukaptaicm.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -2570,17 +2510,6 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
-    },
-    {
-      "id": "5a6ea0ae-ebe9-5af1-a3e5-3a939508e650",
-      "name": "embedstreams.top/js/script.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?embedstreams\\.top(?::[0-9]+)?/js/script\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
     },
     {
       "id": "79b43047-adc4-556b-9377-b562ff9fbde7",
@@ -2717,17 +2646,6 @@
       "note": ""
     },
     {
-      "id": "f1056b16-580f-5896-933f-267bb6dc4648",
-      "name": "player.vidlove.cc/rt.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?player\\.vidlove\\.cc(?::[0-9]+)?/rt\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "c8c7b28f-ed79-5a83-add0-6a8ddd53fd2a",
       "name": "vidy.st/scripts/movy.js",
       "scope": "url",
@@ -2737,18 +2655,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "76dcfa00-f976-5c93-ae08-3e85d8650a96",
-      "name": "64gkf7zhlwqn6y4eutgq1hjjo9y.rest",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "64gkf7zhlwqn6y4eutgq1hjjo9y.rest",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "469a530d-cd86-550e-9ae7-d4fb16f5071e",
@@ -2775,18 +2681,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "ec70f8a3-915c-574e-8d72-68d447dac40c",
-      "name": "nvh1mgp8k77cu2935zwczqfezrr.cfd",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "nvh1mgp8k77cu2935zwczqfezrr.cfd",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "307eee2c-197f-5c83-aa3b-800a6ceb280b",
       "name": "imgair.net/vip/splitest.html",
       "scope": "url",
@@ -2796,18 +2690,6 @@
       "rank": 0,
       "action": "block",
       "note": ""
-    },
-    {
-      "id": "054428bb-be5c-54be-8b24-a9f5b4a1b542",
-      "name": "hottracker.biz",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "hottracker.biz",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
     },
     {
       "id": "b9163f0b-0a75-561f-ac6d-db2002ad390f",
@@ -2907,6 +2789,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "/wp\\-content/plugins/ultimate\\-anti\\-adblock/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a2d33ea7-a981-53ea-a0b1-a3c74b4292d1",
+      "name": "/wp-content/client-mu-plugins/pmd-ads/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/wp\\-content/client\\-mu\\-plugins/pmd\\-ads/.*",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -3285,6 +3178,30 @@
       "note": ""
     },
     {
+      "id": "f7e0372e-e359-57f7-90ab-bd4689476806",
+      "name": "z9snqc.fcportables.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "z9snqc.fcportables.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c4242b8b-f4c7-578a-9add-6cc81225873d",
+      "name": "qbp5y.filecatchers.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "qbp5y.filecatchers.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "785e9f49-570f-53c3-b79a-b1983262846f",
       "name": "auto.am/static/azd/",
       "scope": "url",
@@ -3544,6 +3461,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "a05e749e-8130-5c98-8f82-0c5ec988701d",
+      "name": "geofilms.net/rolls/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?geofilms\\.net(?::[0-9]+)?/rolls/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a91f6fdb-65ed-5393-8aaf-94116c6d2722",
+      "name": "croconet.cam/api/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?croconet\\.cam(?::[0-9]+)?/api/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "bd14e0c5-4132-5a35-a864-845c8d94081f",
@@ -9428,6 +9367,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3b38614c-e8e0-5eae-8e5d-2a3642891381",
+      "name": "comix.to/assets/gotaku-banner",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?comix\\.to(?::[0-9]+)?/assets/gotaku\\-banner",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "fb49044f-05e6-5643-9104-8097b9e3f391",
       "name": "xgamehub.net/kaa/",
       "scope": "url",
@@ -9935,6 +9885,17 @@
       "note": ""
     },
     {
+      "id": "3acb26f5-f412-53e4-bee3-6ea4b238321b",
+      "name": "up-4ever.net/js/bravenote.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?up\\-4ever\\.net(?::[0-9]+)?/js/bravenote\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "a4264eee-cbf5-5dca-9dbd-aea0089dde01",
       "name": "dilar.tube/api/ads_settings",
       "scope": "url",
@@ -10362,6 +10323,17 @@
       "note": ""
     },
     {
+      "id": "b90251ed-7bef-5aea-abc7-518671ce5ea1",
+      "name": "igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_1024x120px.jpg",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_1024x120px\\.jpg",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "647fa4de-eb24-574d-a650-e86a390d22a2",
       "name": "igorslab.de/wp-content/uploads/2021/11/Fractal-Sep-launch.jpg",
       "scope": "url",
@@ -10637,6 +10609,61 @@
       "note": ""
     },
     {
+      "id": "05d35324-ccac-59e5-8b99-8bf5ca43eaa6",
+      "name": "igorslab.de/wp-content/uploads/2026/08/300_x_400px_-_PS_Pro-1.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/300_x_400px_\\-_PS_Pro\\-1\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d6aab6e9-7ade-5907-983b-78e3d2779a47",
+      "name": "igorslab.de/wp-content/uploads/2025/03/980_x_125px_-_PS_Pro.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2025/03/980_x_125px_\\-_PS_Pro\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1f546620-f95c-5494-a3e0-786b4f0ee21f",
+      "name": "igorslab.de/wp-content/uploads/2026/08/300x400.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/300x400\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "9d3ee33b-af80-5a66-8d6e-46af28c36a91",
+      "name": "igorslab.de/wp-content/uploads/2022/12/CAPO-X.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2022/12/CAPO\\-X\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "86b76073-b8f8-5f05-8789-4b83f30e66fa",
+      "name": "igorslab.de/wp-content/uploads/2026/08/980x125.png",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?igorslab\\.de(?::[0-9]+)?/wp\\-content/uploads/2026/08/980x125\\.png",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "6501b8af-78d1-523e-8935-49f71aad8dfd",
       "name": "igorslab.de/wp-content/plugins/igorslab-ads-suite/",
       "scope": "url",
@@ -10681,6 +10708,40 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "2651af98-3579-546e-9158-2beefa4250c1",
+      "name": "laviola.it/jaqisharam.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?laviola\\.it(?::[0-9]+)?/jaqisharam\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "80ce8e73-4243-5562-85b7-aff896c74a59",
+      "name": "camsmut.com/vidzqi/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?camsmut\\.com(?::[0-9]+)?/vidzqi/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8619b4ee-1bd3-5f83-a69b-3eb7dd32fe52",
+      "name": "althz.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "althz.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "84a5527e-c867-512c-a3eb-273724daf14b",
@@ -26012,61 +26073,6 @@
       "note": ""
     },
     {
-      "id": "e1a14585-9910-54d7-a3df-573033dcc9b0",
-      "name": "^meta[http-equiv=\"refresh\"]",
-      "selector": "^meta[http-equiv=\"refresh\"]",
-      "domains": [
-        "comicxxx.eu"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "b64f4f66-e485-574e-8702-2d25c0962619",
-      "name": "#dclm_modal_content",
-      "selector": "#dclm_modal_content",
-      "domains": [
-        "comicxxx.eu"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "7e405a71-f102-57ec-afbb-88949112fe6f",
-      "name": "#dclm_modal_screen",
-      "selector": "#dclm_modal_screen",
-      "domains": [
-        "comicxxx.eu"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "814d5520-f794-5745-96e7-b7b59756db3e",
-      "name": ".adv_nad_player",
-      "selector": ".adv_nad_player",
-      "domains": [
-        "bobs-tube.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "05a8a2c3-2be0-5028-a5ab-b4f3231409e9",
-      "name": ".sponsored_top",
-      "selector": ".sponsored_top",
-      "domains": [
-        "bobs-tube.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "c99edab5-cada-5c6d-9dfb-564255eb77fe",
       "name": "[class^=\"sp_block\"]",
       "selector": "[class^=\"sp_block\"]",
@@ -26105,17 +26111,6 @@
       "selector": "#spot-holder",
       "domains": [
         "asiansex.life"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "2c75a4a2-b445-5e24-a7a5-f08e868271db",
-      "name": "#tracking-url",
-      "selector": "#tracking-url",
-      "domains": [
-        "comicxxx.eu"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -26419,39 +26414,6 @@
       "note": ""
     },
     {
-      "id": "b797079d-38ad-5f6c-8933-47afd5429e76",
-      "name": ".advertising",
-      "selector": ".advertising",
-      "domains": [
-        "bobs-tube.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "d2d867e1-411b-5e52-8dee-8644dd2b229f",
-      "name": ".player-related-videos",
-      "selector": ".player-related-videos",
-      "domains": [
-        "bobs-tube.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4a4de62a-bce5-5234-9fbf-ad7047f282ba",
-      "name": ".adv",
-      "selector": ".adv",
-      "domains": [
-        "bobs-tube.com"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "7b5eddb5-12e0-504a-8416-f4cc20b13326",
       "name": ".vda-item",
       "selector": ".vda-item",
@@ -26590,17 +26552,6 @@
       "name": "[src^=\"//dombnrs.com/\"]",
       "selector": "[src^=\"//dombnrs.com/\"]",
       "domains": [],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e2452544-821f-544c-8b77-ff3dbfa44c04",
-      "name": "[class*=\"_Bns\"]",
-      "selector": "[class*=\"_Bns\"]",
-      "domains": [
-        "besttwinkass.com"
-      ],
       "isEnabled": true,
       "rank": 0,
       "note": ""
@@ -27288,28 +27239,6 @@
       "note": ""
     },
     {
-      "id": "eed474f8-c3d3-59b2-a96a-478dbdc09fc7",
-      "name": ".wp-manga.c-top-sidebar.c-sidebar[style=\"background-color:#262626; \"]",
-      "selector": ".wp-manga.c-top-sidebar.c-sidebar[style=\"background-color:#262626; \"]",
-      "domains": [
-        "mh.baxoi.buzz"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e06ebe65-d70a-5386-912c-7251ce25f519",
-      "name": ".wp-manga.c-bottom-sidebar.c-sidebar[style=\"background-color:#ffffff; \"]",
-      "selector": ".wp-manga.c-bottom-sidebar.c-sidebar[style=\"background-color:#ffffff; \"]",
-      "domains": [
-        "mh.baxoi.buzz"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
       "id": "2325a22a-7a49-5652-a34e-a36ca673af87",
       "name": ".icb-responsive-wrapper",
       "selector": ".icb-responsive-wrapper",
@@ -27727,6 +27656,82 @@
       "id": "81838d03-d361-53a6-a0b4-9548e156a3dd",
       "name": "^script#admiral-script",
       "selector": "^script#admiral-script",
+      "domains": [
+        "calgaryherald.com",
+        "calgarysun.com",
+        "canada.com",
+        "canoe.com",
+        "driving.ca",
+        "edmontonjournal.com",
+        "edmontonsun.com",
+        "financialpost.com",
+        "leaderpost.com",
+        "lfpress.com",
+        "montrealgazette.com",
+        "nationalpost.com",
+        "ontariofarmer.com",
+        "ottawacitizen.com",
+        "ottawasun.com",
+        "pembrokeobserver.com",
+        "recorder.ca",
+        "standard-freeholder.com",
+        "thegrowthop.com",
+        "theprovince.com",
+        "thestarphoenix.com",
+        "thewhig.com",
+        "timminspress.com",
+        "tj.news",
+        "torontosun.com",
+        "vancouversun.com",
+        "windsorstar.com",
+        "winnipegsun.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8c88b2e9-10cc-59dc-937d-4fb79969b914",
+      "name": "^script[id^=\"pmd-ads-\"]",
+      "selector": "^script[id^=\"pmd-ads-\"]",
+      "domains": [
+        "calgaryherald.com",
+        "calgarysun.com",
+        "canada.com",
+        "canoe.com",
+        "driving.ca",
+        "edmontonjournal.com",
+        "edmontonsun.com",
+        "financialpost.com",
+        "leaderpost.com",
+        "lfpress.com",
+        "montrealgazette.com",
+        "nationalpost.com",
+        "ontariofarmer.com",
+        "ottawacitizen.com",
+        "ottawasun.com",
+        "pembrokeobserver.com",
+        "recorder.ca",
+        "standard-freeholder.com",
+        "thegrowthop.com",
+        "theprovince.com",
+        "thestarphoenix.com",
+        "thewhig.com",
+        "timminspress.com",
+        "tj.news",
+        "torontosun.com",
+        "vancouversun.com",
+        "windsorstar.com",
+        "winnipegsun.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "00ac0b3d-cb1a-5587-84d8-7a88ba2c03ed",
+      "name": ".pmd-ad-content-placeholder",
+      "selector": ".pmd-ad-content-placeholder",
       "domains": [
         "calgaryherald.com",
         "calgarysun.com",
@@ -28325,7 +28330,7 @@
       "note": ""
     },
     {
-      "id": "67167441-e477-52cc-9169-1db54ef8887d",
+      "id": "e0ecb09f-2b27-57af-9cd1-40a80f8f2488",
       "name": "#overlay",
       "selector": "#overlay",
       "domains": [
@@ -28334,6 +28339,7 @@
         "abyssplayer.com",
         "fembedx.top",
         "fullfreeimage.com",
+        "gogatv.net",
         "hydraxcdn.biz",
         "imagelovers.com",
         "playembedapi.site",
@@ -28345,13 +28351,15 @@
       "note": ""
     },
     {
-      "id": "2d214f99-c040-501f-b1e7-3f5f70c17ca6",
+      "id": "a3dcbb8d-e081-5793-bb74-af7d5e3914be",
       "name": ".loading-overlay ~ div[style^=\"position: relative;\"]",
       "selector": ".loading-overlay ~ div[style^=\"position: relative;\"]",
       "domains": [
         "ab.nanacdn.com",
         "abysscdn.com",
+        "abyssplayer.com",
         "fullfreeimage.com",
+        "gogatv.net",
         "hihihaha1.xyz",
         "hihihaha2.xyz",
         "playhydrax.com",
@@ -28594,6 +28602,30 @@
       "selector": ".socig-target",
       "domains": [
         "socigames.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "93f1d78f-a1ae-54cf-b9f7-038718288941",
+      "name": "^script#antiadblock-core-js",
+      "selector": "^script#antiadblock-core-js",
+      "domains": [
+        "fcportables.com",
+        "filecatchers.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "814b700e-6839-55a7-8bd1-4c4fbdaa1398",
+      "name": "^script[data-cfasync=\"false\"][nowprocket]",
+      "selector": "^script[data-cfasync=\"false\"][nowprocket]",
+      "domains": [
+        "fcportables.com",
+        "filecatchers.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -44672,6 +44704,28 @@
       "note": ""
     },
     {
+      "id": "a121bc26-b0e6-5640-a862-f0318c617ac3",
+      "name": ".avast-box",
+      "selector": ".avast-box",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "00ad6347-2516-5422-80c9-64992396aa47",
+      "name": ".ae-banner",
+      "selector": ".ae-banner",
+      "domains": [
+        "chip.de"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "2042cb2b-d538-501f-8bd9-f0bbe0cd836a",
       "name": "div[data-bc-data-trackvars]",
       "selector": "div[data-bc-data-trackvars]",
@@ -57317,9 +57371,9 @@
       "note": ""
     },
     {
-      "id": "8f03b00a-4831-5c86-a29d-c056816646f6",
-      "name": "[src*=\".gif\"]",
-      "selector": "[src*=\".gif\"]",
+      "id": "3b304e5e-0b03-530b-9710-4df7919e6a9a",
+      "name": ".home-banner",
+      "selector": ".home-banner",
       "domains": [
         "comix.to"
       ],
@@ -57438,6 +57492,17 @@
       "id": "abe7b042-01bb-5175-ad8d-5e3f2c52235a",
       "name": "#fullscreen-ad-trap",
       "selector": "#fullscreen-ad-trap",
+      "domains": [
+        "kaa.lt"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a38f86ad-1896-5f42-81a5-1d9c75c219d7",
+      "name": "a[href*=\".html\"][target=\"_blank\"]",
+      "selector": "a[href*=\".html\"][target=\"_blank\"]",
       "domains": [
         "kaa.lt"
       ],
@@ -59483,75 +59548,9 @@
       "note": ""
     },
     {
-      "id": "9e7dae47-5710-588f-9b0a-c813ee8b9f0f",
-      "name": "img[src^=\"blob:http\"]",
-      "selector": "img[src^=\"blob:http\"]",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "3dd0f194-f543-53a0-9783-794d12dbd2da",
-      "name": "a[rel][target]:not([target=\"blank\"],[target=\"_blank\"])",
-      "selector": "a[rel][target]:not([target=\"blank\"],[target=\"_blank\"])",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "4ae11d82-0bc4-5107-822a-32445e7a52ab",
-      "name": "div[style=\"height: 90 px; text-align: left;\"]",
-      "selector": "div[style=\"height: 90 px; text-align: left;\"]",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "41459cd0-0026-50a6-aa1f-d41d697f733f",
-      "name": "div[style^=\"display:block;position:relative;max-width:\"]",
-      "selector": "div[style^=\"display:block;position:relative;max-width:\"]",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ad645328-0618-54ee-b95e-562f24119b71",
-      "name": "[style*=\"!important\"]",
-      "selector": "[style*=\"!important\"]",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "ae877226-a055-511d-ab0c-9f4cf560ccb4",
-      "name": "[style*=\"aspect-ratio\"]",
-      "selector": "[style*=\"aspect-ratio\"]",
-      "domains": [
-        "igorslab.de"
-      ],
-      "isEnabled": true,
-      "rank": 0,
-      "note": ""
-    },
-    {
-      "id": "e0550f7c-72d7-56f6-b21f-a4629c5e7184",
-      "name": "[style*=\"background-image:url\"]",
-      "selector": "[style*=\"background-image:url\"]",
+      "id": "51b97978-9eac-5105-9e9a-3ba4c0ec7ffd",
+      "name": ".entry-content > img[style*=\"max-width: 100%;\"]",
+      "selector": ".entry-content > img[style*=\"max-width: 100%;\"]",
       "domains": [
         "igorslab.de"
       ],
@@ -59631,6 +59630,72 @@
       "selector": ".as-ad",
       "domains": [
         "applescoop.org"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7b588ffe-9198-577c-9dc4-3b2d481e3643",
+      "name": "div[data-type=\"_mgwidget\"]",
+      "selector": "div[data-type=\"_mgwidget\"]",
+      "domains": [
+        "liddread.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "667b9b5b-9f66-5beb-a7f4-762a6b73f67f",
+      "name": ".main-video div.noselect.no-drag[draggable]:not([style])",
+      "selector": ".main-video div.noselect.no-drag[draggable]:not([style])",
+      "domains": [
+        "camsmut.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "c3800429-c3ce-5277-850a-55c4e96537b8",
+      "name": "a[href^=\"/g/\"]",
+      "selector": "a[href^=\"/g/\"]",
+      "domains": [
+        "camsmut.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "b109b833-5f9b-5657-8ece-fa053be3427b",
+      "name": ".wh-popad",
+      "selector": ".wh-popad",
+      "domains": [
+        "whispersinthecorridors.in"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "a14c286e-7e7a-5cef-a3fa-ed093b5e55df",
+      "name": ".en-pt--ad",
+      "selector": ".en-pt--ad",
+      "domains": [
+        "imgtag.co.kr"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8dabe40d-35bb-5734-a90f-fe37af3ce15d",
+      "name": ".itgp-ad",
+      "selector": ".itgp-ad",
+      "domains": [
+        "imgtag.co.kr"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -60186,12 +60251,11 @@
       "note": ""
     },
     {
-      "id": "a48f28ff-fbbc-5a76-83fa-79705ce4ced4",
+      "id": "5954cc8b-1520-53f7-86f0-9c17ce336bf1",
       "name": "fieldset, .faqs, footer, .features",
       "selector": "fieldset, .faqs, footer, .features",
       "domains": [
         "upfilesgo.com",
-        "upfion.com",
         "upfiles.app",
         "upfiles-urls.com"
       ],

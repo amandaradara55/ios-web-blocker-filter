@@ -2,6 +2,54 @@
   "web-block-filter-version": "1.0",
   "block-rules": [
     {
+      "id": "88f3485e-d0bb-5ca5-9f5c-5e368a417758",
+      "name": "fod-cm-ad-v.webcdn.stream.ne.jp",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fod-cm-ad-v.webcdn.stream.ne.jp",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "02f278e6-cb1c-52ce-9960-3c7247a180ae",
+      "name": "fujckovr.in",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fujckovr.in",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "19596668-5e3b-5c15-9c91-054a70fcf779",
+      "name": "afhovwatn.in",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "afhovwatn.in",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "45fe5086-bae3-5954-addb-2365d8ba2fc0",
+      "name": "ams-port.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ams-port.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "021d1561-e4c1-5f54-97c6-f5cf9361bcd9",
       "name": "re-n-ai.com",
       "scope": "fqdn",
@@ -4010,6 +4058,30 @@
       "literalOperator": "exact"
     },
     {
+      "id": "8162f06f-3f15-5576-a6ab-bd285cf3b241",
+      "name": "adsvr.tver.jp",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "adsvr.tver.jp",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "292108f7-58cb-512e-be4c-e9e4a77db02e",
+      "name": "ads.tver.jp",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ads.tver.jp",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "88826aaa-7d61-5439-852e-cd85f0b12366",
       "name": "ads.nijiurachan.net",
       "scope": "fqdn",
@@ -4848,6 +4920,50 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "://apple\\-.*\\.cn/account_int/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "fa45a312-6975-50e9-9b74-8a4b2d22a182",
+      "name": "tsuyatt.com/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tsuyatt\\.com(?::[0-9]+)?/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "f792a210-e983-59ab-a58a-62d1f72da314",
+      "name": "motitown.com/vocabulary/ads/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?motitown\\.com(?::[0-9]+)?/vocabulary/ads/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "96c56858-db2f-5894-8814-d010265ea2b1",
+      "name": "mynvwm.com/wp-content/themes/mwp-parent/js/adfair/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?mynvwm\\.com(?::[0-9]+)?/wp\\-content/themes/mwp\\-parent/js/adfair/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4090fec8-7d8e-5808-8fb5-c481cacf3fce",
+      "name": "cosxive.net/api/partner-content/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cosxive\\.net(?::[0-9]+)?/api/partner\\-content/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -10424,17 +10540,6 @@
       "note": ""
     },
     {
-      "id": "dc8a7644-5e3d-51c3-bbc3-33018efaccf8",
-      "name": "melty-novel.com/fanza/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?melty\\-novel\\.com(?::[0-9]+)?/fanza/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "ec5a9362-04f3-53f1-b00f-ba3ed9616f74",
       "name": "cinemacafe.net/adimgs/",
       "scope": "url",
@@ -15207,10 +15312,12 @@
       "note": ""
     },
     {
-      "id": "424218fc-1dac-5247-9401-dc98af0f8f78",
+      "id": "4400ca61-4d94-57d8-8322-451ff1f6d4da",
       "name": ".ad",
       "selector": ".ad",
       "domains": [
+        "chonborista.com",
+        "tsuyatt.com",
         "bowlroll.net",
         "ullu-egg.com",
         "blog.livedoor.com",
@@ -15607,6 +15714,127 @@
       "note": ""
     },
     {
+      "id": "38516433-2473-5f9d-9cad-7c7299a1fd57",
+      "name": "#adsBtm",
+      "selector": "#adsBtm",
+      "domains": [
+        "225225.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7185d7b5-7ec9-520f-bdac-b8ff2d8a3993",
+      "name": "#adsMid",
+      "selector": "#adsMid",
+      "domains": [
+        "225225.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5028cf1f-52d9-589f-827a-b76af5eba39b",
+      "name": "[id^=\"ad-\"]",
+      "selector": "[id^=\"ad-\"]",
+      "domains": [
+        "livecombs.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "8185f408-7290-59d4-844c-00805ebff91a",
+      "name": ".doc-ad",
+      "selector": ".doc-ad",
+      "domains": [
+        "tsuyatt.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4ead026f-0c87-5be2-80d0-1b31afdda8b3",
+      "name": ".game-ad",
+      "selector": ".game-ad",
+      "domains": [
+        "tsuyatt.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "dbf1a0d6-7b95-5f03-a78c-94000b49c1b9",
+      "name": ".games-ad",
+      "selector": ".games-ad",
+      "domains": [
+        "tsuyatt.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "33add421-6dc4-562a-bace-096e01a5351f",
+      "name": ".box-deals",
+      "selector": ".box-deals",
+      "domains": [
+        "kasemato.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ce2fa9d6-5fa7-5f21-b690-53ae6323e387",
+      "name": ".yf-as",
+      "selector": ".yf-as",
+      "domains": [
+        "kasemato.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bd9b3c5c-0671-5828-8470-12e696fdac46",
+      "name": "section[class^=\"deals-\"]",
+      "selector": "section[class^=\"deals-\"]",
+      "domains": [
+        "kasemato.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "d13bb08b-46a1-574b-b659-898458cd93d8",
+      "name": ".external-article-widget--type_shopping",
+      "selector": ".external-article-widget--type_shopping",
+      "domains": [
+        "note.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "4c7ef9c9-142e-5fc7-ab7e-9a627a69e1e4",
+      "name": ".ad-wrapper",
+      "selector": ".ad-wrapper",
+      "domains": [
+        "read.amazon.co.jp"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "5ea59107-3f80-5602-a23e-4fb276104c72",
       "name": ".talk-ad-slot",
       "selector": ".talk-ad-slot",
@@ -15681,6 +15909,17 @@
         "mario2-3ds.net",
         "mario-wiiu.net",
         "mario3d-wiiu.net"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "7782cbb2-bd20-5f2d-9a6e-93624e31df77",
+      "name": "div[class$=\"_adContentItem\"]",
+      "selector": "div[class$=\"_adContentItem\"]",
+      "domains": [
+        "famitsu.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -15930,6 +16169,50 @@
       "note": ""
     },
     {
+      "id": "79e8bafc-2761-565f-8ead-f62267fb829c",
+      "name": "a.bg-yellow-300",
+      "selector": "a.bg-yellow-300",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "6d0c7995-c860-505b-b320-e3b046737009",
+      "name": "a.border-indigo-300",
+      "selector": "a.border-indigo-300",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "72527c63-62de-52e6-b734-5975d5b55a87",
+      "name": "a[data-track=\"home_popular_tweet_profile_click\"]:not( .bg-gray-100, .text-gray-500, [data-track-context=\"user_page_related\"])",
+      "selector": "a[data-track=\"home_popular_tweet_profile_click\"]:not( .bg-gray-100, .text-gray-500, [data-track-context=\"user_page_related\"])",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "5facf48e-ac43-596d-9a05-aa5e87d80ed5",
+      "name": "a[data-track=\"related_click\"]:not([data-track-context=\"user_page_related\"])",
+      "selector": "a[data-track=\"related_click\"]:not([data-track-context=\"user_page_related\"])",
+      "domains": [
+        "socialxup.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "52b0c9f3-b75c-5a3e-99d6-b34ef06cc221",
       "name": "a[target][href^=\"https://socialxup.com/\"]",
       "selector": "a[target][href^=\"https://socialxup.com/\"]",
@@ -16007,11 +16290,11 @@
       "note": ""
     },
     {
-      "id": "f2f4ee81-463e-5960-801e-befe6e3ebd1d",
+      "id": "2e3a3a03-285a-594d-bfd2-da909ea923ff",
       "name": "#ipob",
       "selector": "#ipob",
       "domains": [
-        "syosetu.town"
+        "syosetu.zone"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -31728,6 +32011,28 @@
       "note": ""
     },
     {
+      "id": "e7372c88-4a5f-5c27-9e1e-67afc3043b82",
+      "name": "div[style=\"width:300px;margin:20px auto 10px auto;text-align:center;\"]",
+      "selector": "div[style=\"width:300px;margin:20px auto 10px auto;text-align:center;\"]",
+      "domains": [
+        "eromovie-s.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "ba610838-2084-5661-85a5-b1b14a242378",
+      "name": "#main > div[style=\"text-align: center;font-size: 16px;line-height: 1.4;font-weight: bold;\"]",
+      "selector": "#main > div[style=\"text-align: center;font-size: 16px;line-height: 1.4;font-weight: bold;\"]",
+      "domains": [
+        "eromovie-s.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "29483b9e-2d58-5167-b993-380833916a49",
       "name": ".AdsContainerDocumentTop",
       "selector": ".AdsContainerDocumentTop",
@@ -39844,11 +40149,11 @@
       "note": ""
     },
     {
-      "id": "d14da3a3-338c-5227-90e5-bbc70ff2423b",
+      "id": "2fc3f2d2-1297-58d4-be3d-39d5752570cd",
       "name": "div[style^=\"max-width:700px\"]",
       "selector": "div[style^=\"max-width:700px\"]",
       "domains": [
-        "jmanga.party"
+        "jmanga.coach"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -63547,6 +63852,17 @@
       "note": ""
     },
     {
+      "id": "8c8cf106-6768-5b66-8e7c-227672de39ec",
+      "name": ".item-purchase",
+      "selector": ".item-purchase",
+      "domains": [
+        "milk-key.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "80975390-6059-5123-9071-09ed490568fb",
       "name": "li[id^=\"native_\"]",
       "selector": "li[id^=\"native_\"]",
@@ -64722,12 +65038,11 @@
       "note": ""
     },
     {
-      "id": "8aac3414-08f2-58a3-bc15-918c5993f48a",
+      "id": "b5e92c83-091b-58f6-b8c5-03f6b70f226f",
       "name": "#text-3",
       "selector": "#text-3",
       "domains": [
         "solomon-review.net",
-        "panchira-tube.com",
         "baby-calendar.jp",
         "faceandface.com",
         "kimagurekizokunoadriatic.site",
@@ -66441,11 +66756,13 @@
       "note": ""
     },
     {
-      "id": "3f188796-89a3-57df-8fb4-9f9d78a00790",
-      "name": ".ams-place",
-      "selector": ".ams-place",
+      "id": "89675ed8-ee63-5f59-960d-79ab66b525d3",
+      "name": ".ams-slot",
+      "selector": ".ams-slot",
       "domains": [
-        "melty-novel.com"
+        "ero-taikendan.com",
+        "melty-novel.com",
+        "purple-novel.com"
       ],
       "isEnabled": true,
       "rank": 0,
@@ -67804,10 +68121,11 @@
       "note": ""
     },
     {
-      "id": "ff151b5a-d71f-5417-8986-ed110d4b9070",
+      "id": "e80ad056-8d92-5044-898b-716da04922c5",
       "name": "#custom_html-3",
       "selector": "#custom_html-3",
       "domains": [
+        "reloaded.hb-plaza.com",
         "ani-chat.net",
         "rekishi-shizitsu.jp",
         "marimo-info.net",
@@ -68069,11 +68387,10 @@
       "note": ""
     },
     {
-      "id": "d882893f-f7b9-5946-a8d6-27251d4da9ea",
+      "id": "e1c679b4-7bfd-5b79-a81d-d6a8e51baca3",
       "name": "#custom_html-13",
       "selector": "#custom_html-13",
       "domains": [
-        "panchira-tube.com",
         "uma-log.net",
         "tech-biz-eng.com",
         "55paradise.com",
@@ -68109,11 +68426,11 @@
       "note": ""
     },
     {
-      "id": "73a23375-ed22-5f59-93b0-af1c235e5184",
+      "id": "4f701d7d-5d43-5838-8ec2-c0622df7624a",
       "name": "#custom_html-15",
       "selector": "#custom_html-15",
       "domains": [
-        "panchira-tube.com",
+        "hb-plaza.com",
         "marushin-magazine.com",
         "tousatu-club.com",
         "volx.jp",
@@ -69634,10 +69951,11 @@
       "note": ""
     },
     {
-      "id": "386f8ec1-e7aa-58e3-a05d-1ab6b2eaaa2d",
+      "id": "0e22148a-2a93-5ed0-adb6-e2662c871129",
       "name": "a[href^=\"https://bit.ly\"]",
       "selector": "a[href^=\"https://bit.ly\"]",
       "domains": [
+        "itaeromanga.com",
         "kakao-bosyu.com",
         "majandofu.com"
       ],
@@ -84865,6 +85183,28 @@
       "note": ""
     },
     {
+      "id": "6d6ff3ba-c56e-5902-b60d-80bfcc01272b",
+      "name": "div[class^=\"article\"] > a[href^=\"https://link.amazon\"]",
+      "selector": "div[class^=\"article\"] > a[href^=\"https://link.amazon\"]",
+      "domains": [
+        "jin115.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "bb830acd-f8b3-5d49-8dd2-a4aea91bd4d6",
+      "name": "div[class^=\"article\"] > a[href^=\"https://link.amazon\"] + br",
+      "selector": "div[class^=\"article\"] > a[href^=\"https://link.amazon\"] + br",
+      "domains": [
+        "jin115.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
       "id": "42decfc8-2824-5246-a9eb-89aa8e9898d4",
       "name": "#side_rss a[href^=\"http://hb.afl.rakuten.co.jp/\"]",
       "selector": "#side_rss a[href^=\"http://hb.afl.rakuten.co.jp/\"]",
@@ -86042,6 +86382,17 @@
         "keizai.biz",
         "minkei.net",
         "shibukei.com"
+      ],
+      "isEnabled": true,
+      "rank": 0,
+      "note": ""
+    },
+    {
+      "id": "db2ee90d-3787-54f3-a7df-99dde38f78ee",
+      "name": ".js-right-top-native-ad",
+      "selector": ".js-right-top-native-ad",
+      "domains": [
+        "b.hatena.ne.jp"
       ],
       "isEnabled": true,
       "rank": 0,

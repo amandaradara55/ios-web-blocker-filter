@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-11-15T22:23:34+00:00",
+  "generatedAt": "2026-11-22T23:06:15+00:00",
   "lists": {
     "easylist": {
-      "inputRules": 78510,
-      "acceptedBlockRules": 48019,
+      "inputRules": 79189,
+      "acceptedBlockRules": 48640,
       "quarantinedBlockRules": 0,
-      "acceptedCosmeticRules": 23202,
-      "duplicateRules": 12,
+      "acceptedCosmeticRules": 23248,
+      "duplicateRules": 4,
       "skipped": {
         "advanced_rule": 289,
         "allowlist": 1091,
-        "unsupported_cosmetic_selector": 619,
-        "unsupported_domain_scope": 314,
-        "unsupported_modifier": 4741,
-        "unsupported_url_pattern": 214,
+        "unsupported_cosmetic_selector": 640,
+        "unsupported_domain_scope": 316,
+        "unsupported_modifier": 4737,
+        "unsupported_url_pattern": 215,
         "unsupported_webkit_regex_brace_quantifier": 9
       }
     },
     "easyprivacy": {
-      "inputRules": 56658,
-      "acceptedBlockRules": 54405,
+      "inputRules": 56804,
+      "acceptedBlockRules": 54542,
       "quarantinedBlockRules": 0,
       "acceptedCosmeticRules": 2,
-      "duplicateRules": 4,
+      "duplicateRules": 5,
       "skipped": {
-        "advanced_rule": 30,
-        "allowlist": 855,
+        "advanced_rule": 34,
+        "allowlist": 857,
         "unsupported_cosmetic_selector": 5,
-        "unsupported_modifier": 967,
+        "unsupported_modifier": 969,
         "unsupported_url_pattern": 390
       }
     }
   },
   "totals": {
-    "acceptedBlockRules": 102424,
+    "acceptedBlockRules": 103182,
     "quarantinedBlockRules": 0,
-    "acceptedCosmeticRules": 23204,
-    "duplicateRules": 16,
+    "acceptedCosmeticRules": 23250,
+    "duplicateRules": 9,
     "skipped": {
-      "advanced_rule": 319,
-      "allowlist": 1946,
-      "unsupported_cosmetic_selector": 624,
-      "unsupported_domain_scope": 314,
-      "unsupported_modifier": 5708,
-      "unsupported_url_pattern": 604,
+      "advanced_rule": 323,
+      "allowlist": 1948,
+      "unsupported_cosmetic_selector": 645,
+      "unsupported_domain_scope": 316,
+      "unsupported_modifier": 5706,
+      "unsupported_url_pattern": 605,
       "unsupported_webkit_regex_brace_quantifier": 9
     }
   }

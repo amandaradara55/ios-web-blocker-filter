@@ -4512,6 +4512,17 @@
       "literalOperator": "contains"
     },
     {
+      "id": "fd00acd5-3d3f-5a5b-a334-f6313a85ac10",
+      "name": "/apps/awin/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/apps/awin/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "c2a44068-935b-5657-b10d-798a3a19a064",
       "name": "/apps/ba-rev/app_metrics",
       "scope": "url",
@@ -7681,6 +7692,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "a77e5437-d5c0-5ab5-980c-57299eb82c31",
+      "name": "/collect?configId=",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/collect?configId=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "b9a15174-a16d-509c-85a0-8f9a2db3edbe",
       "name": "/collect?d=",
       "scope": "url",
@@ -9097,6 +9120,18 @@
       "scope": "url",
       "matchKind": "literal",
       "pattern": "/dcs_tag.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "b8ed1cdc-e3d7-5024-b3c9-115688c40fc1",
+      "name": "/dd/tags.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/dd/tags.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -14200,6 +14235,17 @@
       "literalOperator": "contains"
     },
     {
+      "id": "fb386693-b19f-578f-9b1d-e25348bc020e",
+      "name": "/i/v0/e/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/i/v0/e/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "39b720d9-1840-568e-9cfc-beea5238a107",
       "name": "/i2a.js",
       "scope": "url",
@@ -14759,6 +14805,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "4395140b-2cb1-5e2b-8be5-19b70293daf4",
+      "name": "/ingest/array/*/config.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/ingest/array/.*/config\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "3294e7a2-80d7-569e-91ff-58c21c0837bc",
+      "name": "/ingest/i/v0/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/ingest/i/v0/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "6de586b9-5f59-5771-9c24-944c401d0913",
@@ -18369,6 +18437,18 @@
       "note": ""
     },
     {
+      "id": "a881a6b7-a786-598c-960b-3aad2502529d",
+      "name": "/monitor_web/collect?",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/monitor_web/collect?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "e3c51035-70b0-5d5d-9471-2f1d9b5c2b9b",
       "name": "/monitor_web/settings/browser-settings?",
       "scope": "url",
@@ -19194,6 +19274,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "297dd5b2-4065-5d33-8f2e-04186e2603ee",
+      "name": "/omgpixel_validation_osp.json?",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/omgpixel_validation_osp.json?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "cf5dca9b-bdef-572f-8963-1ae5d28b28ca",
       "name": "/omni-tracking.min.js",
       "scope": "url",
@@ -19527,6 +19619,42 @@
       "scope": "url",
       "matchKind": "literal",
       "pattern": "/OtAutoBlock.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "c8d0e9c3-a58d-52fc-b119-598679eab126",
+      "name": "/otel/v1/logs",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/otel/v1/logs",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "49f4909c-5b90-5964-a226-dcbae21ac801",
+      "name": "/otel/v1/metrics",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/otel/v1/metrics",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "91d9bb23-e3e9-5f4f-be88-99980b859038",
+      "name": "/otel/v1/traces",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/otel/v1/traces",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -20982,6 +21110,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "fea320d6-5ff2-5c4b-9751-a94316f73fef",
+      "name": "/pixel?clientId=",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/pixel?clientId=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "417ed649-4bfe-5b68-8bbd-179673708e74",
       "name": "/pixel?tag=",
       "scope": "url",
@@ -21777,6 +21917,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "b72069f5-1334-5b40-b88d-bfc1c9829454",
+      "name": "/pro-analytics.",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/pro-analytics.",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "fc87f657-7a77-52c4-a537-104789f08b19",
       "name": "/probance_tracker-min.js",
       "scope": "url",
@@ -22313,6 +22465,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "c1f0380d-67e2-5471-8494-9a42070034dc",
+      "name": "/px/?rand=",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/px/?rand=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
     },
     {
       "id": "a08965cb-fe5e-56c7-ba44-b975383140e7",
@@ -24858,6 +25022,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "8379ace7-9e18-522a-9506-1d032b54081b",
+      "name": "/shopify/fec/produce|",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/shopify/fec/produce$",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "a6610aac-c5ec-5c96-ab7d-02046266ca1e",
@@ -28152,6 +28327,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "67826f5c-76fa-5c7b-b3ed-d5c59ba80326",
+      "name": "/track/?evt=",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/track/?evt=",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "7968b5b2-fb98-5a57-8437-7c82c4fc7d96",
       "name": "/track/?verbose=",
       "scope": "url",
@@ -30972,6 +31159,18 @@
       "note": ""
     },
     {
+      "id": "855492d1-8abd-5961-8bef-9fb13cb27d00",
+      "name": "/vendor/snowplow-",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/vendor/snowplow-",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "500846cd-9422-5479-9bd4-58908df2d163",
       "name": "/vestigo/v1/measure",
       "scope": "url",
@@ -31888,6 +32087,18 @@
       "literalOperator": "contains"
     },
     {
+      "id": "2ce2a882-124f-51aa-9a27-c93b2f80063a",
+      "name": "/web-vitals-with-attribution.js",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/web-vitals-with-attribution.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
       "id": "5737cd92-ec9e-5c4d-9d4f-039259fb3509",
       "name": "/web-vitals.iife.js",
       "scope": "url",
@@ -32349,6 +32560,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "contains"
+    },
+    {
+      "id": "0f0bf34c-561f-5294-8907-43cc89627486",
+      "name": "/woocommerce-analytics/*",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "/woocommerce\\-analytics/.*",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "b5eabe60-5272-57d4-9cbf-8b6a07ff5aa8",
@@ -34478,6 +34700,18 @@
       "scope": "url",
       "matchKind": "literal",
       "pattern": "_WebVitalsReporter_",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "contains"
+    },
+    {
+      "id": "dfba166e-606a-57a8-a374-adeb51b024d6",
+      "name": "/cl/2x2.json",
+      "scope": "url",
+      "matchKind": "literal",
+      "pattern": "/cl/2x2.json",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -36667,6 +36901,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "8416fd9c-7c38-567d-9c72-98a9e08194ed",
+      "name": "6s83mz9kbtrj.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "6s83mz9kbtrj.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "63da0b8c-ef94-5134-9240-e2ce98ce48e8",
       "name": "a3kvau184uea.com",
       "scope": "fqdn",
@@ -36696,6 +36942,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "a8723.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "faeb5e91-fab2-510a-b728-56cd5a97eef9",
+      "name": "a9f3k7z2m1.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "a9f3k7z2m1.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -37200,6 +37458,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "awmonitor.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6e82737c-1938-5e82-9770-b90d0680383d",
+      "name": "ayc0zsm69431gfebd.info.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ayc0zsm69431gfebd.info.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -37824,6 +38094,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "confiant-integrations.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d1077b59-717d-56ff-8855-ba52aa85508c",
+      "name": "connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -39019,6 +39301,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "34229e21-043b-5699-ad7d-afdc22f6f576",
+      "name": "g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "c788475b-d39c-51a2-b7e8-d0d5c2319198",
       "name": "g594253006.co",
       "scope": "fqdn",
@@ -39883,6 +40177,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b5e87688-df47-5cb3-a3e6-db29207ec52e",
+      "name": "jzkdrpijw30voy0.club",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "jzkdrpijw30voy0.club",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "34696580-f7ba-5629-9849-cd4af913888a",
       "name": "kit22.com",
       "scope": "fqdn",
@@ -40140,6 +40446,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "lyfnh.io",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ac50f53f-b020-5572-ab74-ebbaa0a05394",
+      "name": "m2z7r9k4p1.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "m2z7r9k4p1.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -41203,6 +41521,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "fbd081d4-8b93-563d-bde8-ba786cacffa5",
+      "name": "q4x8n6b2t5.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "q4x8n6b2t5.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "54742bd5-a23d-5ed7-9379-eb7382e67191",
       "name": "qntm.pro",
       "scope": "fqdn",
@@ -42019,6 +42349,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "bc7502d8-080f-5d19-a2b6-67199518afab",
+      "name": "t2037ulzqct5.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "t2037ulzqct5.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b2b3b943-aaa4-5f69-905e-a20626ad97c3",
       "name": "takingbackjuly.com",
       "scope": "fqdn",
@@ -42756,6 +43098,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "woodpeckerlog.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "58f5718f-8b5c-58e0-a342-dc4b55fc0ac1",
+      "name": "x7k9m2q4z8r1.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "x7k9m2q4z8r1.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -63221,6 +63575,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "33cc6755-ebf3-5913-855d-2f49d2363fe8",
+      "name": "pubfluencers.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pubfluencers.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "dab29cca-f300-5a73-9b76-e37ead4b1523",
       "name": "publicgood.com",
       "scope": "fqdn",
@@ -70229,18 +70595,6 @@
       "literalOperator": "exact"
     },
     {
-      "id": "074b2ddd-f61c-5119-8f20-1f76d33ee7ce",
-      "name": "uciservice.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "uciservice.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "ed17a401-9831-55cc-bdb9-c740c58df6af",
       "name": "udkcrj.com",
       "scope": "fqdn",
@@ -76528,6 +76882,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d19da33e-bfba-535b-a01f-61589c67ef8c",
+      "name": "axcii.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "axcii.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "ef5e88b7-e1d9-5ecd-a66f-da819e1b493b",
       "name": "axiomaticanger.com",
       "scope": "fqdn",
@@ -77133,6 +77499,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "benchlamp.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a069190b-07d3-5a31-bde3-ae321a84557f",
+      "name": "benefitboys.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "benefitboys.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -78748,6 +79126,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "9b99ffc8-8192-538b-9193-c020c674f52f",
+      "name": "cabstrategy.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "cabstrategy.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "13099da8-5344-5186-b4e4-97912799e525",
       "name": "cafefrench.com",
       "scope": "fqdn",
@@ -80212,6 +80602,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "14167cd0-84ee-5fa7-b423-449d1ec9819f",
+      "name": "coalmerchants.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "coalmerchants.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "964c0ea1-c21c-5799-8a7a-87619508a186",
       "name": "coastersim.com",
       "scope": "fqdn",
@@ -80344,6 +80746,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "79ff6ce3-1516-59d8-be61-7612f99bd165",
+      "name": "coldcrucible.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "coldcrucible.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "527de1fa-2313-591d-9fb4-7d8b4518c80e",
       "name": "coloradoserves.com",
       "scope": "fqdn",
@@ -80361,6 +80775,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "colorandnoise.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a849fd83-1cb9-5687-b9af-43277daac69c",
+      "name": "colorfilter.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "colorfilter.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -80541,6 +80967,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "commitlogs.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d456f21b-c268-5158-b2d4-f5ba1f29ae09",
+      "name": "commswap.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "commswap.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -85960,6 +86398,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ce9aeb21-091d-5563-bef6-2bff54a2b4b7",
+      "name": "fortyninemaps.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fortyninemaps.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "6e8c16e1-03ef-5bf2-9a41-f3bb4fac228e",
       "name": "forwardslashetc.com",
       "scope": "fqdn",
@@ -88504,6 +88954,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "5ff7262a-cd79-5e88-8cdb-a40a802b17e2",
+      "name": "housewheels.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "housewheels.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cc4d738f-af6b-5118-9631-5ac2bb84baed",
       "name": "howdoesthislook.com",
       "scope": "fqdn",
@@ -88701,6 +89163,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "icywinter.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "28b11bb7-a8de-5abe-b135-476cae8f3dd2",
+      "name": "ideamornings.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ideamornings.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -89325,6 +89799,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "j93557g.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "4fe55c2c-9e5f-5fe7-9046-62ab0c7188d7",
+      "name": "jackalsmovie.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "jackalsmovie.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -90376,6 +90862,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "da4e42d8-b4e3-51a0-b6d4-4d056bad4c91",
+      "name": "lidsmarket.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "lidsmarket.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4ec6d664-dec8-58ad-99e8-03021573b82b",
       "name": "lifecoverdirect.com",
       "scope": "fqdn",
@@ -90681,6 +91179,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "logicalminds.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ad8725db-3fd1-5aff-b75d-766073a0ecc7",
+      "name": "logomet.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "logomet.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -91492,11 +92002,35 @@
       "literalOperator": "exact"
     },
     {
+      "id": "785ec8d2-0d2c-5f94-a7f6-a4e67a7ef28d",
+      "name": "mascguys.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "mascguys.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8f75fe63-c710-53a2-8f3b-dc1f61132d1e",
       "name": "maskedadmin.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "maskedadmin.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c4d4e48c-c31f-594d-9bb8-fc29eacd0a00",
+      "name": "masondown.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "masondown.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -93268,6 +93802,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d0be0159-613c-5920-ab88-84477e5bb662",
+      "name": "nitrojiveband.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "nitrojiveband.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b8139ad0-0bf2-55c4-93c0-da4792f18a50",
       "name": "noblecables.com",
       "scope": "fqdn",
@@ -94108,6 +94654,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "093df341-ce58-5924-9c9a-0bc4e0f2affd",
+      "name": "ordinalzero.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ordinalzero.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "76d2ac27-d393-5c46-8844-c9f4ffaa7b2d",
       "name": "orgbackups.com",
       "scope": "fqdn",
@@ -94209,6 +94767,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "outletpeople.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ee81e13c-b144-5da3-bde3-305e87b75c5a",
+      "name": "outpro.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "outpro.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -95049,6 +95619,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "piquantvortex.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6e11871c-9fe2-5a83-b624-a8c426828acf",
+      "name": "pitmanmusic.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pitmanmusic.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -96904,6 +97486,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "e6eeed27-98e7-50f4-9ed2-732aff9eb11c",
+      "name": "rapidscraper.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "rapidscraper.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "07c49563-32fa-58d5-90cb-2ab29646542f",
       "name": "rarelyfans.com",
       "scope": "fqdn",
@@ -97072,6 +97666,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ff0f12bb-93c0-5558-b88c-3e04ecf20d8f",
+      "name": "rebatecircle.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "rebatecircle.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "7786a44d-440c-5e24-a76b-0b811e3435a3",
       "name": "rebelclover.com",
       "scope": "fqdn",
@@ -97161,6 +97767,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "recessrain.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "af906c2c-3c44-5752-953a-f1deb0bda829",
+      "name": "recessremote.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "recessremote.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -97300,11 +97918,35 @@
       "literalOperator": "exact"
     },
     {
+      "id": "2b5d6675-83f1-5905-871c-b86aff5942f4",
+      "name": "redmaceta.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "redmaceta.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8f0dad1b-7875-58c9-a5b4-54e6dc5b3850",
       "name": "redmillgroup.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "redmillgroup.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "f2b63736-cfb7-5310-b2fe-6c770285ffb5",
+      "name": "reelboat.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "reelboat.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -98416,6 +99058,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "e674e0d3-132b-5ebf-b5f5-c6b982605fe6",
+      "name": "sagemosaicart.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sagemosaicart.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "b5f751f6-3d67-5f18-9a30-a13f944d8234",
       "name": "sagetrack.net",
       "scope": "fqdn",
@@ -98553,6 +99207,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "sandboxbid.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "221fec7b-c025-5f87-bad9-0ed6aeb2a435",
+      "name": "sandshredder.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sandshredder.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -100936,6 +101602,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "f262b945-7a93-57d0-8ac4-118a19403480",
+      "name": "socialbackyard.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "socialbackyard.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "616f3f4d-a32d-5700-bb4b-e9fa2631c86a",
       "name": "sociallyscared.com",
       "scope": "fqdn",
@@ -101776,6 +102454,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0dd4873a-e6c2-58d6-9c0a-ea7778698a3b",
+      "name": "sportswidows.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sportswidows.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "62ed8e70-2440-563f-8d75-f050caf60b28",
       "name": "sportybrains.com",
       "scope": "fqdn",
@@ -102369,6 +103059,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "stellarbalms.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ba061cd8-70e8-50f8-ba5a-8569d93d6c83",
+      "name": "stellarcoded.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "stellarcoded.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -103360,6 +104062,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7fb095cf-efd5-5da5-a607-08f5612da545",
+      "name": "sweetbeat.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sweetbeat.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "11a92b71-a7d0-5ea9-800d-19a952e48fca",
       "name": "sweetslope.com",
       "scope": "fqdn",
@@ -103540,6 +104254,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "04d37ee7-9aa4-59bd-9bdd-e6e3f72a6102",
+      "name": "systemone.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "systemone.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4c890481-104d-51b6-8d7a-040316c95c80",
       "name": "systemssummit.com",
       "scope": "fqdn",
@@ -103557,6 +104283,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tabcarts.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "bc64a9e8-5109-5ee7-96cd-180aba5ce3d9",
+      "name": "tableheads.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tableheads.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -104037,6 +104775,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tennistie.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5f99e8f7-d7c5-5df1-abcd-471ec8985b85",
+      "name": "tentpick.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tentpick.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -104644,6 +105394,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3aba1754-3868-55ca-8a1f-095b04eca9c4",
+      "name": "tinybodega.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tinybodega.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cbb8212c-a901-526c-a436-db0f07fb4208",
       "name": "tinyswans.com",
       "scope": "fqdn",
@@ -104805,6 +105567,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "topicjungle.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "3f5adf26-a6ec-5dd8-9f68-c5a3aedba646",
+      "name": "topicspin.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "topicspin.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -105136,6 +105910,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0b748e04-c5b1-53a0-b4ab-84a8464ce503",
+      "name": "trendcone.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "trendcone.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "3a0d3218-bc33-59e0-9a6a-fa78989e258a",
       "name": "trialowl.com",
       "scope": "fqdn",
@@ -105369,6 +106155,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "tutorshelf.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "dd5ea9a3-30c8-5ca1-8cbf-f5a3dabec0ec",
+      "name": "tuxedocard.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "tuxedocard.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -106384,6 +107182,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b1e13ea0-b8b1-504d-8bed-14e58c02ab39",
+      "name": "vistacool.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "vistacool.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "7bac2b3d-1fa5-5c1e-9f21-126366e6976c",
       "name": "visualcommservices.com",
       "scope": "fqdn",
@@ -106612,6 +107422,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "ac9942c2-5a85-5b02-90ff-268b1d2e8947",
+      "name": "wanmatures.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wanmatures.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cb392bee-3011-5553-8d2a-fb7ef2233565",
       "name": "wantingwindow.com",
       "scope": "fqdn",
@@ -106672,6 +107494,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a9099413-4eba-5548-9840-a2c69f5a6573",
+      "name": "waterloco.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "waterloco.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4f3e9ecd-806c-5db8-b752-08f942e8460d",
       "name": "waterywave.com",
       "scope": "fqdn",
@@ -106713,6 +107547,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wavesmachine.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "5544e4c5-1337-5c5f-be6b-1fdcb28e2647",
+      "name": "waxguide.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "waxguide.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -106857,6 +107703,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "webspires.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "cccd5ac5-6cf2-53e9-87af-8069265306a6",
+      "name": "webworksworld.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "webworksworld.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -107200,6 +108058,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "723e350c-7b53-5b02-a8ce-c755b039af28",
+      "name": "willcollect.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "willcollect.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "4b8cba65-6ac4-505f-9648-b266d2609ca6",
       "name": "windbeetle.com",
       "scope": "fqdn",
@@ -107265,6 +108135,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wirecomic.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "6488d639-754e-5fbf-987e-491db87bcac2",
+      "name": "wiredcarts.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wiredcarts.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -107421,6 +108303,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wondermakings.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "a040cf0d-bae6-5da6-828b-8b24a9e753b8",
+      "name": "woodstockcustom.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "woodstockcustom.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -107596,6 +108490,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d52d68ee-2606-5b74-9c31-f995aff16217",
+      "name": "wrathsecrets.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wrathsecrets.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "18b46056-1377-5012-91df-52d15ac6f023",
       "name": "wretchedfloor.com",
       "scope": "fqdn",
@@ -107740,6 +108646,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "62172f56-55ca-5c8e-8869-8f19d5b46adb",
+      "name": "youanonymous.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "youanonymous.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cc7cd668-97b8-576e-94be-0b9e093fd063",
       "name": "youcandrawanything.com",
       "scope": "fqdn",
@@ -107769,6 +108687,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "yourlifedream.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ec31305c-7c7e-5ac2-9879-aa50534913ed",
+      "name": "yourownexpert.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "yourownexpert.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -121152,6 +122082,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "8d37fe3a-ad67-5db5-afed-02082da70b21",
+      "name": "adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "8393ef34-16b2-5876-9580-9dddebc74f58",
       "name": "adsmoloco.com",
       "scope": "fqdn",
@@ -122016,6 +122958,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "ceea878a-7ba2-5244-b810-2c549d48c572",
+      "name": "analytics-prod.pubgen.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "analytics-prod.pubgen.org",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -124202,6 +125156,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "a2259898-981d-59f8-b205-4c4b56f5110b",
+      "name": "api.dappier.com/app/widget/logwidgetevent",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.dappier\\.com(?::[0-9]+)?/app/widget/logwidgetevent",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "d7235501-7669-57b7-898f-3278e44a7b7f",
       "name": "api.firecrown.com/v1/events",
       "scope": "url",
@@ -124273,6 +125238,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.iris\\.tv(?::[0-9]+)?/update",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "d4ab9047-0ce0-514f-8996-801bc880ae9b",
+      "name": "api.iterable.com/api/events/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?api\\.iterable\\.com(?::[0-9]+)?/api/events/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -126337,6 +127313,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?blogblog\\.com(?::[0-9]+)?/tracker/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "67a61bdf-0b5c-506b-963f-2f3727fc9c3f",
+      "name": "bloomreach.com/js/brweb.min.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bloomreach\\.com(?::[0-9]+)?/js/brweb\\.min\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -128808,6 +129795,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d88d0467-84bb-5917-aab0-dd30359a7515",
+      "name": "code.trygravity.ai/gr-pix.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?code\\.trygravity\\.ai(?::[0-9]+)?/gr\\-pix\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "9290b210-e5bd-59d7-893c-58c5cb2de81f",
       "name": "codedrink.com/api/inbound",
       "scope": "url",
@@ -130414,6 +131412,18 @@
       "note": ""
     },
     {
+      "id": "b9fd1e55-f927-597e-938b-8b2e7fa7dfdd",
+      "name": "data.cdnbasket.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "data.cdnbasket.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "28a45c92-5af3-55de-9f15-324b9b38da1d",
       "name": "data.circulate.com",
       "scope": "fqdn",
@@ -130831,11 +131841,33 @@
       "note": ""
     },
     {
+      "id": "f5bc2a27-700b-54a3-b50f-b44b3cc2a84f",
+      "name": "dev.visualwebsiteoptimizer.com/cdn/edrv/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dev\\.visualwebsiteoptimizer\\.com(?::[0-9]+)?/cdn/edrv/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "5f1e179e-d884-525d-9b32-e4fad01f8214",
       "name": "dev.visualwebsiteoptimizer.com/collect/events/",
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dev\\.visualwebsiteoptimizer\\.com(?::[0-9]+)?/collect/events/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "9b567a6f-0035-570a-9770-361d7055af63",
+      "name": "dev.visualwebsiteoptimizer.com/edrv/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?dev\\.visualwebsiteoptimizer\\.com(?::[0-9]+)?/edrv/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -130894,6 +131926,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dig.ultimedia.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c5b354b3-2e7b-5e12-a2d8-984af64c0219",
+      "name": "digifaro-digital.uk.monitoringsolutions.sky",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "digifaro-digital.uk.monitoringsolutions.sky",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -130975,6 +132019,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?directnews\\.co\\.uk(?::[0-9]+)?/feedtrack/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1fda2d6d-a9ba-5a79-a2e9-bbbb7f230292",
+      "name": "directory.cookieyes.com/api/v1/ip",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?directory\\.cookieyes\\.com(?::[0-9]+)?/api/v1/ip",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -131897,6 +132952,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "0567b770-3f73-515a-987f-da2bf6e2c911",
+      "name": "estuary-data.com/ga4-identify",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?estuary\\-data\\.com(?::[0-9]+)?/ga4\\-identify",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "0be952fd-6f13-59fd-af2f-8312ca79d747",
       "name": "et.educationdynamics.com",
       "scope": "fqdn",
@@ -132135,6 +133201,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "120982f4-04a8-5541-abc8-3f50d9740897",
+      "name": "event.prod.asgard.hullabalook.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "event.prod.asgard.hullabalook.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "6970b774-4e3e-53ad-a846-ada566dc69ea",
       "name": "event.syftdata.com",
       "scope": "fqdn",
@@ -132224,6 +133302,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "eventlog.inspsearchapi.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "bf5fa0b3-be37-5dde-a5c0-c528a9b7767c",
+      "name": "eventpiper.vlcapi.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "eventpiper.vlcapi.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -133228,6 +134318,17 @@
       "note": ""
     },
     {
+      "id": "233659ca-30c4-57b3-a663-ea1931b79209",
+      "name": "feliz.data.tm-awx.com/netro-web/batch",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?feliz\\.data\\.tm\\-awx\\.com(?::[0-9]+)?/netro\\-web/batch",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "1d668f86-f909-5408-a322-4da19a530896",
       "name": "feliz.data.tm-awx.com/smile-web-v2/batch",
       "scope": "url",
@@ -133629,6 +134730,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "c2d7073a-0dc5-5ca2-bb87-f3686f9d5467",
+      "name": "fscdn.eppo.cloud/api/flag-config/v1/config?",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?fscdn\\.eppo\\.cloud(?::[0-9]+)?/api/flag\\-config/v1/config\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "d2401ae3-c945-52ed-9c7d-f50e62404162",
       "name": "fst-ec.perimeterx.net",
       "scope": "fqdn",
@@ -133971,6 +135083,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "99783569-e4ff-58d1-8be6-453f767caadf",
+      "name": "gator.volces.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "gator.volces.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "34ded40e-8c9d-5489-9556-4a17ec60838f",
@@ -134800,6 +135924,28 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "d5104926-d0e9-588d-93e6-f11c9961ec9a",
+      "name": "gw.vlcapi.net/geo",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gw\\.vlcapi\\.net(?::[0-9]+)?/geo",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2197cdcb-8402-52d2-9bdb-fc4f99f705a2",
+      "name": "gw.vlcapi.net/init",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gw\\.vlcapi\\.net(?::[0-9]+)?/init",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "3e262d72-13d8-5df0-b91c-1808c21ff0f9",
@@ -136385,6 +137531,39 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?jobvite\\.com(?::[0-9]+)?/analytics\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "46732a9e-48cf-570d-bcbe-5518cd389fdb",
+      "name": "jolect.com/gohangout/log-proxy",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?jolect\\.com(?::[0-9]+)?/gohangout/log\\-proxy",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "8511b3c3-a47d-5272-836e-84b07c9be9c3",
+      "name": "jolect.com/shopify-buyer-center/buyer/event/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?jolect\\.com(?::[0-9]+)?/shopify\\-buyer\\-center/buyer/event/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "5fb656cd-c5d6-526c-aab9-eccb8d757152",
+      "name": "jolect.com/shopify-buyer-center/buyer/sg_event/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?jolect\\.com(?::[0-9]+)?/shopify\\-buyer\\-center/buyer/sg_event/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -139773,6 +140952,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "08418162-eb54-5042-90ae-b0f7b8c3c97a",
+      "name": "nlog.instajob.ai",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "nlog.instajob.ai",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "aa1842ba-b55e-56d3-a0a8-58b5a6b009cc",
       "name": "noa.yahoo.com",
       "scope": "fqdn",
@@ -140830,6 +142021,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "b712e61e-da9d-51b5-86ea-8ed195ecb2ef",
+      "name": "page.cdnbasket.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "page.cdnbasket.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "cdda9837-a98d-5581-bb2a-a564425e7efb",
       "name": "pagecloud.com/event",
       "scope": "url",
@@ -141261,6 +142464,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "3a45383c-833d-52ad-9e4d-01c8d7e04563",
+      "name": "ph.cto.new",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "ph.cto.new",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "bd0e5005-8d4b-5c26-b986-3f15d5081a16",
       "name": "photobox.com/event",
       "scope": "url",
@@ -141455,6 +142670,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "6222707f-8417-5561-be6b-35afed29e0e8",
+      "name": "piratewires.substack.com/api/v1/firehose/islands/batch",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?piratewires\\.substack\\.com(?::[0-9]+)?/api/v1/firehose/islands/batch",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "f0a79c05-a359-57ff-a6dd-f119ebcfc85a",
@@ -142840,6 +144066,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "pv-track.pxtrkapp.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "362eb739-c72c-504b-8359-f45dddbef954",
+      "name": "pv-track.venatus.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "pv-track.venatus.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -145043,6 +146281,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "sftrack.searchforce.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c12fbefb-b47b-55c3-b958-1c3f345fd8c5",
+      "name": "sg-fp.apitd.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sg-fp.apitd.net",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -148131,6 +149381,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "bcdaf2c3-f4a6-5118-88fe-890ba6263b1f",
+      "name": "tab.volces.com/service/2/abtest_config/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tab\\.volces\\.com(?::[0-9]+)?/service/2/abtest_config/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "24f6430d-d564-59bb-a8ee-5909f74bea22",
       "name": "taboola.com",
       "scope": "fqdn",
@@ -148571,6 +149832,17 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
+    },
+    {
+      "id": "70488978-64e3-5d8c-a0b1-3b8f71eaadfc",
+      "name": "tdum.alibaba.com/dss.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tdum\\.alibaba\\.com(?::[0-9]+)?/dss\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
     },
     {
       "id": "943e211a-af14-5754-8828-2b902c2a1abb",
@@ -152475,6 +153747,18 @@
       "note": ""
     },
     {
+      "id": "34ebf4b3-7695-57ca-bf79-5cb1486406d5",
+      "name": "view.cdnbasket.net",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "view.cdnbasket.net",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "fe950901-07cc-5659-89d4-0d8cece2b6db",
       "name": "vimeocdn.com/add/player-stats?",
       "scope": "url",
@@ -153659,6 +154943,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "wstats.slashed.cloud",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "8d7f4bdf-1e91-5f04-9322-b6528c2f0c19",
+      "name": "wt.omnisendlink.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "wt.omnisendlink.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -169294,6 +170590,28 @@
       "note": ""
     },
     {
+      "id": "4e69f9c3-5c8f-59d4-bb6a-5246dae8c1e8",
+      "name": "view.publitas.com/ecommTracker.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?view\\.publitas\\.com(?::[0-9]+)?/ecommTracker\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "fa783f07-5a1c-5dd9-afc5-e37f479972a1",
+      "name": "view.publitas.com/javascripts/vendors/publitas-stats.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?view\\.publitas\\.com(?::[0-9]+)?/javascripts/vendors/publitas\\-stats\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "efd8948a-7126-5fa6-93e3-f3cf4ead92e9",
       "name": "webpixel.smartmeapp.com",
       "scope": "fqdn",
@@ -170360,17 +171678,6 @@
       "note": ""
     },
     {
-      "id": "86053a7e-7bf0-582c-bb12-20b6ef3ba33a",
-      "name": "accuterm.com/data/stat.js",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?accuterm\\.com(?::[0-9]+)?/data/stat\\.js",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "1c302d74-848a-5557-b4b4-deb51f8c6a86",
       "name": "acjs.aliyun.com",
       "scope": "fqdn",
@@ -170671,18 +171978,6 @@
       "note": ""
     },
     {
-      "id": "0e72449c-3c26-5da6-8fa2-7214edc99d0c",
-      "name": "adl.bankofthewest.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "adl.bankofthewest.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
       "id": "9925f39a-1dbf-56d2-bf85-abbdd14e9455",
       "name": "admin.microsoft.com/api/instrument/logclient",
       "scope": "url",
@@ -170767,6 +172062,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?advertising\\.amazon\\.dev(?::[0-9]+)?/v1/ad\\-events/",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "4a787957-7105-5e66-b507-0437d70a21ac",
+      "name": "adweek.com/vx39/",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?adweek\\.com(?::[0-9]+)?/vx39/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -171404,18 +172710,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "analytics.ahrefs.dev",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "c0f3f690-6248-5c53-bce5-1696a983527b",
-      "name": "analytics.archive.org",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "analytics.archive.org",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -172528,6 +173822,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "612d1ea8-22bd-50dd-85c3-99d13beee3c1",
+      "name": "arc.msn.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "arc.msn.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "fb4bdd97-0cad-548d-bdf6-34431b566ef6",
       "name": "arena.ai/rpc/e/",
       "scope": "url",
@@ -172703,6 +174009,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "14fab14e-bc1c-53bb-8048-594f7ddc2480",
+      "name": "athena.archive.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "athena.archive.org",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "e2fe3462-58e3-5bf4-8953-1feec085fe59",
@@ -173697,6 +175015,17 @@
       "note": ""
     },
     {
+      "id": "7227357a-fbd5-5f4d-b161-7e57b55e2b26",
+      "name": "bytes.adweek.com/vs.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?bytes\\.adweek\\.com(?::[0-9]+)?/vs\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "784acddf-3c78-575d-97c7-dba3e54f843d",
       "name": "c.arstechnica.com",
       "scope": "fqdn",
@@ -174124,6 +175453,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?change\\.org(?::[0-9]+)?/api\\-proxy/\\-/event_tracker",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c3cb0703-4eb9-5f0f-9502-f76f15ef5dc8",
+      "name": "character.ai/scripts/googlefc-config.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?character\\.ai(?::[0-9]+)?/scripts/googlefc\\-config\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -175354,6 +176694,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "5cfc3bba-a942-5ac7-99ff-7a45f272e1eb",
+      "name": "copilot.com/events",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?copilot\\.com(?::[0-9]+)?/events",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "3ab7dc04-5970-5882-b316-92321d8b4974",
       "name": "core-features.cambridge.org/proxy/client/metrics",
       "scope": "url",
@@ -176028,6 +177379,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "dd.nytimes.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "44f1a212-b0f5-5847-a909-d50db34029b9",
+      "name": "dd.reuters.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "dd.reuters.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -177094,39 +178457,6 @@
       "action": "block",
       "note": "",
       "literalOperator": "exact"
-    },
-    {
-      "id": "2243fe07-ea1c-53bb-97f8-a5787a7678ce",
-      "name": "essentiallysports.com/api/track/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?essentiallysports\\.com(?::[0-9]+)?/api/track/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "4a36eefc-38ba-5643-a3c7-f6f155d2a508",
-      "name": "essentiallysports.com/api/v1/counts",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?essentiallysports\\.com(?::[0-9]+)?/api/v1/counts",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "0729abc4-dd38-5d00-a674-91edabb4f782",
-      "name": "essentiallysports.com/growth/engagement/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?essentiallysports\\.com(?::[0-9]+)?/growth/engagement/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
     },
     {
       "id": "468c7aaa-c2c8-552c-91ff-8191af1b0558",
@@ -178458,11 +179788,59 @@
       "literalOperator": "exact"
     },
     {
+      "id": "d112f5af-ff8a-5ad9-bed4-8feeaccf3cea",
+      "name": "fpa-cdn.nbcnews.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fpa-cdn.nbcnews.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "d5619b08-dfeb-57b8-99f8-7d41fb2171b8",
+      "name": "fpa-cdn.today.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fpa-cdn.today.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "035655b6-475d-53a1-a916-8fc788ec44af",
+      "name": "fpa-events.nbcnews.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fpa-events.nbcnews.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "bf0bc10d-993b-5f48-ad28-e5399bfe319e",
       "name": "fpa-events.theintercept.com",
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "fpa-events.theintercept.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "c101fdf2-f2b9-59de-bf8f-1f90d70dc3ca",
+      "name": "fpa-events.today.com",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "fpa-events.today.com",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -179397,6 +180775,17 @@
       "note": ""
     },
     {
+      "id": "cc8e138e-eafe-5465-8823-944f44cc9422",
+      "name": "gpupartner.com/57df8107ae016629/script.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?gpupartner\\.com(?::[0-9]+)?/57df8107ae016629/script\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "7a68eeb7-8cbb-5879-87d3-7a1037832c44",
       "name": "grabify.link/api/js",
       "scope": "url",
@@ -179901,6 +181290,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hotels\\.com(?::[0-9]+)?/cl/data/omgpixel\\.json\\?",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "a5bf59a0-c3bf-54a0-a727-f8e5cd67bcab",
+      "name": "hotels.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hotels\\.com(?::[0-9]+)?/tagging\\-client",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -180552,6 +181952,18 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "insights-mxp-cdn.coursecareers.com",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
+      "id": "87789845-0ffb-53eb-93f2-0a10310af6f6",
+      "name": "insights.builderprofile.aws.dev",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "insights.builderprofile.aws.dev",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -182633,6 +184045,17 @@
       "note": ""
     },
     {
+      "id": "2acc22f9-2645-5bee-9482-6555ff2d2935",
+      "name": "media.audubon.org/js/aud_tracker.min.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?media\\.audubon\\.org(?::[0-9]+)?/js/aud_tracker\\.min\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "a68cfbe8-e727-54aa-957c-cdc9cd88617e",
       "name": "media.io/trk",
       "scope": "url",
@@ -183483,6 +184906,17 @@
       "literalOperator": "exact"
     },
     {
+      "id": "af6af5ac-90f4-53ca-a2a1-1d819d19b2bb",
+      "name": "muse.ai/api/auth/caa-events",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?muse\\.ai(?::[0-9]+)?/api/auth/caa\\-events",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "cd037833-26fc-5251-a1f4-d4d625e81230",
       "name": "musescore.com/components/data?",
       "scope": "url",
@@ -184315,6 +185749,17 @@
       "note": ""
     },
     {
+      "id": "b96f9e3e-8a92-5cd5-8f83-53e1e13e2fce",
+      "name": "offloop.org/_vid/v1/collect",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?offloop\\.org(?::[0-9]+)?/_vid/v1/collect",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "a3bff545-bed0-58a2-bbf9-9c59ba04aa47",
       "name": "ohm-dot-hackster-io.appspot.com",
       "scope": "fqdn",
@@ -184716,6 +186161,18 @@
       "literalOperator": "exact"
     },
     {
+      "id": "7a8debcc-dd66-57f8-b103-39f14bf158d2",
+      "name": "p.teamily.ai",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "p.teamily.ai",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "48ac8ded-6f96-579f-9843-155185986f80",
       "name": "pac.thescottishsun.co.uk",
       "scope": "fqdn",
@@ -184970,6 +186427,17 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?pdfforge\\.org(?::[0-9]+)?/api/kd\\-gdpr\\-cc",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "01d4259b-a2a1-5732-b300-15525b3b06a2",
+      "name": "peachr.tv/s.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?peachr\\.tv(?::[0-9]+)?/s\\.js",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -187320,6 +188788,29 @@
       "note": ""
     },
     {
+      "id": "5edaaf71-0618-572c-b4b9-df11b12ff339",
+      "name": "s.pdfroom.com/api/event",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?s\\.pdfroom\\.com(?::[0-9]+)?/api/event",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "0d90d035-c396-5d8d-a984-01ffe94a1521",
+      "name": "s.sintra.ai",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "s.sintra.ai",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
+    },
+    {
       "id": "44a14fde-2a41-5688-80a4-4a3b35008477",
       "name": "s.smallpdf.com/static/track-js-",
       "scope": "url",
@@ -187768,6 +189259,17 @@
       "note": ""
     },
     {
+      "id": "fccbcbf1-e993-559c-8bba-6fe5fc9c60af",
+      "name": "sfchronicle.com/api/client-logs",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?sfchronicle\\.com(?::[0-9]+)?/api/client\\-logs",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "9f7854b5-8b67-56b3-b49c-ac2f87256402",
       "name": "sfgate.com/api/client-logs",
       "scope": "url",
@@ -188000,6 +189502,18 @@
       "rank": 0,
       "action": "block",
       "note": ""
+    },
+    {
+      "id": "17cf4d5f-4e8b-5939-8c13-7a780341d285",
+      "name": "sink.archive.org",
+      "scope": "fqdn",
+      "matchKind": "literal",
+      "pattern": "sink.archive.org",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": "",
+      "literalOperator": "exact"
     },
     {
       "id": "89d9b866-6f36-5f67-a132-431a6aef64fb",
@@ -189811,17 +191325,6 @@
       "note": ""
     },
     {
-      "id": "2d8dbd06-0215-545e-b86a-c9089b2bc459",
-      "name": "stuff.co.nz/otel/",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?stuff\\.co\\.nz(?::[0-9]+)?/otel/",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "5a9020a8-09a4-5489-a503-cfbfebb073f7",
       "name": "stytch.com/sdk/v1/events",
       "scope": "url",
@@ -191154,11 +192657,11 @@
       "note": ""
     },
     {
-      "id": "ebef8151-a303-52ae-88cd-e16160dc7421",
-      "name": "thedailybeast.com/static/js/thirdparty.",
+      "id": "6efe6096-88c7-5ec0-8453-5d2f762bff65",
+      "name": "thedailybeast.com/metrics/",
       "scope": "url",
       "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thedailybeast\\.com(?::[0-9]+)?/static/js/thirdparty\\.",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?thedailybeast\\.com(?::[0-9]+)?/metrics/",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -191610,17 +193113,6 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?tnaflix\\.com(?::[0-9]+)?/stats\\.php",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
-      "id": "e035566a-19d8-5a2a-8672-1312b115bff0",
-      "name": "together.ai/otel/v1/traces",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?together\\.ai(?::[0-9]+)?/otel/v1/traces",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -194243,6 +195735,17 @@
       "note": ""
     },
     {
+      "id": "95906503-7f69-5f61-8dad-2bfd02f41059",
+      "name": "whispersinthecorridors.in/public/js/analytics.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?whispersinthecorridors\\.in(?::[0-9]+)?/public/js/analytics\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "78717725-daeb-5fe2-8d0d-1e53de5d2a49",
       "name": "whistleout.com.au/track",
       "scope": "url",
@@ -195368,6 +196871,127 @@
       "scope": "url",
       "matchKind": "regex",
       "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?zumper\\.com(?::[0-9]+)?/events",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "1355a823-aa82-5dbd-bf7d-128a5ac9ca6d",
+      "name": "abritel.fr/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?abritel\\.fr(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "41a7a634-80a0-58e6-b91f-63b36f24c10d",
+      "name": "carrentals.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?carrentals\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "dd9a1aa1-a858-53f0-9003-9b1d26cc172c",
+      "name": "cheaptickets.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?cheaptickets\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "bba5acb2-c510-5349-a8c3-09c6c9f72588",
+      "name": "||expedia.*/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?expedia\\..*/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "561bfd72-365f-539a-bd07-de69daa94cdc",
+      "name": "fewo-direkt.de/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?fewo\\-direkt\\.de(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "c885376a-63bd-52b7-b256-506f584bc392",
+      "name": "hotwire.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?hotwire\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "96651276-3cff-5bcc-b2b3-7907b9096bbd",
+      "name": "orbitz.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?orbitz\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2dbc0e17-cd9e-5d99-a92f-95d7001344a5",
+      "name": "||stayz.*/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?stayz\\..*/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "da62f7ca-9ceb-57b8-b782-0c5eccb5fd55",
+      "name": "travelocity.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?travelocity\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "5d47c907-a1f4-510a-b7d1-52faf4d1cd87",
+      "name": "vrbo.com/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?vrbo\\.com(?::[0-9]+)?/tagging\\-client",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "2c6d4dbc-07a2-50b6-b4c3-1d718280a70f",
+      "name": "||wotif.*/tagging-client",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?wotif\\..*/tagging\\-client",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
@@ -642346,6 +643970,28 @@
       "note": ""
     },
     {
+      "id": "5b527c1f-381a-569b-bed7-b49b587e8286",
+      "name": "kasemato.net/wp-content/themes/kasemato/assets/access-analytics.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kasemato\\.net(?::[0-9]+)?/wp\\-content/themes/kasemato/assets/access\\-analytics\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
+      "id": "30e14da5-17e3-5a4e-9faa-1cb121bef4ff",
+      "name": "kasemato.net/wp-content/themes/kasemato/assets/frame-stats.js",
+      "scope": "url",
+      "matchKind": "regex",
+      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?kasemato\\.net(?::[0-9]+)?/wp\\-content/themes/kasemato/assets/frame\\-stats\\.js",
+      "isEnabled": true,
+      "rank": 0,
+      "action": "block",
+      "note": ""
+    },
+    {
       "id": "a4f35990-559b-5e78-9280-a1bb5fe8fbe4",
       "name": "knshow.com/ab?",
       "scope": "url",
@@ -642748,17 +644394,6 @@
       "note": ""
     },
     {
-      "id": "38260573-04cb-506f-bba1-a53eeb2475a1",
-      "name": "portal.kotodaman.jp/api/otel/v1/logs",
-      "scope": "url",
-      "matchKind": "regex",
-      "pattern": "^[A-Za-z][A-Za-z0-9+.-]*://(?:[^/]+\\.)?portal\\.kotodaman\\.jp(?::[0-9]+)?/api/otel/v1/logs",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": ""
-    },
-    {
       "id": "09d5ac52-351c-5ab2-8aed-280bff0cf09f",
       "name": "pvtag.yahoo.co.jp",
       "scope": "fqdn",
@@ -643147,42 +644782,6 @@
       "scope": "fqdn",
       "matchKind": "literal",
       "pattern": "stats.nhk.or.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "ea2f7435-b7d4-5dac-a913-fd295a9e26da",
-      "name": "sy.ameba.jp",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sy.ameba.jp",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "64d88a96-7141-581b-b4a9-bb0893f111e2",
-      "name": "sy.amebame.com",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sy.amebame.com",
-      "isEnabled": true,
-      "rank": 0,
-      "action": "block",
-      "note": "",
-      "literalOperator": "exact"
-    },
-    {
-      "id": "1b320a4e-0131-57b7-a1b4-9f63acf2b8eb",
-      "name": "sy.ameblo.jp",
-      "scope": "fqdn",
-      "matchKind": "literal",
-      "pattern": "sy.ameblo.jp",
       "isEnabled": true,
       "rank": 0,
       "action": "block",
